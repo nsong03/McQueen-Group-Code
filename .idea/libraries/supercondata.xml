@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="supercondata">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Code/datasets/supercondata/figure.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Code/datasets/supercondata/data.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
