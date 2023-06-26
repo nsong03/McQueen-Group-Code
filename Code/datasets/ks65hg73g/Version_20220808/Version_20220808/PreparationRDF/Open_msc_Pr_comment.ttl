@@ -1,0 +1,3081 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msc-prc:msc_om0004333_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0004333_SamplePreparation ;
+  rdfs:comment "an excess amount of CO3 in raw materials was dissociated during calcination"@en .
+
+msc-prc:msc_om0004781_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0004781_SamplePreparation ;
+  rdfs:comment "an excess amount of CO3 in raw materials was dissociated during sintering"@en .
+
+msc-prc:msc_om0005848_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005848_SamplePreparation ;
+  rdfs:comment "prosity=0.22,mearning ultorasonic wave by pulse echo method.elastivity C11=86.8, C44=29.5 GPa"@en .
+
+msc-prc:msc_om0005886_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005886_SamplePreparation ;
+  rdfs:comment "F occupy O-site"@en .
+
+msc-prc:msc_om0005887_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005887_SamplePreparation ;
+  rdfs:comment "F occupy O-site"@en .
+
+msc-prc:msc_om0005888_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005888_SamplePreparation ;
+  rdfs:comment "F occupy O-site"@en .
+
+msc-prc:msc_om0005889_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005889_SamplePreparation ;
+  rdfs:comment "F occupy O-site"@en .
+
+msc-prc:msc_om0005890_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005890_SamplePreparation ;
+  rdfs:comment "F occupy O-site"@en .
+
+msc-prc:msc_om0005891_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005891_SamplePreparation ;
+  rdfs:comment "F occupy O-site"@en .
+
+msc-prc:msc_om0005892_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005892_SamplePreparation ;
+  rdfs:comment "F occupy O-site"@en .
+
+msc-prc:msc_om0005893_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005893_SamplePreparation ;
+  rdfs:comment "F occupy O-site"@en .
+
+msc-prc:msc_om0005917_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005917_SamplePreparation ;
+  rdfs:comment "ortho=100%"@en .
+
+msc-prc:msc_om0005918_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005918_SamplePreparation ;
+  rdfs:comment "ortho=100%"@en .
+
+msc-prc:msc_om0005919_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005919_SamplePreparation ;
+  rdfs:comment "ortho=100%"@en .
+
+msc-prc:msc_om0005920_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005920_SamplePreparation ;
+  rdfs:comment "ortho=100%"@en .
+
+msc-prc:msc_om0005921_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005921_SamplePreparation ;
+  rdfs:comment "ortho=100%"@en .
+
+msc-prc:msc_om0005922_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005922_SamplePreparation ;
+  rdfs:comment "ortho=100%"@en .
+
+msc-prc:msc_om0005923_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005923_SamplePreparation ;
+  rdfs:comment "ortho=100%"@en .
+
+msc-prc:msc_om0005924_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005924_SamplePreparation ;
+  rdfs:comment "ortho=100%"@en .
+
+msc-prc:msc_om0005932_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0005932_SamplePreparation ;
+  rdfs:comment "F occupy O-site"@en .
+
+msc-prc:msc_om0006002_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0006002_SamplePreparation ;
+  rdfs:comment "TCWIDTH by magnetiqation,averag Hg:Pb:Ba:Ca:Cu=0.49:0.48:2.0:3.97:4.98"@en .
+
+msc-prc:msc_om0006003_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0006003_SamplePreparation ;
+  rdfs:comment "Jc=1.62 E+7 A/cm2 At 5K, H=1T"@en .
+
+msc-prc:msc_om0006004_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0006004_SamplePreparation ;
+  rdfs:comment "siqe=3*3*0.5mm3,sound velocity (p=for longtudinal, p=2for shear mode),pulse echo method(15MHz)"@en .
+
+msc-prc:msc_om0006005_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0006005_SamplePreparation ;
+  rdfs:comment "Resistivity=0.49 mOhm,cm for I//a,0.145 for I//b at RT, RH (P= for I//a,P=2 for I//2)"@en .
+
+msc-prc:msc_om0006006_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0006006_SamplePreparation ;
+  rdfs:comment "restivity by ac method,single crystal=300*400*20mixo-m3, Hall eflect P=1 foeI//a,P=2 for I//b"@en .
+
+msc-prc:msc_om0006007_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0006007_SamplePreparation ;
+  rdfs:comment "Hall coeff,mearured for I//a-axis,H//c-axis resistivity and hall angle mearured for I//a and I//b"@en .
+
+msc-prc:msc_om0006008_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0006008_SamplePreparation ;
+  rdfs:comment "oxygen content by EPMA"@en .
+
+msc-prc:msc_om0006009_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0006009_SamplePreparation ;
+  rdfs:comment "oxygen content by EPMA"@en .
+
+msc-prc:msc_om0006010_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0006010_SamplePreparation ;
+  rdfs:comment "oxygen content by EPMA"@en .
+
+msc-prc:msc_om0006011_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0006011_SamplePreparation ;
+  rdfs:comment "oxygen content by EPMA"@en .
+
+msc-prc:msc_om0006012_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0006012_SamplePreparation ;
+  rdfs:comment "oxygen content by EPMA"@en .
+
+msc-prc:msc_om0006013_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0006013_SamplePreparation ;
+  rdfs:comment "oxygen content by EPMA"@en .
+
+msc-prc:msc_om0006014_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0006014_SamplePreparation ;
+  rdfs:comment "Hg1223 bhace volume fraction>90%"@en .
+
+msc-prc:msc_om0010014_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010014_SamplePreparation ;
+  rdfs:comment "thickness : 180nm-300nm"@en .
+
+msc-prc:msc_om0010015_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010015_SamplePreparation ;
+  rdfs:comment "thickness : 180nm-300nm"@en .
+
+msc-prc:msc_om0010016_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010016_SamplePreparation ;
+  rdfs:comment "thickness : 180nm-300nm"@en .
+
+msc-prc:msc_om0010017_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010017_SamplePreparation ;
+  rdfs:comment "thickness : 180nm-300nm"@en .
+
+msc-prc:msc_om0010069_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010069_SamplePreparation ;
+  rdfs:comment "see Mater.Res.Soc.Symp.Proc. 169(1990)431OxygenPressure 200mberCool(10C/min,O2 Pressure 400Torr) growth at 680C on (100) SrTiO3"@en .
+
+msc-prc:msc_om0010070_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010070_SamplePreparation ;
+  rdfs:comment "see Mater.Res.Soc.Symp.Proc. 169(1990)431OxygenPressure 200mberCool(10C/min,O2 Pressure 400Torr) growth at 680C on (100) SrTiO3"@en .
+
+msc-prc:msc_om0010071_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010071_SamplePreparation ;
+  rdfs:comment "see Mater.Res.Soc.Symp.Proc. 169(1990)431OxygenPressure 200mberCool(10C/min,O2 Pressure 400Torr) growth at 680C on (100) SrTiO3"@en .
+
+msc-prc:msc_om0010072_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010072_SamplePreparation ;
+  rdfs:comment "see Mater.Res.Soc.Symp.Proc. 169(1990)431OxygenPressure 200mberCool(10C/min,O2 Pressure 400Torr) growth at 680C on (100) SrTiO3"@en .
+
+msc-prc:msc_om0010152_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010152_SamplePreparation ;
+  rdfs:comment "Target is (100)-oriented MgO.The thickness is about 500A."@en .
+
+msc-prc:msc_om0010161_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010161_SamplePreparation ;
+  rdfs:comment "by Laser Ablation Method. Substrate is SrTiO3."@en .
+
+msc-prc:msc_om0010188_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010188_SamplePreparation ;
+  rdfs:comment "On SrTiO3 substrates. In detail , See Physica C 215 (1993) 123"@en .
+
+msc-prc:msc_om0010189_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010189_SamplePreparation ;
+  rdfs:comment "On SrTiO3 substrates. In detail, See Physica C 215 (1993) 123"@en .
+
+msc-prc:msc_om0010218_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010218_SamplePreparation ;
+  rdfs:comment "substrate(NdGaO3), Film thickness 1 micrometer"@en .
+
+msc-prc:msc_om0010320_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010320_SamplePreparation ;
+  rdfs:comment "thickness=200 nm, RES(100K)=100 microOhm.cm, G-L parameter=75"@en .
+
+msc-prc:msc_om0010321_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010321_SamplePreparation ;
+  rdfs:comment "thickness=400 nm,RES(100K)=100 microOhm.cm, G-L parameter<185"@en .
+
+msc-prc:msc_om0010350_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010350_SamplePreparation ;
+  rdfs:comment "on SrTiO3 substrates. by laser ablaion method.Preparation of #1-#3 samples is same ."@en .
+
+msc-prc:msc_om0010351_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010351_SamplePreparation ;
+  rdfs:comment "on SrTiO3 substrates. by laser ablaion method.Preparation of #1-#3 samples is same ."@en .
+
+msc-prc:msc_om0010352_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010352_SamplePreparation ;
+  rdfs:comment "on SrTiO3 substrates. by laser ablaion method.Preparation of #1-#3 samples is same ."@en .
+
+msc-prc:msc_om0010353_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010353_SamplePreparation ;
+  rdfs:comment "1200A thick. c-axis oriented. The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0010400_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010400_SamplePreparation ;
+  rdfs:comment "by laser ablation method.BaF2 post-annealing process."@en .
+
+msc-prc:msc_om0010411_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010411_SamplePreparation ;
+  rdfs:comment "by rf magnetron sputtering only.  MgO substrate.Film thickness is 1500A."@en .
+
+msc-prc:msc_om0010412_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010412_SamplePreparation ;
+  rdfs:comment "by rf magnetron sputtering only.  MgO substrate.Film thickness is 1500A."@en .
+
+msc-prc:msc_om0010413_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010413_SamplePreparation ;
+  rdfs:comment "by rf magnetron sputtering only.  MgO substrate.Film thickness is 1500A."@en .
+
+msc-prc:msc_om0010414_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010414_SamplePreparation ;
+  rdfs:comment "by rf magnetron sputtering only.  MgO substrate.Film thickness is 1500A."@en .
+
+msc-prc:msc_om0010415_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010415_SamplePreparation ;
+  rdfs:comment "by rf magnetron sputtering only.  MgO substrate.Film thickness is 1500A."@en .
+
+msc-prc:msc_om0010416_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010416_SamplePreparation ;
+  rdfs:comment "by rf magnetron sputtering only.  MgO substrate.Film thickness is 1500A."@en .
+
+msc-prc:msc_om0010417_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010417_SamplePreparation ;
+  rdfs:comment "by rf magnetron sputtering only.  MgO substrate.Film thickness is 1500A."@en .
+
+msc-prc:msc_om0010533_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010533_SamplePreparation ;
+  rdfs:comment "The Substrates are NdGaO3.The Film Thicknesses are about 150nm."@en .
+
+msc-prc:msc_om0010534_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010534_SamplePreparation ;
+  rdfs:comment "The Substrates are NdGaO3.The Film Thicknesses are about 150nm."@en .
+
+msc-prc:msc_om0010535_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010535_SamplePreparation ;
+  rdfs:comment "The Substrates are NdGaO3.The Film Thicknesses are about 150nm."@en .
+
+msc-prc:msc_om0010536_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010536_SamplePreparation ;
+  rdfs:comment "The Substrates are NdGaO3.The Film Thicknesses are about 150nm."@en .
+
+msc-prc:msc_om0010541_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010541_SamplePreparation ;
+  rdfs:comment "The sample was prepared by Pulsed Laser Deposition method. The Substrate was SrTiO3(100)."@en .
+
+msc-prc:msc_om0010542_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010542_SamplePreparation ;
+  rdfs:comment "The sample was prepared by Pulsed Laser Deposition method. The Substrate was SrTiO3(100)."@en .
+
+msc-prc:msc_om0010543_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010543_SamplePreparation ;
+  rdfs:comment "The samples were prepared by Pulsd Laser Deposition Method. The Targets were Prepared by Solid-state reaction method.  The Substrate was SrTiO3(100). The film thicknesses are appximately 450A."@en .
+
+msc-prc:msc_om0010544_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010544_SamplePreparation ;
+  rdfs:comment "The samples were prepared by Pulsd Laser Deposition Method. The Targets were Prepared by Solid-state reaction method.  The Substrate was SrTiO3(100). The film thicknesses are appximately 450A."@en .
+
+msc-prc:msc_om0010545_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010545_SamplePreparation ;
+  rdfs:comment "The samples were prepared by Pulsd Laser Deposition Method. The Targets were Prepared by Solid-state reaction method.  The Substrate was SrTiO3(100). The film thicknesses are appximately 450A."@en .
+
+msc-prc:msc_om0010546_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010546_SamplePreparation ;
+  rdfs:comment "The samples were prepared by Pulsd Laser Deposition Method. The Targets were Prepared by Solid-state reaction method.  The Substrate was SrTiO3(100). The film thicknesses are appximately 450A."@en .
+
+msc-prc:msc_om0010547_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010547_SamplePreparation ;
+  rdfs:comment "The samples were prepared by Pulsd Laser Deposition Method. The Targets were Prepared by Solid-state reaction method.  The Substrate was SrTiO3(100). The film thicknesses are appximately 450A."@en .
+
+msc-prc:msc_om0010548_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010548_SamplePreparation ;
+  rdfs:comment "The samples were prepared by Pulsd Laser Deposition Method. The Targets were Prepared by Solid-state reaction method.  The Substrate was SrTiO3(100). The film thicknesses are appximately 450A."@en .
+
+msc-prc:msc_om0010549_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010549_SamplePreparation ;
+  rdfs:comment "The samples were prepared by Pulsd Laser Deposition Method. The Targets were Prepared by Solid-state reaction method.  The Substrate was SrTiO3(100). The film thicknesses are appximately 450A."@en .
+
+msc-prc:msc_om0010550_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010550_SamplePreparation ;
+  rdfs:comment "The samples were prepared by Pulsd Laser Deposition Method. The Targets were Prepared by Solid-state reaction method.  The Substrate was SrTiO3(100). The film thicknesses are appximately 450A."@en .
+
+msc-prc:msc_om0010551_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010551_SamplePreparation ;
+  rdfs:comment "The samples were prepared by Pulsd Laser Deposition Method. The Targets were Prepared by Solid-state reaction method.  The Substrate was SrTiO3(100). The film thicknesses are appximately 450A."@en .
+
+msc-prc:msc_om0010552_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010552_SamplePreparation ;
+  rdfs:comment "The samples were prepared by Pulsd Laser Deposition Method. The Targets were Prepared by Solid-state reaction method.  The Substrate was SrTiO3(100). The film thicknesses are appximately 450A."@en .
+
+msc-prc:msc_om0010717_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010717_SamplePreparation ;
+  rdfs:comment "By Laser ablation method. substrates sis SrTiO3. 750C, 1mbar oxygen.The films are c-axis oriented.Samples have been repeatedly annealed at reduced oxygen pressure. (1mbar<O2<1 bar)."@en .
+
+msc-prc:msc_om0010718_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010718_SamplePreparation ;
+  rdfs:comment "By MBE, in an Oxone beam, 750C."@en .
+
+msc-prc:msc_om0010719_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010719_SamplePreparation ;
+  rdfs:comment "By MBE, in an Oxone beam, 750C."@en .
+
+msc-prc:msc_om0010720_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0010720_SamplePreparation ;
+  rdfs:comment "By MBE, in an Oxone beam, 750C."@en .
+
+msc-prc:msc_om0011022_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011022_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011023_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011023_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011024_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011024_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011025_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011025_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011026_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011026_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011027_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011027_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011028_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011028_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011029_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011029_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011030_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011030_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011031_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011031_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011032_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011032_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011033_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011033_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011034_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011034_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011035_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011035_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011036_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011036_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011037_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011037_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011038_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011038_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011039_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011039_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011040_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011040_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011041_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011041_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011042_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011042_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011043_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011043_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011044_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011044_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011045_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011045_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011046_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011046_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011047_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011047_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011048_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011048_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011049_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011049_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011050_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011050_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011051_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011051_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011052_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011052_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011053_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011053_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011054_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011054_SamplePreparation ;
+  rdfs:comment "The substrate is SrTiO3."@en .
+
+msc-prc:msc_om0011104_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011104_SamplePreparation ;
+  rdfs:comment "The grain is aligned under 8.2T for 15h."@en .
+
+msc-prc:msc_om0011251_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011251_SamplePreparation ;
+  rdfs:comment "codepositing Y,BaF2,Cu and dopant.postannealing at 900C in moist oxygen."@en .
+
+msc-prc:msc_om0011252_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011252_SamplePreparation ;
+  rdfs:comment "Laser ablation method."@en .
+
+msc-prc:msc_om0011253_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011253_SamplePreparation ;
+  rdfs:comment "codepositing Y,BaF2,Cu and dopant.postannealing at 900C in moist oxygen."@en .
+
+msc-prc:msc_om0011254_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011254_SamplePreparation ;
+  rdfs:comment "Laser ablation method."@en .
+
+msc-prc:msc_om0011255_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011255_SamplePreparation ;
+  rdfs:comment "Laser ablation method."@en .
+
+msc-prc:msc_om0011279_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011279_SamplePreparation ;
+  rdfs:comment "LaAlO3 substrates. Growth(790C, 120mTorr Ar and 80mTorr O2)ANN( 1 atm, O2, 480-500C, 2-4h)Further details can be found in Physica C 171,354 (1990)"@en .
+
+msc-prc:msc_om0011280_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011280_SamplePreparation ;
+  rdfs:comment "LaAlO3 substrates. Growth(790C, 120mTorr Ar and 80mTorr O2)ANN( 1 atm, O2, 480-500C, 2-4h)Further details can be found in Physica C 171,354 (1990)"@en .
+
+msc-prc:msc_om0011281_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011281_SamplePreparation ;
+  rdfs:comment "LaAlO3 substrates. Growth(790C, 120mTorr Ar and 80mTorr O2)ANN( 1 atm, O2, 480-500C, 2-4h)Further details can be found in Physica C 171,354 (1990)"@en .
+
+msc-prc:msc_om0011282_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011282_SamplePreparation ;
+  rdfs:comment "LaAlO3 substrates. Growth(790C, 120mTorr Ar and 80mTorr O2)ANN( 1 atm, O2, 480-500C, 2-4h)Further details can be found in Physica C 171,354 (1990)"@en .
+
+msc-prc:msc_om0011747_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011747_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011748_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011748_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011749_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011749_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011750_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011750_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011751_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011751_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011752_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011752_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011753_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011753_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011754_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011754_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011755_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011755_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011756_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011756_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011757_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011757_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011758_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011758_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011759_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011759_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011760_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011760_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011761_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011761_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011762_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011762_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011763_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011763_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011764_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011764_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011765_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011765_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011766_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011766_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011767_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011767_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011768_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011768_SamplePreparation ;
+  rdfs:comment "pulsed laser ablation technique.In detail, see Phys. Rev. B 46 14242 (1992)"@en .
+
+msc-prc:msc_om0011814_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011814_SamplePreparation ;
+  rdfs:comment "Laser ablation method."@en .
+
+msc-prc:msc_om0011815_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0011815_SamplePreparation ;
+  rdfs:comment "Laser ablation method."@en .
+
+msc-prc:msc_om0012200_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012200_SamplePreparation ;
+  rdfs:comment "optimally doped"@en .
+
+msc-prc:msc_om0012201_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012201_SamplePreparation ;
+  rdfs:comment "over doped"@en .
+
+msc-prc:msc_om0012848_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012848_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012849_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012849_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012850_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012850_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012851_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012851_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012852_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012852_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012853_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012853_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012854_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012854_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012855_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012855_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012856_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012856_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012857_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012857_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012858_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012858_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012859_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012859_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012860_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012860_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012861_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012861_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012862_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012862_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012863_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012863_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012864_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012864_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012865_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012865_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012866_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012866_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012867_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012867_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012868_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012868_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012869_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012869_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012870_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012870_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012871_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012871_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012872_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012872_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0012873_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0012873_SamplePreparation ;
+  rdfs:comment "see Phys. Soc Jpn 63 (1994) 2314"@en .
+
+msc-prc:msc_om0018894_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0018894_SamplePreparation ;
+  rdfs:comment "6000A Thick"@en .
+
+msc-prc:msc_om0018900_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0018900_SamplePreparation ;
+  rdfs:comment "atO260barRef[2]:G.V.M.Williamsetal.,Rhys.Rev.B52,7034(1995);54,9532(1996)"@en .
+
+msc-prc:msc_om0018901_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0018901_SamplePreparation ;
+  rdfs:comment "atO260barRef[2]:G.V.M.Williamsetal.,Rhys.Rev.B52,7034(1995);54,9532(1996)"@en .
+
+msc-prc:msc_om0018902_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0018902_SamplePreparation ;
+  rdfs:comment "inairRef[20]:D.M.Mitzietal.,Phys.RevB41,6564(1990)"@en .
+
+msc-prc:msc_om0018903_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0018903_SamplePreparation ;
+  rdfs:comment "inairRef[20]:D.M.Mitzietal.,Phys.RevB41,6564(1990)"@en .
+
+msc-prc:msc_om0018904_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0018904_SamplePreparation ;
+  rdfs:comment "precursormixedAgO(o.2molfrac.)mixedAgCO3(0.2molfrac.)at3.5GPaat1000CinAucapsule"@en .
+
+msc-prc:msc_om0018905_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0018905_SamplePreparation ;
+  rdfs:comment "precursormixedAgO(o.2molfrac.)mixedAgCO3(0.2molfrac.)at3.5GPaat1000CinAucapsule"@en .
+
+msc-prc:msc_om0018906_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0018906_SamplePreparation ;
+  rdfs:comment "precursormixedAgO(o.2molfrac.)mixedAgCO3(0.2molfrac.)at3.5GPaat1000CinAucapsule"@en .
+
+msc-prc:msc_om0018907_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0018907_SamplePreparation ;
+  rdfs:comment "precursormixedAgO(o.2molfrac.)mixedAgCO3(0.2molfrac.)at3.5GPaat1000CinAucapsule"@en .
+
+msc-prc:msc_om0018908_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0018908_SamplePreparation ;
+  rdfs:comment "precursormixedAgO(o.2molfrac.)mixedAgCO3(0.2molfrac.)at3.5GPaat1000CinAucapsule"@en .
+
+msc-prc:msc_om0018909_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0018909_SamplePreparation ;
+  rdfs:comment "Thealuminacruciblewas1100Candplacedinatempuraturegradientofabout10K/cm,thebottombeingatthehighertempurature.Annialingfor3daysat400Cfollowedby2daysat350C."@en .
+
+msc-prc:msc_om0019201_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019201_SamplePreparation ;
+  rdfs:comment "anneal:1050-1320 C for 24h then cooleddown to and kept 800 C in the furnance for a day."@en .
+
+msc-prc:msc_om0019202_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019202_SamplePreparation ;
+  rdfs:comment "anneal:1050-1320 C for 24h then cooleddown to and kept 800 C in the furnance for a day."@en .
+
+msc-prc:msc_om0019203_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019203_SamplePreparation ;
+  rdfs:comment "anneal:1050-1320 C for 24h then cooleddown to and kept 800 C in the furnance for a day."@en .
+
+msc-prc:msc_om0019204_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019204_SamplePreparation ;
+  rdfs:comment "anneal:1050-1320 C for 24h then cooleddown to and kept 800 C in the furnance for a day."@en .
+
+msc-prc:msc_om0019205_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019205_SamplePreparation ;
+  rdfs:comment "anneal:1050-1320 C for 24h then cooleddown to and kept 800 C in the furnance for a day."@en .
+
+msc-prc:msc_om0019206_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019206_SamplePreparation ;
+  rdfs:comment "anneal:1050-1320 C for 24h then cooleddown to and kept 800 C in the furnance for a day."@en .
+
+msc-prc:msc_om0019207_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019207_SamplePreparation ;
+  rdfs:comment "anneal:1050-1320 C for 24h then cooleddown to and kept 800 C in the furnance for a day."@en .
+
+msc-prc:msc_om0019208_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019208_SamplePreparation ;
+  rdfs:comment "anneal:1050-1320 C for 24h then cooleddown to and kept 800 C in the furnance for a day."@en .
+
+msc-prc:msc_om0019209_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019209_SamplePreparation ;
+  rdfs:comment "anneal:1050-1320 C for 24h then cooleddown to and kept 800 C in the furnance for a day."@en .
+
+msc-prc:msc_om0019210_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019210_SamplePreparation ;
+  rdfs:comment "anneal:1050-1320 C for 24h then cooleddown to and kept 800 C in the furnance for a day."@en .
+
+msc-prc:msc_om0019211_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019211_SamplePreparation ;
+  rdfs:comment "anneal:1050-1320 C for 24h then cooleddown to and kept 800 C in the furnance for a day."@en .
+
+msc-prc:msc_om0019212_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019212_SamplePreparation ;
+  rdfs:comment "anneal:1050-1320 C for 24h then cooleddown to and kept 800 C in the furnance for a day."@en .
+
+msc-prc:msc_om0019227_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019227_SamplePreparation ;
+  rdfs:comment "anneal 100bar 540 C 12h"@en .
+
+msc-prc:msc_om0019228_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019228_SamplePreparation ;
+  rdfs:comment "anneal 100bar 540 C 12h"@en .
+
+msc-prc:msc_om0019229_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019229_SamplePreparation ;
+  rdfs:comment "anneal 100bar 540 C 12h"@en .
+
+msc-prc:msc_om0019230_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019230_SamplePreparation ;
+  rdfs:comment "anneal 100bar 540 C 12h"@en .
+
+msc-prc:msc_om0019231_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019231_SamplePreparation ;
+  rdfs:comment "anneal 100bar 540 C 12h"@en .
+
+msc-prc:msc_om0019232_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019232_SamplePreparation ;
+  rdfs:comment "anneal 100bar 540 C 12h"@en .
+
+msc-prc:msc_om0019233_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019233_SamplePreparation ;
+  rdfs:comment "anneal 100bar 540 C 12h"@en .
+
+msc-prc:msc_om0019234_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019234_SamplePreparation ;
+  rdfs:comment "anneal 100bar 540 C 12h"@en .
+
+msc-prc:msc_om0019235_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019235_SamplePreparation ;
+  rdfs:comment "anneal 100bar 540 C 12h"@en .
+
+msc-prc:msc_om0019239_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019239_SamplePreparation ;
+  rdfs:comment "anneal 950 C 44 h He atomosphere.The sumple furnance cooed to 500 C and annealed 24h.The process has been repeated until the amount of BaCuO2 was asymptotically reduced to constant varue."@en .
+
+msc-prc:msc_om0019240_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019240_SamplePreparation ;
+  rdfs:comment "anneal 950 C 44 h He atomosphere.The sumple furnance cooed to 500 C and annealed 24h.The process has been repeated until the amount of BaCuO2 was asymptotically reduced to constant varue."@en .
+
+msc-prc:msc_om0019241_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019241_SamplePreparation ;
+  rdfs:comment "anneal 950 C 44 h He atomosphere.The sumple furnance cooed to 500 C and annealed 24h.The process has been repeated until the amount of BaCuO2 was asymptotically reduced to constant varue."@en .
+
+msc-prc:msc_om0019242_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019242_SamplePreparation ;
+  rdfs:comment "anneal 950 C 44 h He atomosphere.The sumple furnance cooed to 500 C and annealed 24h.The process has been repeated until the amount of BaCuO2 was asymptotically reduced to constant varue."@en .
+
+msc-prc:msc_om0019243_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019243_SamplePreparation ;
+  rdfs:comment "anneal 950 C 44 h He atomosphere.The sumple furnance cooed to 500 C and annealed 24h.The process has been repeated until the amount of BaCuO2 was asymptotically reduced to constant varue."@en .
+
+msc-prc:msc_om0019244_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019244_SamplePreparation ;
+  rdfs:comment "anneal 950 C 44 h He atomosphere.The sumple furnance cooed to 500 C and annealed 24h.The process has been repeated until the amount of BaCuO2 was asymptotically reduced to constant varue."@en .
+
+msc-prc:msc_om0019245_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019245_SamplePreparation ;
+  rdfs:comment "anneal 950 C 44 h He atomosphere.The sumple furnance cooed to 500 C and annealed 24h.The process has been repeated until the amount of BaCuO2 was asymptotically reduced to constant varue."@en .
+
+msc-prc:msc_om0019246_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019246_SamplePreparation ;
+  rdfs:comment "anneal 950 C 44 h He atomosphere.The sumple furnance cooed to 500 C and annealed 24h.The process has been repeated until the amount of BaCuO2 was asymptotically reduced to constant varue."@en .
+
+msc-prc:msc_om0019247_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019247_SamplePreparation ;
+  rdfs:comment "anneal 950 C 44 h He atomosphere.The sumple furnance cooed to 500 C and annealed 24h.The process has been repeated until the amount of BaCuO2 was asymptotically reduced to constant varue."@en .
+
+msc-prc:msc_om0019248_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019248_SamplePreparation ;
+  rdfs:comment "anneal 950 C 44 h He atomosphere.The sumple furnance cooed to 500 C and annealed 24h.The process has been repeated until the amount of BaCuO2 was asymptotically reduced to constant varue."@en .
+
+msc-prc:msc_om0019249_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019249_SamplePreparation ;
+  rdfs:comment "anneal 950 C 44 h He atomosphere.The sumple furnance cooed to 500 C and annealed 24h.The process has been repeated until the amount of BaCuO2 was asymptotically reduced to constant varue."@en .
+
+msc-prc:msc_om0019250_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019250_SamplePreparation ;
+  rdfs:comment "anneal 950 C 44 h He atomosphere.The sumple furnance cooed to 500 C and annealed 24h.The process has been repeated until the amount of BaCuO2 was asymptotically reduced to constant varue."@en .
+
+msc-prc:msc_om0019254_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019254_SamplePreparation ;
+  rdfs:comment "anneal:in flowing oxygen at 880C for 2h,cooled at 30 C/h down to 480 C and maintained at this temperature for 50-100h before being cooled down to room temperature."@en .
+
+msc-prc:msc_om0019255_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019255_SamplePreparation ;
+  rdfs:comment "SrO2 pellet: sealed in in a Pyrex ampoule together with zirconium foil .The ampoule were evacurated down to to 10-5 torr,heated to 440 C for 50-100h and cooled down to room temperature."@en .
+
+msc-prc:msc_om0019256_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019256_SamplePreparation ;
+  rdfs:comment "anneal:Pressing powder sintered in air 950C overnight and cooled at rate of 100 C/h down to room temperature"@en .
+
+msc-prc:msc_om0019257_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019257_SamplePreparation ;
+  rdfs:comment "anneal:in flowing oxygen at 880C for 2h,cooled at 30 C/h down to 480 C and maintained at this temperature for 50-100h before being cooled down to room temperature."@en .
+
+msc-prc:msc_om0019258_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019258_SamplePreparation ;
+  rdfs:comment "anneal:in flowing oxygen at 880C for 2h,cooled at 30 C/h down to 480 C and maintained at this temperature for 50-100h before being cooled down to room temperature."@en .
+
+msc-prc:msc_om0019259_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019259_SamplePreparation ;
+  rdfs:comment "anneal:in flowing oxygen at 880C for 2h,cooled at 30 C/h down to 480 C and maintained at this temperature for 50-100h before being cooled down to room temperature."@en .
+
+msc-prc:msc_om0019260_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019260_SamplePreparation ;
+  rdfs:comment "anneal:Pressing powder sintered in air 950C overnight and cooled at rate of 100 C/h down to room temperature"@en .
+
+msc-prc:msc_om0019261_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019261_SamplePreparation ;
+  rdfs:comment "SrO2 pellet: sealed in in a Pyrex ampoule together with zirconium foil .The ampoule were evacurated down to to 10-5 torr,heated to 440 C for 50-100h and cooled down to room temperature."@en .
+
+msc-prc:msc_om0019262_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019262_SamplePreparation ;
+  rdfs:comment "anneal:in flowing oxygen at 880C for 2h,cooled at 30 C/h down to 480 C and maintained at this temperature for 50-100h before being cooled down to room temperature."@en .
+
+msc-prc:msc_om0019263_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019263_SamplePreparation ;
+  rdfs:comment "anneal:in flowing oxygen at 880C for 2h,cooled at 30 C/h down to 480 C and maintained at this temperature for 50-100h before being cooled down to room temperature."@en .
+
+msc-prc:msc_om0019264_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019264_SamplePreparation ;
+  rdfs:comment "anneal:in flowing oxygen at 880C for 2h,cooled at 30 C/h down to 480 C and maintained at this temperature for 50-100h before being cooled down to room temperature."@en .
+
+msc-prc:msc_om0019265_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019265_SamplePreparation ;
+  rdfs:comment "anneal:Pressing powder sintered in air 950C overnight and cooled at rate of 100 C/h down to room temperature"@en .
+
+msc-prc:msc_om0019266_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019266_SamplePreparation ;
+  rdfs:comment "SrO2 pellet: sealed 10-5 torr and heat up to 600 C for 2h and cooled down to 500 C maintained at temperature for 10h and cooled down to room temperature "@en .
+
+msc-prc:msc_om0019267_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019267_SamplePreparation ;
+  rdfs:comment "anneal:in flowing oxygen at 880C for 2h,cooled at 30 C/h down to 480 C and maintained at this temperature for 50-100h before being cooled down to room temperature."@en .
+
+msc-prc:msc_om0019268_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019268_SamplePreparation ;
+  rdfs:comment "anneal:Pressing powder sintered in air 950C overnight and cooled at rate of 100 C/h down to room temperature"@en .
+
+msc-prc:msc_om0019269_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019269_SamplePreparation ;
+  rdfs:comment "SrO2 pellet: sealed 10-5 torr and heat up to 600 C for 2h and cooled down to 500 C maintained at temperature for 10h and cooled down to room temperature "@en .
+
+msc-prc:msc_om0019309_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019309_SamplePreparation ;
+  rdfs:comment "calcined 900C 12h grind sinter 1000C 24h 5GPa 1200C 30min"@en .
+
+msc-prc:msc_om0019310_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019310_SamplePreparation ;
+  rdfs:comment "calcined 900C 12h grind sinter 1000C 24h 5GPa 1200C 30min"@en .
+
+msc-prc:msc_om0019311_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019311_SamplePreparation ;
+  rdfs:comment "calcined 900C 12h grind sinter 1000C 24h 5GPa 1200C 30min"@en .
+
+msc-prc:msc_om0019312_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019312_SamplePreparation ;
+  rdfs:comment "solid state reaction"@en .
+
+msc-prc:msc_om0019313_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019313_SamplePreparation ;
+  rdfs:comment "solid state reaction"@en .
+
+msc-prc:msc_om0019314_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019314_SamplePreparation ;
+  rdfs:comment "solid state reaction"@en .
+
+msc-prc:msc_om0019315_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019315_SamplePreparation ;
+  rdfs:comment "solid state reaction"@en .
+
+msc-prc:msc_om0019316_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019316_SamplePreparation ;
+  rdfs:comment "solid state reaction"@en .
+
+msc-prc:msc_om0019317_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019317_SamplePreparation ;
+  rdfs:comment "solid state reaction"@en .
+
+msc-prc:msc_om0019318_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019318_SamplePreparation ;
+  rdfs:comment "solid state reaction"@en .
+
+msc-prc:msc_om0019319_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019319_SamplePreparation ;
+  rdfs:comment "solid state reaction"@en .
+
+msc-prc:msc_om0019320_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019320_SamplePreparation ;
+  rdfs:comment "solid state reaction"@en .
+
+msc-prc:msc_om0019321_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019321_SamplePreparation ;
+  rdfs:comment "solid state reaction"@en .
+
+msc-prc:msc_om0019322_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019322_SamplePreparation ;
+  rdfs:comment "High quality c-oriented thin file Ref[13]:D. Lepez et al., Phys. Rev. Lett. 79,4258(1997) Ref[14]:D. Lepez et al., Phys. Rev Lett. 76,4034(1996)"@en .
+
+msc-prc:msc_om0019323_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019323_SamplePreparation ;
+  rdfs:comment "High quality c-oriented thin file Ref[13]:D. Lepez et al., Phys. Rev. Lett. 79,4258(1997) Ref[14]:D. Lepez et al., Phys. Rev Lett. 76,4034(1996)"@en .
+
+msc-prc:msc_om0019324_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019324_SamplePreparation ;
+  rdfs:comment "High quality c-oriented thin file Ref[13]:D. Lepez et al., Phys. Rev. Lett. 79,4258(1997) Ref[14]:D. Lepez et al., Phys. Rev Lett. 76,4034(1996)"@en .
+
+msc-prc:msc_om0019325_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019325_SamplePreparation ;
+  rdfs:comment "High quality c-oriented thin file Ref[13]:D. Lepez et al., Phys. Rev. Lett. 79,4258(1997) Ref[14]:D. Lepez et al., Phys. Rev Lett. 76,4034(1996)"@en .
+
+msc-prc:msc_om0019326_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019326_SamplePreparation ;
+  rdfs:comment "High quality c-oriented thin file Ref[13]:D. Lepez et al., Phys. Rev. Lett. 79,4258(1997) Ref[14]:D. Lepez et al., Phys. Rev Lett. 76,4034(1996)"@en .
+
+msc-prc:msc_om0019327_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019327_SamplePreparation ;
+  rdfs:comment "Ref[9]:M. Breuer et al., Physica C208,217(1993) anneal 72h 625C(N2)"@en .
+
+msc-prc:msc_om0019328_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019328_SamplePreparation ;
+  rdfs:comment "Ref[9]:M. Breuer et al., Physica C208,217(1993) anneal 72h 625C(N2)"@en .
+
+msc-prc:msc_om0019329_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019329_SamplePreparation ;
+  rdfs:comment "Ref[9]:M. Breuer et al., Physica C208,217(1993) anneal 72h 625C(N2)"@en .
+
+msc-prc:msc_om0019330_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019330_SamplePreparation ;
+  rdfs:comment "Ref[9]:M. Breuer et al., Physica C208,217(1993) anneal 72h 625C(N2)"@en .
+
+msc-prc:msc_om0019331_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019331_SamplePreparation ;
+  rdfs:comment "Ref[9]:M. Breuer et al., Physica C208,217(1993) anneal 72h 625C(N2)"@en .
+
+msc-prc:msc_om0019332_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019332_SamplePreparation ;
+  rdfs:comment "Ref[9]:M. Breuer et al., Physica C208,217(1993) anneal 72h 625C(N2)"@en .
+
+msc-prc:msc_om0019333_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019333_SamplePreparation ;
+  rdfs:comment "Ref[9]:M. Breuer et al., Physica C208,217(1993) anneal 72h 625C(N2)"@en .
+
+msc-prc:msc_om0019334_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019334_SamplePreparation ;
+  rdfs:comment "Ref[9]:M. Breuer et al., Physica C208,217(1993) anneal 72h 625C(N2)"@en .
+
+msc-prc:msc_om0019335_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019335_SamplePreparation ;
+  rdfs:comment "Ref[9]:M. Breuer et al., Physica C208,217(1993) anneal 72h 625C(N2)"@en .
+
+msc-prc:msc_om0019336_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019336_SamplePreparation ;
+  rdfs:comment "Ref[9]:M. Breuer et al., Physica C208,217(1993) anneal 72h 625C(N2)"@en .
+
+msc-prc:msc_om0019337_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019337_SamplePreparation ;
+  rdfs:comment "Ref[9]:M. Breuer et al., Physica C208,217(1993) anneal 72h 625C(N2)"@en .
+
+msc-prc:msc_om0019338_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019338_SamplePreparation ;
+  rdfs:comment "Ref[9]:M. Breuer et al., Physica C208,217(1993) anneal 72h 625C(N2)"@en .
+
+msc-prc:msc_om0019339_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019339_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019340_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019340_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019341_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019341_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019342_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019342_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019343_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019343_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019344_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019344_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019345_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019345_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019346_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019346_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019347_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019347_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019348_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019348_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019349_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019349_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019350_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019350_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019351_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019351_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019352_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019352_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019353_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019353_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019354_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019354_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019355_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019355_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019356_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019356_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019357_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019357_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019358_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019358_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019359_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019359_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019360_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019360_SamplePreparation ;
+  rdfs:comment "solid state reaction mixed prefire 900C air 12h sinter 750C 3h 1050C 24h 500C 72h O2flow"@en .
+
+msc-prc:msc_om0019400_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019400_SamplePreparation ;
+  rdfs:comment "thepowders were reground and pressed under 40kg/cm3 into pellets, which were sintered flowing oxgen at 930 C for 30h followed by slow cooling to 680 C for 8h and slowly cooled to 450 C for 30h"@en .
+
+msc-prc:msc_om0019401_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019401_SamplePreparation ;
+  rdfs:comment "thepowders were reground and pressed under 40kg/cm3 into pellets, which were sintered flowing oxgen at 930 C for 30h followed by slow cooling to 680 C for 8h and slowly cooled to 450 C for 30h"@en .
+
+msc-prc:msc_om0019402_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019402_SamplePreparation ;
+  rdfs:comment "thepowders were reground and pressed under 40kg/cm3 into pellets, which were sintered flowing oxgen at 930 C for 30h followed by slow cooling to 680 C for 8h and slowly cooled to 450 C for 30h"@en .
+
+msc-prc:msc_om0019403_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019403_SamplePreparation ;
+  rdfs:comment "thepowders were reground and pressed under 40kg/cm3 into pellets, which were sintered flowing oxgen at 930 C for 30h followed by slow cooling to 680 C for 8h and slowly cooled to 450 C for 30h"@en .
+
+msc-prc:msc_om0019404_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019404_SamplePreparation ;
+  rdfs:comment "thepowders were reground and pressed under 40kg/cm3 into pellets, which were sintered flowing oxgen at 930 C for 30h followed by slow cooling to 680 C for 8h and slowly cooled to 450 C for 30h"@en .
+
+msc-prc:msc_om0019405_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019405_SamplePreparation ;
+  rdfs:comment "thepowders were reground and pressed under 40kg/cm3 into pellets, which were sintered flowing oxgen at 930 C for 30h followed by slow cooling to 680 C for 8h and slowly cooled to 450 C for 30h"@en .
+
+msc-prc:msc_om0019406_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019406_SamplePreparation ;
+  rdfs:comment "thepowders were reground and pressed under 40kg/cm3 into pellets, which were sintered flowing oxgen at 930 C for 30h followed by slow cooling to 680 C for 8h and slowly cooled to 450 C for 30h"@en .
+
+msc-prc:msc_om0019407_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019407_SamplePreparation ;
+  rdfs:comment "thepowders were reground and pressed under 40kg/cm3 into pellets, which were sintered flowing oxgen at 930 C for 30h followed by slow cooling to 680 C for 8h and slowly cooled to 450 C for 30h"@en .
+
+msc-prc:msc_om0019408_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019408_SamplePreparation ;
+  rdfs:comment "thepowders were reground and pressed under 40kg/cm3 into pellets, which were sintered flowing oxgen at 930 C for 30h followed by slow cooling to 680 C for 8h and slowly cooled to 450 C for 30h"@en .
+
+msc-prc:msc_om0019410_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019410_SamplePreparation ;
+  rdfs:comment "anneal:500-600 C 1-2days together with sintered blocks  Zdetermined by ICP method and the waight of the sintered block. X determined by ICP method (error of less than +-0.1%)"@en .
+
+msc-prc:msc_om0019411_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019411_SamplePreparation ;
+  rdfs:comment "anneal:500-600 C 1-2days together with sintered blocks  Zdetermined by ICP method and the waight of the sintered block. X determined by ICP method (error of less than +-0.1%)"@en .
+
+msc-prc:msc_om0019412_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019412_SamplePreparation ;
+  rdfs:comment "anneal:500-600 C 1-2days together with sintered blocks  Zdetermined by ICP method and the waight of the sintered block. X determined by ICP method (error of less than +-0.1%)"@en .
+
+msc-prc:msc_om0019413_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019413_SamplePreparation ;
+  rdfs:comment "anneal:500-600 C 1-2days together with sintered blocks  Zdetermined by ICP method and the waight of the sintered block. X determined by ICP method (error of less than +-0.1%)"@en .
+
+msc-prc:msc_om0019414_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019414_SamplePreparation ;
+  rdfs:comment "anneal:500-600 C 1-2days together with sintered blocks  Zdetermined by ICP method and the waight of the sintered block. X determined by ICP method (error of less than +-0.1%)"@en .
+
+msc-prc:msc_om0019415_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019415_SamplePreparation ;
+  rdfs:comment "anneal:500-600 C 1-2days together with sintered blocks  Zdetermined by ICP method and the waight of the sintered block. X determined by ICP method (error of less than +-0.1%)"@en .
+
+msc-prc:msc_om0019416_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019416_SamplePreparation ;
+  rdfs:comment "anneal:500-600 C 1-2days together with sintered blocks  Zdetermined by ICP method and the waight of the sintered block. X determined by ICP method (error of less than +-0.1%)"@en .
+
+msc-prc:msc_om0019417_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019417_SamplePreparation ;
+  rdfs:comment "anneal:500-600 C 1-2days together with sintered blocks  Zdetermined by ICP method and the waight of the sintered block. X determined by ICP method (error of less than +-0.1%)"@en .
+
+msc-prc:msc_om0019419_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019419_SamplePreparation ;
+  rdfs:comment "slow-cooling method(ref33) The grouth was in air at pressure of 70 mbar. X=0(x=0.08) sample was started at 1283K(1313K) and cooling rate 0.8K/h(1K/h) .anneal in 1 bar O2 873-673K , 500-600h"@en .
+
+msc-prc:msc_om0019420_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019420_SamplePreparation ;
+  rdfs:comment "slow-cooling method(ref33) The grouth was in air at pressure of 70 mbar. X=0(x=0.08) sample was started at 1283K(1313K) and cooling rate 0.8K/h(1K/h) .anneal in 1 bar O2 873-673K , 500-600h"@en .
+
+msc-prc:msc_om0019421_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019421_SamplePreparation ;
+  rdfs:comment "slow-cooling method(ref33) The grouth was in air at pressure of 70 mbar. X=0(x=0.08) sample was started at 1283K(1313K) and cooling rate 0.8K/h(1K/h) .anneal in 1 bar O2 873-673K , 500-600h"@en .
+
+msc-prc:msc_om0019422_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019422_SamplePreparation ;
+  rdfs:comment "Solid state reaction tecnique(ref2)"@en .
+
+msc-prc:msc_om0019502_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019502_SamplePreparation ;
+  rdfs:comment "anneald in argon flow at 350 C"@en .
+
+msc-prc:msc_om0019503_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019503_SamplePreparation ;
+  rdfs:comment "250 C ogen atomosphere"@en .
+
+msc-prc:msc_om0019504_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019504_SamplePreparation ;
+  rdfs:comment "270 C under oygen Pressure of 90 bar"@en .
+
+msc-prc:msc_om0019505_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019505_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019506_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019506_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019507_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019507_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019508_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019508_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019509_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019509_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019510_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019510_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019511_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019511_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019512_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019512_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019513_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019513_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019514_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019514_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019515_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019515_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019516_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019516_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019517_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019517_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019518_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019518_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019519_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019519_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019520_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019520_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019521_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019521_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019522_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019522_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019523_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019523_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019524_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019524_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019525_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019525_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019526_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019526_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019527_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019527_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019528_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019528_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019529_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019529_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019530_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019530_SamplePreparation ;
+  rdfs:comment "Reduced oxygen sample annealed again at 450 C for 2h in vaccum atomosphere"@en .
+
+msc-prc:msc_om0019543_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019543_SamplePreparation ;
+  rdfs:comment "O2 annialed at 450 C 60h"@en .
+
+msc-prc:msc_om0019544_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019544_SamplePreparation ;
+  rdfs:comment "O2 annialed at 450 C 60h"@en .
+
+msc-prc:msc_om0019545_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019545_SamplePreparation ;
+  rdfs:comment "O2 annialed at 450 C 60h"@en .
+
+msc-prc:msc_om0019546_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019546_SamplePreparation ;
+  rdfs:comment "O2 annialed at 450 C 60h"@en .
+
+msc-prc:msc_om0019547_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019547_SamplePreparation ;
+  rdfs:comment "O2 annialed at 450 C 60h"@en .
+
+msc-prc:msc_om0019548_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019548_SamplePreparation ;
+  rdfs:comment "O2 annialed at 450 C 60h"@en .
+
+msc-prc:msc_om0019549_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019549_SamplePreparation ;
+  rdfs:comment "O2 annialed at 450 C 60h"@en .
+
+msc-prc:msc_om0019550_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019550_SamplePreparation ;
+  rdfs:comment "O2 annialed at 450 C 60h"@en .
+
+msc-prc:msc_om0019700_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019700_SamplePreparation ;
+  rdfs:comment "ref[11],[12]. ,Anealed at 800C."@en .
+
+msc-prc:msc_om0019701_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019701_SamplePreparation ;
+  rdfs:comment "ref[11],[12]. ,Anealed at 800C."@en .
+
+msc-prc:msc_om0019702_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019702_SamplePreparation ;
+  rdfs:comment "ref[11],[12]. ,Anealed at 800C."@en .
+
+msc-prc:msc_om0019703_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019703_SamplePreparation ;
+  rdfs:comment "ref[11],[12]. ,Anealed at 840C."@en .
+
+msc-prc:msc_om0019704_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019704_SamplePreparation ;
+  rdfs:comment "ref[11],[12]. ,Anealed at 840C."@en .
+
+msc-prc:msc_om0019705_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019705_SamplePreparation ;
+  rdfs:comment "ref[11],[12]. ,Anealed at 840C."@en .
+
+msc-prc:msc_om0019706_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019706_SamplePreparation ;
+  rdfs:comment "ref[11],[12]. ,Anealed at 840C."@en .
+
+msc-prc:msc_om0019707_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019707_SamplePreparation ;
+  rdfs:comment "solid-state reaction technique after mixing raw materials at stoichiometric ratio."@en .
+
+msc-prc:msc_om0019708_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019708_SamplePreparation ;
+  rdfs:comment "solid-state reaction technique after mixing raw materials at stoichiometric ratio."@en .
+
+msc-prc:msc_om0019709_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019709_SamplePreparation ;
+  rdfs:comment "solid-state reaction technique after mixing raw materials at stoichiometric ratio."@en .
+
+msc-prc:msc_om0019710_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019710_SamplePreparation ;
+  rdfs:comment "solid-state reaction technique after mixing raw materials at stoichiometric ratio."@en .
+
+msc-prc:msc_om0019711_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019711_SamplePreparation ;
+  rdfs:comment "self-flux method."@en .
+
+msc-prc:msc_om0019712_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019712_SamplePreparation ;
+  rdfs:comment "Preparation method is not described."@en .
+
+msc-prc:msc_om0019713_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019713_SamplePreparation ;
+  rdfs:comment "Preparation method is not described."@en .
+
+msc-prc:msc_om0019714_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019714_SamplePreparation ;
+  rdfs:comment "Preparation method is not described."@en .
+
+msc-prc:msc_om0019715_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019715_SamplePreparation ;
+  rdfs:comment "Preparation method is not described."@en .
+
+msc-prc:msc_om0019716_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019716_SamplePreparation ;
+  rdfs:comment "Preparation method is not described."@en .
+
+msc-prc:msc_om0019717_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019717_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019718_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019718_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019719_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019719_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019720_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019720_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019721_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019721_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019722_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019722_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019723_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019723_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019724_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019724_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019725_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019725_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019726_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019726_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019727_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019727_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019728_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019728_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019729_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019729_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019730_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019730_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019731_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019731_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019732_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019732_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019733_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019733_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019734_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019734_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019735_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019735_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019736_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019736_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019737_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019737_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019738_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019738_SamplePreparation ;
+  rdfs:comment "solid-state reaction method.preheated in 1070-1030 C ,(reground and pressed into pelltes ,sintered in air at 1080-1320 C for 24h)*2,finally cooled down to 800 C and kept for 40h."@en .
+
+msc-prc:msc_om0019805_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019805_SamplePreparation ;
+  rdfs:comment "Annealed 920 C for 12h cooled to 445 C ,annealed at this temperature for 48h and slowly cooled to room temperature."@en .
+
+msc-prc:msc_om0019806_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019806_SamplePreparation ;
+  rdfs:comment "Annealed 920 C for 12h cooled to 445 C ,annealed at this temperature for 48h and slowly cooled to room temperature."@en .
+
+msc-prc:msc_om0019807_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019807_SamplePreparation ;
+  rdfs:comment "Annealed 920 C for 12h cooled to 445 C ,annealed at this temperature for 48h and slowly cooled to room temperature."@en .
+
+msc-prc:msc_om0019808_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019808_SamplePreparation ;
+  rdfs:comment "Annealed 920 C for 12h cooled to 445 C ,annealed at this temperature for 48h and slowly cooled to room temperature."@en .
+
+msc-prc:msc_om0019809_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019809_SamplePreparation ;
+  rdfs:comment "Annealed 920 C for 12h cooled to 445 C ,annealed at this temperature for 48h and slowly cooled to room temperature."@en .
+
+msc-prc:msc_om0019810_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019810_SamplePreparation ;
+  rdfs:comment "Annealed 920 C for 12h cooled to 445 C ,annealed at this temperature for 48h and slowly cooled to room temperature."@en .
+
+msc-prc:msc_om0019811_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019811_SamplePreparation ;
+  rdfs:comment "Annealed 920 C for 12h cooled to 445 C ,annealed at this temperature for 48h and slowly cooled to room temperature."@en .
+
+msc-prc:msc_om0019812_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019812_SamplePreparation ;
+  rdfs:comment "Annealed 920 C for 12h cooled to 445 C ,annealed at this temperature for 48h and slowly cooled to room temperature."@en .
+
+msc-prc:msc_om0019813_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019813_SamplePreparation ;
+  rdfs:comment "Annealed 920 C for 12h cooled to 445 C ,annealed at this temperature for 48h and slowly cooled to room temperature."@en .
+
+msc-prc:msc_om0019819_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019819_SamplePreparation ;
+  rdfs:comment "anneal: 450 C O2 0.02atm"@en .
+
+msc-prc:msc_om0019820_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019820_SamplePreparation ;
+  rdfs:comment "anneal: 600 C O2 3.9*10-4 atm"@en .
+
+msc-prc:msc_om0019821_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019821_SamplePreparation ;
+  rdfs:comment "annealed in flowing oxygen atompsphere at 650 C for 24h"@en .
+
+msc-prc:msc_om0019900_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019900_SamplePreparation ;
+  rdfs:comment "solute rich liquid crystal puling(SRLCP). Annealed in flowing O2 for 200h at 500C."@en .
+
+msc-prc:msc_om0019901_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019901_SamplePreparation ;
+  rdfs:comment "solute rich liquid crystal puling(SRLCP). Annealed in flowing O2 for 200h at 500C."@en .
+
+msc-prc:msc_om0019902_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019902_SamplePreparation ;
+  rdfs:comment "solute rich liquid crystal puling(SRLCP). Annealed in flowing O2 for 200h at 500C."@en .
+
+msc-prc:msc_om0019903_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019903_SamplePreparation ;
+  rdfs:comment "solute rich liquid crystal puling(SRLCP). Annealed in flowing O2 for 200h at 500C."@en .
+
+msc-prc:msc_om0019904_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019904_SamplePreparation ;
+  rdfs:comment "TSFZ"@en .
+
+msc-prc:msc_om0019905_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019905_SamplePreparation ;
+  rdfs:comment "TSFZ"@en .
+
+msc-prc:msc_om0019906_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0019906_SamplePreparation ;
+  rdfs:comment "TSFZ"@en .
+
+msc-prc:msc_om0030028_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030028_SamplePreparation ;
+  rdfs:comment "aneeal: in air atomosphere 800 C"@en .
+
+msc-prc:msc_om0030029_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030029_SamplePreparation ;
+  rdfs:comment "aneeal: in air atomosphere 750 C"@en .
+
+msc-prc:msc_om0030030_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030030_SamplePreparation ;
+  rdfs:comment "aneeal: in air atomosphere 550 C"@en .
+
+msc-prc:msc_om0030031_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030031_SamplePreparation ;
+  rdfs:comment "aneeal: in air atomosphere 480 C"@en .
+
+msc-prc:msc_om0030032_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030032_SamplePreparation ;
+  rdfs:comment "aneeal: in air atomosphere 380 C"@en .
+
+msc-prc:msc_om0030033_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030033_SamplePreparation ;
+  rdfs:comment "no aneeal"@en .
+
+msc-prc:msc_om0030034_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030034_SamplePreparation ;
+  rdfs:comment "aneeal: in air atomosphere 800 C"@en .
+
+msc-prc:msc_om0030035_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030035_SamplePreparation ;
+  rdfs:comment "aneeal: in air atomosphere 800 C"@en .
+
+msc-prc:msc_om0030036_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030036_SamplePreparation ;
+  rdfs:comment "aneeal: in air atomosphere 800 C"@en .
+
+msc-prc:msc_om0030037_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030037_SamplePreparation ;
+  rdfs:comment "aneeal: in air atomosphere 800 C"@en .
+
+msc-prc:msc_om0030207_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030207_SamplePreparation ;
+  rdfs:comment "as-grown"@en .
+
+msc-prc:msc_om0030208_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030208_SamplePreparation ;
+  rdfs:comment "anneal: in Br2 260 C 0.5h"@en .
+
+msc-prc:msc_om0030209_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030209_SamplePreparation ;
+  rdfs:comment "anneal: in He 450 C 4h"@en .
+
+msc-prc:msc_om0030210_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030210_SamplePreparation ;
+  rdfs:comment "anneal: in He 450 C 4h and in Br2 260 C 0.5h"@en .
+
+msc-prc:msc_om0030211_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030211_SamplePreparation ;
+  rdfs:comment "anneal: in He 700 C 4h"@en .
+
+msc-prc:msc_om0030212_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030212_SamplePreparation ;
+  rdfs:comment "anneal: in He 700 C 4h and in Br2 260 C 0.5h"@en .
+
+msc-prc:msc_om0030213_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030213_SamplePreparation ;
+  rdfs:comment "anneal: in He 675 C 8h"@en .
+
+msc-prc:msc_om0030214_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030214_SamplePreparation ;
+  rdfs:comment "anneal: in He 675 C 8h and vac 260 C 0.5h"@en .
+
+msc-prc:msc_om0030215_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030215_SamplePreparation ;
+  rdfs:comment "anneal: in He 450 C 4h and in O2 560 C 4h"@en .
+
+msc-prc:msc_om0030217_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030217_SamplePreparation ;
+  rdfs:comment "anneal: in He 450 C 4h"@en .
+
+msc-prc:msc_om0030218_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030218_SamplePreparation ;
+  rdfs:comment "anneal: in He 450 C 4h and in Br2 260 C 0.5h"@en .
+
+msc-prc:msc_om0030219_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030219_SamplePreparation ;
+  rdfs:comment "anneal: in He 750 C 5h"@en .
+
+msc-prc:msc_om0030220_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030220_SamplePreparation ;
+  rdfs:comment "anneal: in He 750 C 5h and in Br2 260 C 0.25h"@en .
+
+msc-prc:msc_om0030222_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030222_SamplePreparation ;
+  rdfs:comment "anneal: in He 450 C 4h"@en .
+
+msc-prc:msc_om0030223_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030223_SamplePreparation ;
+  rdfs:comment "anneal: in He 450 C 4h and in Br2 260 C 0.5h"@en .
+
+msc-prc:msc_om0030225_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030225_SamplePreparation ;
+  rdfs:comment "anneal: in Br2 260 C 24h"@en .
+
+msc-prc:msc_om0030226_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030226_SamplePreparation ;
+  rdfs:comment "anneal: in He 700 C 4h and in Br2 260 C 24h"@en .
+
+msc-prc:msc_om0030300_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030300_SamplePreparation ;
+  rdfs:comment "Traveling-solvent floating-zone method. ref 15."@en .
+
+msc-prc:msc_om0030301_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030301_SamplePreparation ;
+  rdfs:comment "Traveling-solvent floating-zone method. ref 15."@en .
+
+msc-prc:msc_om0030302_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030302_SamplePreparation ;
+  rdfs:comment "Traveling-solvent floating-zone method. ref 15."@en .
+
+msc-prc:msc_om0030303_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030303_SamplePreparation ;
+  rdfs:comment "Floating method. Heat treated insealed quartz tubes to tune to the near-optimum doping."@en .
+
+msc-prc:msc_om0030305_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030305_SamplePreparation ;
+  rdfs:comment "Sample analysis method: EDS. Ref25."@en .
+
+msc-prc:msc_om0030306_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030306_SamplePreparation ;
+  rdfs:comment "Sample analysis method: EDS. Ref25."@en .
+
+msc-prc:msc_om0030307_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030307_SamplePreparation ;
+  rdfs:comment "Sample analysis method: EDS. Ref25."@en .
+
+msc-prc:msc_om0030308_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030308_SamplePreparation ;
+  rdfs:comment "Sample analysis method: EDS. Ref25."@en .
+
+msc-prc:msc_om0030309_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030309_SamplePreparation ;
+  rdfs:comment "To aligne c-axis, the powder was ground down to around 20 micro meter amd mixed with epoxy, then cured in a magnetic field of 7 T for 10 h at room temperature."@en .
+
+msc-prc:msc_om0030310_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030310_SamplePreparation ;
+  rdfs:comment "To aligne c-axis, the powder was ground down to around 20 micro meter amd mixed with epoxy, then cured in a magnetic field of 7 T for 10 h at room temperature."@en .
+
+msc-prc:msc_om0030415_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030415_SamplePreparation ;
+  rdfs:comment "The final oxygen content is confirmed by iodometric titration. The actual Zn concentration in the crystals is measured with ICP spectrometry with an error in z of less than 0.001."@en .
+
+msc-prc:msc_om0030416_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030416_SamplePreparation ;
+  rdfs:comment "The final oxygen content is confirmed by iodometric titration. The actual Zn concentration in the crystals is measured with ICP spectrometry with an error in z of less than 0.001."@en .
+
+msc-prc:msc_om0030417_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030417_SamplePreparation ;
+  rdfs:comment "The final oxygen content is confirmed by iodometric titration. The actual Zn concentration in the crystals is measured with ICP spectrometry with an error in z of less than 0.001."@en .
+
+msc-prc:msc_om0030418_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030418_SamplePreparation ;
+  rdfs:comment "Annealed in flowing N2 gas at 900 C for 30 h andsubsequently quenched to room temperature."@en .
+
+msc-prc:msc_om0030600_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030600_SamplePreparation ;
+  rdfs:comment "The Zn concentration was determined by Tc of the crystals to powder samples with knowm Zn concentration and annealed at the same conditions. Details is in ref.4."@en .
+
+msc-prc:msc_om0030601_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030601_SamplePreparation ;
+  rdfs:comment "The Zn concentration was determined by Tc of the crystals to powder samples with knowm Zn concentration and annealed at the same conditions. Details is in ref.4."@en .
+
+msc-prc:msc_om0030602_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030602_SamplePreparation ;
+  rdfs:comment "The Zn concentration was determined by Tc of the crystals to powder samples with knowm Zn concentration and annealed at the same conditions. Details is in ref.4."@en .
+
+msc-prc:msc_om0030603_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030603_SamplePreparation ;
+  rdfs:comment "The Zn concentration was determined by Tc of the crystals to powder samples with knowm Zn concentration and annealed at the same conditions. Details is in ref.4."@en .
+
+msc-prc:msc_om0030703_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030703_SamplePreparation ;
+  rdfs:comment "sample thickness is 39.5-80.7 nm"@en .
+
+msc-prc:msc_om0030704_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030704_SamplePreparation ;
+  rdfs:comment "sample thickness is 39.5-80.7 nm"@en .
+
+msc-prc:msc_om0030705_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030705_SamplePreparation ;
+  rdfs:comment "sample thickness is 39.5-80.7 nm"@en .
+
+msc-prc:msc_om0030706_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030706_SamplePreparation ;
+  rdfs:comment "sample thickness is 39.5-80.7 nm"@en .
+
+msc-prc:msc_om0030707_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030707_SamplePreparation ;
+  rdfs:comment "sample thickness is 39.5-80.7 nm"@en .
+
+msc-prc:msc_om0030708_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030708_SamplePreparation ;
+  rdfs:comment "sample thickness is 39.5-80.7 nm"@en .
+
+msc-prc:msc_om0030712_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030712_SamplePreparation ;
+  rdfs:comment "as-synthesized"@en .
+
+msc-prc:msc_om0030713_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030713_SamplePreparation ;
+  rdfs:comment "350C for 48 h in Argas"@en .
+
+msc-prc:msc_om0030714_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030714_SamplePreparation ;
+  rdfs:comment "450 C for 48 h in Argas"@en .
+
+msc-prc:msc_om0030715_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030715_SamplePreparation ;
+  rdfs:comment "550 C for 48 h in Argas"@en .
+
+msc-prc:msc_om0030716_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030716_SamplePreparation ;
+  rdfs:comment "as-synthesized"@en .
+
+msc-prc:msc_om0030717_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030717_SamplePreparation ;
+  rdfs:comment "400 C for 48 h in Argas"@en .
+
+msc-prc:msc_om0030718_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030718_SamplePreparation ;
+  rdfs:comment "500C for 48 h in Argas"@en .
+
+msc-prc:msc_om0030719_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030719_SamplePreparation ;
+  rdfs:comment "600 C for 24 h in Argas"@en .
+
+msc-prc:msc_om0030801_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030801_SamplePreparation ;
+  rdfs:comment "Bi:Pb:Sr:Ca:Cu=1.76:0.46:1.89:1.02:2.0 by ICP."@en .
+
+msc-prc:msc_om0030900_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030900_SamplePreparation ;
+  rdfs:comment "340 C O2 annealing"@en .
+
+msc-prc:msc_om0030906_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030906_SamplePreparation ;
+  rdfs:comment "in vacuum for 6h at 400 C"@en .
+
+msc-prc:msc_om0030907_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030907_SamplePreparation ;
+  rdfs:comment "in vacuum for 6h at 500 C"@en .
+
+msc-prc:msc_om0030908_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030908_SamplePreparation ;
+  rdfs:comment "in vacuum for 6h at 600 C"@en .
+
+msc-prc:msc_om0030914_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030914_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030915_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030915_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030916_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030916_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030917_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030917_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030918_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030918_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030919_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030919_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030920_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030920_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030921_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030921_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030922_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030922_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030923_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030923_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030924_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030924_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030925_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030925_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030926_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030926_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030927_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030927_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030928_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030928_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030929_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030929_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030930_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030930_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030931_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030931_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030932_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030932_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030933_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030933_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030934_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030934_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030935_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030935_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030936_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030936_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030937_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030937_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030938_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030938_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030939_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030939_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030940_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030940_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030941_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030941_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030942_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030942_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030943_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030943_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030944_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030944_SamplePreparation ;
+  rdfs:comment "intervening for 24 h at 600 C"@en .
+
+msc-prc:msc_om0030945_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030945_SamplePreparation ;
+  rdfs:comment "annealing condition in ref 23"@en .
+
+msc-prc:msc_om0030946_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030946_SamplePreparation ;
+  rdfs:comment "annealing condition in ref 23"@en .
+
+msc-prc:msc_om0030947_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030947_SamplePreparation ;
+  rdfs:comment "annealing condition in ref 23"@en .
+
+msc-prc:msc_om0030948_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0030948_SamplePreparation ;
+  rdfs:comment "annealing condition in ref 23"@en .
+
+msc-prc:msc_om0031000_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031000_SamplePreparation ;
+  rdfs:comment "The actual La concentration are determined by ICP and EPMA"@en .
+
+msc-prc:msc_om0031001_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031001_SamplePreparation ;
+  rdfs:comment "The actual La concentration are determined by ICP and EPMA"@en .
+
+msc-prc:msc_om0031002_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031002_SamplePreparation ;
+  rdfs:comment "The actual La concentration are determined by ICP and EPMA"@en .
+
+msc-prc:msc_om0031003_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031003_SamplePreparation ;
+  rdfs:comment "The actual La concentration are determined by ICP and EPMA"@en .
+
+msc-prc:msc_om0031004_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031004_SamplePreparation ;
+  rdfs:comment "The actual La concentration are determined by ICP and EPMA"@en .
+
+msc-prc:msc_om0031005_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031005_SamplePreparation ;
+  rdfs:comment "The actual La concentration are determined by ICP and EPMA"@en .
+
+msc-prc:msc_om0031006_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031006_SamplePreparation ;
+  rdfs:comment "The actual La concentration are determined by ICP and EPMA"@en .
+
+msc-prc:msc_om0031007_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031007_SamplePreparation ;
+  rdfs:comment "The actual La concentration are determined by ICP and EPMA"@en .
+
+msc-prc:msc_om0031100_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031100_SamplePreparation ;
+  rdfs:comment "post annealed condition: for 1week in 1 atm of Ar at 350 C"@en .
+
+msc-prc:msc_om0031101_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031101_SamplePreparation ;
+  rdfs:comment "post annealed condition: for 1week in 1 atm of Ar at 300 C"@en .
+
+msc-prc:msc_om0031102_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031102_SamplePreparation ;
+  rdfs:comment "post annealed condition: for 1week in 1 atm of O2 at 300 C"@en .
+
+msc-prc:msc_om0031103_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031103_SamplePreparation ;
+  rdfs:comment "post annealed condition: for 3week in 1 atm of O2 at 260 C"@en .
+
+msc-prc:msc_om0031104_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031104_SamplePreparation ;
+  rdfs:comment "post annealed condition: for 3week in 1 atm of O2 at 240 C"@en .
+
+msc-prc:msc_om0031105_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031105_SamplePreparation ;
+  rdfs:comment "Zn-doped crystals are turned to the optimumdoping by annealing at 750C for 48h. The contain of Zn was determined by ICP."@en .
+
+msc-prc:msc_om0031106_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031106_SamplePreparation ;
+  rdfs:comment "Zn-doped crystals are turned to the optimumdoping by annealing at 750C for 48h. The contain of Zn was determined by ICP."@en .
+
+msc-prc:msc_om0031107_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031107_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 350C"@en .
+
+msc-prc:msc_om0031108_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031108_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 680C"@en .
+
+msc-prc:msc_om0031109_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031109_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 350C"@en .
+
+msc-prc:msc_om0031110_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031110_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 450C-480C"@en .
+
+msc-prc:msc_om0031111_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031111_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 350C"@en .
+
+msc-prc:msc_om0031112_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031112_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 450C-480C"@en .
+
+msc-prc:msc_om0031113_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031113_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 350C"@en .
+
+msc-prc:msc_om0031114_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031114_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 450C-480C"@en .
+
+msc-prc:msc_om0031115_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031115_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 550C-580C"@en .
+
+msc-prc:msc_om0031116_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031116_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 350C"@en .
+
+msc-prc:msc_om0031117_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031117_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 450C-480C"@en .
+
+msc-prc:msc_om0031118_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031118_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 550C-580C"@en .
+
+msc-prc:msc_om0031119_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031119_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 350C"@en .
+
+msc-prc:msc_om0031120_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031120_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 450C-480C"@en .
+
+msc-prc:msc_om0031121_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031121_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 680C"@en .
+
+msc-prc:msc_om0031122_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031122_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 350C"@en .
+
+msc-prc:msc_om0031123_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031123_SamplePreparation ;
+  rdfs:comment "annealing condition: under air at 680C"@en .
+
+msc-prc:msc_om0031124_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031124_SamplePreparation ;
+  rdfs:comment "LSAO substrates"@en .
+
+msc-prc:msc_om0031125_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031125_SamplePreparation ;
+  rdfs:comment "LSAO substrates"@en .
+
+msc-prc:msc_om0031126_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031126_SamplePreparation ;
+  rdfs:comment "LSAO substrates"@en .
+
+msc-prc:msc_om0031127_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031127_SamplePreparation ;
+  rdfs:comment "LSAO substrates"@en .
+
+msc-prc:msc_om0031128_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031128_SamplePreparation ;
+  rdfs:comment "LSAO substrates"@en .
+
+msc-prc:msc_om0031129_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031129_SamplePreparation ;
+  rdfs:comment "STO substrates"@en .
+
+msc-prc:msc_om0031130_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031130_SamplePreparation ;
+  rdfs:comment "LSAO substrates"@en .
+
+msc-prc:msc_om0031131_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031131_SamplePreparation ;
+  rdfs:comment "LSAO substrates"@en .
+
+msc-prc:msc_om0031132_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031132_SamplePreparation ;
+  rdfs:comment "LSAO substrates"@en .
+
+msc-prc:msc_om0031133_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031133_SamplePreparation ;
+  rdfs:comment "STO substrates"@en .
+
+msc-prc:msc_om0031134_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031134_SamplePreparation ;
+  rdfs:comment "LSAO substrates"@en .
+
+msc-prc:msc_om0031135_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031135_SamplePreparation ;
+  rdfs:comment "LSAO substrates"@en .
+
+msc-prc:msc_om0031136_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031136_SamplePreparation ;
+  rdfs:comment "LSAO substrates"@en .
+
+msc-prc:msc_om0031137_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031137_SamplePreparation ;
+  rdfs:comment "LSAO substrates"@en .
+
+msc-prc:msc_om0031138_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031138_SamplePreparation ;
+  rdfs:comment "LSAO substrates"@en .
+
+msc-prc:msc_om0031140_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031140_SamplePreparation ;
+  rdfs:comment "sample were grown under the same oxgen partial pressure of 0.1 % and fully oxygenated at 300 C for 150 h"@en .
+
+msc-prc:msc_om0031141_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031141_SamplePreparation ;
+  rdfs:comment "sample were grown under the same oxgen partial pressure of 0.1 % and fully oxygenated at 300 C for 150 h"@en .
+
+msc-prc:msc_om0031142_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031142_SamplePreparation ;
+  rdfs:comment "sample were grown under the same oxgen partial pressure of 0.1 % and fully oxygenated at 300 C for 150 h"@en .
+
+msc-prc:msc_om0031143_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031143_SamplePreparation ;
+  rdfs:comment "sample were grown under the same oxgen partial pressure of 0.1 % and fully oxygenated at 300 C for 150 h"@en .
+
+msc-prc:msc_om0031144_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031144_SamplePreparation ;
+  rdfs:comment "sample were grown under the same oxgen partial pressure of 0.1 % and fully oxygenated at 300 C for 150 h"@en .
+
+msc-prc:msc_om0031145_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031145_SamplePreparation ;
+  rdfs:comment "anneal condition: in flowing Ar gas at 680 C for 15h"@en .
+
+msc-prc:msc_om0031200_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031200_SamplePreparation ;
+  rdfs:comment "The oxygen content was determined bu thermogravimetric and neutron diffraction analyses(ref.21)."@en .
+
+msc-prc:msc_om0031201_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031201_SamplePreparation ;
+  rdfs:comment "The oxygen content was determined bu thermogravimetric and neutron diffraction analyses(ref.21)."@en .
+
+msc-prc:msc_om0031202_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031202_SamplePreparation ;
+  rdfs:comment "The oxygen content was determined bu thermogravimetric and neutron diffraction analyses(ref.21)."@en .
+
+msc-prc:msc_om0031203_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031203_SamplePreparation ;
+  rdfs:comment "The oxygen content was determined bu thermogravimetric and neutron diffraction analyses(ref.21)."@en .
+
+msc-prc:msc_om0031204_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031204_SamplePreparation ;
+  rdfs:comment "The oxygen content was determined bu thermogravimetric and neutron diffraction analyses(ref.21)."@en .
+
+msc-prc:msc_om0031205_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031205_SamplePreparation ;
+  rdfs:comment "The oxygen content was determined bu thermogravimetric and neutron diffraction analyses(ref.21)."@en .
+
+msc-prc:msc_om0031206_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031206_SamplePreparation ;
+  rdfs:comment "The oxygen content was determined bu thermogravimetric and neutron diffraction analyses(ref.21)."@en .
+
+msc-prc:msc_om0031207_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031207_SamplePreparation ;
+  rdfs:comment "The oxygen content was determined bu thermogravimetric and neutron diffraction analyses(ref.21)."@en .
+
+msc-prc:msc_om0031208_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031208_SamplePreparation ;
+  rdfs:comment "The oxygen content was determined bu thermogravimetric and neutron diffraction analyses(ref.21)."@en .
+
+msc-prc:msc_om0031209_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031209_SamplePreparation ;
+  rdfs:comment "The oxygen content was determined bu thermogravimetric and neutron diffraction analyses(ref.21)."@en .
+
+msc-prc:msc_om0031211_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031211_SamplePreparation ;
+  rdfs:comment "The oxygen content was determined bu thermogravimetric and neutron diffraction analyses(ref.21)."@en .
+
+msc-prc:msc_om0031212_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031212_SamplePreparation ;
+  rdfs:comment "The oxygen content was determined bu thermogravimetric and neutron diffraction analyses(ref.21)."@en .
+
+msc-prc:msc_om0031220_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031220_SamplePreparation ;
+  rdfs:comment "The oxygen content was determined bu thermogravimetric and neutron diffraction analyses(ref.21)."@en .
+
+msc-prc:msc_om0031311_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031311_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0031312_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031312_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0031313_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031313_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0031314_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031314_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0031315_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031315_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0031316_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031316_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0031317_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031317_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0031318_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031318_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0031319_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031319_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0031320_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031320_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0031321_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031321_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0031322_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031322_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0031323_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031323_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0031324_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0031324_SamplePreparation ;
+  rdfs:comment "Post annealing was in O2 at 500 C for 24h. The Oxygen content was determined by iodometric titration."@en .
+
+msc-prc:msc_om0032000_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032000_SamplePreparation ;
+  rdfs:comment "anneal: in flowing O2 at 720 K for three days before in O2 for 10 min at 740 K"@en .
+
+msc-prc:msc_om0032001_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032001_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032002_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032002_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032003_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032003_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032004_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032004_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032005_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032005_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032006_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032006_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032007_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032007_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032008_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032008_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032009_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032009_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032010_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032010_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032011_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032011_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032012_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032012_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032013_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032013_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032014_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032014_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032015_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032015_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032016_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032016_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032017_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032017_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032018_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032018_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032019_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032019_SamplePreparation ;
+  rdfs:comment "anneal: ref[9]"@en .
+
+msc-prc:msc_om0032100_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032100_SamplePreparation ;
+  rdfs:comment "anneal: for 240h at 500 C in O2 flow and quenched."@en .
+
+msc-prc:msc_om0032102_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032102_SamplePreparation ;
+  rdfs:comment "anneal: 300 C in O2 at 0.3 bar for one or two days"@en .
+
+msc-prc:msc_om0032103_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032103_SamplePreparation ;
+  rdfs:comment "anneal: 450 C in N2 at 1 atm"@en .
+
+msc-prc:msc_om0032105_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032105_SamplePreparation ;
+  rdfs:comment "Z was obtained by a thermogravimetric measurements {P(O2) > 10e-4 atm}"@en .
+
+msc-prc:msc_om0032106_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032106_SamplePreparation ;
+  rdfs:comment "Z was obtained by a thermogravimetric measurements {P(O2) > 10e-4 atm}"@en .
+
+msc-prc:msc_om0032107_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032107_SamplePreparation ;
+  rdfs:comment "Z was obtained by a thermogravimetric measurements {P(O2) > 10e-4 atm}"@en .
+
+msc-prc:msc_om0032108_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032108_SamplePreparation ;
+  rdfs:comment "Z was obtained by a thermogravimetric measurements {P(O2) > 10e-4 atm}"@en .
+
+msc-prc:msc_om0032109_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032109_SamplePreparation ;
+  rdfs:comment "Z was obtained by a thermogravimetric measurements {P(O2) > 10e-4 atm}"@en .
+
+msc-prc:msc_om0032110_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032110_SamplePreparation ;
+  rdfs:comment "Z was obtained by a thermogravimetric measurements {P(O2) > 10e-4 atm}"@en .
+
+msc-prc:msc_om0032111_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032111_SamplePreparation ;
+  rdfs:comment "Z was obtained by a thermogravimetric measurements {P(O2) > 10e-4 atm}"@en .
+
+msc-prc:msc_om0032112_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032112_SamplePreparation ;
+  rdfs:comment "Z was obtained by a thermogravimetric measurements {P(O2) > 10e-4 atm}"@en .
+
+msc-prc:msc_om0032113_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032113_SamplePreparation ;
+  rdfs:comment "anneal : at 800 C in He gas for 64h"@en .
+
+msc-prc:msc_om0032114_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032114_SamplePreparation ;
+  rdfs:comment "anneal : at 800 C in He gas for 64h"@en .
+
+msc-prc:msc_om0032115_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032115_SamplePreparation ;
+  rdfs:comment "anneal : at 800 C in He gas for 64h"@en .
+
+msc-prc:msc_om0032116_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032116_SamplePreparation ;
+  rdfs:comment "anneal : at 800 C in He gas for 64h"@en .
+
+msc-prc:msc_om0032117_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032117_SamplePreparation ;
+  rdfs:comment "anneal : at 800 C in He gas for 64h"@en .
+
+msc-prc:msc_om0032205_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032205_SamplePreparation ;
+  rdfs:comment "reduced sample"@en .
+
+msc-prc:msc_om0032206_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032206_SamplePreparation ;
+  rdfs:comment "M=0.1 anneal: 150C for 15h (M is the molar ratio of  XeF2 to Hg1201)"@en .
+
+msc-prc:msc_om0032207_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032207_SamplePreparation ;
+  rdfs:comment "M=0.3 anneal: 200C for 15h (M is the molar ratio of  XeF2 to Hg1201)"@en .
+
+msc-prc:msc_om0032208_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032208_SamplePreparation ;
+  rdfs:comment "M=0.5 anneal: 200C for 15h (M is the molar ratio of  XeF2 to Hg1201)"@en .
+
+msc-prc:msc_om0032209_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032209_SamplePreparation ;
+  rdfs:comment "M=0.4 anneal: 200C for 20h (M is the molar ratio of  XeF2 to Hg1201)"@en .
+
+msc-prc:msc_om0032210_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032210_SamplePreparation ;
+  rdfs:comment "M=0.3 anneal: 200C for 30h (M is the molar ratio of  XeF2 to Hg1201)"@en .
+
+msc-prc:msc_om0032211_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032211_SamplePreparation ;
+  rdfs:comment "M=1.0 anneal: 200C for 50h (M is the molar ratio of  XeF2 to Hg1201)"@en .
+
+msc-prc:msc_om0032213_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032213_SamplePreparation ;
+  rdfs:comment "anneal: in a-Al2O3 crucible at 850 C for 24 h and then 550 C for 77h in O2 flow"@en .
+
+msc-prc:msc_om0032231_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032231_SamplePreparation ;
+  rdfs:comment "anneal: for 2week in O2 gas and reannealed in ultrapure O2 gas at 450C for 24h followed by slow cooling"@en .
+
+msc-prc:msc_om0032232_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032232_SamplePreparation ;
+  rdfs:comment "anneal: for 2week in O2 gas and reannealed in ultrapure O2 gas at 450C for 24h followed by slow cooling"@en .
+
+msc-prc:msc_om0032233_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032233_SamplePreparation ;
+  rdfs:comment "anneal: for 2week in O2 gas and reannealed in ultrapure O2 gas at 450C for 24h followed by slow cooling"@en .
+
+msc-prc:msc_om0032234_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032234_SamplePreparation ;
+  rdfs:comment "anneal: for 2week in O2 gas and reannealed in ultrapure O2 gas at 450C for 24h followed by slow cooling"@en .
+
+msc-prc:msc_om0032235_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032235_SamplePreparation ;
+  rdfs:comment "anneal: for 2week in O2 gas and reannealed in ultrapure O2 gas at 450C for 24h followed by slow cooling"@en .
+
+msc-prc:msc_om0032247_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032247_SamplePreparation ;
+  rdfs:comment "anneal:ref[10]"@en .
+
+msc-prc:msc_om0032248_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032248_SamplePreparation ;
+  rdfs:comment "anneal:ref[10]"@en .
+
+msc-prc:msc_om0032249_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032249_SamplePreparation ;
+  rdfs:comment "anneal:ref[10]"@en .
+
+msc-prc:msc_om0032250_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032250_SamplePreparation ;
+  rdfs:comment "anneal:ref[10]"@en .
+
+msc-prc:msc_om0032251_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032251_SamplePreparation ;
+  rdfs:comment "anneal:ref[10]"@en .
+
+msc-prc:msc_om0032318_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032318_SamplePreparation ;
+  rdfs:comment "anneal: Ar gas for 100h at 1000 C and subsequently in O2 for 50 h at 500 C"@en .
+
+msc-prc:msc_om0032319_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032319_SamplePreparation ;
+  rdfs:comment "anneal : at 600 C for 100 h"@en .
+
+msc-prc:msc_om0032326_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032326_SamplePreparation ;
+  rdfs:comment "anneal: under O2 flow at 900 C for 50 h"@en .
+
+msc-prc:msc_om0032328_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032328_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032329_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032329_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032330_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032330_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032331_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032331_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032332_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032332_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032333_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032333_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032334_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032334_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032335_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032335_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032336_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032336_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032337_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032337_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032338_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032338_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032339_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032339_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032340_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032340_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032341_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032341_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032342_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032342_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032343_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032343_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032344_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032344_SamplePreparation ;
+  rdfs:comment "Oxygen contents were determined by iodometric titration."@en .
+
+msc-prc:msc_om0032346_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032346_SamplePreparation ;
+  rdfs:comment "Z=6.6 samples were performed at fixed temperature ranging from 340 C to 450 C under vacuum."@en .
+
+msc-prc:msc_om0032347_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032347_SamplePreparation ;
+  rdfs:comment "Z=6.6 samples were performed at fixed temperature ranging from 340 C to 450 C under vacuum."@en .
+
+msc-prc:msc_om0032348_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032348_SamplePreparation ;
+  rdfs:comment "Z=6.6 samples were performed at fixed temperature ranging from 340 C to 450 C under vacuum."@en .
+
+msc-prc:msc_om0032349_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032349_SamplePreparation ;
+  rdfs:comment "Z=6.6 samples were performed at fixed temperature ranging from 340 C to 450 C under vacuum."@en .
+
+msc-prc:msc_om0032350_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032350_SamplePreparation ;
+  rdfs:comment "Z=6.6 samples were performed at fixed temperature ranging from 340 C to 450 C under vacuum."@en .
+
+msc-prc:msc_om0032412_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032412_SamplePreparation ;
+  rdfs:comment "anneal: 650 C for 48h at O2 flow"@en .
+
+msc-prc:msc_om0032413_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032413_SamplePreparation ;
+  rdfs:comment "anneal: 650 C for 48h at O2 flow"@en .
+
+msc-prc:msc_om0032414_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032414_SamplePreparation ;
+  rdfs:comment "anneal: 650 C for 48h at O2 flow"@en .
+
+msc-prc:msc_om0032415_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032415_SamplePreparation ;
+  rdfs:comment "anneal: 650 C for 48h at O2 flow"@en .
+
+msc-prc:msc_om0032416_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032416_SamplePreparation ;
+  rdfs:comment "anneal: 650 C for 48h at O2 flow"@en .
+
+msc-prc:msc_om0032417_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032417_SamplePreparation ;
+  rdfs:comment "anneal: 650 C for 48h at O2 flow"@en .
+
+msc-prc:msc_om0032418_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032418_SamplePreparation ;
+  rdfs:comment "anneal: at 600 C for 20-30h slowly cooled to 300-400 C"@en .
+
+msc-prc:msc_om0032419_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032419_SamplePreparation ;
+  rdfs:comment "anneal: at 600 C for 20-30h slowly cooled to 300-400 C"@en .
+
+msc-prc:msc_om0032420_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032420_SamplePreparation ;
+  rdfs:comment "anneal: at 600 C for 20-30h slowly cooled to 300-400 C"@en .
+
+msc-prc:msc_om0032421_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032421_SamplePreparation ;
+  rdfs:comment "anneal: at 600 C for 20-30h slowly cooled to 300-400 C"@en .
+
+msc-prc:msc_om0032422_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0032422_SamplePreparation ;
+  rdfs:comment "anneal: 400 atm at 500 C for 50 h"@en .
+
+msc-prc:msc_om0158886_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158886_SamplePreparation ;
+  rdfs:comment "r.f.hot pressing mixed Li2Ti2O5 and Ti2O3 powders"@en .
+
+msc-prc:msc_om0158916_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158916_SamplePreparation ;
+  rdfs:comment "Due to the Si surface, causing the out-of-plane inversion symmetry and leading to the Rashbatype SOC."@en .
+
+msc-prc:msc_om0158920_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158920_SamplePreparation ;
+  rdfs:comment "NbC islands grow along (111) perpendicular to the substrate."@en .
+
+msc-prc:msc_om0158922_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158922_SamplePreparation ;
+  rdfs:comment "arc-melting method."@en .
+
+msc-prc:msc_om0158923_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158923_SamplePreparation ;
+  rdfs:comment "arc-melting method."@en .
+
+msc-prc:msc_om0158924_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158924_SamplePreparation ;
+  rdfs:comment "Gradient freezing method."@en .
+
+msc-prc:msc_om0158925_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158925_SamplePreparation ;
+  rdfs:comment "Gradient freezing method."@en .
+
+msc-prc:msc_om0158926_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158926_SamplePreparation ;
+  rdfs:comment "Gradient freezing method."@en .
+
+msc-prc:msc_om0158927_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158927_SamplePreparation ;
+  rdfs:comment "During the crystal growth process, contamination by oxygen and moisture must be avoided."@en .
+
+msc-prc:msc_om0158928_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158928_SamplePreparation ;
+  rdfs:comment "Gradient freezing method."@en .
+
+msc-prc:msc_om0158929_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158929_SamplePreparation ;
+  rdfs:comment "The mixture in an aulminium oxide cruicible is sealed in an evacuated quartz tube."@en .
+
+msc-prc:msc_om0158930_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158930_SamplePreparation ;
+  rdfs:comment "The mixture in an aulminium oxide cruicible is sealed in an evacuated quartz tube."@en .
+
+msc-prc:msc_om0158931_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158931_SamplePreparation ;
+  rdfs:comment "The mixture in an aulminium oxide cruicible is sealed in an evacuated quartz tube."@en .
+
+msc-prc:msc_om0158932_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158932_SamplePreparation ;
+  rdfs:comment "The mixture in an aulminium oxide cruicible is sealed in an evacuated quartz tube."@en .
+
+msc-prc:msc_om0158933_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158933_SamplePreparation ;
+  rdfs:comment "The mixture in an aulminium oxide cruicible is sealed in an evacuated quartz tube."@en .
+
+msc-prc:msc_om0158934_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158934_SamplePreparation ;
+  rdfs:comment "The mixture in an aulminium oxide cruicible is sealed in an evacuated quartz tube."@en .
+
+msc-prc:msc_om0158935_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158935_SamplePreparation ;
+  rdfs:comment "The mixture in an aulminium oxide cruicible is sealed in an evacuated quartz tube."@en .
+
+msc-prc:msc_om0158936_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158936_SamplePreparation ;
+  rdfs:comment "The mixture in an aulminium oxide cruicible is sealed in an evacuated quartz tube."@en .
+
+msc-prc:msc_om0158937_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158937_SamplePreparation ;
+  rdfs:comment "The mixture in an aulminium oxide cruicible is sealed in an evacuated quartz tube."@en .
+
+msc-prc:msc_om0158938_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158938_SamplePreparation ;
+  rdfs:comment "The mixture in an aulminium oxide cruicible is sealed in an evacuated quartz tube."@en .
+
+msc-prc:msc_om0158969_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158969_SamplePreparation ;
+  rdfs:comment "Films were prepared by an oxige molecular beam epitaxy on atomically flat TiO2-terminated (100) SrTiO3."@en .
+
+msc-prc:msc_om0158970_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158970_SamplePreparation ;
+  rdfs:comment "Films were prepared by an oxige molecular beam epitaxy on atomically flat TiO2-terminated (100) SrTiO3."@en .
+
+msc-prc:msc_om0158971_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158971_SamplePreparation ;
+  rdfs:comment "The ampoule was heated to 390C on one end while the other end was kept at 240C for 28.5 days."@en .
+
+msc-prc:msc_om0158972_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158972_SamplePreparation ;
+  rdfs:comment "The quartz tube with the compositional materials was heated at 1150C for 10 h, and slowly colled to 900Cat a rate of 1C/h."@en .
+
+msc-prc:msc_om0158973_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158973_SamplePreparation ;
+  rdfs:comment "The quartz tube with the compositional materials was heated at 1150C for 10 h, and slowly colled to 900Cat a rate of 1C/h."@en .
+
+msc-prc:msc_om0158974_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158974_SamplePreparation ;
+  rdfs:comment "Atomically flat surface of Al2O3 was obtained by annealing the substrate."@en .
+
+msc-prc:msc_om0158979_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158979_SamplePreparation ;
+  rdfs:comment "To avoid the formation of alpha-Bi2Pd, the sibgle crystals were quenched from 395C(15C higher than the temperature of alpha-Bi2Pd) to room temperature/"@en .
+
+msc-prc:msc_om0158980_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158980_SamplePreparation ;
+  rdfs:comment "To avoid the formation of alpha-Bi2Pd, the sibgle crystals were quenched from 395C(15C higher than the temperature of alpha-Bi2Pd) to room temperature/"@en .
+
+msc-prc:msc_om0158981_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158981_SamplePreparation ;
+  rdfs:comment "LaNi, sealed under ~250mBar argon atomosphere in a quartz tube. The precursor of powdered LaNi with In in a ratio of 6:1set on Al2O3 crucible were heated in open furnace to 770C and down to 725C."@en .
+
+msc-prc:msc_om0158982_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158982_SamplePreparation ;
+  rdfs:comment "Stoichiometric Fe and Se powders are mixed and sealed in an evacuated SiO2 ampoule together with a eutectic mixture of KCl and AlCl3."@en .
+
+msc-prc:msc_om0158983_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158983_SamplePreparation ;
+  rdfs:comment "Li/Fe/As = 3:2:3 molar ratio for the raw materials."@en .
+
+msc-prc:msc_om0158984_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158984_SamplePreparation ;
+  rdfs:comment "After MFMMS measurements, superconducting samples were separated and taken as MUND-1 and -2."@en .
+
+msc-prc:msc_om0158985_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158985_SamplePreparation ;
+  rdfs:comment "After MFMMS measurements, superconducting samples were separated and taken as MUND-1 and -2."@en .
+
+msc-prc:msc_om0158986_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158986_SamplePreparation ;
+  rdfs:comment "After MFMMS measurements, superconducting samples were separated."@en .
+
+msc-prc:msc_om0158987_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158987_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0158988_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158988_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0158989_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158989_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0158990_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158990_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0158991_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158991_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0158992_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158992_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0158993_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158993_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0158994_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158994_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0158995_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158995_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0158996_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158996_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0158997_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158997_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0158998_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158998_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0158999_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0158999_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0159000_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159000_SamplePreparation ;
+  rdfs:comment "The tube was heated at 1150C(x・・ｦ0.15)・or 1200C(0.15・E・x) for 10 hrs, followed by decanting the flux."@en .
+
+msc-prc:msc_om0159001_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159001_SamplePreparation ;
+  rdfs:comment "The layer thickness was measured by using Raman measurements."@en .
+
+msc-prc:msc_om0159002_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159002_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159003_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159003_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159004_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159004_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159005_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159005_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159006_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159006_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159007_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159007_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159008_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159008_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159009_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159009_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159010_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159010_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159011_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159011_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159012_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159012_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159013_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159013_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159014_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159014_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159015_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159015_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159016_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159016_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159017_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159017_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159018_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159018_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159019_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159019_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159020_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159020_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159021_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159021_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159022_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159022_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159023_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159023_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159024_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159024_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159025_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159025_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159026_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159026_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159027_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159027_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159028_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159028_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159029_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159029_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159030_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159030_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159031_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159031_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159032_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159032_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159033_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159033_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159034_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159034_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159035_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159035_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159036_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159036_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159037_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159037_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159038_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159038_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159039_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159039_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159040_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159040_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159041_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159041_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159042_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159042_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159043_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159043_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159044_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159044_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159045_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159045_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+
+msc-prc:msc_om0159046_SampleProcess a msc:SampleProcess ;
+  obo:BFO_0000051 msc-prc:msc_om0159046_SamplePreparation ;
+  rdfs:comment "The metal powders were mixed and pelletized in a nitrogen-filled glove box, were put into BN crucible."@en .
+

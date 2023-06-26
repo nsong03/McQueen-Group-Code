@@ -1,0 +1,209 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msc-smp:msc_om0008387 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC8387"@en ] .
+
+msc-smp:msc_om0008388 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC8388"@en ] .
+
+msc-smp:msc_om0008389 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC8389"@en ] .
+
+msc-smp:msc_om0008724 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC8724"@en ] .
+
+msc-smp:msc_om0008725 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC8725"@en ] .
+
+msc-smp:msc_om0008726 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC8726"@en ] .
+
+msc-smp:msc_om0009028 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC9028"@en ] .
+
+msc-smp:msc_om0033125 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC33125"@en ] .
+
+msc-smp:msc_om0034017 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC34017"@en ] .
+
+msc-smp:msc_om0034018 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC34017"@en ] .
+
+msc-smp:msc_om0034019 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC34017"@en ] .
+
+msc-smp:msc_om0034020 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC34017"@en ] .
+
+msc-smp:msc_om0034021 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC34017"@en ] .
+
+msc-smp:msc_om0034022 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC34017"@en ] .
+
+msc-smp:msc_om0034023 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC34017"@en ] .
+
+msc-smp:msc_om0034024 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC34017"@en ] .
+
+msc-smp:msc_om0034026 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "JC34017"@en ] .
+
+msc-smp:msc_om0150591 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "MJC150591"@en ] .
+
+msc-smp:msc_om0150641 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "MJC150641"@en ] .
+
+msc-smp:msc_om0150642 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "MJC150642"@en ] .
+
+msc-smp:msc_om0158874 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158874Fig2"@en ] .
+
+msc-smp:msc_om0158876 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158876Fig3"@en ] .
+
+msc-smp:msc_om0158882 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158882fig2"@en ] .
+
+msc-smp:msc_om0158886 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158886fig2"@en ] .
+
+msc-smp:msc_om0158888 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158888Tab1"@en ] .
+
+msc-smp:msc_om0158897 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158897fig3"@en ] .
+
+msc-smp:msc_om0158898 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158897fig3"@en ] .
+
+msc-smp:msc_om0158899 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158897fig3"@en ] .
+
+msc-smp:msc_om0158900 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158897fig3"@en ] .
+
+msc-smp:msc_om0158901 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158901fig2"@en ] .
+
+msc-smp:msc_om0158902 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158901fig2"@en ] .
+
+msc-smp:msc_om0158903 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158901fig2"@en ] .
+
+msc-smp:msc_om0158904 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158901fig2"@en ] .
+
+msc-smp:msc_om0158905 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158901fig2"@en ] .
+
+msc-smp:msc_om0158906 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158901fig2"@en ] .
+
+msc-smp:msc_om0158907 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158901fig2"@en ] .
+
+msc-smp:msc_om0158908 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158901fig2"@en ] .
+
+msc-smp:msc_om0158909 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158901fig2"@en ] .
+
+msc-smp:msc_om0158910 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158901fig2"@en ] .
+
+msc-smp:msc_om0158911 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158901fig2"@en ] .
+
+msc-smp:msc_om0158912 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158901fig2"@en ] .
+
+msc-smp:msc_om0158913 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158901fig2"@en ] .
+
+msc-smp:msc_om0158916 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158916Tab1"@en ] .
+
+msc-smp:msc_om0158919 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158919fig3"@en ] .
+
+msc-smp:msc_om0158926 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158924fig3"@en ] .
+
+msc-smp:msc_om0158928 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158928fig3"@en ] .
+
+msc-smp:msc_om0158939 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158939Tab1"@en ] .
+
+msc-smp:msc_om0158940 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158939Tab1"@en ] .
+
+msc-smp:msc_om0158941 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158939Tab1"@en ] .
+
+msc-smp:msc_om0158942 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158939Tab1"@en ] .
+
+msc-smp:msc_om0158943 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158939Tab1"@en ] .
+
+msc-smp:msc_om0158944 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158939Tab1"@en ] .
+
+msc-smp:msc_om0158945 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158939Tab1"@en ] .
+
+msc-smp:msc_om0158946 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158939Tab1"@en ] .
+
+msc-smp:msc_om0158947 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158939Tab1"@en ] .
+
+msc-smp:msc_om0158948 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158939Tab1"@en ] .
+
+msc-smp:msc_om0158949 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158939Tab1"@en ] .
+
+msc-smp:msc_om0158961 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158961fig1"@en ] .
+
+msc-smp:msc_om0158973 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158973fig3"@en ] .
+
+msc-smp:msc_om0158979 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158979fig2"@en ] .
+
+msc-smp:msc_om0158980 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158980fig1"@en ] .
+
+msc-smp:msc_om0158981 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158981fig2"@en ] .
+
+msc-smp:msc_om0158983 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158983fig1"@en ] .
+
+msc-smp:msc_om0158986 msc:hasFigureData [ a msc:figjc ;
+  rdfs:label "158986fig3"@en ] .
+

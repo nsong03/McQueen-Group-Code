@@ -1,0 +1,329 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msc-smp:msc_om0000715 sio:SIO_000008 msc-prop:msc_om0000715_sv300 .
+msc-prop:msc_om0000715_sv300 a msc:sv300 .
+
+msc-prop:msc_om0000715_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0000715_sv300MeasurementDatum .
+
+msc-prop:msc_om0000715_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0000715_sv300 ;
+  sio:SIO_000300 253000 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002408 sio:SIO_000008 msc-prop:msc_om0002408_sv300 .
+msc-prop:msc_om0002408_sv300 a msc:sv300 .
+
+msc-prop:msc_om0002408_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0002408_sv300MeasurementDatum .
+
+msc-prop:msc_om0002408_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002408_sv300 ;
+  sio:SIO_000300 812000 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002409 sio:SIO_000008 msc-prop:msc_om0002409_sv300 .
+msc-prop:msc_om0002409_sv300 a msc:sv300 .
+
+msc-prop:msc_om0002409_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0002409_sv300MeasurementDatum .
+
+msc-prop:msc_om0002409_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002409_sv300 ;
+  sio:SIO_000300 483400 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002410 sio:SIO_000008 msc-prop:msc_om0002410_sv300 .
+msc-prop:msc_om0002410_sv300 a msc:sv300 .
+
+msc-prop:msc_om0002410_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0002410_sv300MeasurementDatum .
+
+msc-prop:msc_om0002410_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002410_sv300 ;
+  sio:SIO_000300 424200 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002411 sio:SIO_000008 msc-prop:msc_om0002411_sv300 .
+msc-prop:msc_om0002411_sv300 a msc:sv300 .
+
+msc-prop:msc_om0002411_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0002411_sv300MeasurementDatum .
+
+msc-prop:msc_om0002411_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002411_sv300 ;
+  sio:SIO_000300 284600 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002412 sio:SIO_000008 msc-prop:msc_om0002412_sv300 .
+msc-prop:msc_om0002412_sv300 a msc:sv300 .
+
+msc-prop:msc_om0002412_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0002412_sv300MeasurementDatum .
+
+msc-prop:msc_om0002412_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002412_sv300 ;
+  sio:SIO_000300 282100 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002413 sio:SIO_000008 msc-prop:msc_om0002413_sv300 .
+msc-prop:msc_om0002413_sv300 a msc:sv300 .
+
+msc-prop:msc_om0002413_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0002413_sv300MeasurementDatum .
+
+msc-prop:msc_om0002413_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002413_sv300 ;
+  sio:SIO_000300 289400 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002782 sio:SIO_000008 msc-prop:msc_om0002782_sv300 .
+msc-prop:msc_om0002782_sv300 a msc:sv300 .
+
+msc-prop:msc_om0002782_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0002782_sv300MeasurementDatum .
+
+msc-prop:msc_om0002782_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002782_sv300 ;
+  sio:SIO_000300 377000 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002783 sio:SIO_000008 msc-prop:msc_om0002783_sv300 .
+msc-prop:msc_om0002783_sv300 a msc:sv300 .
+
+msc-prop:msc_om0002783_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0002783_sv300MeasurementDatum .
+
+msc-prop:msc_om0002783_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002783_sv300 ;
+  sio:SIO_000300 329000 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002784 sio:SIO_000008 msc-prop:msc_om0002784_sv300 .
+msc-prop:msc_om0002784_sv300 a msc:sv300 .
+
+msc-prop:msc_om0002784_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0002784_sv300MeasurementDatum .
+
+msc-prop:msc_om0002784_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002784_sv300 ;
+  sio:SIO_000300 449000 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002785 sio:SIO_000008 msc-prop:msc_om0002785_sv300 .
+msc-prop:msc_om0002785_sv300 a msc:sv300 .
+
+msc-prop:msc_om0002785_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0002785_sv300MeasurementDatum .
+
+msc-prop:msc_om0002785_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002785_sv300 ;
+  sio:SIO_000300 450000 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0004289 sio:SIO_000008 msc-prop:msc_om0004289_sv300 .
+msc-prop:msc_om0004289_sv300 a msc:sv300 .
+
+msc-prop:msc_om0004289_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0004289_sv300MeasurementDatum .
+
+msc-prop:msc_om0004289_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0004289_sv300 ;
+  sio:SIO_000300 0.251 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0005442 sio:SIO_000008 msc-prop:msc_om0005442_sv300 .
+msc-prop:msc_om0005442_sv300 a msc:sv300 .
+
+msc-prop:msc_om0005442_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0005442_sv300MeasurementDatum .
+
+msc-prop:msc_om0005442_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0005442_sv300 ;
+  sio:SIO_000300 5509 ;
+  sio:SIO_000221 "m/s"^^xsd:string .
+
+msc-smp:msc_om0005848 sio:SIO_000008 msc-prop:msc_om0005848_sv300 .
+msc-prop:msc_om0005848_sv300 a msc:sv300 .
+
+msc-prop:msc_om0005848_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0005848_sv300MeasurementDatum .
+
+msc-prop:msc_om0005848_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0005848_sv300 ;
+  sio:SIO_000300 3955 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0006316 sio:SIO_000008 msc-prop:msc_om0006316_sv300 .
+msc-prop:msc_om0006316_sv300 a msc:sv300 .
+
+msc-prop:msc_om0006316_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0006316_sv300MeasurementDatum .
+
+msc-prop:msc_om0006316_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0006316_sv300 ;
+  sio:SIO_000300 3048.3 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0006317 sio:SIO_000008 msc-prop:msc_om0006317_sv300 .
+msc-prop:msc_om0006317_sv300 a msc:sv300 .
+
+msc-prop:msc_om0006317_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0006317_sv300MeasurementDatum .
+
+msc-prop:msc_om0006317_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0006317_sv300 ;
+  sio:SIO_000300 4.602 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0006318 sio:SIO_000008 msc-prop:msc_om0006318_sv300 .
+msc-prop:msc_om0006318_sv300 a msc:sv300 .
+
+msc-prop:msc_om0006318_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0006318_sv300MeasurementDatum .
+
+msc-prop:msc_om0006318_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0006318_sv300 ;
+  sio:SIO_000300 4.694 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0006319 sio:SIO_000008 msc-prop:msc_om0006319_sv300 .
+msc-prop:msc_om0006319_sv300 a msc:sv300 .
+
+msc-prop:msc_om0006319_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0006319_sv300MeasurementDatum .
+
+msc-prop:msc_om0006319_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0006319_sv300 ;
+  sio:SIO_000300 4.641 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0006320 sio:SIO_000008 msc-prop:msc_om0006320_sv300 .
+msc-prop:msc_om0006320_sv300 a msc:sv300 .
+
+msc-prop:msc_om0006320_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0006320_sv300MeasurementDatum .
+
+msc-prop:msc_om0006320_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0006320_sv300 ;
+  sio:SIO_000300 4.706 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0033776 sio:SIO_000008 msc-prop:msc_om0033776_sv300 .
+msc-prop:msc_om0033776_sv300 a msc:sv300 .
+
+msc-prop:msc_om0033776_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0033776_sv300MeasurementDatum .
+
+msc-prop:msc_om0033776_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033776_sv300 ;
+  sio:SIO_000300 3693 ;
+  sio:SIO_000221 "m/s"^^xsd:string .
+
+msc-smp:msc_om0033777 sio:SIO_000008 msc-prop:msc_om0033777_sv300 .
+msc-prop:msc_om0033777_sv300 a msc:sv300 .
+
+msc-prop:msc_om0033777_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0033777_sv300MeasurementDatum .
+
+msc-prop:msc_om0033777_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033777_sv300 ;
+  sio:SIO_000300 3633 ;
+  sio:SIO_000221 "m/s"^^xsd:string .
+
+msc-smp:msc_om0033778 sio:SIO_000008 msc-prop:msc_om0033778_sv300 .
+msc-prop:msc_om0033778_sv300 a msc:sv300 .
+
+msc-prop:msc_om0033778_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0033778_sv300MeasurementDatum .
+
+msc-prop:msc_om0033778_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033778_sv300 ;
+  sio:SIO_000300 3596 ;
+  sio:SIO_000221 "m/s"^^xsd:string .
+
+msc-smp:msc_om0033780 sio:SIO_000008 msc-prop:msc_om0033780_sv300 .
+msc-prop:msc_om0033780_sv300 a msc:sv300 .
+
+msc-prop:msc_om0033780_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0033780_sv300MeasurementDatum .
+
+msc-prop:msc_om0033780_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033780_sv300 ;
+  sio:SIO_000300 3726 ;
+  sio:SIO_000221 "m/s"^^xsd:string .
+
+msc-smp:msc_om0033795 sio:SIO_000008 msc-prop:msc_om0033795_sv300 .
+msc-prop:msc_om0033795_sv300 a msc:sv300 .
+
+msc-prop:msc_om0033795_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0033795_sv300MeasurementDatum .
+
+msc-prop:msc_om0033795_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033795_sv300 ;
+  sio:SIO_000300 2990 ;
+  sio:SIO_000221 "m/s"^^xsd:string .
+
+msc-smp:msc_om0033796 sio:SIO_000008 msc-prop:msc_om0033796_sv300 .
+msc-prop:msc_om0033796_sv300 a msc:sv300 .
+
+msc-prop:msc_om0033796_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0033796_sv300MeasurementDatum .
+
+msc-prop:msc_om0033796_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033796_sv300 ;
+  sio:SIO_000300 2800 ;
+  sio:SIO_000221 "m/s"^^xsd:string .
+
+msc-smp:msc_om0033797 sio:SIO_000008 msc-prop:msc_om0033797_sv300 .
+msc-prop:msc_om0033797_sv300 a msc:sv300 .
+
+msc-prop:msc_om0033797_sv300Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_300 ;
+  obo:OBI_0000299 msc-prop:msc_om0033797_sv300MeasurementDatum .
+
+msc-prop:msc_om0033797_sv300MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033797_sv300 ;
+  sio:SIO_000300 2750 ;
+  sio:SIO_000221 "m/s"^^xsd:string .
+

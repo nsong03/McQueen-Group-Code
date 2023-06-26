@@ -1,0 +1,611 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msc-smp:msc_om0000716 sio:SIO_000008 msc-prop:msc_om0000716_jc77 .
+msc-prop:msc_om0000716_jc77 a msc:jc77 .
+
+msc-prop:msc_om0000716_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0000716_jc77MeasurementDatum .
+
+msc-prop:msc_om0000716_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0000716_jc77 ;
+  sio:SIO_000300 1 .
+
+msc-smp:msc_om0000717 sio:SIO_000008 msc-prop:msc_om0000717_jc77 .
+msc-prop:msc_om0000717_jc77 a msc:jc77 .
+
+msc-prop:msc_om0000717_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0000717_jc77MeasurementDatum .
+
+msc-prop:msc_om0000717_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0000717_jc77 ;
+  sio:SIO_000300 3 .
+
+msc-smp:msc_om0003915 sio:SIO_000008 msc-prop:msc_om0003915_jc77 .
+msc-prop:msc_om0003915_jc77 a msc:jc77 .
+
+msc-prop:msc_om0003915_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0003915_jc77MeasurementDatum .
+
+msc-prop:msc_om0003915_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0003915_jc77 ;
+  sio:SIO_000300 16000 .
+
+msc-smp:msc_om0008282 sio:SIO_000008 msc-prop:msc_om0008282_jc77 .
+msc-prop:msc_om0008282_jc77 a msc:jc77 .
+
+msc-prop:msc_om0008282_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0008282_jc77MeasurementDatum .
+
+msc-prop:msc_om0008282_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008282_jc77 ;
+  sio:SIO_000300 100000 .
+
+msc-smp:msc_om0008614 sio:SIO_000008 msc-prop:msc_om0008614_jc77 .
+msc-prop:msc_om0008614_jc77 a msc:jc77 .
+
+msc-prop:msc_om0008614_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0008614_jc77MeasurementDatum .
+
+msc-prop:msc_om0008614_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008614_jc77 ;
+  sio:SIO_000300 112000 .
+
+msc-smp:msc_om0009654 sio:SIO_000008 msc-prop:msc_om0009654_jc77 .
+msc-prop:msc_om0009654_jc77 a msc:jc77 .
+
+msc-prop:msc_om0009654_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0009654_jc77MeasurementDatum .
+
+msc-prop:msc_om0009654_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009654_jc77 ;
+  sio:SIO_000300 15000 .
+
+msc-smp:msc_om0009655 sio:SIO_000008 msc-prop:msc_om0009655_jc77 .
+msc-prop:msc_om0009655_jc77 a msc:jc77 .
+
+msc-prop:msc_om0009655_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0009655_jc77MeasurementDatum .
+
+msc-prop:msc_om0009655_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009655_jc77 ;
+  sio:SIO_000300 32000 .
+
+msc-smp:msc_om0009656 sio:SIO_000008 msc-prop:msc_om0009656_jc77 .
+msc-prop:msc_om0009656_jc77 a msc:jc77 .
+
+msc-prop:msc_om0009656_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0009656_jc77MeasurementDatum .
+
+msc-prop:msc_om0009656_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009656_jc77 ;
+  sio:SIO_000300 790 .
+
+msc-smp:msc_om0009657 sio:SIO_000008 msc-prop:msc_om0009657_jc77 .
+msc-prop:msc_om0009657_jc77 a msc:jc77 .
+
+msc-prop:msc_om0009657_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0009657_jc77MeasurementDatum .
+
+msc-prop:msc_om0009657_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009657_jc77 ;
+  sio:SIO_000300 810 .
+
+msc-smp:msc_om0009658 sio:SIO_000008 msc-prop:msc_om0009658_jc77 .
+msc-prop:msc_om0009658_jc77 a msc:jc77 .
+
+msc-prop:msc_om0009658_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0009658_jc77MeasurementDatum .
+
+msc-prop:msc_om0009658_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009658_jc77 ;
+  sio:SIO_000300 840 .
+
+msc-smp:msc_om0009659 sio:SIO_000008 msc-prop:msc_om0009659_jc77 .
+msc-prop:msc_om0009659_jc77 a msc:jc77 .
+
+msc-prop:msc_om0009659_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0009659_jc77MeasurementDatum .
+
+msc-prop:msc_om0009659_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009659_jc77 ;
+  sio:SIO_000300 980 .
+
+msc-smp:msc_om0009660 sio:SIO_000008 msc-prop:msc_om0009660_jc77 .
+msc-prop:msc_om0009660_jc77 a msc:jc77 .
+
+msc-prop:msc_om0009660_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0009660_jc77MeasurementDatum .
+
+msc-prop:msc_om0009660_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009660_jc77 ;
+  sio:SIO_000300 810 .
+
+msc-smp:msc_om0009661 sio:SIO_000008 msc-prop:msc_om0009661_jc77 .
+msc-prop:msc_om0009661_jc77 a msc:jc77 .
+
+msc-prop:msc_om0009661_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0009661_jc77MeasurementDatum .
+
+msc-prop:msc_om0009661_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009661_jc77 ;
+  sio:SIO_000300 365 .
+
+msc-smp:msc_om0009662 sio:SIO_000008 msc-prop:msc_om0009662_jc77 .
+msc-prop:msc_om0009662_jc77 a msc:jc77 .
+
+msc-prop:msc_om0009662_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0009662_jc77MeasurementDatum .
+
+msc-prop:msc_om0009662_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009662_jc77 ;
+  sio:SIO_000300 280 .
+
+msc-smp:msc_om0010188 sio:SIO_000008 msc-prop:msc_om0010188_jc77 .
+msc-prop:msc_om0010188_jc77 a msc:jc77 .
+
+msc-prop:msc_om0010188_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0010188_jc77MeasurementDatum .
+
+msc-prop:msc_om0010188_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010188_jc77 ;
+  sio:SIO_000300 400000 .
+
+msc-smp:msc_om0010189 sio:SIO_000008 msc-prop:msc_om0010189_jc77 .
+msc-prop:msc_om0010189_jc77 a msc:jc77 .
+
+msc-prop:msc_om0010189_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0010189_jc77MeasurementDatum .
+
+msc-prop:msc_om0010189_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010189_jc77 ;
+  sio:SIO_000300 300000 .
+
+msc-smp:msc_om0010218 sio:SIO_000008 msc-prop:msc_om0010218_jc77 .
+msc-prop:msc_om0010218_jc77 a msc:jc77 .
+
+msc-prop:msc_om0010218_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0010218_jc77MeasurementDatum .
+
+msc-prop:msc_om0010218_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010218_jc77 ;
+  sio:SIO_000300 1800 .
+
+msc-smp:msc_om0010320 sio:SIO_000008 msc-prop:msc_om0010320_jc77 .
+msc-prop:msc_om0010320_jc77 a msc:jc77 .
+
+msc-prop:msc_om0010320_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0010320_jc77MeasurementDatum .
+
+msc-prop:msc_om0010320_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010320_jc77 ;
+  sio:SIO_000300 500000 .
+
+msc-smp:msc_om0010321 sio:SIO_000008 msc-prop:msc_om0010321_jc77 .
+msc-prop:msc_om0010321_jc77 a msc:jc77 .
+
+msc-prop:msc_om0010321_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0010321_jc77MeasurementDatum .
+
+msc-prop:msc_om0010321_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010321_jc77 ;
+  sio:SIO_000300 100000 .
+
+msc-smp:msc_om0010533 sio:SIO_000008 msc-prop:msc_om0010533_jc77 .
+msc-prop:msc_om0010533_jc77 a msc:jc77 .
+
+msc-prop:msc_om0010533_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0010533_jc77MeasurementDatum .
+
+msc-prop:msc_om0010533_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010533_jc77 ;
+  sio:SIO_000300 1000000 .
+
+msc-smp:msc_om0011768 sio:SIO_000008 msc-prop:msc_om0011768_jc77 .
+msc-prop:msc_om0011768_jc77 a msc:jc77 .
+
+msc-prop:msc_om0011768_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0011768_jc77MeasurementDatum .
+
+msc-prop:msc_om0011768_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0011768_jc77 ;
+  sio:SIO_000300 3000000 .
+
+msc-smp:msc_om0011814 sio:SIO_000008 msc-prop:msc_om0011814_jc77 .
+msc-prop:msc_om0011814_jc77 a msc:jc77 .
+
+msc-prop:msc_om0011814_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0011814_jc77MeasurementDatum .
+
+msc-prop:msc_om0011814_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0011814_jc77 ;
+  sio:SIO_000300 10000000 .
+
+msc-smp:msc_om0019322 sio:SIO_000008 msc-prop:msc_om0019322_jc77 .
+msc-prop:msc_om0019322_jc77 a msc:jc77 .
+
+msc-prop:msc_om0019322_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0019322_jc77MeasurementDatum .
+
+msc-prop:msc_om0019322_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019322_jc77 ;
+  sio:SIO_000300 20000 .
+
+msc-smp:msc_om0019323 sio:SIO_000008 msc-prop:msc_om0019323_jc77 .
+msc-prop:msc_om0019323_jc77 a msc:jc77 .
+
+msc-prop:msc_om0019323_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0019323_jc77MeasurementDatum .
+
+msc-prop:msc_om0019323_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019323_jc77 ;
+  sio:SIO_000300 20000 .
+
+msc-smp:msc_om0019324 sio:SIO_000008 msc-prop:msc_om0019324_jc77 .
+msc-prop:msc_om0019324_jc77 a msc:jc77 .
+
+msc-prop:msc_om0019324_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0019324_jc77MeasurementDatum .
+
+msc-prop:msc_om0019324_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019324_jc77 ;
+  sio:SIO_000300 2500000 .
+
+msc-smp:msc_om0019325 sio:SIO_000008 msc-prop:msc_om0019325_jc77 .
+msc-prop:msc_om0019325_jc77 a msc:jc77 .
+
+msc-prop:msc_om0019325_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0019325_jc77MeasurementDatum .
+
+msc-prop:msc_om0019325_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019325_jc77 ;
+  sio:SIO_000300 2500000 .
+
+msc-smp:msc_om0019326 sio:SIO_000008 msc-prop:msc_om0019326_jc77 .
+msc-prop:msc_om0019326_jc77 a msc:jc77 .
+
+msc-prop:msc_om0019326_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0019326_jc77MeasurementDatum .
+
+msc-prop:msc_om0019326_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019326_jc77 ;
+  sio:SIO_000300 2500000 .
+
+msc-smp:msc_om0020022 sio:SIO_000008 msc-prop:msc_om0020022_jc77 .
+msc-prop:msc_om0020022_jc77 a msc:jc77 .
+
+msc-prop:msc_om0020022_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0020022_jc77MeasurementDatum .
+
+msc-prop:msc_om0020022_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020022_jc77 ;
+  sio:SIO_000300 2500000 .
+
+msc-smp:msc_om0020023 sio:SIO_000008 msc-prop:msc_om0020023_jc77 .
+msc-prop:msc_om0020023_jc77 a msc:jc77 .
+
+msc-prop:msc_om0020023_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0020023_jc77MeasurementDatum .
+
+msc-prop:msc_om0020023_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020023_jc77 ;
+  sio:SIO_000300 3500000 .
+
+msc-smp:msc_om0020024 sio:SIO_000008 msc-prop:msc_om0020024_jc77 .
+msc-prop:msc_om0020024_jc77 a msc:jc77 .
+
+msc-prop:msc_om0020024_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0020024_jc77MeasurementDatum .
+
+msc-prop:msc_om0020024_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020024_jc77 ;
+  sio:SIO_000300 5000000 .
+
+msc-smp:msc_om0020030 sio:SIO_000008 msc-prop:msc_om0020030_jc77 .
+msc-prop:msc_om0020030_jc77 a msc:jc77 .
+
+msc-prop:msc_om0020030_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0020030_jc77MeasurementDatum .
+
+msc-prop:msc_om0020030_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020030_jc77 ;
+  sio:SIO_000300 1100000 .
+
+msc-smp:msc_om0020031 sio:SIO_000008 msc-prop:msc_om0020031_jc77 .
+msc-prop:msc_om0020031_jc77 a msc:jc77 .
+
+msc-prop:msc_om0020031_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0020031_jc77MeasurementDatum .
+
+msc-prop:msc_om0020031_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020031_jc77 ;
+  sio:SIO_000300 960000 .
+
+msc-smp:msc_om0020032 sio:SIO_000008 msc-prop:msc_om0020032_jc77 .
+msc-prop:msc_om0020032_jc77 a msc:jc77 .
+
+msc-prop:msc_om0020032_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0020032_jc77MeasurementDatum .
+
+msc-prop:msc_om0020032_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020032_jc77 ;
+  sio:SIO_000300 970000 .
+
+msc-smp:msc_om0020033 sio:SIO_000008 msc-prop:msc_om0020033_jc77 .
+msc-prop:msc_om0020033_jc77 a msc:jc77 .
+
+msc-prop:msc_om0020033_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0020033_jc77MeasurementDatum .
+
+msc-prop:msc_om0020033_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020033_jc77 ;
+  sio:SIO_000300 80000 .
+
+msc-smp:msc_om0020044 sio:SIO_000008 msc-prop:msc_om0020044_jc77 .
+msc-prop:msc_om0020044_jc77 a msc:jc77 .
+
+msc-prop:msc_om0020044_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0020044_jc77MeasurementDatum .
+
+msc-prop:msc_om0020044_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020044_jc77 ;
+  sio:SIO_000300 500000 .
+
+msc-smp:msc_om0020138 sio:SIO_000008 msc-prop:msc_om0020138_jc77 .
+msc-prop:msc_om0020138_jc77 a msc:jc77 .
+
+msc-prop:msc_om0020138_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0020138_jc77MeasurementDatum .
+
+msc-prop:msc_om0020138_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020138_jc77 ;
+  sio:SIO_000300 2000000 .
+
+msc-smp:msc_om0020142 sio:SIO_000008 msc-prop:msc_om0020142_jc77 .
+msc-prop:msc_om0020142_jc77 a msc:jc77 .
+
+msc-prop:msc_om0020142_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0020142_jc77MeasurementDatum .
+
+msc-prop:msc_om0020142_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020142_jc77 ;
+  sio:SIO_000300 1000000 .
+
+msc-smp:msc_om0020147 sio:SIO_000008 msc-prop:msc_om0020147_jc77 .
+msc-prop:msc_om0020147_jc77 a msc:jc77 .
+
+msc-prop:msc_om0020147_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0020147_jc77MeasurementDatum .
+
+msc-prop:msc_om0020147_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020147_jc77 ;
+  sio:SIO_000300 3000 .
+
+msc-smp:msc_om0020148 sio:SIO_000008 msc-prop:msc_om0020148_jc77 .
+msc-prop:msc_om0020148_jc77 a msc:jc77 .
+
+msc-prop:msc_om0020148_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0020148_jc77MeasurementDatum .
+
+msc-prop:msc_om0020148_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020148_jc77 ;
+  sio:SIO_000300 1000 .
+
+msc-smp:msc_om0033129 sio:SIO_000008 msc-prop:msc_om0033129_jc77 .
+msc-prop:msc_om0033129_jc77 a msc:jc77 .
+
+msc-prop:msc_om0033129_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0033129_jc77MeasurementDatum .
+
+msc-prop:msc_om0033129_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033129_jc77 ;
+  sio:SIO_000300 41450 .
+
+msc-smp:msc_om0033130 sio:SIO_000008 msc-prop:msc_om0033130_jc77 .
+msc-prop:msc_om0033130_jc77 a msc:jc77 .
+
+msc-prop:msc_om0033130_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0033130_jc77MeasurementDatum .
+
+msc-prop:msc_om0033130_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033130_jc77 ;
+  sio:SIO_000300 26020 .
+
+msc-smp:msc_om0033131 sio:SIO_000008 msc-prop:msc_om0033131_jc77 .
+msc-prop:msc_om0033131_jc77 a msc:jc77 .
+
+msc-prop:msc_om0033131_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0033131_jc77MeasurementDatum .
+
+msc-prop:msc_om0033131_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033131_jc77 ;
+  sio:SIO_000300 26020 .
+
+msc-smp:msc_om0033132 sio:SIO_000008 msc-prop:msc_om0033132_jc77 .
+msc-prop:msc_om0033132_jc77 a msc:jc77 .
+
+msc-prop:msc_om0033132_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0033132_jc77MeasurementDatum .
+
+msc-prop:msc_om0033132_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033132_jc77 ;
+  sio:SIO_000300 27300 .
+
+msc-smp:msc_om0033133 sio:SIO_000008 msc-prop:msc_om0033133_jc77 .
+msc-prop:msc_om0033133_jc77 a msc:jc77 .
+
+msc-prop:msc_om0033133_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0033133_jc77MeasurementDatum .
+
+msc-prop:msc_om0033133_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033133_jc77 ;
+  sio:SIO_000300 17800 .
+
+msc-smp:msc_om0033134 sio:SIO_000008 msc-prop:msc_om0033134_jc77 .
+msc-prop:msc_om0033134_jc77 a msc:jc77 .
+
+msc-prop:msc_om0033134_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0033134_jc77MeasurementDatum .
+
+msc-prop:msc_om0033134_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033134_jc77 ;
+  sio:SIO_000300 20650 .
+
+msc-smp:msc_om0033135 sio:SIO_000008 msc-prop:msc_om0033135_jc77 .
+msc-prop:msc_om0033135_jc77 a msc:jc77 .
+
+msc-prop:msc_om0033135_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0033135_jc77MeasurementDatum .
+
+msc-prop:msc_om0033135_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033135_jc77 ;
+  sio:SIO_000300 16250 .
+
+msc-smp:msc_om0040133 sio:SIO_000008 msc-prop:msc_om0040133_jc77 .
+msc-prop:msc_om0040133_jc77 a msc:jc77 .
+
+msc-prop:msc_om0040133_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0040133_jc77MeasurementDatum .
+
+msc-prop:msc_om0040133_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040133_jc77 ;
+  sio:SIO_000300 670000 .
+
+msc-smp:msc_om0042026 sio:SIO_000008 msc-prop:msc_om0042026_jc77 .
+msc-prop:msc_om0042026_jc77 a msc:jc77 .
+
+msc-prop:msc_om0042026_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0042026_jc77MeasurementDatum .
+
+msc-prop:msc_om0042026_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0042026_jc77 ;
+  sio:SIO_000300 730 .
+
+msc-smp:msc_om0042027 sio:SIO_000008 msc-prop:msc_om0042027_jc77 .
+msc-prop:msc_om0042027_jc77 a msc:jc77 .
+
+msc-prop:msc_om0042027_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0042027_jc77MeasurementDatum .
+
+msc-prop:msc_om0042027_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0042027_jc77 ;
+  sio:SIO_000300 865 .
+
+msc-smp:msc_om0042028 sio:SIO_000008 msc-prop:msc_om0042028_jc77 .
+msc-prop:msc_om0042028_jc77 a msc:jc77 .
+
+msc-prop:msc_om0042028_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0042028_jc77MeasurementDatum .
+
+msc-prop:msc_om0042028_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0042028_jc77 ;
+  sio:SIO_000300 1075 .
+
+msc-smp:msc_om0042029 sio:SIO_000008 msc-prop:msc_om0042029_jc77 .
+msc-prop:msc_om0042029_jc77 a msc:jc77 .
+
+msc-prop:msc_om0042029_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0042029_jc77MeasurementDatum .
+
+msc-prop:msc_om0042029_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0042029_jc77 ;
+  sio:SIO_000300 1850 .
+
+msc-smp:msc_om0042030 sio:SIO_000008 msc-prop:msc_om0042030_jc77 .
+msc-prop:msc_om0042030_jc77 a msc:jc77 .
+
+msc-prop:msc_om0042030_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0042030_jc77MeasurementDatum .
+
+msc-prop:msc_om0042030_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0042030_jc77 ;
+  sio:SIO_000300 1420 .
+
+msc-smp:msc_om0150043 sio:SIO_000008 msc-prop:msc_om0150043_jc77 .
+msc-prop:msc_om0150043_jc77 a msc:jc77 .
+
+msc-prop:msc_om0150043_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0150043_jc77MeasurementDatum .
+
+msc-prop:msc_om0150043_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150043_jc77 ;
+  sio:SIO_000300 3140000 .
+
+msc-smp:msc_om0153856 sio:SIO_000008 msc-prop:msc_om0153856_jc77 .
+msc-prop:msc_om0153856_jc77 a msc:jc77 .
+
+msc-prop:msc_om0153856_jc77Measurement a msc:Measurement ;
+  msc:hasCondition msc:temp_77 , msc:h_0 ;
+  obo:OBI_0000299 msc-prop:msc_om0153856_jc77MeasurementDatum .
+
+msc-prop:msc_om0153856_jc77MeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153856_jc77 ;
+  sio:SIO_000300 17000 .
+

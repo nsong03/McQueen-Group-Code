@@ -1,0 +1,5641 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msc-smp:msc_om0003054 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC3054"@en] .
+
+msc-smp:msc_om0004520 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC4520"@en] .
+
+msc-smp:msc_om0004639 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR4639"@en] .
+
+msc-smp:msc_om0004640 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR4640"@en] .
+
+msc-smp:msc_om0004641 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR4641"@en] .
+
+msc-smp:msc_om0004642 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR4642"@en] .
+
+msc-smp:msc_om0004643 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR4643"@en] .
+
+msc-smp:msc_om0004793 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR4793"@en] .
+
+msc-smp:msc_om0004794 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR4794"@en] .
+
+msc-smp:msc_om0004896 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR4896"@en] .
+
+msc-smp:msc_om0004897 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR4897"@en] .
+
+msc-smp:msc_om0004898 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR4898"@en] .
+
+msc-smp:msc_om0004920 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR4920"@en] .
+
+msc-smp:msc_om0004921 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR4921"@en] .
+
+msc-smp:msc_om0005157 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5157"@en] .
+
+msc-smp:msc_om0005158 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5158"@en] .
+
+msc-smp:msc_om0005159 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5159"@en] .
+
+msc-smp:msc_om0005343 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5343"@en] .
+
+msc-smp:msc_om0005344 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5344"@en] .
+
+msc-smp:msc_om0005360 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5360"@en] .
+
+msc-smp:msc_om0005361 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5361"@en] .
+
+msc-smp:msc_om0005439 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5439"@en] .
+
+msc-smp:msc_om0005441 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5441"@en] .
+
+msc-smp:msc_om0005451 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5451"@en] .
+
+msc-smp:msc_om0005452 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5452"@en] .
+
+msc-smp:msc_om0005743 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5743"@en] .
+
+msc-smp:msc_om0005744 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5744"@en] .
+
+msc-smp:msc_om0005745 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5745"@en] .
+
+msc-smp:msc_om0005751 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5751"@en] .
+
+msc-smp:msc_om0005831 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5831"@en] .
+
+msc-smp:msc_om0005832 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5832"@en] .
+
+msc-smp:msc_om0005833 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5833"@en] .
+
+msc-smp:msc_om0005834 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5834"@en] .
+
+msc-smp:msc_om0005835 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5835"@en] .
+
+msc-smp:msc_om0005894 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5894"@en] .
+
+msc-smp:msc_om0005895 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5895"@en] .
+
+msc-smp:msc_om0005896 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR5896"@en] .
+
+msc-smp:msc_om0006063 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR6063"@en] .
+
+msc-smp:msc_om0006064 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR6064"@en] .
+
+msc-smp:msc_om0006065 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR6065"@en] .
+
+msc-smp:msc_om0006066 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR6066"@en] .
+
+msc-smp:msc_om0006577 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR6577"@en] .
+
+msc-smp:msc_om0006803 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR6803"@en] .
+
+msc-smp:msc_om0006804 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR6804"@en] .
+
+msc-smp:msc_om0006805 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR6805"@en] .
+
+msc-smp:msc_om0006806 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR6806"@en] .
+
+msc-smp:msc_om0006882 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR6882"@en] .
+
+msc-smp:msc_om0007084 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR7084"@en] .
+
+msc-smp:msc_om0007162 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR7162"@en] .
+
+msc-smp:msc_om0007163 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR7163"@en] .
+
+msc-smp:msc_om0007164 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR7164"@en] .
+
+msc-smp:msc_om0007261 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC7261"@en] .
+
+msc-smp:msc_om0007262 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC7262"@en] .
+
+msc-smp:msc_om0007263 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC7263"@en] .
+
+msc-smp:msc_om0007277 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC7277"@en] .
+
+msc-smp:msc_om0007278 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC7278"@en] .
+
+msc-smp:msc_om0007279 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC7279"@en] .
+
+msc-smp:msc_om0007280 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC7280"@en] .
+
+msc-smp:msc_om0007475 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR7475"@en] .
+
+msc-smp:msc_om0008067 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8067"@en] .
+
+msc-smp:msc_om0008387 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8387"@en] .
+
+msc-smp:msc_om0008388 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8388"@en] .
+
+msc-smp:msc_om0008389 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8389"@en] .
+
+msc-smp:msc_om0008451 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8451"@en] .
+
+msc-smp:msc_om0008452 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8452"@en] .
+
+msc-smp:msc_om0008463 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8463"@en] .
+
+msc-smp:msc_om0008541 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC8541"@en] .
+
+msc-smp:msc_om0008542 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC8542"@en] .
+
+msc-smp:msc_om0008660 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8660"@en] .
+
+msc-smp:msc_om0008724 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8724"@en] .
+
+msc-smp:msc_om0008743 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8743"@en] .
+
+msc-smp:msc_om0008811 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8811"@en] .
+
+msc-smp:msc_om0008813 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8813"@en] .
+
+msc-smp:msc_om0008815 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8815"@en] .
+
+msc-smp:msc_om0008825 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC8825"@en] .
+
+msc-smp:msc_om0008880 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC8880"@en] .
+
+msc-smp:msc_om0008916 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8916"@en] .
+
+msc-smp:msc_om0008917 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8917"@en] .
+
+msc-smp:msc_om0008918 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8918"@en] .
+
+msc-smp:msc_om0008937 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8937"@en ;
+  rdfs:comment "resistance kink (1st order)"@en ] .
+
+msc-smp:msc_om0008968 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8968"@en] .
+
+msc-smp:msc_om0008973 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC8973"@en] .
+
+msc-smp:msc_om0008974 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC8974"@en] .
+
+msc-smp:msc_om0008975 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC8975"@en] .
+
+msc-smp:msc_om0008976 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC8976"@en] .
+
+msc-smp:msc_om0008977 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC8977"@en] .
+
+msc-smp:msc_om0008978 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC8978"@en] .
+
+msc-smp:msc_om0008989 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8989"@en] .
+
+msc-smp:msc_om0008990 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR8990"@en] .
+
+msc-smp:msc_om0009017 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9017"@en] .
+
+msc-smp:msc_om0009018 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9018"@en] .
+
+msc-smp:msc_om0009027 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9027"@en] .
+
+msc-smp:msc_om0009028 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9028"@en] .
+
+msc-smp:msc_om0009109 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC9109"@en] .
+
+msc-smp:msc_om0009157 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9157"@en] .
+
+msc-smp:msc_om0009158 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9158"@en] .
+
+msc-smp:msc_om0009159 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9159"@en] .
+
+msc-smp:msc_om0009160 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9160"@en] .
+
+msc-smp:msc_om0009205 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9205"@en] .
+
+msc-smp:msc_om0009206 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9206"@en] .
+
+msc-smp:msc_om0009236 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9236"@en] .
+
+msc-smp:msc_om0009237 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9237"@en] .
+
+msc-smp:msc_om0009238 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9238"@en] .
+
+msc-smp:msc_om0009239 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9239"@en] .
+
+msc-smp:msc_om0009240 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9240"@en] .
+
+msc-smp:msc_om0009241 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9241"@en] .
+
+msc-smp:msc_om0009242 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9242"@en] .
+
+msc-smp:msc_om0009243 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9243"@en] .
+
+msc-smp:msc_om0009244 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9244"@en] .
+
+msc-smp:msc_om0009245 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9245"@en] .
+
+msc-smp:msc_om0009594 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9594"@en] .
+
+msc-smp:msc_om0009595 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9595"@en] .
+
+msc-smp:msc_om0009596 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9596"@en] .
+
+msc-smp:msc_om0009779 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9779"@en] .
+
+msc-smp:msc_om0009781 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9781"@en] .
+
+msc-smp:msc_om0009783 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9783"@en] .
+
+msc-smp:msc_om0009859 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9859"@en] .
+
+msc-smp:msc_om0009860 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9860"@en] .
+
+msc-smp:msc_om0009862 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR9862"@en] .
+
+msc-smp:msc_om0012061 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MMHC12061"@en] .
+
+msc-smp:msc_om0012071 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MMHC12071"@en] .
+
+msc-smp:msc_om0012126 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC12126"@en] .
+
+msc-smp:msc_om0012128 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC12128"@en] .
+
+msc-smp:msc_om0012129 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC12128"@en] .
+
+msc-smp:msc_om0012130 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC12128"@en] .
+
+msc-smp:msc_om0012131 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC12128"@en] .
+
+msc-smp:msc_om0012132 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC12128"@en] .
+
+msc-smp:msc_om0012163 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC12163"@en] .
+
+msc-smp:msc_om0012197 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC12197"@en] .
+
+msc-smp:msc_om0030309 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR30309"@en] .
+
+msc-smp:msc_om0030310 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR30310"@en] .
+
+msc-smp:msc_om0030418 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR30418"@en ;
+  rdfs:comment "M-H curve"@en ] .
+
+msc-smp:msc_om0030900 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR30900"@en] .
+
+msc-smp:msc_om0033074 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33074"@en] .
+
+msc-smp:msc_om0033201 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33201"@en] .
+
+msc-smp:msc_om0033203 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33203"@en] .
+
+msc-smp:msc_om0033204 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33204"@en] .
+
+msc-smp:msc_om0033205 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33205"@en] .
+
+msc-smp:msc_om0033206 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33206"@en] .
+
+msc-smp:msc_om0033208 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33208"@en] .
+
+msc-smp:msc_om0033215 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33215"@en] .
+
+msc-smp:msc_om0033224 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33224"@en] .
+
+msc-smp:msc_om0033232 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC33232"@en] .
+
+msc-smp:msc_om0033233 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC33232"@en] .
+
+msc-smp:msc_om0033234 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC33232"@en] .
+
+msc-smp:msc_om0033301 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33301"@en] .
+
+msc-smp:msc_om0033314 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33314"@en] .
+
+msc-smp:msc_om0033315 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33315"@en] .
+
+msc-smp:msc_om0033316 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33316"@en] .
+
+msc-smp:msc_om0033317 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33317"@en] .
+
+msc-smp:msc_om0033318 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33318"@en] .
+
+msc-smp:msc_om0033365 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33365"@en] .
+
+msc-smp:msc_om0033366 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33366"@en] .
+
+msc-smp:msc_om0033367 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33367"@en] .
+
+msc-smp:msc_om0033368 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33368"@en] .
+
+msc-smp:msc_om0033369 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33369"@en] .
+
+msc-smp:msc_om0033370 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33370"@en] .
+
+msc-smp:msc_om0033371 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33371"@en] .
+
+msc-smp:msc_om0033372 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33372"@en] .
+
+msc-smp:msc_om0033373 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33373"@en] .
+
+msc-smp:msc_om0033431 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC33431"@en] .
+
+msc-smp:msc_om0033480 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33480"@en] .
+
+msc-smp:msc_om0033481 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33481"@en] .
+
+msc-smp:msc_om0033679 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33679"@en] .
+
+msc-smp:msc_om0033760 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR33760"@en] .
+
+msc-smp:msc_om0033920 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC33920"@en] .
+
+msc-smp:msc_om0034197 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34197"@en] .
+
+msc-smp:msc_om0034215 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34215"@en] .
+
+msc-smp:msc_om0034310 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34310"@en] .
+
+msc-smp:msc_om0034311 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34311"@en] .
+
+msc-smp:msc_om0034325 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR34325"@en] .
+
+msc-smp:msc_om0034447 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34447"@en] .
+
+msc-smp:msc_om0034449 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34449"@en] .
+
+msc-smp:msc_om0034461 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34461"@en] .
+
+msc-smp:msc_om0034475 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34475"@en] .
+
+msc-smp:msc_om0034482 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34482"@en] .
+
+msc-smp:msc_om0034529 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34529"@en] .
+
+msc-smp:msc_om0034530 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34530"@en] .
+
+msc-smp:msc_om0034531 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34529"@en] .
+
+msc-smp:msc_om0034534 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34534"@en] .
+
+msc-smp:msc_om0034628 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC34628"@en] .
+
+msc-smp:msc_om0034689 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR34689"@en] .
+
+msc-smp:msc_om0034741 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR34741"@en] .
+
+msc-smp:msc_om0040003 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40003"@en] .
+
+msc-smp:msc_om0040004 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40004"@en] .
+
+msc-smp:msc_om0040005 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40005"@en] .
+
+msc-smp:msc_om0040006 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40006"@en] .
+
+msc-smp:msc_om0040007 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40007"@en] .
+
+msc-smp:msc_om0040020 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40020"@en] .
+
+msc-smp:msc_om0040026 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40026"@en] .
+
+msc-smp:msc_om0040027 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40026"@en] .
+
+msc-smp:msc_om0040028 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40028"@en] .
+
+msc-smp:msc_om0040029 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40028"@en] .
+
+msc-smp:msc_om0040032 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40032"@en] .
+
+msc-smp:msc_om0040034 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40034"@en] .
+
+msc-smp:msc_om0040055 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40055"@en] .
+
+msc-smp:msc_om0040073 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40073"@en] .
+
+msc-smp:msc_om0040074 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40074"@en] .
+
+msc-smp:msc_om0040086 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40086"@en] .
+
+msc-smp:msc_om0040094 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40094"@en] .
+
+msc-smp:msc_om0040095 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40095"@en] .
+
+msc-smp:msc_om0040097 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40097"@en] .
+
+msc-smp:msc_om0040098 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40098"@en] .
+
+msc-smp:msc_om0040118 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40118"@en] .
+
+msc-smp:msc_om0040123 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40123"@en] .
+
+msc-smp:msc_om0040139 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40139"@en] .
+
+msc-smp:msc_om0040140 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40140"@en] .
+
+msc-smp:msc_om0040141 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40140"@en] .
+
+msc-smp:msc_om0040142 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40142"@en] .
+
+msc-smp:msc_om0040144 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40144"@en] .
+
+msc-smp:msc_om0040146 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40146"@en] .
+
+msc-smp:msc_om0040147 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40147"@en] .
+
+msc-smp:msc_om0040189 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40189"@en] .
+
+msc-smp:msc_om0040213 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR40213"@en] .
+
+msc-smp:msc_om0040214 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR40214"@en] .
+
+msc-smp:msc_om0040215 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR40213"@en] .
+
+msc-smp:msc_om0040216 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR40214"@en] .
+
+msc-smp:msc_om0040217 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR40213"@en] .
+
+msc-smp:msc_om0040263 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40263"@en] .
+
+msc-smp:msc_om0040286 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40286"@en] .
+
+msc-smp:msc_om0040289 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40289"@en] .
+
+msc-smp:msc_om0040370 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40370"@en] .
+
+msc-smp:msc_om0040399 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40399"@en] .
+
+msc-smp:msc_om0040409 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40409"@en] .
+
+msc-smp:msc_om0040479 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40479"@en] .
+
+msc-smp:msc_om0040480 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40480"@en] .
+
+msc-smp:msc_om0040483 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40483"@en] .
+
+msc-smp:msc_om0040486 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40486"@en] .
+
+msc-smp:msc_om0040487 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40487"@en] .
+
+msc-smp:msc_om0040499 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40499"@en] .
+
+msc-smp:msc_om0040600 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40499"@en] .
+
+msc-smp:msc_om0040601 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40499"@en] .
+
+msc-smp:msc_om0040612 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40612"@en] .
+
+msc-smp:msc_om0040618 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40618"@en] .
+
+msc-smp:msc_om0040641 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40641"@en] .
+
+msc-smp:msc_om0040642 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40642"@en] .
+
+msc-smp:msc_om0040669 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40669"@en] .
+
+msc-smp:msc_om0040672 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40672"@en] .
+
+msc-smp:msc_om0040697 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40697"@en] .
+
+msc-smp:msc_om0040707 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "PENET40707"@en] .
+
+msc-smp:msc_om0040722 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40722"@en] .
+
+msc-smp:msc_om0040741 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40741"@en] .
+
+msc-smp:msc_om0040742 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40742"@en] .
+
+msc-smp:msc_om0040743 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40743"@en] .
+
+msc-smp:msc_om0040764 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40764"@en ;
+  rdfs:comment "resistive"@en ] .
+
+msc-smp:msc_om0040765 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40765"@en] .
+
+msc-smp:msc_om0040773 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40773"@en] .
+
+msc-smp:msc_om0040774 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40774"@en] .
+
+msc-smp:msc_om0040776 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40776"@en] .
+
+msc-smp:msc_om0040777 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40777"@en] .
+
+msc-smp:msc_om0040778 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40778"@en] .
+
+msc-smp:msc_om0040779 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40779"@en] .
+
+msc-smp:msc_om0040781 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40781"@en] .
+
+msc-smp:msc_om0040782 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40781"@en] .
+
+msc-smp:msc_om0040810 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40810"@en] .
+
+msc-smp:msc_om0040811 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40810"@en] .
+
+msc-smp:msc_om0040813 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40813"@en] .
+
+msc-smp:msc_om0040814 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40813"@en] .
+
+msc-smp:msc_om0040815 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40813"@en] .
+
+msc-smp:msc_om0040817 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40813"@en] .
+
+msc-smp:msc_om0040822 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40822"@en] .
+
+msc-smp:msc_om0040824 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40824"@en] .
+
+msc-smp:msc_om0040825 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40825"@en] .
+
+msc-smp:msc_om0040827 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40827"@en] .
+
+msc-smp:msc_om0040828 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40827"@en] .
+
+msc-smp:msc_om0040829 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40829"@en] .
+
+msc-smp:msc_om0040830 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40829"@en] .
+
+msc-smp:msc_om0040831 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40831"@en] .
+
+msc-smp:msc_om0040832 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40831"@en] .
+
+msc-smp:msc_om0040833 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40831"@en] .
+
+msc-smp:msc_om0040836 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40836"@en] .
+
+msc-smp:msc_om0040839 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40839"@en] .
+
+msc-smp:msc_om0040840 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40840"@en] .
+
+msc-smp:msc_om0040841 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40841"@en] .
+
+msc-smp:msc_om0040842 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40842"@en] .
+
+msc-smp:msc_om0040843 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40843"@en] .
+
+msc-smp:msc_om0040844 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40844"@en] .
+
+msc-smp:msc_om0040845 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40845"@en] .
+
+msc-smp:msc_om0040846 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40845"@en] .
+
+msc-smp:msc_om0040847 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40847"@en] .
+
+msc-smp:msc_om0040848 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40848"@en] .
+
+msc-smp:msc_om0040849 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40849"@en] .
+
+msc-smp:msc_om0040850 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40850"@en] .
+
+msc-smp:msc_om0040868 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40868"@en] .
+
+msc-smp:msc_om0040874 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40874"@en] .
+
+msc-smp:msc_om0040875 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC40874"@en] .
+
+msc-smp:msc_om0040884 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40884"@en] .
+
+msc-smp:msc_om0040885 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40885"@en] .
+
+msc-smp:msc_om0040887 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40887"@en] .
+
+msc-smp:msc_om0040906 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40906"@en] .
+
+msc-smp:msc_om0040910 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40910"@en] .
+
+msc-smp:msc_om0040911 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40910"@en] .
+
+msc-smp:msc_om0040914 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40914"@en] .
+
+msc-smp:msc_om0040920 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40920"@en] .
+
+msc-smp:msc_om0040928 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40928"@en] .
+
+msc-smp:msc_om0040969 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40696"@en] .
+
+msc-smp:msc_om0040978 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40978"@en] .
+
+msc-smp:msc_om0040979 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40979"@en] .
+
+msc-smp:msc_om0040995 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC40995"@en] .
+
+msc-smp:msc_om0042025 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC42025"@en] .
+
+msc-smp:msc_om0042039 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC42039"@en] .
+
+msc-smp:msc_om0042109 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC42109"@en] .
+
+msc-smp:msc_om0042110 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC42110"@en] .
+
+msc-smp:msc_om0042111 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC42111"@en] .
+
+msc-smp:msc_om0042116 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC42116"@en] .
+
+msc-smp:msc_om0042117 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC42117"@en] .
+
+msc-smp:msc_om0042128 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC42128"@en] .
+
+msc-smp:msc_om0042143 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC42143"@en] .
+
+msc-smp:msc_om0042154 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC42154"@en] .
+
+msc-smp:msc_om0042155 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC42155"@en] .
+
+msc-smp:msc_om0042156 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC42155"@en] .
+
+msc-smp:msc_om0042160 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC42160"@en] .
+
+msc-smp:msc_om0050000 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50000"@en] .
+
+msc-smp:msc_om0050001 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50000"@en] .
+
+msc-smp:msc_om0050002 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50000"@en] .
+
+msc-smp:msc_om0050004 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50004"@en] .
+
+msc-smp:msc_om0050005 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50004"@en] .
+
+msc-smp:msc_om0050006 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50006"@en] .
+
+msc-smp:msc_om0050007 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50006"@en] .
+
+msc-smp:msc_om0050008 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50008"@en] .
+
+msc-smp:msc_om0050009 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50008"@en] .
+
+msc-smp:msc_om0050010 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50010"@en] .
+
+msc-smp:msc_om0050011 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50010"@en] .
+
+msc-smp:msc_om0050012 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50010"@en] .
+
+msc-smp:msc_om0050013 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50013"@en] .
+
+msc-smp:msc_om0050014 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50013"@en] .
+
+msc-smp:msc_om0050021 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50021"@en] .
+
+msc-smp:msc_om0050022 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50021"@en] .
+
+msc-smp:msc_om0050030 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50030"@en] .
+
+msc-smp:msc_om0050044 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50044"@en] .
+
+msc-smp:msc_om0050045 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50044"@en] .
+
+msc-smp:msc_om0050046 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50044"@en] .
+
+msc-smp:msc_om0050047 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50047"@en] .
+
+msc-smp:msc_om0050048 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50047"@en] .
+
+msc-smp:msc_om0050049 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50047"@en] .
+
+msc-smp:msc_om0050055 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50055"@en] .
+
+msc-smp:msc_om0050056 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50056"@en] .
+
+msc-smp:msc_om0050064 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50064"@en] .
+
+msc-smp:msc_om0050065 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50064"@en] .
+
+msc-smp:msc_om0050066 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50066"@en] .
+
+msc-smp:msc_om0050068 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50066"@en] .
+
+msc-smp:msc_om0050089 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50089"@en] .
+
+msc-smp:msc_om0050090 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50089"@en] .
+
+msc-smp:msc_om0050091 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50091"@en] .
+
+msc-smp:msc_om0050092 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50091"@en] .
+
+msc-smp:msc_om0050093 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50093"@en] .
+
+msc-smp:msc_om0050094 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50093"@en] .
+
+msc-smp:msc_om0050095 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50093"@en] .
+
+msc-smp:msc_om0050096 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50096"@en] .
+
+msc-smp:msc_om0050097 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50096"@en] .
+
+msc-smp:msc_om0050098 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50096"@en] .
+
+msc-smp:msc_om0050099 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50099"@en] .
+
+msc-smp:msc_om0050100 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50099"@en] .
+
+msc-smp:msc_om0050101 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50099"@en] .
+
+msc-smp:msc_om0050133 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50133"@en] .
+
+msc-smp:msc_om0050136 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50133"@en] .
+
+msc-smp:msc_om0050139 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC50133"@en] .
+
+msc-smp:msc_om0090001 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90001"@en] .
+
+msc-smp:msc_om0090009 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90009"@en] .
+
+msc-smp:msc_om0090011 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90011"@en] .
+
+msc-smp:msc_om0090051 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90051"@en] .
+
+msc-smp:msc_om0090123 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90123"@en] .
+
+msc-smp:msc_om0090124 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90124"@en] .
+
+msc-smp:msc_om0090125 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90123"@en] .
+
+msc-smp:msc_om0090126 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90124"@en] .
+
+msc-smp:msc_om0090127 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90123"@en] .
+
+msc-smp:msc_om0090128 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90124"@en] .
+
+msc-smp:msc_om0090130 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90130"@en] .
+
+msc-smp:msc_om0090145 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90145"@en] .
+
+msc-smp:msc_om0090171 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90171"@en] .
+
+msc-smp:msc_om0090172 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90172"@en] .
+
+msc-smp:msc_om0090180 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90180"@en] .
+
+msc-smp:msc_om0090181 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90180"@en] .
+
+msc-smp:msc_om0090203 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90203"@en] .
+
+msc-smp:msc_om0090212 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90212"@en] .
+
+msc-smp:msc_om0090213 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90213"@en] .
+
+msc-smp:msc_om0090214 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90214"@en] .
+
+msc-smp:msc_om0090215 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90215"@en] .
+
+msc-smp:msc_om0090247 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90247"@en] .
+
+msc-smp:msc_om0090250 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90250"@en] .
+
+msc-smp:msc_om0090251 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90251"@en] .
+
+msc-smp:msc_om0090253 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90253"@en] .
+
+msc-smp:msc_om0090263 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90263"@en] .
+
+msc-smp:msc_om0090266 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90266"@en] .
+
+msc-smp:msc_om0090327 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90327"@en] .
+
+msc-smp:msc_om0090330 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90330"@en] .
+
+msc-smp:msc_om0090331 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90331"@en] .
+
+msc-smp:msc_om0090333 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC90333"@en] .
+
+msc-smp:msc_om0101217 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC101217"@en] .
+
+msc-smp:msc_om0102220 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC102220"@en] .
+
+msc-smp:msc_om0102329 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC102329"@en] .
+
+msc-smp:msc_om0105016 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC5016"@en] .
+
+msc-smp:msc_om0105043 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC5043"@en] .
+
+msc-smp:msc_om0105047 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC5047"@en] .
+
+msc-smp:msc_om0105048 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC5048"@en] .
+
+msc-smp:msc_om0105049 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC5049"@en] .
+
+msc-smp:msc_om0105052 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC5052"@en] .
+
+msc-smp:msc_om0105065 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC5065"@en] .
+
+msc-smp:msc_om0105076 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC5076"@en] .
+
+msc-smp:msc_om0105088 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC5088"@en] .
+
+msc-smp:msc_om0105089 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC5089"@en] .
+
+msc-smp:msc_om0105094 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC105094"@en] .
+
+msc-smp:msc_om0105096 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC105096"@en] .
+
+msc-smp:msc_om0105097 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC105097"@en] .
+
+msc-smp:msc_om0106013 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC106013"@en] .
+
+msc-smp:msc_om0106043 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6043M"@en] .
+
+msc-smp:msc_om0106069 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6069M"@en] .
+
+msc-smp:msc_om0106086 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6086M"@en] .
+
+msc-smp:msc_om0106175 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6175M"@en] .
+
+msc-smp:msc_om0106176 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6176M"@en] .
+
+msc-smp:msc_om0106179 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6179M"@en] .
+
+msc-smp:msc_om0106185 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6185M"@en] .
+
+msc-smp:msc_om0106186 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6185M"@en] .
+
+msc-smp:msc_om0106187 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6185M"@en] .
+
+msc-smp:msc_om0106190 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6185M"@en] .
+
+msc-smp:msc_om0106207 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6207M"@en] .
+
+msc-smp:msc_om0106208 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6208M"@en] .
+
+msc-smp:msc_om0106209 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6209M"@en] .
+
+msc-smp:msc_om0106210 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6210M"@en] .
+
+msc-smp:msc_om0106214 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6214M"@en] .
+
+msc-smp:msc_om0106215 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6214M"@en] .
+
+msc-smp:msc_om0106216 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6214M"@en] .
+
+msc-smp:msc_om0106217 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6214M"@en] .
+
+msc-smp:msc_om0106218 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC6214M"@en] .
+
+msc-smp:msc_om0106293 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC6293"@en] .
+
+msc-smp:msc_om0106310 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC6310"@en] .
+
+msc-smp:msc_om0108029 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC8029"@en] .
+
+msc-smp:msc_om0108030 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC8030"@en] .
+
+msc-smp:msc_om0108031 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC8031"@en] .
+
+msc-smp:msc_om0108189 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC8189"@en] .
+
+msc-smp:msc_om0109288 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9288"@en] .
+
+msc-smp:msc_om0109289 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9289"@en] .
+
+msc-smp:msc_om0109318 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9318"@en] .
+
+msc-smp:msc_om0109353 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9353"@en] .
+
+msc-smp:msc_om0109359 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9359"@en] .
+
+msc-smp:msc_om0109361 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9361"@en] .
+
+msc-smp:msc_om0109383 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9383"@en] .
+
+msc-smp:msc_om0109384 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9384"@en] .
+
+msc-smp:msc_om0109385 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9385"@en] .
+
+msc-smp:msc_om0109420 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9420"@en] .
+
+msc-smp:msc_om0109450 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9450"@en] .
+
+msc-smp:msc_om0109451 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9451"@en] .
+
+msc-smp:msc_om0109452 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9452"@en] .
+
+msc-smp:msc_om0109453 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9453"@en] .
+
+msc-smp:msc_om0109454 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9454"@en] .
+
+msc-smp:msc_om0109475 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9475"@en] .
+
+msc-smp:msc_om0109493 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9493"@en] .
+
+msc-smp:msc_om0109494 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9494"@en] .
+
+msc-smp:msc_om0109503 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9503"@en] .
+
+msc-smp:msc_om0109553 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9553"@en] .
+
+msc-smp:msc_om0109569 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9569"@en] .
+
+msc-smp:msc_om0109579 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHIR9579"@en] .
+
+msc-smp:msc_om0109607 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9607"@en] .
+
+msc-smp:msc_om0109609 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9609"@en] .
+
+msc-smp:msc_om0109610 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9610"@en] .
+
+msc-smp:msc_om0109611 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9611"@en] .
+
+msc-smp:msc_om0109612 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9612"@en] .
+
+msc-smp:msc_om0109667 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC9667"@en] .
+
+msc-smp:msc_om0109674 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC9674"@en] .
+
+msc-smp:msc_om0109675 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC9674"@en] .
+
+msc-smp:msc_om0109676 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC9674"@en] .
+
+msc-smp:msc_om0109684 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9684"@en] .
+
+msc-smp:msc_om0109734 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHIR9734"@en] .
+
+msc-smp:msc_om0109735 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHIR9735"@en] .
+
+msc-smp:msc_om0109736 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHIR9736"@en] .
+
+msc-smp:msc_om0109746 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHIR9746"@en] .
+
+msc-smp:msc_om0109749 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHIR9749"@en] .
+
+msc-smp:msc_om0109750 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHIR9750"@en] .
+
+msc-smp:msc_om0109755 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9755"@en] .
+
+msc-smp:msc_om0109759 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9759"@en] .
+
+msc-smp:msc_om0109773 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9773"@en] .
+
+msc-smp:msc_om0109799 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9799"@en] .
+
+msc-smp:msc_om0109809 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9809"@en] .
+
+msc-smp:msc_om0109843 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9843"@en] .
+
+msc-smp:msc_om0109844 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9844"@en] .
+
+msc-smp:msc_om0109846 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9846"@en] .
+
+msc-smp:msc_om0109851 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9851"@en] .
+
+msc-smp:msc_om0109887 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9887"@en] .
+
+msc-smp:msc_om0109923 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9923"@en] .
+
+msc-smp:msc_om0109924 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9924"@en] .
+
+msc-smp:msc_om0109925 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9925"@en] .
+
+msc-smp:msc_om0109946 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9946"@en] .
+
+msc-smp:msc_om0109965 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC9965"@en] .
+
+msc-smp:msc_om0111014 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11014"@en] .
+
+msc-smp:msc_om0111025 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11025"@en] .
+
+msc-smp:msc_om0111032 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11032"@en] .
+
+msc-smp:msc_om0111077 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11077"@en] .
+
+msc-smp:msc_om0111086 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11086"@en] .
+
+msc-smp:msc_om0111093 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC111093"@en] .
+
+msc-smp:msc_om0111094 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11094"@en] .
+
+msc-smp:msc_om0111095 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11095"@en] .
+
+msc-smp:msc_om0111140 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11140"@en] .
+
+msc-smp:msc_om0111141 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11141"@en] .
+
+msc-smp:msc_om0111142 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11142"@en] .
+
+msc-smp:msc_om0111143 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11143"@en] .
+
+msc-smp:msc_om0111144 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11144"@en] .
+
+msc-smp:msc_om0111150 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11150"@en] .
+
+msc-smp:msc_om0111158 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11158"@en] .
+
+msc-smp:msc_om0111200 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11200"@en] .
+
+msc-smp:msc_om0111247 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11247"@en] .
+
+msc-smp:msc_om0111249 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11249"@en] .
+
+msc-smp:msc_om0111276 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11276"@en] .
+
+msc-smp:msc_om0111285 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11285"@en] .
+
+msc-smp:msc_om0111297 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11297"@en] .
+
+msc-smp:msc_om0111305 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11305"@en] .
+
+msc-smp:msc_om0111322 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11322"@en] .
+
+msc-smp:msc_om0111374 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11374"@en] .
+
+msc-smp:msc_om0111418 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11418"@en] .
+
+msc-smp:msc_om0111419 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11419"@en] .
+
+msc-smp:msc_om0111420 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11420"@en] .
+
+msc-smp:msc_om0111435 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11435"@en] .
+
+msc-smp:msc_om0111451 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11451"@en] .
+
+msc-smp:msc_om0111489 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11489"@en] .
+
+msc-smp:msc_om0111490 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11490"@en] .
+
+msc-smp:msc_om0111507 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11507"@en] .
+
+msc-smp:msc_om0111508 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHIR11508"@en] .
+
+msc-smp:msc_om0111513 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHIR11513"@en] .
+
+msc-smp:msc_om0111517 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11517"@en] .
+
+msc-smp:msc_om0111518 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11518"@en] .
+
+msc-smp:msc_om0111543 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11543"@en] .
+
+msc-smp:msc_om0111551 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11551"@en] .
+
+msc-smp:msc_om0111552 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11552"@en] .
+
+msc-smp:msc_om0111553 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11553"@en] .
+
+msc-smp:msc_om0111554 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11554"@en] .
+
+msc-smp:msc_om0111555 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11555"@en] .
+
+msc-smp:msc_om0111563 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11563"@en] .
+
+msc-smp:msc_om0111566 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11566"@en] .
+
+msc-smp:msc_om0111567 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11567"@en] .
+
+msc-smp:msc_om0111568 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11568"@en] .
+
+msc-smp:msc_om0111657 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11657"@en] .
+
+msc-smp:msc_om0111689 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11689"@en] .
+
+msc-smp:msc_om0111690 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11690"@en] .
+
+msc-smp:msc_om0111691 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11691"@en] .
+
+msc-smp:msc_om0111701 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11701"@en] .
+
+msc-smp:msc_om0111704 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11704"@en] .
+
+msc-smp:msc_om0111728 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11728"@en] .
+
+msc-smp:msc_om0111729 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11729"@en] .
+
+msc-smp:msc_om0111730 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11730"@en] .
+
+msc-smp:msc_om0111731 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11731"@en] .
+
+msc-smp:msc_om0111743 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11743"@en] .
+
+msc-smp:msc_om0111749 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11749"@en] .
+
+msc-smp:msc_om0111769 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11769"@en] .
+
+msc-smp:msc_om0111780 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11780"@en] .
+
+msc-smp:msc_om0111795 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11795"@en] .
+
+msc-smp:msc_om0111806 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11806"@en] .
+
+msc-smp:msc_om0111973 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11975"@en] .
+
+msc-smp:msc_om0111974 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11975"@en] .
+
+msc-smp:msc_om0111976 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11975"@en] .
+
+msc-smp:msc_om0111985 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11985"@en] .
+
+msc-smp:msc_om0111986 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11986"@en] .
+
+msc-smp:msc_om0111987 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11987"@en] .
+
+msc-smp:msc_om0111988 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11988"@en] .
+
+msc-smp:msc_om0111989 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11989"@en] .
+
+msc-smp:msc_om0111990 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11990"@en] .
+
+msc-smp:msc_om0111991 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC11990"@en] .
+
+msc-smp:msc_om0112213 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12213"@en] .
+
+msc-smp:msc_om0112214 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12213"@en] .
+
+msc-smp:msc_om0112215 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12213"@en] .
+
+msc-smp:msc_om0112216 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12213"@en] .
+
+msc-smp:msc_om0112217 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12217"@en] .
+
+msc-smp:msc_om0112218 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12217"@en] .
+
+msc-smp:msc_om0112220 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12220"@en] .
+
+msc-smp:msc_om0112221 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12220"@en] .
+
+msc-smp:msc_om0112451 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12451"@en] .
+
+msc-smp:msc_om0112452 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12452"@en] .
+
+msc-smp:msc_om0112453 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12453"@en] .
+
+msc-smp:msc_om0112658 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12658"@en] .
+
+msc-smp:msc_om0112659 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12659"@en] .
+
+msc-smp:msc_om0112660 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12660"@en] .
+
+msc-smp:msc_om0112661 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12661"@en] .
+
+msc-smp:msc_om0112666 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12666"@en] .
+
+msc-smp:msc_om0112667 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12667"@en] .
+
+msc-smp:msc_om0112705 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12705"@en] .
+
+msc-smp:msc_om0112712 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12712"@en] .
+
+msc-smp:msc_om0112780 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12780"@en] .
+
+msc-smp:msc_om0112782 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12782"@en] .
+
+msc-smp:msc_om0112785 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC12785"@en] .
+
+msc-smp:msc_om0113165 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13165"@en] .
+
+msc-smp:msc_om0113166 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13165"@en] .
+
+msc-smp:msc_om0113190 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC113190"@en] .
+
+msc-smp:msc_om0113268 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13268"@en] .
+
+msc-smp:msc_om0113269 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13268"@en] .
+
+msc-smp:msc_om0113270 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13270"@en] .
+
+msc-smp:msc_om0113271 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13270"@en] .
+
+msc-smp:msc_om0113272 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13270"@en] .
+
+msc-smp:msc_om0113274 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13274"@en] .
+
+msc-smp:msc_om0113275 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13274"@en] .
+
+msc-smp:msc_om0113276 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13276"@en] .
+
+msc-smp:msc_om0113277 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13276"@en] .
+
+msc-smp:msc_om0113281 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MMHC13281"@en] .
+
+msc-smp:msc_om0113282 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13282"@en] .
+
+msc-smp:msc_om0113300 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13300"@en] .
+
+msc-smp:msc_om0113303 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13303"@en] .
+
+msc-smp:msc_om0113304 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC13303"@en] .
+
+msc-smp:msc_om0130096 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC30096"@en] .
+
+msc-smp:msc_om0130101 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC30101"@en] .
+
+msc-smp:msc_om0130103 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC30103"@en] .
+
+msc-smp:msc_om0130104 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC30104"@en] .
+
+msc-smp:msc_om0130106 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC30106"@en] .
+
+msc-smp:msc_om0130107 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC30107"@en] .
+
+msc-smp:msc_om0130108 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC30108"@en] .
+
+msc-smp:msc_om0130109 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC30109"@en] .
+
+msc-smp:msc_om0130110 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC30110"@en] .
+
+msc-smp:msc_om0130111 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC30111"@en] .
+
+msc-smp:msc_om0130137 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC30137"@en] .
+
+msc-smp:msc_om0130138 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC30138"@en] .
+
+msc-smp:msc_om0130139 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC30139"@en] .
+
+msc-smp:msc_om0131025 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131025"@en] .
+
+msc-smp:msc_om0131045 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131045"@en] .
+
+msc-smp:msc_om0131053 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131053"@en] .
+
+msc-smp:msc_om0131054 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131054"@en] .
+
+msc-smp:msc_om0131056 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131056"@en] .
+
+msc-smp:msc_om0131127 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131127"@en] .
+
+msc-smp:msc_om0131132 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131132"@en] .
+
+msc-smp:msc_om0131198 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131198"@en] .
+
+msc-smp:msc_om0131200 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131198"@en] .
+
+msc-smp:msc_om0131201 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131201"@en] .
+
+msc-smp:msc_om0131203 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131201"@en] .
+
+msc-smp:msc_om0131266 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131266"@en] .
+
+msc-smp:msc_om0131320 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131320"@en] .
+
+msc-smp:msc_om0131321 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131320"@en] .
+
+msc-smp:msc_om0131334 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC131334"@en] .
+
+msc-smp:msc_om0131335 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC131335"@en] .
+
+msc-smp:msc_om0131336 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC131336"@en] .
+
+msc-smp:msc_om0131337 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC131337"@en] .
+
+msc-smp:msc_om0131352 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131352"@en] .
+
+msc-smp:msc_om0131353 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131353"@en] .
+
+msc-smp:msc_om0131369 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC131369"@en] .
+
+msc-smp:msc_om0131423 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131423"@en] .
+
+msc-smp:msc_om0131445 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131445"@en] .
+
+msc-smp:msc_om0131460 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131460"@en] .
+
+msc-smp:msc_om0131470 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131470"@en] .
+
+msc-smp:msc_om0131511 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131511"@en] .
+
+msc-smp:msc_om0131512 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131511"@en] .
+
+msc-smp:msc_om0131513 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131511"@en] .
+
+msc-smp:msc_om0131518 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC131518"@en] .
+
+msc-smp:msc_om0148246 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158246"@en] .
+
+msc-smp:msc_om0150005 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR150005"@en] .
+
+msc-smp:msc_om0150007 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR150005"@en] .
+
+msc-smp:msc_om0150033 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150033"@en] .
+
+msc-smp:msc_om0150034 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150034"@en] .
+
+msc-smp:msc_om0150035 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150035"@en] .
+
+msc-smp:msc_om0150036 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150036"@en] .
+
+msc-smp:msc_om0150039 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150039"@en] .
+
+msc-smp:msc_om0150040 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150040"@en] .
+
+msc-smp:msc_om0150042 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150042"@en] .
+
+msc-smp:msc_om0150043 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150043"@en] .
+
+msc-smp:msc_om0150049 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150049"@en] .
+
+msc-smp:msc_om0150052 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150052"@en] .
+
+msc-smp:msc_om0150061 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150061"@en] .
+
+msc-smp:msc_om0150101 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150101"@en] .
+
+msc-smp:msc_om0150156 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150156"@en] .
+
+msc-smp:msc_om0150163 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150163"@en] .
+
+msc-smp:msc_om0150164 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150164"@en] .
+
+msc-smp:msc_om0150165 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150164"@en] .
+
+msc-smp:msc_om0150167 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150167"@en] .
+
+msc-smp:msc_om0150168 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150168"@en] .
+
+msc-smp:msc_om0150171 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150171"@en] .
+
+msc-smp:msc_om0150183 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150183"@en] .
+
+msc-smp:msc_om0150197 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150197"@en] .
+
+msc-smp:msc_om0150224 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150224"@en] .
+
+msc-smp:msc_om0150225 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150225"@en] .
+
+msc-smp:msc_om0150226 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150226"@en] .
+
+msc-smp:msc_om0150250 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150250"@en] .
+
+msc-smp:msc_om0150251 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150250"@en] .
+
+msc-smp:msc_om0150252 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150252"@en] .
+
+msc-smp:msc_om0150255 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150255"@en] .
+
+msc-smp:msc_om0150307 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150307"@en] .
+
+msc-smp:msc_om0150308 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150307"@en] .
+
+msc-smp:msc_om0150323 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150323"@en] .
+
+msc-smp:msc_om0150324 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150324"@en] .
+
+msc-smp:msc_om0150325 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150325"@en] .
+
+msc-smp:msc_om0150328 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150328"@en] .
+
+msc-smp:msc_om0150336 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150336"@en] .
+
+msc-smp:msc_om0150337 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150337"@en] .
+
+msc-smp:msc_om0150338 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150338"@en] .
+
+msc-smp:msc_om0150339 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150339"@en] .
+
+msc-smp:msc_om0150356 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150356"@en] .
+
+msc-smp:msc_om0150363 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150363"@en] .
+
+msc-smp:msc_om0150374 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR150374"@en] .
+
+msc-smp:msc_om0150375 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150375"@en] .
+
+msc-smp:msc_om0150377 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150377"@en] .
+
+msc-smp:msc_om0150382 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR150374"@en] .
+
+msc-smp:msc_om0150383 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR150374"@en] .
+
+msc-smp:msc_om0150418 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150418"@en] .
+
+msc-smp:msc_om0150419 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150418"@en] .
+
+msc-smp:msc_om0150420 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150418"@en] .
+
+msc-smp:msc_om0150421 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150421"@en] .
+
+msc-smp:msc_om0150422 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150421"@en] .
+
+msc-smp:msc_om0150423 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150423"@en] .
+
+msc-smp:msc_om0150424 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150423"@en] .
+
+msc-smp:msc_om0150425 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150423"@en] .
+
+msc-smp:msc_om0150437 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150437"@en] .
+
+msc-smp:msc_om0150438 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150437"@en] .
+
+msc-smp:msc_om0150439 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150437"@en] .
+
+msc-smp:msc_om0150440 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150440"@en] .
+
+msc-smp:msc_om0150441 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150440"@en] .
+
+msc-smp:msc_om0150442 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150440"@en] .
+
+msc-smp:msc_om0150452 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150452"@en] .
+
+msc-smp:msc_om0150453 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150452"@en] .
+
+msc-smp:msc_om0150454 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150454"@en] .
+
+msc-smp:msc_om0150455 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150454"@en] .
+
+msc-smp:msc_om0150489 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150489"@en] .
+
+msc-smp:msc_om0150490 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150489"@en] .
+
+msc-smp:msc_om0150491 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150491"@en] .
+
+msc-smp:msc_om0150492 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150491"@en] .
+
+msc-smp:msc_om0150493 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150493"@en] .
+
+msc-smp:msc_om0150494 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150494"@en] .
+
+msc-smp:msc_om0150522 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150522"@en] .
+
+msc-smp:msc_om0150551 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150551"@en] .
+
+msc-smp:msc_om0150557 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150557"@en] .
+
+msc-smp:msc_om0150558 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150558"@en] .
+
+msc-smp:msc_om0150559 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150559"@en] .
+
+msc-smp:msc_om0150572 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150572"@en] .
+
+msc-smp:msc_om0150577 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150577"@en] .
+
+msc-smp:msc_om0150580 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150580"@en] .
+
+msc-smp:msc_om0150581 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150581"@en] .
+
+msc-smp:msc_om0150586 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150586"@en] .
+
+msc-smp:msc_om0150594 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150594"@en] .
+
+msc-smp:msc_om0150634 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150634"@en] .
+
+msc-smp:msc_om0150635 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150634"@en] .
+
+msc-smp:msc_om0150637 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150637"@en] .
+
+msc-smp:msc_om0150638 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150638"@en] .
+
+msc-smp:msc_om0150639 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150639"@en] .
+
+msc-smp:msc_om0150640 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150640"@en] .
+
+msc-smp:msc_om0150641 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150641"@en] .
+
+msc-smp:msc_om0150642 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150641"@en] .
+
+msc-smp:msc_om0150646 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150646"@en] .
+
+msc-smp:msc_om0150647 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150647"@en] .
+
+msc-smp:msc_om0150648 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150648"@en] .
+
+msc-smp:msc_om0150652 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150652"@en] .
+
+msc-smp:msc_om0150658 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150658"@en] .
+
+msc-smp:msc_om0150659 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150659"@en] .
+
+msc-smp:msc_om0150660 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150660"@en] .
+
+msc-smp:msc_om0150661 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150661"@en] .
+
+msc-smp:msc_om0150664 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150661"@en] .
+
+msc-smp:msc_om0150666 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150666"@en] .
+
+msc-smp:msc_om0150667 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150666"@en] .
+
+msc-smp:msc_om0150675 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150675"@en] .
+
+msc-smp:msc_om0150676 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150676"@en] .
+
+msc-smp:msc_om0150730 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150730"@en] .
+
+msc-smp:msc_om0150733 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150733"@en] .
+
+msc-smp:msc_om0150734 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150734"@en] .
+
+msc-smp:msc_om0150739 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150739"@en] .
+
+msc-smp:msc_om0150743 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150743"@en] .
+
+msc-smp:msc_om0150747 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150747"@en] .
+
+msc-smp:msc_om0150823 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150823"@en] .
+
+msc-smp:msc_om0150840 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150840"@en] .
+
+msc-smp:msc_om0150842 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150842"@en ;
+  rdfs:comment "resistive"@en ] .
+
+msc-smp:msc_om0150843 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150843"@en] .
+
+msc-smp:msc_om0150847 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150847"@en] .
+
+msc-smp:msc_om0150850 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150850"@en ;
+  rdfs:comment "resistive"@en ] .
+
+msc-smp:msc_om0150851 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150851"@en ;
+  rdfs:comment "resistive,TDO frequency"@en ] .
+
+msc-smp:msc_om0150852 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150852"@en ;
+  rdfs:comment "resistive"@en ] .
+
+msc-smp:msc_om0150858 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150858"@en] .
+
+msc-smp:msc_om0150860 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150860"@en] .
+
+msc-smp:msc_om0150861 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150861"@en] .
+
+msc-smp:msc_om0150862 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150862"@en] .
+
+msc-smp:msc_om0150865 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150865"@en] .
+
+msc-smp:msc_om0150866 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150866"@en] .
+
+msc-smp:msc_om0150867 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150867"@en] .
+
+msc-smp:msc_om0150878 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150878"@en] .
+
+msc-smp:msc_om0150890 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150890"@en] .
+
+msc-smp:msc_om0150892 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150892"@en] .
+
+msc-smp:msc_om0150896 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150896"@en] .
+
+msc-smp:msc_om0150905 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150905"@en] .
+
+msc-smp:msc_om0150906 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150906"@en] .
+
+msc-smp:msc_om0150907 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC150907"@en] .
+
+msc-smp:msc_om0150922 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150922"@en] .
+
+msc-smp:msc_om0150932 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC150932"@en] .
+
+msc-smp:msc_om0151043 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151043"@en] .
+
+msc-smp:msc_om0151083 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151083"@en] .
+
+msc-smp:msc_om0151094 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151094"@en] .
+
+msc-smp:msc_om0151107 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151107"@en] .
+
+msc-smp:msc_om0151116 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151116"@en] .
+
+msc-smp:msc_om0151117 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151117"@en] .
+
+msc-smp:msc_om0151122 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151122"@en] .
+
+msc-smp:msc_om0151123 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151123"@en] .
+
+msc-smp:msc_om0151124 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151124"@en] .
+
+msc-smp:msc_om0151129 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151129"@en] .
+
+msc-smp:msc_om0151130 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151130"@en] .
+
+msc-smp:msc_om0151132 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151132"@en] .
+
+msc-smp:msc_om0151139 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151139"@en] .
+
+msc-smp:msc_om0151181 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151181"@en] .
+
+msc-smp:msc_om0151215 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151215"@en ;
+  rdfs:comment "resistive, onset"@en ] .
+
+msc-smp:msc_om0151216 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151216"@en ;
+  rdfs:comment "resistive, onset"@en ] .
+
+msc-smp:msc_om0151217 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151217"@en ;
+  rdfs:comment "resistive, onset"@en ] .
+
+msc-smp:msc_om0151218 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151218"@en ;
+  rdfs:comment "resistive, onset"@en ] .
+
+msc-smp:msc_om0151219 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151219"@en ;
+  rdfs:comment "resistive, onset"@en ] .
+
+msc-smp:msc_om0151220 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151220"@en ;
+  rdfs:comment "resistive, onset"@en ] .
+
+msc-smp:msc_om0151221 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151221"@en ;
+  rdfs:comment "resistive, SP-heat"@en ] .
+
+msc-smp:msc_om0151254 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151254"@en] .
+
+msc-smp:msc_om0151258 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151258"@en] .
+
+msc-smp:msc_om0151260 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151260"@en] .
+
+msc-smp:msc_om0151261 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151261"@en] .
+
+msc-smp:msc_om0151262 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151262"@en] .
+
+msc-smp:msc_om0151268 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151268"@en] .
+
+msc-smp:msc_om0151278 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151278"@en] .
+
+msc-smp:msc_om0151283 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151283"@en] .
+
+msc-smp:msc_om0151292 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151292"@en] .
+
+msc-smp:msc_om0151293 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151293"@en] .
+
+msc-smp:msc_om0151294 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151294"@en] .
+
+msc-smp:msc_om0151295 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151294"@en] .
+
+msc-smp:msc_om0151296 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151294"@en] .
+
+msc-smp:msc_om0151297 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151297"@en] .
+
+msc-smp:msc_om0151300 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151300"@en] .
+
+msc-smp:msc_om0151315 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151315"@en ;
+  rdfs:comment "midpoint in R(T)"@en ] .
+
+msc-smp:msc_om0151317 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151317"@en] .
+
+msc-smp:msc_om0151320 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151320"@en] .
+
+msc-smp:msc_om0151321 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151321"@en] .
+
+msc-smp:msc_om0151322 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151322"@en] .
+
+msc-smp:msc_om0151323 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151323"@en] .
+
+msc-smp:msc_om0151327 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151327"@en] .
+
+msc-smp:msc_om0151328 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151328"@en] .
+
+msc-smp:msc_om0151329 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151329"@en] .
+
+msc-smp:msc_om0151330 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151330"@en] .
+
+msc-smp:msc_om0151331 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151331"@en] .
+
+msc-smp:msc_om0151332 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151332"@en] .
+
+msc-smp:msc_om0151372 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151372"@en] .
+
+msc-smp:msc_om0151373 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151373"@en] .
+
+msc-smp:msc_om0151374 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151374"@en] .
+
+msc-smp:msc_om0151375 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151375"@en] .
+
+msc-smp:msc_om0151398 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151398"@en] .
+
+msc-smp:msc_om0151399 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151398"@en] .
+
+msc-smp:msc_om0151400 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151398"@en] .
+
+msc-smp:msc_om0151401 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151398"@en] .
+
+msc-smp:msc_om0151405 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151405"@en] .
+
+msc-smp:msc_om0151412 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151412"@en] .
+
+msc-smp:msc_om0151413 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151413"@en] .
+
+msc-smp:msc_om0151414 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151412"@en] .
+
+msc-smp:msc_om0151415 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151415"@en] .
+
+msc-smp:msc_om0151416 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151413"@en] .
+
+msc-smp:msc_om0151417 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151415"@en] .
+
+msc-smp:msc_om0151422 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151422"@en] .
+
+msc-smp:msc_om0151423 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151423"@en] .
+
+msc-smp:msc_om0151425 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151425"@en] .
+
+msc-smp:msc_om0151427 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151427"@en] .
+
+msc-smp:msc_om0151433 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151433"@en] .
+
+msc-smp:msc_om0151435 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151435"@en] .
+
+msc-smp:msc_om0151439 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151439"@en] .
+
+msc-smp:msc_om0151440 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151440"@en] .
+
+msc-smp:msc_om0151443 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151443"@en] .
+
+msc-smp:msc_om0151445 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151445"@en] .
+
+msc-smp:msc_om0151506 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151506"@en] .
+
+msc-smp:msc_om0151507 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151507"@en] .
+
+msc-smp:msc_om0151508 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151508"@en] .
+
+msc-smp:msc_om0151511 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151511"@en] .
+
+msc-smp:msc_om0151516 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151516"@en] .
+
+msc-smp:msc_om0151519 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151519"@en] .
+
+msc-smp:msc_om0151581 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151581"@en] .
+
+msc-smp:msc_om0151582 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151582"@en] .
+
+msc-smp:msc_om0151618 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151618"@en] .
+
+msc-smp:msc_om0151638 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151638"@en] .
+
+msc-smp:msc_om0151639 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151639"@en] .
+
+msc-smp:msc_om0151640 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151640"@en] .
+
+msc-smp:msc_om0151645 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151645"@en] .
+
+msc-smp:msc_om0151665 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151665"@en] .
+
+msc-smp:msc_om0151668 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151668"@en] .
+
+msc-smp:msc_om0151669 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151669"@en] .
+
+msc-smp:msc_om0151672 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151672"@en] .
+
+msc-smp:msc_om0151674 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151674"@en] .
+
+msc-smp:msc_om0151675 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151675"@en] .
+
+msc-smp:msc_om0151682 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151682"@en] .
+
+msc-smp:msc_om0151687 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151687"@en] .
+
+msc-smp:msc_om0151697 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151697"@en] .
+
+msc-smp:msc_om0151705 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151705"@en] .
+
+msc-smp:msc_om0151706 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151706"@en] .
+
+msc-smp:msc_om0151746 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151746"@en] .
+
+msc-smp:msc_om0151774 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151774"@en] .
+
+msc-smp:msc_om0151775 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151775"@en] .
+
+msc-smp:msc_om0151777 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151777"@en] .
+
+msc-smp:msc_om0151778 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151777"@en] .
+
+msc-smp:msc_om0151790 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151790"@en] .
+
+msc-smp:msc_om0151812 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151812"@en] .
+
+msc-smp:msc_om0151844 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151844"@en] .
+
+msc-smp:msc_om0151858 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151858"@en] .
+
+msc-smp:msc_om0151865 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151865"@en] .
+
+msc-smp:msc_om0151868 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151868"@en] .
+
+msc-smp:msc_om0151872 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151872"@en] .
+
+msc-smp:msc_om0151874 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151874"@en] .
+
+msc-smp:msc_om0151884 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151884"@en] .
+
+msc-smp:msc_om0151900 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151900"@en] .
+
+msc-smp:msc_om0151918 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151918"@en] .
+
+msc-smp:msc_om0151935 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151935"@en] .
+
+msc-smp:msc_om0151962 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151962"@en] .
+
+msc-smp:msc_om0151966 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC151696"@en] .
+
+msc-smp:msc_om0151987 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC151987"@en] .
+
+msc-smp:msc_om0152001 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152001"@en] .
+
+msc-smp:msc_om0152016 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152015"@en] .
+
+msc-smp:msc_om0152017 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC152017"@en] .
+
+msc-smp:msc_om0152023 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152023"@en] .
+
+msc-smp:msc_om0152034 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152034"@en] .
+
+msc-smp:msc_om0152035 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152035"@en] .
+
+msc-smp:msc_om0152036 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152035"@en] .
+
+msc-smp:msc_om0152047 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152047"@en] .
+
+msc-smp:msc_om0152048 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152047"@en] .
+
+msc-smp:msc_om0152049 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152047"@en] .
+
+msc-smp:msc_om0152050 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152050"@en] .
+
+msc-smp:msc_om0152051 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152050"@en] .
+
+msc-smp:msc_om0152100 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152100"@en] .
+
+msc-smp:msc_om0152101 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152100"@en] .
+
+msc-smp:msc_om0152102 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152102"@en] .
+
+msc-smp:msc_om0152103 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152102"@en] .
+
+msc-smp:msc_om0152104 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152104"@en] .
+
+msc-smp:msc_om0152105 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152104"@en] .
+
+msc-smp:msc_om0152106 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152106"@en] .
+
+msc-smp:msc_om0152107 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152106"@en] .
+
+msc-smp:msc_om0152108 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152106"@en] .
+
+msc-smp:msc_om0152116 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152116"@en] .
+
+msc-smp:msc_om0152117 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152117"@en] .
+
+msc-smp:msc_om0152118 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152118"@en] .
+
+msc-smp:msc_om0152119 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152117"@en] .
+
+msc-smp:msc_om0152120 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152118"@en] .
+
+msc-smp:msc_om0152121 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152117"@en] .
+
+msc-smp:msc_om0152161 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152161"@en] .
+
+msc-smp:msc_om0152162 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152162"@en] .
+
+msc-smp:msc_om0152163 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152163"@en] .
+
+msc-smp:msc_om0152177 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC152177"@en] .
+
+msc-smp:msc_om0152178 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC152177"@en] .
+
+msc-smp:msc_om0152179 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC152177"@en] .
+
+msc-smp:msc_om0152181 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC152177"@en] .
+
+msc-smp:msc_om0152182 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC152177"@en] .
+
+msc-smp:msc_om0152188 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152188"@en] .
+
+msc-smp:msc_om0152213 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152213"@en] .
+
+msc-smp:msc_om0152235 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152235"@en] .
+
+msc-smp:msc_om0152244 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHIR152244"@en] .
+
+msc-smp:msc_om0152257 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152257"@en] .
+
+msc-smp:msc_om0152258 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152258"@en] .
+
+msc-smp:msc_om0152259 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152259"@en] .
+
+msc-smp:msc_om0152260 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152260"@en] .
+
+msc-smp:msc_om0152272 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC152272"@en] .
+
+msc-smp:msc_om0152273 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152273"@en] .
+
+msc-smp:msc_om0152274 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152273"@en] .
+
+msc-smp:msc_om0152275 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152273"@en] .
+
+msc-smp:msc_om0152280 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152280"@en] .
+
+msc-smp:msc_om0152317 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152317"@en] .
+
+msc-smp:msc_om0152331 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152331"@en] .
+
+msc-smp:msc_om0152341 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152341"@en] .
+
+msc-smp:msc_om0152342 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152342"@en] .
+
+msc-smp:msc_om0152353 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152353"@en] .
+
+msc-smp:msc_om0152354 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HIR152354"@en] .
+
+msc-smp:msc_om0152357 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152357"@en] .
+
+msc-smp:msc_om0152379 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152379"@en] .
+
+msc-smp:msc_om0152380 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152380"@en] .
+
+msc-smp:msc_om0152381 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152381"@en] .
+
+msc-smp:msc_om0152389 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152389"@en] .
+
+msc-smp:msc_om0152401 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC152401"@en] .
+
+msc-smp:msc_om0152405 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC152405"@en] .
+
+msc-smp:msc_om0152406 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152406"@en] .
+
+msc-smp:msc_om0152414 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152414"@en] .
+
+msc-smp:msc_om0152415 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152415"@en] .
+
+msc-smp:msc_om0152474 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC152474"@en ;
+  rdfs:comment "resistivity"@en ] .
+
+msc-smp:msc_om0152476 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152476"@en] .
+
+msc-smp:msc_om0152477 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152477"@en] .
+
+msc-smp:msc_om0152478 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152478"@en] .
+
+msc-smp:msc_om0152479 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152479"@en] .
+
+msc-smp:msc_om0152480 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152480"@en] .
+
+msc-smp:msc_om0152481 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152481"@en] .
+
+msc-smp:msc_om0152500 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152500"@en] .
+
+msc-smp:msc_om0152503 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152503"@en] .
+
+msc-smp:msc_om0152504 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152504"@en] .
+
+msc-smp:msc_om0152505 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152505"@en] .
+
+msc-smp:msc_om0152506 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152506"@en] .
+
+msc-smp:msc_om0152507 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152507"@en] .
+
+msc-smp:msc_om0152508 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152508"@en] .
+
+msc-smp:msc_om0152509 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152509"@en] .
+
+msc-smp:msc_om0152510 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152510"@en] .
+
+msc-smp:msc_om0152511 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152511"@en] .
+
+msc-smp:msc_om0152548 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152548"@en] .
+
+msc-smp:msc_om0152569 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152569"@en] .
+
+msc-smp:msc_om0152570 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152570"@en] .
+
+msc-smp:msc_om0152576 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152576"@en] .
+
+msc-smp:msc_om0152577 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152577"@en] .
+
+msc-smp:msc_om0152579 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152579"@en] .
+
+msc-smp:msc_om0152580 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152580"@en] .
+
+msc-smp:msc_om0152581 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152581"@en] .
+
+msc-smp:msc_om0152590 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152590"@en] .
+
+msc-smp:msc_om0152597 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152597"@en] .
+
+msc-smp:msc_om0152599 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152599"@en] .
+
+msc-smp:msc_om0152611 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152611"@en] .
+
+msc-smp:msc_om0152612 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152611"@en] .
+
+msc-smp:msc_om0152613 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152611"@en] .
+
+msc-smp:msc_om0152614 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152611"@en] .
+
+msc-smp:msc_om0152615 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152611"@en] .
+
+msc-smp:msc_om0152617 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152617"@en] .
+
+msc-smp:msc_om0152618 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152618"@en] .
+
+msc-smp:msc_om0152619 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152619"@en] .
+
+msc-smp:msc_om0152639 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC152639"@en] .
+
+msc-smp:msc_om0152698 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152698"@en] .
+
+msc-smp:msc_om0152719 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152719"@en] .
+
+msc-smp:msc_om0152737 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152737"@en] .
+
+msc-smp:msc_om0152738 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152738"@en] .
+
+msc-smp:msc_om0152741 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152741"@en] .
+
+msc-smp:msc_om0152742 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152742"@en] .
+
+msc-smp:msc_om0152753 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152753"@en] .
+
+msc-smp:msc_om0152755 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152755"@en] .
+
+msc-smp:msc_om0152757 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152757"@en] .
+
+msc-smp:msc_om0152800 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152800"@en] .
+
+msc-smp:msc_om0152801 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152801"@en] .
+
+msc-smp:msc_om0152804 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152804"@en] .
+
+msc-smp:msc_om0152818 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152818"@en] .
+
+msc-smp:msc_om0152831 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC152831"@en] .
+
+msc-smp:msc_om0152832 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152832"@en] .
+
+msc-smp:msc_om0152833 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152833"@en] .
+
+msc-smp:msc_om0152835 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152835"@en] .
+
+msc-smp:msc_om0152837 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152837"@en] .
+
+msc-smp:msc_om0152843 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152843"@en] .
+
+msc-smp:msc_om0152855 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152855"@en] .
+
+msc-smp:msc_om0152856 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152856"@en] .
+
+msc-smp:msc_om0152857 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152857"@en] .
+
+msc-smp:msc_om0152860 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152860"@en] .
+
+msc-smp:msc_om0152868 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152868"@en] .
+
+msc-smp:msc_om0152869 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152869"@en] .
+
+msc-smp:msc_om0152883 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152883"@en] .
+
+msc-smp:msc_om0152884 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152884"@en] .
+
+msc-smp:msc_om0152887 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152887"@en] .
+
+msc-smp:msc_om0152899 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152899"@en] .
+
+msc-smp:msc_om0152901 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152901"@en] .
+
+msc-smp:msc_om0152950 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152950"@en] .
+
+msc-smp:msc_om0152998 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152998"@en] .
+
+msc-smp:msc_om0152999 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC152999"@en] .
+
+msc-smp:msc_om0153000 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153000"@en] .
+
+msc-smp:msc_om0153002 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153002"@en] .
+
+msc-smp:msc_om0153003 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153003"@en] .
+
+msc-smp:msc_om0153004 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153004"@en] .
+
+msc-smp:msc_om0153005 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153005"@en] .
+
+msc-smp:msc_om0153006 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153006"@en] .
+
+msc-smp:msc_om0153007 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153007"@en] .
+
+msc-smp:msc_om0153008 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153008"@en] .
+
+msc-smp:msc_om0153009 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153009"@en] .
+
+msc-smp:msc_om0153010 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153010"@en] .
+
+msc-smp:msc_om0153011 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153011"@en] .
+
+msc-smp:msc_om0153012 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153012"@en] .
+
+msc-smp:msc_om0153021 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153021"@en] .
+
+msc-smp:msc_om0153024 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153024"@en] .
+
+msc-smp:msc_om0153025 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153025"@en] .
+
+msc-smp:msc_om0153040 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153040"@en] .
+
+msc-smp:msc_om0153086 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153086"@en] .
+
+msc-smp:msc_om0153109 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153109"@en] .
+
+msc-smp:msc_om0153114 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153114"@en] .
+
+msc-smp:msc_om0153115 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153115"@en] .
+
+msc-smp:msc_om0153124 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC153124"@en] .
+
+msc-smp:msc_om0153136 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153136"@en] .
+
+msc-smp:msc_om0153137 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153137"@en] .
+
+msc-smp:msc_om0153139 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153139"@en] .
+
+msc-smp:msc_om0153142 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC153142"@en] .
+
+msc-smp:msc_om0153168 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153168"@en] .
+
+msc-smp:msc_om0153181 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153181"@en] .
+
+msc-smp:msc_om0153185 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153185"@en] .
+
+msc-smp:msc_om0153203 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC153203"@en] .
+
+msc-smp:msc_om0153204 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC153204"@en] .
+
+msc-smp:msc_om0153205 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC153205"@en] .
+
+msc-smp:msc_om0153211 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153211"@en] .
+
+msc-smp:msc_om0153213 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153213"@en] .
+
+msc-smp:msc_om0153217 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153217"@en] .
+
+msc-smp:msc_om0153218 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153218"@en] .
+
+msc-smp:msc_om0153229 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC153229"@en] .
+
+msc-smp:msc_om0153230 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153230"@en] .
+
+msc-smp:msc_om0153232 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153232"@en] .
+
+msc-smp:msc_om0153240 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153240"@en] .
+
+msc-smp:msc_om0153241 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153241"@en] .
+
+msc-smp:msc_om0153248 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153248"@en] .
+
+msc-smp:msc_om0153249 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153249"@en] .
+
+msc-smp:msc_om0153250 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153250"@en] .
+
+msc-smp:msc_om0153251 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153251"@en] .
+
+msc-smp:msc_om0153274 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC153274"@en] .
+
+msc-smp:msc_om0153288 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153288"@en] .
+
+msc-smp:msc_om0153289 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153289"@en] .
+
+msc-smp:msc_om0153291 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153291"@en] .
+
+msc-smp:msc_om0153292 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153292"@en] .
+
+msc-smp:msc_om0153301 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153301"@en] .
+
+msc-smp:msc_om0153302 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153302"@en] .
+
+msc-smp:msc_om0153335 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153335"@en] .
+
+msc-smp:msc_om0153338 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153338"@en] .
+
+msc-smp:msc_om0153343 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153343"@en] .
+
+msc-smp:msc_om0153358 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153358"@en] .
+
+msc-smp:msc_om0153359 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153359"@en] .
+
+msc-smp:msc_om0153360 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153360"@en] .
+
+msc-smp:msc_om0153421 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153421"@en] .
+
+msc-smp:msc_om0153423 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153421"@en] .
+
+msc-smp:msc_om0153427 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153421"@en] .
+
+msc-smp:msc_om0153429 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153429"@en] .
+
+msc-smp:msc_om0153432 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153432"@en] .
+
+msc-smp:msc_om0153434 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153434"@en] .
+
+msc-smp:msc_om0153470 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153470"@en] .
+
+msc-smp:msc_om0153503 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153503"@en] .
+
+msc-smp:msc_om0153504 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153504"@en] .
+
+msc-smp:msc_om0153511 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153511"@en] .
+
+msc-smp:msc_om0153578 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153578"@en] .
+
+msc-smp:msc_om0153589 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153588"@en] .
+
+msc-smp:msc_om0153593 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153593"@en] .
+
+msc-smp:msc_om0153600 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153600"@en] .
+
+msc-smp:msc_om0153601 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153601"@en] .
+
+msc-smp:msc_om0153610 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153610"@en] .
+
+msc-smp:msc_om0153700 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153700"@en] .
+
+msc-smp:msc_om0153711 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153711"@en] .
+
+msc-smp:msc_om0153712 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153712"@en] .
+
+msc-smp:msc_om0153728 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153728"@en] .
+
+msc-smp:msc_om0153729 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153729"@en] .
+
+msc-smp:msc_om0153730 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153730"@en] .
+
+msc-smp:msc_om0153747 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153747"@en] .
+
+msc-smp:msc_om0153748 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153748"@en] .
+
+msc-smp:msc_om0153772 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153772"@en] .
+
+msc-smp:msc_om0153774 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153774"@en] .
+
+msc-smp:msc_om0153776 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153776"@en] .
+
+msc-smp:msc_om0153799 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153799"@en] .
+
+msc-smp:msc_om0153800 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153800"@en] .
+
+msc-smp:msc_om0153827 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC153827"@en] .
+
+msc-smp:msc_om0153855 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153855"@en] .
+
+msc-smp:msc_om0153856 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153856"@en] .
+
+msc-smp:msc_om0153859 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153859"@en] .
+
+msc-smp:msc_om0153873 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153873"@en] .
+
+msc-smp:msc_om0153876 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153876"@en] .
+
+msc-smp:msc_om0153877 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153877"@en] .
+
+msc-smp:msc_om0153890 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153890"@en] .
+
+msc-smp:msc_om0153891 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153891"@en] .
+
+msc-smp:msc_om0153892 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153892"@en] .
+
+msc-smp:msc_om0153893 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153893"@en] .
+
+msc-smp:msc_om0153894 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153894"@en] .
+
+msc-smp:msc_om0153895 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153895"@en] .
+
+msc-smp:msc_om0153896 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC1538956"@en] .
+
+msc-smp:msc_om0153897 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153897"@en] .
+
+msc-smp:msc_om0153908 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153908"@en] .
+
+msc-smp:msc_om0153909 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153909"@en] .
+
+msc-smp:msc_om0153910 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153910"@en] .
+
+msc-smp:msc_om0153970 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153970"@en] .
+
+msc-smp:msc_om0153978 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153978"@en] .
+
+msc-smp:msc_om0153984 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153984"@en] .
+
+msc-smp:msc_om0153985 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC153985"@en] .
+
+msc-smp:msc_om0154026 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154026"@en] .
+
+msc-smp:msc_om0154035 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154026"@en] .
+
+msc-smp:msc_om0154038 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154038"@en] .
+
+msc-smp:msc_om0154039 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154039"@en] .
+
+msc-smp:msc_om0154040 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154040"@en] .
+
+msc-smp:msc_om0154047 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154047"@en] .
+
+msc-smp:msc_om0154079 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154079"@en] .
+
+msc-smp:msc_om0154123 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154123"@en] .
+
+msc-smp:msc_om0154133 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154133"@en] .
+
+msc-smp:msc_om0154134 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154134"@en] .
+
+msc-smp:msc_om0154135 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154135"@en] .
+
+msc-smp:msc_om0154137 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154137"@en] .
+
+msc-smp:msc_om0154139 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154139"@en] .
+
+msc-smp:msc_om0154144 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154144"@en] .
+
+msc-smp:msc_om0154146 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154146"@en] .
+
+msc-smp:msc_om0154147 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154147"@en] .
+
+msc-smp:msc_om0154152 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154152"@en] .
+
+msc-smp:msc_om0154153 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154153"@en] .
+
+msc-smp:msc_om0154155 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154155"@en] .
+
+msc-smp:msc_om0154158 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154158"@en] .
+
+msc-smp:msc_om0154166 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154166"@en] .
+
+msc-smp:msc_om0154178 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154178"@en] .
+
+msc-smp:msc_om0154180 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154180"@en] .
+
+msc-smp:msc_om0154206 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154206"@en] .
+
+msc-smp:msc_om0154215 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154215"@en] .
+
+msc-smp:msc_om0154218 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154218"@en] .
+
+msc-smp:msc_om0154219 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154219"@en] .
+
+msc-smp:msc_om0154241 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154241"@en] .
+
+msc-smp:msc_om0154246 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154246"@en] .
+
+msc-smp:msc_om0154247 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154246"@en] .
+
+msc-smp:msc_om0154248 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154248"@en] .
+
+msc-smp:msc_om0154249 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154248"@en] .
+
+msc-smp:msc_om0154254 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154255"@en] .
+
+msc-smp:msc_om0154255 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154255"@en] .
+
+msc-smp:msc_om0154256 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154255"@en] .
+
+msc-smp:msc_om0154258 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154258"@en] .
+
+msc-smp:msc_om0154259 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154259"@en] .
+
+msc-smp:msc_om0154260 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154260"@en] .
+
+msc-smp:msc_om0154261 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154262"@en] .
+
+msc-smp:msc_om0154262 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154262"@en] .
+
+msc-smp:msc_om0154263 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154262"@en] .
+
+msc-smp:msc_om0154264 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154265"@en] .
+
+msc-smp:msc_om0154265 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154265"@en] .
+
+msc-smp:msc_om0154266 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154265"@en] .
+
+msc-smp:msc_om0154271 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154271"@en] .
+
+msc-smp:msc_om0154279 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154280"@en] .
+
+msc-smp:msc_om0154281 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154280"@en] .
+
+msc-smp:msc_om0154282 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154284"@en] .
+
+msc-smp:msc_om0154283 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154284"@en] .
+
+msc-smp:msc_om0154284 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154284"@en] .
+
+msc-smp:msc_om0154285 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154285"@en] .
+
+msc-smp:msc_om0154286 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154286"@en] .
+
+msc-smp:msc_om0154288 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154288"@en] .
+
+msc-smp:msc_om0154289 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154289"@en] .
+
+msc-smp:msc_om0154290 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154290"@en] .
+
+msc-smp:msc_om0154310 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154310"@en] .
+
+msc-smp:msc_om0154312 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154312"@en] .
+
+msc-smp:msc_om0154316 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154316"@en] .
+
+msc-smp:msc_om0154317 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154317"@en] .
+
+msc-smp:msc_om0154323 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154323"@en] .
+
+msc-smp:msc_om0154324 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154324"@en] .
+
+msc-smp:msc_om0154325 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154324"@en] .
+
+msc-smp:msc_om0154326 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154326"@en] .
+
+msc-smp:msc_om0154327 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154326"@en] .
+
+msc-smp:msc_om0154329 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154329"@en] .
+
+msc-smp:msc_om0154330 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154329"@en] .
+
+msc-smp:msc_om0154340 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154340"@en] .
+
+msc-smp:msc_om0154341 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154340"@en] .
+
+msc-smp:msc_om0154346 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154346"@en] .
+
+msc-smp:msc_om0154348 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154348"@en] .
+
+msc-smp:msc_om0154355 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154355"@en] .
+
+msc-smp:msc_om0154356 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "HC154356"@en] .
+
+msc-smp:msc_om0154377 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154377"@en] .
+
+msc-smp:msc_om0154378 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154378"@en] .
+
+msc-smp:msc_om0154380 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154380"@en] .
+
+msc-smp:msc_om0154395 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154395"@en] .
+
+msc-smp:msc_om0154400 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154400"@en] .
+
+msc-smp:msc_om0154401 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154401"@en] .
+
+msc-smp:msc_om0154408 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154408"@en] .
+
+msc-smp:msc_om0154412 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154412"@en] .
+
+msc-smp:msc_om0154413 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154413"@en] .
+
+msc-smp:msc_om0154441 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154441"@en] .
+
+msc-smp:msc_om0154442 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154442"@en] .
+
+msc-smp:msc_om0154443 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154443"@en] .
+
+msc-smp:msc_om0154450 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154450"@en] .
+
+msc-smp:msc_om0154475 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154475"@en] .
+
+msc-smp:msc_om0154501 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154501"@en] .
+
+msc-smp:msc_om0154502 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154502"@en] .
+
+msc-smp:msc_om0154510 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154510"@en] .
+
+msc-smp:msc_om0154524 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154524"@en] .
+
+msc-smp:msc_om0154526 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154526"@en] .
+
+msc-smp:msc_om0154527 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154527"@en] .
+
+msc-smp:msc_om0154568 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154568"@en] .
+
+msc-smp:msc_om0154569 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154569"@en] .
+
+msc-smp:msc_om0154570 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154570"@en] .
+
+msc-smp:msc_om0154571 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154571"@en] .
+
+msc-smp:msc_om0154572 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154572"@en] .
+
+msc-smp:msc_om0154573 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154573"@en] .
+
+msc-smp:msc_om0154577 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154577"@en] .
+
+msc-smp:msc_om0154579 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154579"@en] .
+
+msc-smp:msc_om0154582 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154582"@en] .
+
+msc-smp:msc_om0154583 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154583"@en] .
+
+msc-smp:msc_om0154591 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154591"@en] .
+
+msc-smp:msc_om0154595 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154595"@en] .
+
+msc-smp:msc_om0154596 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154596"@en] .
+
+msc-smp:msc_om0154597 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154597"@en] .
+
+msc-smp:msc_om0154598 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154598"@en] .
+
+msc-smp:msc_om0154599 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154599"@en] .
+
+msc-smp:msc_om0154600 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154600"@en] .
+
+msc-smp:msc_om0154605 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154605"@en] .
+
+msc-smp:msc_om0154607 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154607"@en] .
+
+msc-smp:msc_om0154608 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154608"@en] .
+
+msc-smp:msc_om0154609 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154609"@en] .
+
+msc-smp:msc_om0154610 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154610"@en] .
+
+msc-smp:msc_om0154613 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154614"@en] .
+
+msc-smp:msc_om0154614 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154614"@en] .
+
+msc-smp:msc_om0154615 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154614"@en] .
+
+msc-smp:msc_om0154616 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154614"@en] .
+
+msc-smp:msc_om0154625 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154625"@en] .
+
+msc-smp:msc_om0154626 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154626"@en] .
+
+msc-smp:msc_om0154634 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154634"@en] .
+
+msc-smp:msc_om0154635 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154635"@en] .
+
+msc-smp:msc_om0154713 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154713"@en] .
+
+msc-smp:msc_om0154714 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154713"@en] .
+
+msc-smp:msc_om0154715 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154713"@en] .
+
+msc-smp:msc_om0154719 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154719"@en] .
+
+msc-smp:msc_om0154720 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154720"@en] .
+
+msc-smp:msc_om0154721 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154721"@en] .
+
+msc-smp:msc_om0154722 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154722"@en] .
+
+msc-smp:msc_om0154723 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154723"@en] .
+
+msc-smp:msc_om0154755 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154755"@en] .
+
+msc-smp:msc_om0154761 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154761"@en] .
+
+msc-smp:msc_om0154764 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154764"@en] .
+
+msc-smp:msc_om0154767 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154767"@en] .
+
+msc-smp:msc_om0154770 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154770"@en] .
+
+msc-smp:msc_om0154773 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154773"@en] .
+
+msc-smp:msc_om0154776 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154776"@en] .
+
+msc-smp:msc_om0154789 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154789"@en] .
+
+msc-smp:msc_om0154792 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154792"@en] .
+
+msc-smp:msc_om0154801 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154801"@en] .
+
+msc-smp:msc_om0154802 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154802"@en] .
+
+msc-smp:msc_om0154803 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154803"@en] .
+
+msc-smp:msc_om0154817 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154817"@en] .
+
+msc-smp:msc_om0154830 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154830"@en] .
+
+msc-smp:msc_om0154840 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154840"@en] .
+
+msc-smp:msc_om0154841 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154841"@en] .
+
+msc-smp:msc_om0154868 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154868"@en] .
+
+msc-smp:msc_om0154869 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154869"@en] .
+
+msc-smp:msc_om0154871 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154871"@en] .
+
+msc-smp:msc_om0154872 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154872"@en] .
+
+msc-smp:msc_om0154873 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154873"@en] .
+
+msc-smp:msc_om0154874 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154874"@en] .
+
+msc-smp:msc_om0154875 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154875"@en] .
+
+msc-smp:msc_om0154884 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154884"@en] .
+
+msc-smp:msc_om0154885 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154885"@en] .
+
+msc-smp:msc_om0154886 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154886"@en] .
+
+msc-smp:msc_om0154887 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154887"@en] .
+
+msc-smp:msc_om0154930 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154930"@en] .
+
+msc-smp:msc_om0154931 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154931"@en] .
+
+msc-smp:msc_om0154933 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC154933"@en ;
+  rdfs:comment "Hc from RES, Hc from C(T)"@en ] .
+
+msc-smp:msc_om0155000 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155000"@en] .
+
+msc-smp:msc_om0155047 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155047"@en] .
+
+msc-smp:msc_om0155063 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155063"@en] .
+
+msc-smp:msc_om0155064 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155064"@en] .
+
+msc-smp:msc_om0155121 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155121"@en] .
+
+msc-smp:msc_om0155124 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155124"@en] .
+
+msc-smp:msc_om0155125 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155125"@en] .
+
+msc-smp:msc_om0155149 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155149"@en] .
+
+msc-smp:msc_om0155151 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155151"@en] .
+
+msc-smp:msc_om0155152 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155152"@en] .
+
+msc-smp:msc_om0155153 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155153"@en] .
+
+msc-smp:msc_om0155154 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155154"@en] .
+
+msc-smp:msc_om0155199 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155199"@en] .
+
+msc-smp:msc_om0155200 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155200"@en] .
+
+msc-smp:msc_om0155206 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155206"@en] .
+
+msc-smp:msc_om0155207 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155207"@en] .
+
+msc-smp:msc_om0155208 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155208"@en] .
+
+msc-smp:msc_om0155300 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155301"@en] .
+
+msc-smp:msc_om0155301 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155301"@en] .
+
+msc-smp:msc_om0155320 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155320"@en] .
+
+msc-smp:msc_om0155338 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155338"@en] .
+
+msc-smp:msc_om0155340 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155340"@en] .
+
+msc-smp:msc_om0155348 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155348"@en] .
+
+msc-smp:msc_om0155352 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155352"@en] .
+
+msc-smp:msc_om0155362 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155362"@en] .
+
+msc-smp:msc_om0155390 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155390"@en] .
+
+msc-smp:msc_om0155415 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155415"@en] .
+
+msc-smp:msc_om0155416 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155416"@en] .
+
+msc-smp:msc_om0155417 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155417"@en] .
+
+msc-smp:msc_om0155418 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155418"@en] .
+
+msc-smp:msc_om0155430 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155430"@en] .
+
+msc-smp:msc_om0155464 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155464"@en] .
+
+msc-smp:msc_om0155491 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155491"@en] .
+
+msc-smp:msc_om0155492 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155492"@en] .
+
+msc-smp:msc_om0155518 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155518"@en] .
+
+msc-smp:msc_om0155519 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155519"@en] .
+
+msc-smp:msc_om0155521 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155521"@en] .
+
+msc-smp:msc_om0155525 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155525"@en] .
+
+msc-smp:msc_om0155537 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155537"@en] .
+
+msc-smp:msc_om0155540 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155540"@en] .
+
+msc-smp:msc_om0155541 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155540"@en] .
+
+msc-smp:msc_om0155551 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155551"@en] .
+
+msc-smp:msc_om0155566 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155566"@en] .
+
+msc-smp:msc_om0155600 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155600"@en] .
+
+msc-smp:msc_om0155608 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155608"@en] .
+
+msc-smp:msc_om0155613 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155613"@en] .
+
+msc-smp:msc_om0155621 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155621"@en] .
+
+msc-smp:msc_om0155623 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155623"@en] .
+
+msc-smp:msc_om0155624 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155624"@en] .
+
+msc-smp:msc_om0155649 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155649"@en] .
+
+msc-smp:msc_om0155653 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155653"@en] .
+
+msc-smp:msc_om0155654 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155654"@en] .
+
+msc-smp:msc_om0155655 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155655"@en] .
+
+msc-smp:msc_om0155676 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155676"@en] .
+
+msc-smp:msc_om0155677 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155677"@en] .
+
+msc-smp:msc_om0155681 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155681"@en] .
+
+msc-smp:msc_om0155684 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155684"@en] .
+
+msc-smp:msc_om0155696 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155696"@en] .
+
+msc-smp:msc_om0155697 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155697"@en] .
+
+msc-smp:msc_om0155699 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155699"@en] .
+
+msc-smp:msc_om0155700 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155700"@en] .
+
+msc-smp:msc_om0155701 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155701"@en] .
+
+msc-smp:msc_om0155712 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155712"@en] .
+
+msc-smp:msc_om0155729 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155729"@en] .
+
+msc-smp:msc_om0155730 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155730"@en] .
+
+msc-smp:msc_om0155734 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155734"@en] .
+
+msc-smp:msc_om0155742 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155742"@en] .
+
+msc-smp:msc_om0155746 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155746"@en] .
+
+msc-smp:msc_om0155747 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155747"@en] .
+
+msc-smp:msc_om0155755 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155755"@en] .
+
+msc-smp:msc_om0155756 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155756"@en] .
+
+msc-smp:msc_om0155757 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155757"@en] .
+
+msc-smp:msc_om0155765 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC155765"@en] .
+
+msc-smp:msc_om0156018 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156018"@en] .
+
+msc-smp:msc_om0156019 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156018"@en] .
+
+msc-smp:msc_om0156020 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156023"@en] .
+
+msc-smp:msc_om0156022 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156023"@en] .
+
+msc-smp:msc_om0156023 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156023"@en] .
+
+msc-smp:msc_om0156024 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156023"@en] .
+
+msc-smp:msc_om0156028 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156028"@en] .
+
+msc-smp:msc_om0156042 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156042"@en] .
+
+msc-smp:msc_om0156043 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156043"@en] .
+
+msc-smp:msc_om0156044 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156044"@en] .
+
+msc-smp:msc_om0156045 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156045"@en] .
+
+msc-smp:msc_om0156046 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156046"@en] .
+
+msc-smp:msc_om0156057 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156057"@en] .
+
+msc-smp:msc_om0156059 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156059"@en] .
+
+msc-smp:msc_om0156062 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156062"@en] .
+
+msc-smp:msc_om0156066 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156066"@en] .
+
+msc-smp:msc_om0156099 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156099"@en] .
+
+msc-smp:msc_om0156109 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156109"@en] .
+
+msc-smp:msc_om0156115 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156115"@en] .
+
+msc-smp:msc_om0156116 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156116"@en] .
+
+msc-smp:msc_om0156117 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156117"@en] .
+
+msc-smp:msc_om0156119 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156119"@en] .
+
+msc-smp:msc_om0156120 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156120"@en] .
+
+msc-smp:msc_om0156121 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156121"@en] .
+
+msc-smp:msc_om0156122 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156122"@en] .
+
+msc-smp:msc_om0156123 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156123"@en] .
+
+msc-smp:msc_om0156124 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156124"@en] .
+
+msc-smp:msc_om0156125 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156125"@en] .
+
+msc-smp:msc_om0156126 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156126"@en] .
+
+msc-smp:msc_om0156127 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156127"@en] .
+
+msc-smp:msc_om0156128 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156128"@en] .
+
+msc-smp:msc_om0156129 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156129"@en] .
+
+msc-smp:msc_om0156130 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156130"@en] .
+
+msc-smp:msc_om0156131 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156131"@en] .
+
+msc-smp:msc_om0156132 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156132"@en] .
+
+msc-smp:msc_om0156161 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156161"@en] .
+
+msc-smp:msc_om0156162 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156162"@en] .
+
+msc-smp:msc_om0156163 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156163"@en] .
+
+msc-smp:msc_om0156164 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156163"@en] .
+
+msc-smp:msc_om0156165 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156163"@en] .
+
+msc-smp:msc_om0156170 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156172"@en] .
+
+msc-smp:msc_om0156171 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156172"@en] .
+
+msc-smp:msc_om0156180 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156180"@en] .
+
+msc-smp:msc_om0156183 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156183"@en] .
+
+msc-smp:msc_om0156184 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156183"@en] .
+
+msc-smp:msc_om0156185 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156183"@en] .
+
+msc-smp:msc_om0156186 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156183"@en] .
+
+msc-smp:msc_om0156187 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156183"@en] .
+
+msc-smp:msc_om0156202 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156202"@en] .
+
+msc-smp:msc_om0156205 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156205"@en] .
+
+msc-smp:msc_om0156213 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156213"@en] .
+
+msc-smp:msc_om0156301 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156301"@en] .
+
+msc-smp:msc_om0156303 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156303"@en] .
+
+msc-smp:msc_om0156311 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156311"@en] .
+
+msc-smp:msc_om0156312 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156312"@en] .
+
+msc-smp:msc_om0156313 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156313"@en] .
+
+msc-smp:msc_om0156337 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156337"@en] .
+
+msc-smp:msc_om0156338 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156338"@en] .
+
+msc-smp:msc_om0156339 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156339"@en] .
+
+msc-smp:msc_om0156340 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156340"@en] .
+
+msc-smp:msc_om0156341 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156341"@en] .
+
+msc-smp:msc_om0156343 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156343"@en] .
+
+msc-smp:msc_om0156348 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156348"@en] .
+
+msc-smp:msc_om0156349 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156349"@en] .
+
+msc-smp:msc_om0156351 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156351"@en] .
+
+msc-smp:msc_om0156369 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156369"@en] .
+
+msc-smp:msc_om0156374 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156374"@en] .
+
+msc-smp:msc_om0156375 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156375"@en] .
+
+msc-smp:msc_om0156376 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156376"@en] .
+
+msc-smp:msc_om0156384 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156384"@en] .
+
+msc-smp:msc_om0156385 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156384"@en] .
+
+msc-smp:msc_om0156386 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156386"@en] .
+
+msc-smp:msc_om0156387 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156386"@en] .
+
+msc-smp:msc_om0156400 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156400"@en] .
+
+msc-smp:msc_om0156404 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156404"@en] .
+
+msc-smp:msc_om0156405 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156405"@en] .
+
+msc-smp:msc_om0156406 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156404"@en] .
+
+msc-smp:msc_om0156407 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156405"@en] .
+
+msc-smp:msc_om0156414 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156414"@en] .
+
+msc-smp:msc_om0156415 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156414"@en] .
+
+msc-smp:msc_om0156416 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156416"@en] .
+
+msc-smp:msc_om0156417 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156416"@en] .
+
+msc-smp:msc_om0156419 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156419"@en] .
+
+msc-smp:msc_om0156421 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156421"@en] .
+
+msc-smp:msc_om0156429 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156429"@en] .
+
+msc-smp:msc_om0156433 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156433"@en] .
+
+msc-smp:msc_om0156435 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156435"@en] .
+
+msc-smp:msc_om0156436 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156436"@en] .
+
+msc-smp:msc_om0156438 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156438"@en] .
+
+msc-smp:msc_om0156442 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156442"@en] .
+
+msc-smp:msc_om0156443 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156443"@en] .
+
+msc-smp:msc_om0156533 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156533"@en] .
+
+msc-smp:msc_om0156535 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156535"@en] .
+
+msc-smp:msc_om0156536 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156535"@en] .
+
+msc-smp:msc_om0156548 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156548"@en] .
+
+msc-smp:msc_om0156549 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156548"@en] .
+
+msc-smp:msc_om0156551 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156552"@en] .
+
+msc-smp:msc_om0156552 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156552"@en] .
+
+msc-smp:msc_om0156553 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156552"@en] .
+
+msc-smp:msc_om0156554 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156554"@en] .
+
+msc-smp:msc_om0156555 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156554"@en] .
+
+msc-smp:msc_om0156558 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156558"@en] .
+
+msc-smp:msc_om0156559 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156559"@en] .
+
+msc-smp:msc_om0156560 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156560"@en] .
+
+msc-smp:msc_om0156561 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156561"@en] .
+
+msc-smp:msc_om0156563 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156563"@en] .
+
+msc-smp:msc_om0156579 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156579"@en] .
+
+msc-smp:msc_om0156583 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156583"@en] .
+
+msc-smp:msc_om0156584 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156584"@en] .
+
+msc-smp:msc_om0156585 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156585"@en] .
+
+msc-smp:msc_om0156586 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156586"@en] .
+
+msc-smp:msc_om0156591 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156591"@en] .
+
+msc-smp:msc_om0156595 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156595"@en] .
+
+msc-smp:msc_om0156598 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156598"@en] .
+
+msc-smp:msc_om0156599 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156599"@en] .
+
+msc-smp:msc_om0156605 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156605"@en] .
+
+msc-smp:msc_om0156615 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156615"@en] .
+
+msc-smp:msc_om0156616 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156616"@en] .
+
+msc-smp:msc_om0156623 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156623"@en] .
+
+msc-smp:msc_om0156624 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156624"@en] .
+
+msc-smp:msc_om0156627 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156627"@en] .
+
+msc-smp:msc_om0156628 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156628"@en] .
+
+msc-smp:msc_om0156629 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156629"@en] .
+
+msc-smp:msc_om0156637 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156637"@en] .
+
+msc-smp:msc_om0156638 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156638"@en] .
+
+msc-smp:msc_om0156672 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156672"@en] .
+
+msc-smp:msc_om0156673 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156673"@en] .
+
+msc-smp:msc_om0156674 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156674"@en] .
+
+msc-smp:msc_om0156675 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156675"@en] .
+
+msc-smp:msc_om0156676 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156676"@en] .
+
+msc-smp:msc_om0156681 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156681"@en] .
+
+msc-smp:msc_om0156684 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156684"@en] .
+
+msc-smp:msc_om0156685 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156685"@en] .
+
+msc-smp:msc_om0156698 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156698"@en] .
+
+msc-smp:msc_om0156703 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156703"@en] .
+
+msc-smp:msc_om0156704 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156704"@en] .
+
+msc-smp:msc_om0156705 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156705"@en] .
+
+msc-smp:msc_om0156800 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156800"@en] .
+
+msc-smp:msc_om0156806 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156806"@en] .
+
+msc-smp:msc_om0156814 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156814"@en] .
+
+msc-smp:msc_om0156815 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156815"@en] .
+
+msc-smp:msc_om0156818 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156818"@en] .
+
+msc-smp:msc_om0156864 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156864"@en] .
+
+msc-smp:msc_om0156865 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156865"@en] .
+
+msc-smp:msc_om0156889 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156889"@en] .
+
+msc-smp:msc_om0156890 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156890"@en] .
+
+msc-smp:msc_om0156897 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156897"@en] .
+
+msc-smp:msc_om0156901 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156901"@en] .
+
+msc-smp:msc_om0156906 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156906"@en] .
+
+msc-smp:msc_om0156913 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156913"@en] .
+
+msc-smp:msc_om0156914 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156914"@en] .
+
+msc-smp:msc_om0156917 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156917"@en] .
+
+msc-smp:msc_om0156926 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156926"@en] .
+
+msc-smp:msc_om0156927 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156927"@en] .
+
+msc-smp:msc_om0156928 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156928"@en] .
+
+msc-smp:msc_om0156929 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156929"@en] .
+
+msc-smp:msc_om0156930 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156930"@en] .
+
+msc-smp:msc_om0156931 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156931"@en] .
+
+msc-smp:msc_om0156932 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156932"@en] .
+
+msc-smp:msc_om0156933 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156933"@en] .
+
+msc-smp:msc_om0156934 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156934"@en] .
+
+msc-smp:msc_om0156935 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156935"@en] .
+
+msc-smp:msc_om0156936 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156936"@en] .
+
+msc-smp:msc_om0156937 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156937"@en] .
+
+msc-smp:msc_om0156938 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156938"@en] .
+
+msc-smp:msc_om0156965 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156965"@en] .
+
+msc-smp:msc_om0156967 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156967"@en] .
+
+msc-smp:msc_om0156974 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156974"@en] .
+
+msc-smp:msc_om0156975 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156975"@en] .
+
+msc-smp:msc_om0156976 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156976"@en] .
+
+msc-smp:msc_om0156977 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156977"@en] .
+
+msc-smp:msc_om0156978 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156977"@en] .
+
+msc-smp:msc_om0156979 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156979"@en] .
+
+msc-smp:msc_om0156991 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC156991"@en] .
+
+msc-smp:msc_om0157036 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157036"@en] .
+
+msc-smp:msc_om0157037 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157037"@en] .
+
+msc-smp:msc_om0157038 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157038"@en] .
+
+msc-smp:msc_om0157039 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157039"@en] .
+
+msc-smp:msc_om0157040 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157040"@en] .
+
+msc-smp:msc_om0157104 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157104"@en] .
+
+msc-smp:msc_om0157112 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157112"@en] .
+
+msc-smp:msc_om0157116 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157116"@en] .
+
+msc-smp:msc_om0157117 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157117"@en] .
+
+msc-smp:msc_om0157148 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157148"@en] .
+
+msc-smp:msc_om0157149 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157149"@en] .
+
+msc-smp:msc_om0157151 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157151"@en] .
+
+msc-smp:msc_om0157155 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157155"@en] .
+
+msc-smp:msc_om0157157 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157155"@en] .
+
+msc-smp:msc_om0157173 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157173"@en] .
+
+msc-smp:msc_om0157178 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157178"@en] .
+
+msc-smp:msc_om0157201 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157201"@en] .
+
+msc-smp:msc_om0157202 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157202"@en] .
+
+msc-smp:msc_om0157204 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157204"@en] .
+
+msc-smp:msc_om0157205 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157205"@en] .
+
+msc-smp:msc_om0157207 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157207"@en] .
+
+msc-smp:msc_om0157209 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157209"@en] .
+
+msc-smp:msc_om0157225 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157225"@en] .
+
+msc-smp:msc_om0157226 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157226"@en] .
+
+msc-smp:msc_om0157227 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157227"@en] .
+
+msc-smp:msc_om0157228 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157227"@en] .
+
+msc-smp:msc_om0157235 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157235"@en] .
+
+msc-smp:msc_om0157236 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157236"@en] .
+
+msc-smp:msc_om0157244 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157244"@en] .
+
+msc-smp:msc_om0157247 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157247"@en] .
+
+msc-smp:msc_om0157248 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157248"@en] .
+
+msc-smp:msc_om0157262 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157262"@en] .
+
+msc-smp:msc_om0157272 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157272"@en] .
+
+msc-smp:msc_om0157290 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157290"@en] .
+
+msc-smp:msc_om0157291 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157291"@en] .
+
+msc-smp:msc_om0157413 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157413"@en] .
+
+msc-smp:msc_om0157427 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157427"@en] .
+
+msc-smp:msc_om0157428 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157428"@en] .
+
+msc-smp:msc_om0157449 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157449"@en] .
+
+msc-smp:msc_om0157509 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157509"@en] .
+
+msc-smp:msc_om0157510 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157510"@en] .
+
+msc-smp:msc_om0157519 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157519"@en] .
+
+msc-smp:msc_om0157529 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157529"@en] .
+
+msc-smp:msc_om0157531 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157531"@en] .
+
+msc-smp:msc_om0157541 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157541"@en] .
+
+msc-smp:msc_om0157542 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157542"@en] .
+
+msc-smp:msc_om0157550 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157550"@en] .
+
+msc-smp:msc_om0157557 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157557"@en] .
+
+msc-smp:msc_om0157559 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157559"@en] .
+
+msc-smp:msc_om0157560 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157560"@en] .
+
+msc-smp:msc_om0157561 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157561"@en] .
+
+msc-smp:msc_om0157562 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157562"@en] .
+
+msc-smp:msc_om0157563 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157563"@en] .
+
+msc-smp:msc_om0157564 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157564"@en] .
+
+msc-smp:msc_om0157565 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157565"@en] .
+
+msc-smp:msc_om0157570 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157570"@en] .
+
+msc-smp:msc_om0157571 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157571"@en] .
+
+msc-smp:msc_om0157575 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157575"@en] .
+
+msc-smp:msc_om0157578 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157579"@en] .
+
+msc-smp:msc_om0157579 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157579"@en] .
+
+msc-smp:msc_om0157580 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157582"@en] .
+
+msc-smp:msc_om0157581 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157582"@en] .
+
+msc-smp:msc_om0157582 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157582"@en] .
+
+msc-smp:msc_om0157584 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157584"@en] .
+
+msc-smp:msc_om0157590 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157590"@en] .
+
+msc-smp:msc_om0157600 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157600"@en] .
+
+msc-smp:msc_om0157601 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157601"@en] .
+
+msc-smp:msc_om0157602 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157602"@en] .
+
+msc-smp:msc_om0157603 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157603"@en] .
+
+msc-smp:msc_om0157609 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157609"@en] .
+
+msc-smp:msc_om0157614 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157614"@en] .
+
+msc-smp:msc_om0157639 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157639"@en] .
+
+msc-smp:msc_om0157657 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157657"@en] .
+
+msc-smp:msc_om0157660 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157660"@en] .
+
+msc-smp:msc_om0157662 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157662"@en] .
+
+msc-smp:msc_om0157663 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157663"@en] .
+
+msc-smp:msc_om0157666 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157666"@en] .
+
+msc-smp:msc_om0157667 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157667"@en] .
+
+msc-smp:msc_om0157668 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157668"@en] .
+
+msc-smp:msc_om0157672 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157672"@en] .
+
+msc-smp:msc_om0157673 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157673"@en] .
+
+msc-smp:msc_om0157690 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157690"@en] .
+
+msc-smp:msc_om0157691 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157691"@en] .
+
+msc-smp:msc_om0157693 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157693"@en] .
+
+msc-smp:msc_om0157694 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157694"@en] .
+
+msc-smp:msc_om0157697 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157697"@en] .
+
+msc-smp:msc_om0157698 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157698"@en] .
+
+msc-smp:msc_om0157720 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157720"@en] .
+
+msc-smp:msc_om0157722 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "PENE157722"@en] .
+
+msc-smp:msc_om0157724 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157724"@en] .
+
+msc-smp:msc_om0157734 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157734"@en] .
+
+msc-smp:msc_om0157737 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157737"@en] .
+
+msc-smp:msc_om0157738 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157738"@en] .
+
+msc-smp:msc_om0157739 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157739"@en] .
+
+msc-smp:msc_om0157741 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157742"@en] .
+
+msc-smp:msc_om0157742 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157742"@en] .
+
+msc-smp:msc_om0157743 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157743"@en] .
+
+msc-smp:msc_om0157744 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157744"@en] .
+
+msc-smp:msc_om0157841 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157841"@en] .
+
+msc-smp:msc_om0157868 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157868"@en] .
+
+msc-smp:msc_om0157869 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157869"@en] .
+
+msc-smp:msc_om0157870 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157870"@en] .
+
+msc-smp:msc_om0157885 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157885"@en] .
+
+msc-smp:msc_om0157886 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157886"@en] .
+
+msc-smp:msc_om0157887 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157887"@en] .
+
+msc-smp:msc_om0157888 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157888"@en] .
+
+msc-smp:msc_om0157889 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157887"@en] .
+
+msc-smp:msc_om0157890 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157887"@en] .
+
+msc-smp:msc_om0157894 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157894"@en] .
+
+msc-smp:msc_om0157896 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157896"@en] .
+
+msc-smp:msc_om0157897 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157897"@en] .
+
+msc-smp:msc_om0157898 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157898"@en] .
+
+msc-smp:msc_om0157908 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157908"@en] .
+
+msc-smp:msc_om0157909 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157909"@en] .
+
+msc-smp:msc_om0157910 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157909"@en] .
+
+msc-smp:msc_om0157923 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157923"@en] .
+
+msc-smp:msc_om0157925 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157925"@en] .
+
+msc-smp:msc_om0157926 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157926"@en] .
+
+msc-smp:msc_om0157930 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157930"@en] .
+
+msc-smp:msc_om0157939 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157939"@en] .
+
+msc-smp:msc_om0157945 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157945"@en] .
+
+msc-smp:msc_om0157948 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157948"@en] .
+
+msc-smp:msc_om0157951 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157951"@en] .
+
+msc-smp:msc_om0157960 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157960"@en] .
+
+msc-smp:msc_om0157968 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157968"@en] .
+
+msc-smp:msc_om0157969 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC157969"@en] .
+
+msc-smp:msc_om0158000 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158000"@en] .
+
+msc-smp:msc_om0158050 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158050"@en] .
+
+msc-smp:msc_om0158051 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158051"@en] .
+
+msc-smp:msc_om0158052 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158052"@en] .
+
+msc-smp:msc_om0158097 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158097"@en] .
+
+msc-smp:msc_om0158104 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158104"@en] .
+
+msc-smp:msc_om0158125 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158125"@en] .
+
+msc-smp:msc_om0158153 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158153"@en] .
+
+msc-smp:msc_om0158156 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158156"@en] .
+
+msc-smp:msc_om0158161 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158161"@en] .
+
+msc-smp:msc_om0158186 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158186"@en] .
+
+msc-smp:msc_om0158187 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158187"@en] .
+
+msc-smp:msc_om0158235 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158235"@en] .
+
+msc-smp:msc_om0158236 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158236"@en] .
+
+msc-smp:msc_om0158237 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158237"@en] .
+
+msc-smp:msc_om0158238 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158238"@en] .
+
+msc-smp:msc_om0158256 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158256"@en] .
+
+msc-smp:msc_om0158313 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158313"@en] .
+
+msc-smp:msc_om0158314 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158314"@en] .
+
+msc-smp:msc_om0158315 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158315"@en] .
+
+msc-smp:msc_om0158326 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158326"@en] .
+
+msc-smp:msc_om0158327 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158326"@en] .
+
+msc-smp:msc_om0158328 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158328"@en] .
+
+msc-smp:msc_om0158329 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158329"@en] .
+
+msc-smp:msc_om0158330 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158329"@en] .
+
+msc-smp:msc_om0158333 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158333"@en] .
+
+msc-smp:msc_om0158340 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158341"@en] .
+
+msc-smp:msc_om0158341 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158341"@en] .
+
+msc-smp:msc_om0158342 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158341"@en] .
+
+msc-smp:msc_om0158345 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158345"@en] .
+
+msc-smp:msc_om0158370 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158370"@en] .
+
+msc-smp:msc_om0158371 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158371"@en] .
+
+msc-smp:msc_om0158372 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158372"@en] .
+
+msc-smp:msc_om0158373 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158373"@en] .
+
+msc-smp:msc_om0158376 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158376"@en] .
+
+msc-smp:msc_om0158377 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158377"@en] .
+
+msc-smp:msc_om0158378 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158377"@en] .
+
+msc-smp:msc_om0158379 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158377"@en] .
+
+msc-smp:msc_om0158380 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158377"@en] .
+
+msc-smp:msc_om0158381 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158381"@en] .
+
+msc-smp:msc_om0158384 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158384"@en] .
+
+msc-smp:msc_om0158385 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158385"@en] .
+
+msc-smp:msc_om0158387 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158387"@en] .
+
+msc-smp:msc_om0158403 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158403"@en] .
+
+msc-smp:msc_om0158405 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158405"@en] .
+
+msc-smp:msc_om0158407 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158407"@en] .
+
+msc-smp:msc_om0158409 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158409"@en] .
+
+msc-smp:msc_om0158410 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158410"@en] .
+
+msc-smp:msc_om0158413 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158413"@en] .
+
+msc-smp:msc_om0158414 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158414"@en] .
+
+msc-smp:msc_om0158415 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158415"@en] .
+
+msc-smp:msc_om0158416 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158416"@en] .
+
+msc-smp:msc_om0158420 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158420"@en] .
+
+msc-smp:msc_om0158423 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158423"@en] .
+
+msc-smp:msc_om0158441 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158441"@en] .
+
+msc-smp:msc_om0158442 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158442"@en] .
+
+msc-smp:msc_om0158443 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158443"@en] .
+
+msc-smp:msc_om0158444 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158444"@en] .
+
+msc-smp:msc_om0158445 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158445"@en] .
+
+msc-smp:msc_om0158446 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158446"@en] .
+
+msc-smp:msc_om0158447 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158447"@en] .
+
+msc-smp:msc_om0158502 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158502"@en] .
+
+msc-smp:msc_om0158506 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158506"@en] .
+
+msc-smp:msc_om0158507 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158507"@en] .
+
+msc-smp:msc_om0158511 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158511"@en] .
+
+msc-smp:msc_om0158517 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158517"@en] .
+
+msc-smp:msc_om0158519 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158519"@en] .
+
+msc-smp:msc_om0158520 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158520"@en] .
+
+msc-smp:msc_om0158521 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158521"@en] .
+
+msc-smp:msc_om0158524 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158524"@en] .
+
+msc-smp:msc_om0158525 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158524"@en] .
+
+msc-smp:msc_om0158534 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158534"@en] .
+
+msc-smp:msc_om0158535 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158535"@en] .
+
+msc-smp:msc_om0158540 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158540"@en] .
+
+msc-smp:msc_om0158543 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158543"@en] .
+
+msc-smp:msc_om0158545 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158545"@en] .
+
+msc-smp:msc_om0158547 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158547"@en] .
+
+msc-smp:msc_om0158550 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158550"@en] .
+
+msc-smp:msc_om0158552 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158552"@en] .
+
+msc-smp:msc_om0158553 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158553"@en] .
+
+msc-smp:msc_om0158554 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158554"@en] .
+
+msc-smp:msc_om0158556 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158556"@en] .
+
+msc-smp:msc_om0158557 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158557"@en] .
+
+msc-smp:msc_om0158559 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158559"@en] .
+
+msc-smp:msc_om0158563 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158563"@en] .
+
+msc-smp:msc_om0158564 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158564"@en] .
+
+msc-smp:msc_om0158565 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158565"@en] .
+
+msc-smp:msc_om0158567 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158565"@en] .
+
+msc-smp:msc_om0158586 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158586"@en] .
+
+msc-smp:msc_om0158587 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158587"@en] .
+
+msc-smp:msc_om0158589 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158589"@en] .
+
+msc-smp:msc_om0158592 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158592"@en] .
+
+msc-smp:msc_om0158597 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158597"@en] .
+
+msc-smp:msc_om0158598 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158598"@en] .
+
+msc-smp:msc_om0158615 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158615"@en] .
+
+msc-smp:msc_om0158619 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158619"@en] .
+
+msc-smp:msc_om0158620 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158622"@en] .
+
+msc-smp:msc_om0158621 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158622"@en] .
+
+msc-smp:msc_om0158622 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158622"@en] .
+
+msc-smp:msc_om0158623 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158624"@en] .
+
+msc-smp:msc_om0158624 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158624"@en] .
+
+msc-smp:msc_om0158625 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158624"@en] .
+
+msc-smp:msc_om0158626 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158626"@en] .
+
+msc-smp:msc_om0158627 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158627"@en] .
+
+msc-smp:msc_om0158631 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158631"@en] .
+
+msc-smp:msc_om0158636 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158636"@en] .
+
+msc-smp:msc_om0158700 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158700"@en] .
+
+msc-smp:msc_om0158734 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158734"@en] .
+
+msc-smp:msc_om0158736 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158736"@en] .
+
+msc-smp:msc_om0158737 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158737"@en] .
+
+msc-smp:msc_om0158738 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158738"@en] .
+
+msc-smp:msc_om0158739 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158739"@en] .
+
+msc-smp:msc_om0158740 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158740"@en] .
+
+msc-smp:msc_om0158743 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158743"@en] .
+
+msc-smp:msc_om0158747 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158747"@en] .
+
+msc-smp:msc_om0158749 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158749"@en] .
+
+msc-smp:msc_om0158759 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158759"@en] .
+
+msc-smp:msc_om0158766 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158766"@en] .
+
+msc-smp:msc_om0158769 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158769"@en] .
+
+msc-smp:msc_om0158774 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158774"@en] .
+
+msc-smp:msc_om0158775 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158775"@en] .
+
+msc-smp:msc_om0158776 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158776"@en] .
+
+msc-smp:msc_om0158777 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158777"@en] .
+
+msc-smp:msc_om0158778 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158778"@en] .
+
+msc-smp:msc_om0158788 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158788"@en] .
+
+msc-smp:msc_om0158791 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158791"@en] .
+
+msc-smp:msc_om0158809 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158809"@en] .
+
+msc-smp:msc_om0158811 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158811"@en] .
+
+msc-smp:msc_om0158813 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158813"@en] .
+
+msc-smp:msc_om0158825 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158825"@en] .
+
+msc-smp:msc_om0158826 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158826"@en] .
+
+msc-smp:msc_om0158827 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158825"@en] .
+
+msc-smp:msc_om0158828 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158826"@en] .
+
+msc-smp:msc_om0158829 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158825"@en] .
+
+msc-smp:msc_om0158830 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158826"@en] .
+
+msc-smp:msc_om0158831 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158831"@en] .
+
+msc-smp:msc_om0158833 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158831"@en] .
+
+msc-smp:msc_om0158835 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158831"@en] .
+
+msc-smp:msc_om0158836 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158836"@en] .
+
+msc-smp:msc_om0158840 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158840"@en] .
+
+msc-smp:msc_om0158841 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158841"@en] .
+
+msc-smp:msc_om0158842 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158842"@en] .
+
+msc-smp:msc_om0158843 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158843"@en] .
+
+msc-smp:msc_om0158844 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158844"@en] .
+
+msc-smp:msc_om0158852 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158852"@en] .
+
+msc-smp:msc_om0158853 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158852"@en] .
+
+msc-smp:msc_om0158860 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158860"@en] .
+
+msc-smp:msc_om0158861 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158861"@en] .
+
+msc-smp:msc_om0158862 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158862"@en] .
+
+msc-smp:msc_om0158867 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158867"@en] .
+
+msc-smp:msc_om0158871 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158871"@en] .
+
+msc-smp:msc_om0158872 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "MHC158872"@en] .
+
+msc-smp:msc_om0158874 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158874fig3"@en] .
+
+msc-smp:msc_om0158878 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158878fig1"@en] .
+
+msc-smp:msc_om0158879 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158879fig1"@en] .
+
+msc-smp:msc_om0158880 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158880fig3"@en] .
+
+msc-smp:msc_om0158881 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158881fig2"@en] .
+
+msc-smp:msc_om0158884 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158884fig2"@en] .
+
+msc-smp:msc_om0158885 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158885fig2"@en] .
+
+msc-smp:msc_om0158889 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158889fig2"@en] .
+
+msc-smp:msc_om0158914 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158914fig2"@en] .
+
+msc-smp:msc_om0158916 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158916fig2"@en] .
+
+msc-smp:msc_om0158917 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158917fig1"@en] .
+
+msc-smp:msc_om0158918 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158917fig1"@en] .
+
+msc-smp:msc_om0158919 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158919fig2"@en] .
+
+msc-smp:msc_om0158920 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158920fig2"@en] .
+
+msc-smp:msc_om0158922 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158922fig2"@en] .
+
+msc-smp:msc_om0158923 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158922fig2"@en] .
+
+msc-smp:msc_om0158927 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158927fig2"@en] .
+
+msc-smp:msc_om0158928 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158928fig2"@en] .
+
+msc-smp:msc_om0158950 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158950fig2"@en] .
+
+msc-smp:msc_om0158951 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158950fig2"@en] .
+
+msc-smp:msc_om0158952 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158952fig2"@en] .
+
+msc-smp:msc_om0158957 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158953fig3"@en] .
+
+msc-smp:msc_om0158962 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158962fig7"@en] .
+
+msc-smp:msc_om0158963 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158962fig7"@en] .
+
+msc-smp:msc_om0158964 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158962fig7"@en] .
+
+msc-smp:msc_om0158965 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158962fig7"@en] .
+
+msc-smp:msc_om0158966 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158962fig7"@en] .
+
+msc-smp:msc_om0158967 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158962fig7"@en] .
+
+msc-smp:msc_om0158968 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158962fig7"@en] .
+
+msc-smp:msc_om0158970 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158970fig2"@en] .
+
+msc-smp:msc_om0158971 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158971fig2"@en] .
+
+msc-smp:msc_om0158972 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158972fig2"@en] .
+
+msc-smp:msc_om0158973 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158973fig2"@en] .
+
+msc-smp:msc_om0158974 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158974fig3"@en] .
+
+msc-smp:msc_om0158979 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158979fig1"@en] .
+
+msc-smp:msc_om0158980 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158980fig3"@en] .
+
+msc-smp:msc_om0158981 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158981fig4"@en] .
+
+msc-smp:msc_om0158982 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158982fig2"@en] .
+
+msc-smp:msc_om0158984 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158984fig2"@en] .
+
+msc-smp:msc_om0158986 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158986fig2"@en] .
+
+msc-smp:msc_om0158987 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0158988 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0158989 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0158990 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0158991 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0158992 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0158993 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0158994 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0158995 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0158996 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0158997 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0158998 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0158999 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0159000 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "158987fig3"@en] .
+
+msc-smp:msc_om0159001 msc:hasFigureData [ a msc:hirfig ;
+  rdfs:label "159001fig2"@en] .
+

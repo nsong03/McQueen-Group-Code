@@ -1,0 +1,2161 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msc-smp:msc_om0000896 sio:SIO_000008 msc-prop:msc_om0000896_npenet .
+msc-prop:msc_om0000896_npenet a msc:npenet .
+
+msc-prop:msc_om0000896_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0000896_npenetMeasurementDatum .
+
+msc-prop:msc_om0000896_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0000896_npenet ;
+  sio:SIO_000300 6000 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0001367 sio:SIO_000008 msc-prop:msc_om0001367_npenet .
+msc-prop:msc_om0001367_npenet a msc:npenet .
+
+msc-prop:msc_om0001367_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0001367_npenetMeasurementDatum .
+
+msc-prop:msc_om0001367_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0001367_npenet ;
+  sio:SIO_000300 4500 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002778 sio:SIO_000008 msc-prop:msc_om0002778_npenet .
+msc-prop:msc_om0002778_npenet a msc:npenet .
+
+msc-prop:msc_om0002778_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0002778_npenetMeasurementDatum .
+
+msc-prop:msc_om0002778_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002778_npenet ;
+  sio:SIO_000300 13600 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002953 sio:SIO_000008 msc-prop:msc_om0002953_npenet .
+msc-prop:msc_om0002953_npenet a msc:npenet .
+
+msc-prop:msc_om0002953_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "magnetization"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0002953_npenetMeasurementDatum .
+
+msc-prop:msc_om0002953_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002953_npenet ;
+  sio:SIO_000300 6425 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0004336 sio:SIO_000008 msc-prop:msc_om0004336_npenet .
+msc-prop:msc_om0004336_npenet a msc:npenet .
+
+msc-prop:msc_om0004336_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "BY ESR BROADENING"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0004336_npenetMeasurementDatum .
+
+msc-prop:msc_om0004336_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0004336_npenet ;
+  sio:SIO_000300 6250 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0004790 sio:SIO_000008 msc-prop:msc_om0004790_npenet .
+msc-prop:msc_om0004790_npenet a msc:npenet .
+
+msc-prop:msc_om0004790_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0004790_npenetMeasurementDatum .
+
+msc-prop:msc_om0004790_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0004790_npenet ;
+  sio:SIO_000300 4500 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0004791 sio:SIO_000008 msc-prop:msc_om0004791_npenet .
+msc-prop:msc_om0004791_npenet a msc:npenet .
+
+msc-prop:msc_om0004791_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0004791_npenetMeasurementDatum .
+
+msc-prop:msc_om0004791_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0004791_npenet ;
+  sio:SIO_000300 1700 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0004792 sio:SIO_000008 msc-prop:msc_om0004792_npenet .
+msc-prop:msc_om0004792_npenet a msc:npenet .
+
+msc-prop:msc_om0004792_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0004792_npenetMeasurementDatum .
+
+msc-prop:msc_om0004792_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0004792_npenet ;
+  sio:SIO_000300 5900 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0005074 sio:SIO_000008 msc-prop:msc_om0005074_npenet .
+msc-prop:msc_om0005074_npenet a msc:npenet .
+
+msc-prop:msc_om0005074_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "muon-spin resonance"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0005074_npenetMeasurementDatum .
+
+msc-prop:msc_om0005074_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0005074_npenet ;
+  sio:SIO_000300 1300 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0005828 sio:SIO_000008 msc-prop:msc_om0005828_npenet .
+msc-prop:msc_om0005828_npenet a msc:npenet .
+
+msc-prop:msc_om0005828_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "from AC Suspeptibity"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0005828_npenetMeasurementDatum .
+
+msc-prop:msc_om0005828_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0005828_npenet ;
+  sio:SIO_000300 1.2 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0005829 sio:SIO_000008 msc-prop:msc_om0005829_npenet .
+msc-prop:msc_om0005829_npenet a msc:npenet .
+
+msc-prop:msc_om0005829_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0005829_npenetMeasurementDatum .
+
+msc-prop:msc_om0005829_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0005829_npenet ;
+  sio:SIO_000300 0.8 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0005830 sio:SIO_000008 msc-prop:msc_om0005830_npenet .
+msc-prop:msc_om0005830_npenet a msc:npenet .
+
+msc-prop:msc_om0005830_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0005830_npenetMeasurementDatum .
+
+msc-prop:msc_om0005830_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0005830_npenet ;
+  sio:SIO_000300 1 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0006881 sio:SIO_000008 msc-prop:msc_om0006881_npenet .
+msc-prop:msc_om0006881_npenet a msc:npenet .
+
+msc-prop:msc_om0006881_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0006881_npenetMeasurementDatum .
+
+msc-prop:msc_om0006881_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0006881_npenet ;
+  sio:SIO_000300 100 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0006993 sio:SIO_000008 msc-prop:msc_om0006993_npenet .
+msc-prop:msc_om0006993_npenet a msc:npenet .
+
+msc-prop:msc_om0006993_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Josephson plasma frequency  "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0006993_npenetMeasurementDatum .
+
+msc-prop:msc_om0006993_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0006993_npenet ;
+  sio:SIO_000300 23 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0006994 sio:SIO_000008 msc-prop:msc_om0006994_npenet .
+msc-prop:msc_om0006994_npenet a msc:npenet .
+
+msc-prop:msc_om0006994_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Josephson plasma frequency  "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0006994_npenetMeasurementDatum .
+
+msc-prop:msc_om0006994_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0006994_npenet ;
+  sio:SIO_000300 15 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0006995 sio:SIO_000008 msc-prop:msc_om0006995_npenet .
+msc-prop:msc_om0006995_npenet a msc:npenet .
+
+msc-prop:msc_om0006995_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Josephson plasma frequency  "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0006995_npenetMeasurementDatum .
+
+msc-prop:msc_om0006995_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0006995_npenet ;
+  sio:SIO_000300 29 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0006996 sio:SIO_000008 msc-prop:msc_om0006996_npenet .
+msc-prop:msc_om0006996_npenet a msc:npenet .
+
+msc-prop:msc_om0006996_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment " Josephson plasma frequency "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0006996_npenetMeasurementDatum .
+
+msc-prop:msc_om0006996_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0006996_npenet ;
+  sio:SIO_000300 8 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0008296 sio:SIO_000008 msc-prop:msc_om0008296_npenet .
+msc-prop:msc_om0008296_npenet a msc:npenet .
+
+msc-prop:msc_om0008296_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "direct measurement of vortex"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008296_npenetMeasurementDatum .
+
+msc-prop:msc_om0008296_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008296_npenet ;
+  sio:SIO_000300 8 ;
+  sio:SIO_000221 "microm"^^xsd:string .
+
+msc-smp:msc_om0008818 sio:SIO_000008 msc-prop:msc_om0008818_npenet .
+msc-prop:msc_om0008818_npenet a msc:npenet .
+
+msc-prop:msc_om0008818_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "FIR"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008818_npenetMeasurementDatum .
+
+msc-prop:msc_om0008818_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008818_npenet ;
+  sio:SIO_000300 21 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0008819 sio:SIO_000008 msc-prop:msc_om0008819_npenet .
+msc-prop:msc_om0008819_npenet a msc:npenet .
+
+msc-prop:msc_om0008819_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "FIR measurement "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008819_npenetMeasurementDatum .
+
+msc-prop:msc_om0008819_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008819_npenet ;
+  sio:SIO_000300 13 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0008820 sio:SIO_000008 msc-prop:msc_om0008820_npenet .
+msc-prop:msc_om0008820_npenet a msc:npenet .
+
+msc-prop:msc_om0008820_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "FIR "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008820_npenetMeasurementDatum .
+
+msc-prop:msc_om0008820_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008820_npenet ;
+  sio:SIO_000300 32 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0008822 sio:SIO_000008 msc-prop:msc_om0008822_npenet .
+msc-prop:msc_om0008822_npenet a msc:npenet .
+
+msc-prop:msc_om0008822_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Josephson plasma"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008822_npenetMeasurementDatum .
+
+msc-prop:msc_om0008822_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008822_npenet ;
+  sio:SIO_000300 77 ;
+  sio:SIO_000221 "micron. M"^^xsd:string .
+
+msc-smp:msc_om0008823 sio:SIO_000008 msc-prop:msc_om0008823_npenet .
+msc-prop:msc_om0008823_npenet a msc:npenet .
+
+msc-prop:msc_om0008823_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Josephson plasma"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008823_npenetMeasurementDatum .
+
+msc-prop:msc_om0008823_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008823_npenet ;
+  sio:SIO_000300 48 ;
+  sio:SIO_000221 "micron. M"^^xsd:string .
+
+msc-smp:msc_om0008824 sio:SIO_000008 msc-prop:msc_om0008824_npenet .
+msc-prop:msc_om0008824_npenet a msc:npenet .
+
+msc-prop:msc_om0008824_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Josephson plasma"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008824_npenetMeasurementDatum .
+
+msc-prop:msc_om0008824_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008824_npenet ;
+  sio:SIO_000300 35 ;
+  sio:SIO_000221 "micron. M"^^xsd:string .
+
+msc-smp:msc_om0008936 sio:SIO_000008 msc-prop:msc_om0008936_npenet .
+msc-prop:msc_om0008936_npenet a msc:npenet .
+
+msc-prop:msc_om0008936_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008936_npenetMeasurementDatum .
+
+msc-prop:msc_om0008936_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008936_npenet ;
+  sio:SIO_000300 0.7 ;
+  sio:SIO_000221 "micron m"^^xsd:string .
+
+msc-smp:msc_om0008938 sio:SIO_000008 msc-prop:msc_om0008938_npenet .
+msc-prop:msc_om0008938_npenet a msc:npenet .
+
+msc-prop:msc_om0008938_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "surface impedance "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008938_npenetMeasurementDatum .
+
+msc-prop:msc_om0008938_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008938_npenet ;
+  sio:SIO_000300 17.4 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0008939 sio:SIO_000008 msc-prop:msc_om0008939_npenet .
+msc-prop:msc_om0008939_npenet a msc:npenet .
+
+msc-prop:msc_om0008939_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "surface impedance "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008939_npenetMeasurementDatum .
+
+msc-prop:msc_om0008939_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008939_npenet ;
+  sio:SIO_000300 11 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0008940 sio:SIO_000008 msc-prop:msc_om0008940_npenet .
+msc-prop:msc_om0008940_npenet a msc:npenet .
+
+msc-prop:msc_om0008940_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "surface impedance "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008940_npenetMeasurementDatum .
+
+msc-prop:msc_om0008940_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008940_npenet ;
+  sio:SIO_000300 5.5 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0008941 sio:SIO_000008 msc-prop:msc_om0008941_npenet .
+msc-prop:msc_om0008941_npenet a msc:npenet .
+
+msc-prop:msc_om0008941_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "surface impedance "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008941_npenetMeasurementDatum .
+
+msc-prop:msc_om0008941_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008941_npenet ;
+  sio:SIO_000300 2.03 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0008942 sio:SIO_000008 msc-prop:msc_om0008942_npenet .
+msc-prop:msc_om0008942_npenet a msc:npenet .
+
+msc-prop:msc_om0008942_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "surface impedance "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008942_npenetMeasurementDatum .
+
+msc-prop:msc_om0008942_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008942_npenet ;
+  sio:SIO_000300 2.96 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0009606 sio:SIO_000008 msc-prop:msc_om0009606_npenet .
+msc-prop:msc_om0009606_npenet a msc:npenet .
+
+msc-prop:msc_om0009606_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0009606_npenetMeasurementDatum .
+
+msc-prop:msc_om0009606_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009606_npenet ;
+  sio:SIO_000300 3.7 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0009608 sio:SIO_000008 msc-prop:msc_om0009608_npenet .
+msc-prop:msc_om0009608_npenet a msc:npenet .
+
+msc-prop:msc_om0009608_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "far-infrared reflectivity spectra"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0009608_npenetMeasurementDatum .
+
+msc-prop:msc_om0009608_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009608_npenet ;
+  sio:SIO_000300 25 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0009609 sio:SIO_000008 msc-prop:msc_om0009609_npenet .
+msc-prop:msc_om0009609_npenet a msc:npenet .
+
+msc-prop:msc_om0009609_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "far-infrared reflectivity spectra"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0009609_npenetMeasurementDatum .
+
+msc-prop:msc_om0009609_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009609_npenet ;
+  sio:SIO_000300 35 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0009654 sio:SIO_000008 msc-prop:msc_om0009654_npenet .
+msc-prop:msc_om0009654_npenet a msc:npenet .
+
+msc-prop:msc_om0009654_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0009654_npenetMeasurementDatum .
+
+msc-prop:msc_om0009654_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009654_npenet ;
+  sio:SIO_000300 0.84 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0009655 sio:SIO_000008 msc-prop:msc_om0009655_npenet .
+msc-prop:msc_om0009655_npenet a msc:npenet .
+
+msc-prop:msc_om0009655_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0009655_npenetMeasurementDatum .
+
+msc-prop:msc_om0009655_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009655_npenet ;
+  sio:SIO_000300 1.21 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0009741 sio:SIO_000008 msc-prop:msc_om0009741_npenet .
+msc-prop:msc_om0009741_npenet a msc:npenet .
+
+msc-prop:msc_om0009741_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "fitting"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0009741_npenetMeasurementDatum .
+
+msc-prop:msc_om0009741_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009741_npenet ;
+  sio:SIO_000300 0.6 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0010358 sio:SIO_000008 msc-prop:msc_om0010358_npenet .
+msc-prop:msc_om0010358_npenet a msc:npenet .
+
+msc-prop:msc_om0010358_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Calculate from magnetisation data."@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0010358_npenetMeasurementDatum .
+
+msc-prop:msc_om0010358_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010358_npenet ;
+  sio:SIO_000300 6800 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0010359 sio:SIO_000008 msc-prop:msc_om0010359_npenet .
+msc-prop:msc_om0010359_npenet a msc:npenet .
+
+msc-prop:msc_om0010359_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Calculate from magnetisation data."@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0010359_npenetMeasurementDatum .
+
+msc-prop:msc_om0010359_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010359_npenet ;
+  sio:SIO_000300 8250 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0010360 sio:SIO_000008 msc-prop:msc_om0010360_npenet .
+msc-prop:msc_om0010360_npenet a msc:npenet .
+
+msc-prop:msc_om0010360_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Calculate from magnetisation data."@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0010360_npenetMeasurementDatum .
+
+msc-prop:msc_om0010360_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010360_npenet ;
+  sio:SIO_000300 4540 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0010800 sio:SIO_000008 msc-prop:msc_om0010800_npenet .
+msc-prop:msc_om0010800_npenet a msc:npenet .
+
+msc-prop:msc_om0010800_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0010800_npenetMeasurementDatum .
+
+msc-prop:msc_om0010800_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010800_npenet ;
+  sio:SIO_000300 9000 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0010801 sio:SIO_000008 msc-prop:msc_om0010801_npenet .
+msc-prop:msc_om0010801_npenet a msc:npenet .
+
+msc-prop:msc_om0010801_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0010801_npenetMeasurementDatum .
+
+msc-prop:msc_om0010801_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010801_npenet ;
+  sio:SIO_000300 120000 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0010802 sio:SIO_000008 msc-prop:msc_om0010802_npenet .
+msc-prop:msc_om0010802_npenet a msc:npenet .
+
+msc-prop:msc_om0010802_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0010802_npenetMeasurementDatum .
+
+msc-prop:msc_om0010802_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010802_npenet ;
+  sio:SIO_000300 170000 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0010939 sio:SIO_000008 msc-prop:msc_om0010939_npenet .
+msc-prop:msc_om0010939_npenet a msc:npenet .
+
+msc-prop:msc_om0010939_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0010939_npenetMeasurementDatum .
+
+msc-prop:msc_om0010939_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010939_npenet ;
+  sio:SIO_000300 10500 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0011110 sio:SIO_000008 msc-prop:msc_om0011110_npenet .
+msc-prop:msc_om0011110_npenet a msc:npenet .
+
+msc-prop:msc_om0011110_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment " "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0011110_npenetMeasurementDatum .
+
+msc-prop:msc_om0011110_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0011110_npenet ;
+  sio:SIO_000300 493 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0011111 sio:SIO_000008 msc-prop:msc_om0011111_npenet .
+msc-prop:msc_om0011111_npenet a msc:npenet .
+
+msc-prop:msc_om0011111_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0011111_npenetMeasurementDatum .
+
+msc-prop:msc_om0011111_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0011111_npenet ;
+  sio:SIO_000300 162 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0011112 sio:SIO_000008 msc-prop:msc_om0011112_npenet .
+msc-prop:msc_om0011112_npenet a msc:npenet .
+
+msc-prop:msc_om0011112_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0011112_npenetMeasurementDatum .
+
+msc-prop:msc_om0011112_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0011112_npenet ;
+  sio:SIO_000300 117 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0011344 sio:SIO_000008 msc-prop:msc_om0011344_npenet .
+msc-prop:msc_om0011344_npenet a msc:npenet .
+
+msc-prop:msc_om0011344_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Hao and Clem analysis using magnetization curve. "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0011344_npenetMeasurementDatum .
+
+msc-prop:msc_om0011344_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0011344_npenet ;
+  sio:SIO_000300 13000 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0012134 sio:SIO_000008 msc-prop:msc_om0012134_npenet .
+msc-prop:msc_om0012134_npenet a msc:npenet .
+
+msc-prop:msc_om0012134_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "zero-field ESR"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012134_npenetMeasurementDatum .
+
+msc-prop:msc_om0012134_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012134_npenet ;
+  sio:SIO_000300 7500 ;
+  sio:SIO_000221 "nm"^^xsd:string .
+
+msc-smp:msc_om0012135 sio:SIO_000008 msc-prop:msc_om0012135_npenet .
+msc-prop:msc_om0012135_npenet a msc:npenet .
+
+msc-prop:msc_om0012135_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "zero-field ESR"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012135_npenetMeasurementDatum .
+
+msc-prop:msc_om0012135_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012135_npenet ;
+  sio:SIO_000300 2068 ;
+  sio:SIO_000221 "nm"^^xsd:string .
+
+msc-smp:msc_om0012136 sio:SIO_000008 msc-prop:msc_om0012136_npenet .
+msc-prop:msc_om0012136_npenet a msc:npenet .
+
+msc-prop:msc_om0012136_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "zero-field ESR"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012136_npenetMeasurementDatum .
+
+msc-prop:msc_om0012136_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012136_npenet ;
+  sio:SIO_000300 635 ;
+  sio:SIO_000221 "nm"^^xsd:string .
+
+msc-smp:msc_om0012200 sio:SIO_000008 msc-prop:msc_om0012200_npenet .
+msc-prop:msc_om0012200_npenet a msc:npenet .
+
+msc-prop:msc_om0012200_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "get lambda(0) by the equation : lambda(T)=lambda(0)/[1-(T/Tc)^2.76]^0.6 :  lambda(T) is experimental"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012200_npenetMeasurementDatum .
+
+msc-prop:msc_om0012200_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012200_npenet ;
+  sio:SIO_000300 4540 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0012201 sio:SIO_000008 msc-prop:msc_om0012201_npenet .
+msc-prop:msc_om0012201_npenet a msc:npenet .
+
+msc-prop:msc_om0012201_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "get lambda(0) by the equation : lambda(T)=lambda(0)/[1-(T/Tc)^2.76]^0.6 :  lambda(T) is experimental"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012201_npenetMeasurementDatum .
+
+msc-prop:msc_om0012201_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012201_npenet ;
+  sio:SIO_000300 3950 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0012224 sio:SIO_000008 msc-prop:msc_om0012224_npenet .
+msc-prop:msc_om0012224_npenet a msc:npenet .
+
+msc-prop:msc_om0012224_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "plasma frequency"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012224_npenetMeasurementDatum .
+
+msc-prop:msc_om0012224_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012224_npenet ;
+  sio:SIO_000300 7.8 ;
+  sio:SIO_000221 "micron-m"^^xsd:string .
+
+msc-smp:msc_om0012225 sio:SIO_000008 msc-prop:msc_om0012225_npenet .
+msc-prop:msc_om0012225_npenet a msc:npenet .
+
+msc-prop:msc_om0012225_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "plasma frequency"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012225_npenetMeasurementDatum .
+
+msc-prop:msc_om0012225_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012225_npenet ;
+  sio:SIO_000300 6.52 ;
+  sio:SIO_000221 "micron-m"^^xsd:string .
+
+msc-smp:msc_om0012226 sio:SIO_000008 msc-prop:msc_om0012226_npenet .
+msc-prop:msc_om0012226_npenet a msc:npenet .
+
+msc-prop:msc_om0012226_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "plasma frequency"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012226_npenetMeasurementDatum .
+
+msc-prop:msc_om0012226_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012226_npenet ;
+  sio:SIO_000300 5.05 ;
+  sio:SIO_000221 "micron-m"^^xsd:string .
+
+msc-smp:msc_om0012227 sio:SIO_000008 msc-prop:msc_om0012227_npenet .
+msc-prop:msc_om0012227_npenet a msc:npenet .
+
+msc-prop:msc_om0012227_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "plasma frequency"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012227_npenetMeasurementDatum .
+
+msc-prop:msc_om0012227_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012227_npenet ;
+  sio:SIO_000300 3.42 ;
+  sio:SIO_000221 "micron-m"^^xsd:string .
+
+msc-smp:msc_om0012228 sio:SIO_000008 msc-prop:msc_om0012228_npenet .
+msc-prop:msc_om0012228_npenet a msc:npenet .
+
+msc-prop:msc_om0012228_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "plasma frequency"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012228_npenetMeasurementDatum .
+
+msc-prop:msc_om0012228_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012228_npenet ;
+  sio:SIO_000300 2.01 ;
+  sio:SIO_000221 "micron-m"^^xsd:string .
+
+msc-smp:msc_om0012229 sio:SIO_000008 msc-prop:msc_om0012229_npenet .
+msc-prop:msc_om0012229_npenet a msc:npenet .
+
+msc-prop:msc_om0012229_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "plasma frequency"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012229_npenetMeasurementDatum .
+
+msc-prop:msc_om0012229_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012229_npenet ;
+  sio:SIO_000300 1.59 ;
+  sio:SIO_000221 "micron-m"^^xsd:string .
+
+msc-smp:msc_om0012230 sio:SIO_000008 msc-prop:msc_om0012230_npenet .
+msc-prop:msc_om0012230_npenet a msc:npenet .
+
+msc-prop:msc_om0012230_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "plasma frequency"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012230_npenetMeasurementDatum .
+
+msc-prop:msc_om0012230_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012230_npenet ;
+  sio:SIO_000300 1.01 ;
+  sio:SIO_000221 "micron-m"^^xsd:string .
+
+msc-smp:msc_om0012231 sio:SIO_000008 msc-prop:msc_om0012231_npenet .
+msc-prop:msc_om0012231_npenet a msc:npenet .
+
+msc-prop:msc_om0012231_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "plasma frequency"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012231_npenetMeasurementDatum .
+
+msc-prop:msc_om0012231_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012231_npenet ;
+  sio:SIO_000300 0.77 ;
+  sio:SIO_000221 "micron-m"^^xsd:string .
+
+msc-smp:msc_om0012513 sio:SIO_000008 msc-prop:msc_om0012513_npenet .
+msc-prop:msc_om0012513_npenet a msc:npenet .
+
+msc-prop:msc_om0012513_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac susceptibility "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012513_npenetMeasurementDatum .
+
+msc-prop:msc_om0012513_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012513_npenet ;
+  sio:SIO_000300 61000 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0012708 sio:SIO_000008 msc-prop:msc_om0012708_npenet .
+msc-prop:msc_om0012708_npenet a msc:npenet .
+
+msc-prop:msc_om0012708_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "BCS clean limit"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0012708_npenetMeasurementDatum .
+
+msc-prop:msc_om0012708_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012708_npenet ;
+  sio:SIO_000300 1913 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0018200 sio:SIO_000008 msc-prop:msc_om0018200_npenet .
+msc-prop:msc_om0018200_npenet a msc:npenet .
+
+msc-prop:msc_om0018200_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "BCS clean Limit"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0018200_npenetMeasurementDatum .
+
+msc-prop:msc_om0018200_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0018200_npenet ;
+  sio:SIO_000300 157 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0018201 sio:SIO_000008 msc-prop:msc_om0018201_npenet .
+msc-prop:msc_om0018201_npenet a msc:npenet .
+
+msc-prop:msc_om0018201_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "BCS dirty Limit"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0018201_npenetMeasurementDatum .
+
+msc-prop:msc_om0018201_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0018201_npenet ;
+  sio:SIO_000300 172 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0018510 sio:SIO_000008 msc-prop:msc_om0018510_npenet .
+msc-prop:msc_om0018510_npenet a msc:npenet .
+
+msc-prop:msc_om0018510_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0018510_npenetMeasurementDatum .
+
+msc-prop:msc_om0018510_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0018510_npenet ;
+  sio:SIO_000300 1.26 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0018511 sio:SIO_000008 msc-prop:msc_om0018511_npenet .
+msc-prop:msc_om0018511_npenet a msc:npenet .
+
+msc-prop:msc_om0018511_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0018511_npenetMeasurementDatum .
+
+msc-prop:msc_om0018511_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0018511_npenet ;
+  sio:SIO_000300 4.53 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0018512 sio:SIO_000008 msc-prop:msc_om0018512_npenet .
+msc-prop:msc_om0018512_npenet a msc:npenet .
+
+msc-prop:msc_om0018512_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0018512_npenetMeasurementDatum .
+
+msc-prop:msc_om0018512_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0018512_npenet ;
+  sio:SIO_000300 7.17 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0019501 sio:SIO_000008 msc-prop:msc_om0019501_npenet .
+msc-prop:msc_om0019501_npenet a msc:npenet .
+
+msc-prop:msc_om0019501_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac susceptibility "@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0019501_npenetMeasurementDatum .
+
+msc-prop:msc_om0019501_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019501_npenet ;
+  sio:SIO_000300 6150 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0019805 sio:SIO_000008 msc-prop:msc_om0019805_npenet .
+msc-prop:msc_om0019805_npenet a msc:npenet .
+
+msc-prop:msc_om0019805_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0019805_npenetMeasurementDatum .
+
+msc-prop:msc_om0019805_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019805_npenet ;
+  sio:SIO_000300 5470 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0019806 sio:SIO_000008 msc-prop:msc_om0019806_npenet .
+msc-prop:msc_om0019806_npenet a msc:npenet .
+
+msc-prop:msc_om0019806_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0019806_npenetMeasurementDatum .
+
+msc-prop:msc_om0019806_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019806_npenet ;
+  sio:SIO_000300 5210 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0019807 sio:SIO_000008 msc-prop:msc_om0019807_npenet .
+msc-prop:msc_om0019807_npenet a msc:npenet .
+
+msc-prop:msc_om0019807_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0019807_npenetMeasurementDatum .
+
+msc-prop:msc_om0019807_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019807_npenet ;
+  sio:SIO_000300 4530 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0019808 sio:SIO_000008 msc-prop:msc_om0019808_npenet .
+msc-prop:msc_om0019808_npenet a msc:npenet .
+
+msc-prop:msc_om0019808_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0019808_npenetMeasurementDatum .
+
+msc-prop:msc_om0019808_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019808_npenet ;
+  sio:SIO_000300 4360 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0019809 sio:SIO_000008 msc-prop:msc_om0019809_npenet .
+msc-prop:msc_om0019809_npenet a msc:npenet .
+
+msc-prop:msc_om0019809_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0019809_npenetMeasurementDatum .
+
+msc-prop:msc_om0019809_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019809_npenet ;
+  sio:SIO_000300 5080 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0019810 sio:SIO_000008 msc-prop:msc_om0019810_npenet .
+msc-prop:msc_om0019810_npenet a msc:npenet .
+
+msc-prop:msc_om0019810_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0019810_npenetMeasurementDatum .
+
+msc-prop:msc_om0019810_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019810_npenet ;
+  sio:SIO_000300 7520 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0019811 sio:SIO_000008 msc-prop:msc_om0019811_npenet .
+msc-prop:msc_om0019811_npenet a msc:npenet .
+
+msc-prop:msc_om0019811_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0019811_npenetMeasurementDatum .
+
+msc-prop:msc_om0019811_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019811_npenet ;
+  sio:SIO_000300 9320 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0019812 sio:SIO_000008 msc-prop:msc_om0019812_npenet .
+msc-prop:msc_om0019812_npenet a msc:npenet .
+
+msc-prop:msc_om0019812_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0019812_npenetMeasurementDatum .
+
+msc-prop:msc_om0019812_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019812_npenet ;
+  sio:SIO_000300 9680 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0019813 sio:SIO_000008 msc-prop:msc_om0019813_npenet .
+msc-prop:msc_om0019813_npenet a msc:npenet .
+
+msc-prop:msc_om0019813_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0019813_npenetMeasurementDatum .
+
+msc-prop:msc_om0019813_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0019813_npenet ;
+  sio:SIO_000300 9620 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0020149 sio:SIO_000008 msc-prop:msc_om0020149_npenet .
+msc-prop:msc_om0020149_npenet a msc:npenet .
+
+msc-prop:msc_om0020149_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "from normal resistivity"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0020149_npenetMeasurementDatum .
+
+msc-prop:msc_om0020149_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020149_npenet ;
+  sio:SIO_000300 690 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0020150 sio:SIO_000008 msc-prop:msc_om0020150_npenet .
+msc-prop:msc_om0020150_npenet a msc:npenet .
+
+msc-prop:msc_om0020150_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0020150_npenetMeasurementDatum .
+
+msc-prop:msc_om0020150_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0020150_npenet ;
+  sio:SIO_000300 2600 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0030309 sio:SIO_000008 msc-prop:msc_om0030309_npenet .
+msc-prop:msc_om0030309_npenet a msc:npenet .
+
+msc-prop:msc_om0030309_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Hao & Clem model"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0030309_npenetMeasurementDatum .
+
+msc-prop:msc_om0030309_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0030309_npenet ;
+  sio:SIO_000300 191 ;
+  sio:SIO_000221 "nm"^^xsd:string .
+
+msc-smp:msc_om0030310 sio:SIO_000008 msc-prop:msc_om0030310_npenet .
+msc-prop:msc_om0030310_npenet a msc:npenet .
+
+msc-prop:msc_om0030310_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Hao & Clem model"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0030310_npenetMeasurementDatum .
+
+msc-prop:msc_om0030310_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0030310_npenet ;
+  sio:SIO_000300 169 ;
+  sio:SIO_000221 "nm"^^xsd:string .
+
+msc-smp:msc_om0030604 sio:SIO_000008 msc-prop:msc_om0030604_npenet .
+msc-prop:msc_om0030604_npenet a msc:npenet .
+
+msc-prop:msc_om0030604_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "The low field ac susceptibility technique. ref.13."@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0030604_npenetMeasurementDatum .
+
+msc-prop:msc_om0030604_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0030604_npenet ;
+  sio:SIO_000300 5.9 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0030605 sio:SIO_000008 msc-prop:msc_om0030605_npenet .
+msc-prop:msc_om0030605_npenet a msc:npenet .
+
+msc-prop:msc_om0030605_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "The low field ac susceptibility technique. ref.13."@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0030605_npenetMeasurementDatum .
+
+msc-prop:msc_om0030605_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0030605_npenet ;
+  sio:SIO_000300 3.8 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0030606 sio:SIO_000008 msc-prop:msc_om0030606_npenet .
+msc-prop:msc_om0030606_npenet a msc:npenet .
+
+msc-prop:msc_om0030606_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "The low field ac susceptibility technique. ref.13."@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0030606_npenetMeasurementDatum .
+
+msc-prop:msc_om0030606_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0030606_npenet ;
+  sio:SIO_000300 2.45 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0030607 sio:SIO_000008 msc-prop:msc_om0030607_npenet .
+msc-prop:msc_om0030607_npenet a msc:npenet .
+
+msc-prop:msc_om0030607_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "The low field ac susceptibility technique. ref.13."@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0030607_npenetMeasurementDatum .
+
+msc-prop:msc_om0030607_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0030607_npenet ;
+  sio:SIO_000300 2.28 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0030608 sio:SIO_000008 msc-prop:msc_om0030608_npenet .
+msc-prop:msc_om0030608_npenet a msc:npenet .
+
+msc-prop:msc_om0030608_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "The low field ac susceptibility technique. ref.13."@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0030608_npenetMeasurementDatum .
+
+msc-prop:msc_om0030608_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0030608_npenet ;
+  sio:SIO_000300 2.37 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0030609 sio:SIO_000008 msc-prop:msc_om0030609_npenet .
+msc-prop:msc_om0030609_npenet a msc:npenet .
+
+msc-prop:msc_om0030609_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "The low field ac susceptibility technique. ref.13."@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0030609_npenetMeasurementDatum .
+
+msc-prop:msc_om0030609_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0030609_npenet ;
+  sio:SIO_000300 8.475 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0030801 sio:SIO_000008 msc-prop:msc_om0030801_npenet .
+msc-prop:msc_om0030801_npenet a msc:npenet .
+
+msc-prop:msc_om0030801_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0030801_npenetMeasurementDatum .
+
+msc-prop:msc_om0030801_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0030801_npenet ;
+  sio:SIO_000300 12.6 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0033150 sio:SIO_000008 msc-prop:msc_om0033150_npenet .
+msc-prop:msc_om0033150_npenet a msc:npenet .
+
+msc-prop:msc_om0033150_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac susceptibility for 100 kHz"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0033150_npenetMeasurementDatum .
+
+msc-prop:msc_om0033150_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033150_npenet ;
+  sio:SIO_000300 70 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0033151 sio:SIO_000008 msc-prop:msc_om0033151_npenet .
+msc-prop:msc_om0033151_npenet a msc:npenet .
+
+msc-prop:msc_om0033151_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "surface impedance"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0033151_npenetMeasurementDatum .
+
+msc-prop:msc_om0033151_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033151_npenet ;
+  sio:SIO_000300 50 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0033152 sio:SIO_000008 msc-prop:msc_om0033152_npenet .
+msc-prop:msc_om0033152_npenet a msc:npenet .
+
+msc-prop:msc_om0033152_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "microwave absorption"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0033152_npenetMeasurementDatum .
+
+msc-prop:msc_om0033152_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033152_npenet ;
+  sio:SIO_000300 35 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0033153 sio:SIO_000008 msc-prop:msc_om0033153_npenet .
+msc-prop:msc_om0033153_npenet a msc:npenet .
+
+msc-prop:msc_om0033153_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac susceptibility for 100 kHz"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0033153_npenetMeasurementDatum .
+
+msc-prop:msc_om0033153_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033153_npenet ;
+  sio:SIO_000300 210 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0033154 sio:SIO_000008 msc-prop:msc_om0033154_npenet .
+msc-prop:msc_om0033154_npenet a msc:npenet .
+
+msc-prop:msc_om0033154_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "surface impedance"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0033154_npenetMeasurementDatum .
+
+msc-prop:msc_om0033154_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033154_npenet ;
+  sio:SIO_000300 150 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0033304 sio:SIO_000008 msc-prop:msc_om0033304_npenet .
+msc-prop:msc_om0033304_npenet a msc:npenet .
+
+msc-prop:msc_om0033304_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac-susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0033304_npenetMeasurementDatum .
+
+msc-prop:msc_om0033304_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033304_npenet ;
+  sio:SIO_000300 1.36 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0033305 sio:SIO_000008 msc-prop:msc_om0033305_npenet .
+msc-prop:msc_om0033305_npenet a msc:npenet .
+
+msc-prop:msc_om0033305_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac-susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0033305_npenetMeasurementDatum .
+
+msc-prop:msc_om0033305_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033305_npenet ;
+  sio:SIO_000300 6.1 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0033306 sio:SIO_000008 msc-prop:msc_om0033306_npenet .
+msc-prop:msc_om0033306_npenet a msc:npenet .
+
+msc-prop:msc_om0033306_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac-susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0033306_npenetMeasurementDatum .
+
+msc-prop:msc_om0033306_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033306_npenet ;
+  sio:SIO_000300 1.26 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0033307 sio:SIO_000008 msc-prop:msc_om0033307_npenet .
+msc-prop:msc_om0033307_npenet a msc:npenet .
+
+msc-prop:msc_om0033307_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "ac-susceptibility"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0033307_npenetMeasurementDatum .
+
+msc-prop:msc_om0033307_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033307_npenet ;
+  sio:SIO_000300 7.17 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0033470 sio:SIO_000008 msc-prop:msc_om0033470_npenet .
+msc-prop:msc_om0033470_npenet a msc:npenet .
+
+msc-prop:msc_om0033470_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "microwave absorption"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0033470_npenetMeasurementDatum .
+
+msc-prop:msc_om0033470_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033470_npenet ;
+  sio:SIO_000300 229 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0033921 sio:SIO_000008 msc-prop:msc_om0033921_npenet .
+msc-prop:msc_om0033921_npenet a msc:npenet .
+
+msc-prop:msc_om0033921_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Josephson plasma and magnetization"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0033921_npenetMeasurementDatum .
+
+msc-prop:msc_om0033921_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033921_npenet ;
+  sio:SIO_000300 240 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0033922 sio:SIO_000008 msc-prop:msc_om0033922_npenet .
+msc-prop:msc_om0033922_npenet a msc:npenet .
+
+msc-prop:msc_om0033922_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Josephson plasma and magnetization"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0033922_npenetMeasurementDatum .
+
+msc-prop:msc_om0033922_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033922_npenet ;
+  sio:SIO_000300 110 ;
+  sio:SIO_000221 "micron.m"^^xsd:string .
+
+msc-smp:msc_om0040698 sio:SIO_000008 msc-prop:msc_om0040698_npenet .
+msc-prop:msc_om0040698_npenet a msc:npenet .
+
+msc-prop:msc_om0040698_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0040698_npenetMeasurementDatum .
+
+msc-prop:msc_om0040698_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040698_npenet ;
+  sio:SIO_000300 19.5 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0040707 sio:SIO_000008 msc-prop:msc_om0040707_npenet .
+msc-prop:msc_om0040707_npenet a msc:npenet .
+
+msc-prop:msc_om0040707_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "microwave"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0040707_npenetMeasurementDatum .
+
+msc-prop:msc_om0040707_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040707_npenet ;
+  sio:SIO_000300 28 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0040914 sio:SIO_000008 msc-prop:msc_om0040914_npenet .
+msc-prop:msc_om0040914_npenet a msc:npenet .
+
+msc-prop:msc_om0040914_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0040914_npenetMeasurementDatum .
+
+msc-prop:msc_om0040914_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040914_npenet ;
+  sio:SIO_000300 2871 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0040920 sio:SIO_000008 msc-prop:msc_om0040920_npenet .
+msc-prop:msc_om0040920_npenet a msc:npenet .
+
+msc-prop:msc_om0040920_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0040920_npenetMeasurementDatum .
+
+msc-prop:msc_om0040920_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040920_npenet ;
+  sio:SIO_000300 682 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0040921 sio:SIO_000008 msc-prop:msc_om0040921_npenet .
+msc-prop:msc_om0040921_npenet a msc:npenet .
+
+msc-prop:msc_om0040921_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0040921_npenetMeasurementDatum .
+
+msc-prop:msc_om0040921_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040921_npenet ;
+  sio:SIO_000300 798 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0040922 sio:SIO_000008 msc-prop:msc_om0040922_npenet .
+msc-prop:msc_om0040922_npenet a msc:npenet .
+
+msc-prop:msc_om0040922_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0040922_npenetMeasurementDatum .
+
+msc-prop:msc_om0040922_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040922_npenet ;
+  sio:SIO_000300 947 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0042131 sio:SIO_000008 msc-prop:msc_om0042131_npenet .
+msc-prop:msc_om0042131_npenet a msc:npenet .
+
+msc-prop:msc_om0042131_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0042131_npenetMeasurementDatum .
+
+msc-prop:msc_om0042131_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0042131_npenet ;
+  sio:SIO_000300 5840 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0131275 sio:SIO_000008 msc-prop:msc_om0131275_npenet .
+msc-prop:msc_om0131275_npenet a msc:npenet .
+
+msc-prop:msc_om0131275_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0131275_npenetMeasurementDatum .
+
+msc-prop:msc_om0131275_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0131275_npenet ;
+  sio:SIO_000300 1240 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0131280 sio:SIO_000008 msc-prop:msc_om0131280_npenet .
+msc-prop:msc_om0131280_npenet a msc:npenet .
+
+msc-prop:msc_om0131280_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0131280_npenetMeasurementDatum .
+
+msc-prop:msc_om0131280_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0131280_npenet ;
+  sio:SIO_000300 4800 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0150338 sio:SIO_000008 msc-prop:msc_om0150338_npenet .
+msc-prop:msc_om0150338_npenet a msc:npenet .
+
+msc-prop:msc_om0150338_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0150338_npenetMeasurementDatum .
+
+msc-prop:msc_om0150338_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150338_npenet ;
+  sio:SIO_000300 5840 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0150858 sio:SIO_000008 msc-prop:msc_om0150858_npenet .
+msc-prop:msc_om0150858_npenet a msc:npenet .
+
+msc-prop:msc_om0150858_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "tunnel diode resonator"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0150858_npenetMeasurementDatum .
+
+msc-prop:msc_om0150858_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150858_npenet ;
+  sio:SIO_000300 0.2 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0151130 sio:SIO_000008 msc-prop:msc_om0151130_npenet .
+msc-prop:msc_om0151130_npenet a msc:npenet .
+
+msc-prop:msc_om0151130_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0151130_npenetMeasurementDatum .
+
+msc-prop:msc_om0151130_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151130_npenet ;
+  sio:SIO_000300 12000 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0151297 sio:SIO_000008 msc-prop:msc_om0151297_npenet .
+msc-prop:msc_om0151297_npenet a msc:npenet .
+
+msc-prop:msc_om0151297_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "G-L theory, Hc(0)"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0151297_npenetMeasurementDatum .
+
+msc-prop:msc_om0151297_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151297_npenet ;
+  sio:SIO_000300 3110 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0151431 sio:SIO_000008 msc-prop:msc_om0151431_npenet .
+msc-prop:msc_om0151431_npenet a msc:npenet .
+
+msc-prop:msc_om0151431_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0151431_npenetMeasurementDatum .
+
+msc-prop:msc_om0151431_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151431_npenet ;
+  sio:SIO_000300 6 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0151445 sio:SIO_000008 msc-prop:msc_om0151445_npenet .
+msc-prop:msc_om0151445_npenet a msc:npenet .
+
+msc-prop:msc_om0151445_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0151445_npenetMeasurementDatum .
+
+msc-prop:msc_om0151445_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151445_npenet ;
+  sio:SIO_000300 2270 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0151521 sio:SIO_000008 msc-prop:msc_om0151521_npenet .
+msc-prop:msc_om0151521_npenet a msc:npenet .
+
+msc-prop:msc_om0151521_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "muon-SR"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0151521_npenetMeasurementDatum .
+
+msc-prop:msc_om0151521_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151521_npenet ;
+  sio:SIO_000300 8700 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0152244 sio:SIO_000008 msc-prop:msc_om0152244_npenet .
+msc-prop:msc_om0152244_npenet a msc:npenet .
+
+msc-prop:msc_om0152244_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "muon-SR"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0152244_npenetMeasurementDatum .
+
+msc-prop:msc_om0152244_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152244_npenet ;
+  sio:SIO_000300 13200 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0152586 sio:SIO_000008 msc-prop:msc_om0152586_npenet .
+msc-prop:msc_om0152586_npenet a msc:npenet .
+
+msc-prop:msc_om0152586_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "estimate from Hc(0),GL"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0152586_npenetMeasurementDatum .
+
+msc-prop:msc_om0152586_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152586_npenet ;
+  sio:SIO_000300 1.5 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0152587 sio:SIO_000008 msc-prop:msc_om0152587_npenet .
+msc-prop:msc_om0152587_npenet a msc:npenet .
+
+msc-prop:msc_om0152587_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "estimate from Hc(0),GL"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0152587_npenetMeasurementDatum .
+
+msc-prop:msc_om0152587_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152587_npenet ;
+  sio:SIO_000300 2.2 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0152589 sio:SIO_000008 msc-prop:msc_om0152589_npenet .
+msc-prop:msc_om0152589_npenet a msc:npenet .
+
+msc-prop:msc_om0152589_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "estimate from Hc(0),GL"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0152589_npenetMeasurementDatum .
+
+msc-prop:msc_om0152589_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152589_npenet ;
+  sio:SIO_000300 1.9 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0152899 sio:SIO_000008 msc-prop:msc_om0152899_npenet .
+msc-prop:msc_om0152899_npenet a msc:npenet .
+
+msc-prop:msc_om0152899_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "G-L theory"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0152899_npenetMeasurementDatum .
+
+msc-prop:msc_om0152899_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152899_npenet ;
+  sio:SIO_000300 14900 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0153181 sio:SIO_000008 msc-prop:msc_om0153181_npenet .
+msc-prop:msc_om0153181_npenet a msc:npenet .
+
+msc-prop:msc_om0153181_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0153181_npenetMeasurementDatum .
+
+msc-prop:msc_om0153181_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153181_npenet ;
+  sio:SIO_000300 12420 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0153747 sio:SIO_000008 msc-prop:msc_om0153747_npenet .
+msc-prop:msc_om0153747_npenet a msc:npenet .
+
+msc-prop:msc_om0153747_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0153747_npenetMeasurementDatum .
+
+msc-prop:msc_om0153747_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153747_npenet ;
+  sio:SIO_000300 1660 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0154501 sio:SIO_000008 msc-prop:msc_om0154501_npenet .
+msc-prop:msc_om0154501_npenet a msc:npenet .
+
+msc-prop:msc_om0154501_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "dM/d(lnH)"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0154501_npenetMeasurementDatum .
+
+msc-prop:msc_om0154501_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154501_npenet ;
+  sio:SIO_000300 840 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0155551 sio:SIO_000008 msc-prop:msc_om0155551_npenet .
+msc-prop:msc_om0155551_npenet a msc:npenet .
+
+msc-prop:msc_om0155551_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Hc1, GL theory"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0155551_npenetMeasurementDatum .
+
+msc-prop:msc_om0155551_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155551_npenet ;
+  sio:SIO_000300 12240 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0156677 sio:SIO_000008 msc-prop:msc_om0156677_npenet .
+msc-prop:msc_om0156677_npenet a msc:npenet .
+
+msc-prop:msc_om0156677_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Magnetization analysis"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0156677_npenetMeasurementDatum .
+
+msc-prop:msc_om0156677_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156677_npenet ;
+  sio:SIO_000300 91 ;
+  sio:SIO_000221 "nm"^^xsd:string .
+
+msc-smp:msc_om0156965 sio:SIO_000008 msc-prop:msc_om0156965_npenet .
+msc-prop:msc_om0156965_npenet a msc:npenet .
+
+msc-prop:msc_om0156965_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "Hc1,GL(kappa), GL-eq."@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0156965_npenetMeasurementDatum .
+
+msc-prop:msc_om0156965_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156965_npenet ;
+  sio:SIO_000300 105 ;
+  sio:SIO_000221 "nm"^^xsd:string .
+
+msc-smp:msc_om0157656 sio:SIO_000008 msc-prop:msc_om0157656_npenet .
+msc-prop:msc_om0157656_npenet a msc:npenet .
+
+msc-prop:msc_om0157656_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "muon-SR"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0157656_npenetMeasurementDatum .
+
+msc-prop:msc_om0157656_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157656_npenet ;
+  sio:SIO_000300 1830 ;
+  sio:SIO_000221 "nm"^^xsd:string .
+
+msc-smp:msc_om0157926 sio:SIO_000008 msc-prop:msc_om0157926_npenet .
+msc-prop:msc_om0157926_npenet a msc:npenet .
+
+msc-prop:msc_om0157926_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0157926_npenetMeasurementDatum .
+
+msc-prop:msc_om0157926_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157926_npenet ;
+  sio:SIO_000300 287 ;
+  sio:SIO_000221 "nm"^^xsd:string .
+
+msc-smp:msc_om0158363 sio:SIO_000008 msc-prop:msc_om0158363_npenet .
+msc-prop:msc_om0158363_npenet a msc:npenet .
+
+msc-prop:msc_om0158363_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment "muon-SR"@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0158363_npenetMeasurementDatum .
+
+msc-prop:msc_om0158363_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158363_npenet ;
+  sio:SIO_000300 4200 ;
+  sio:SIO_000221 "A"^^xsd:string .
+
+msc-smp:msc_om0158543 sio:SIO_000008 msc-prop:msc_om0158543_npenet .
+msc-prop:msc_om0158543_npenet a msc:npenet .
+
+msc-prop:msc_om0158543_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0158543_npenetMeasurementDatum .
+
+msc-prop:msc_om0158543_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158543_npenet ;
+  sio:SIO_000300 2.2 ;
+  sio:SIO_000221 "um"^^xsd:string .
+
+msc-smp:msc_om0158777 sio:SIO_000008 msc-prop:msc_om0158777_npenet .
+msc-prop:msc_om0158777_npenet a msc:npenet .
+
+msc-prop:msc_om0158777_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0158777_npenetMeasurementDatum .
+
+msc-prop:msc_om0158777_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158777_npenet ;
+  sio:SIO_000300 962.4 ;
+  sio:SIO_000221 "nm"^^xsd:string .
+
+msc-smp:msc_om0158778 sio:SIO_000008 msc-prop:msc_om0158778_npenet .
+msc-prop:msc_om0158778_npenet a msc:npenet .
+
+msc-prop:msc_om0158778_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0158778_npenetMeasurementDatum .
+
+msc-prop:msc_om0158778_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158778_npenet ;
+  sio:SIO_000300 962.4 ;
+  sio:SIO_000221 "nm"^^xsd:string .
+
+msc-smp:msc_om0158914 sio:SIO_000008 msc-prop:msc_om0158914_npenet .
+msc-prop:msc_om0158914_npenet a msc:npenet .
+
+msc-prop:msc_om0158914_npenetMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_0 ,
+    [a msc:mpenet ;
+     rdfs:comment ""@en] ,
+    [a msc:MagneticField ;
+     msc:PerpendicularTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0158914_npenetMeasurementDatum .
+
+msc-prop:msc_om0158914_npenetMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158914_npenet ;
+  sio:SIO_000300 94 ;
+  sio:SIO_000221 "nm"^^xsd:string .
+

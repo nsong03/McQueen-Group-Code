@@ -1,0 +1,1865 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msc-smp:msc_om0033979 msc:sio:SIO_000008 msc-prop:msc_om0033979_hc1t .
+msc-prop:msc_om0033979_hc1t a msc:hc1t .
+
+msc-prop:msc_om0033979_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.9] ;
+  obo:OBI_0000299 msc-prop:msc_om0033979_hc1tMeasurementDatum .
+
+msc-prop:msc_om0033979_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033979_hc1t ;
+  sio:SIO_000300 13 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0034378 msc:sio:SIO_000008 msc-prop:msc_om0034378_hc1t .
+msc-prop:msc_om0034378_hc1t a msc:hc1t .
+
+msc-prop:msc_om0034378_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 5] ;
+  obo:OBI_0000299 msc-prop:msc_om0034378_hc1tMeasurementDatum .
+
+msc-prop:msc_om0034378_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0034378_hc1t ;
+  sio:SIO_000300 750 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0034741 msc:sio:SIO_000008 msc-prop:msc_om0034741_hc1t .
+msc-prop:msc_om0034741_hc1t a msc:hc1t .
+
+msc-prop:msc_om0034741_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1] ;
+  obo:OBI_0000299 msc-prop:msc_om0034741_hc1tMeasurementDatum .
+
+msc-prop:msc_om0034741_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0034741_hc1t ;
+  sio:SIO_000300 30 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0034742 msc:sio:SIO_000008 msc-prop:msc_om0034742_hc1t .
+msc-prop:msc_om0034742_hc1t a msc:hc1t .
+
+msc-prop:msc_om0034742_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1] ;
+  obo:OBI_0000299 msc-prop:msc_om0034742_hc1tMeasurementDatum .
+
+msc-prop:msc_om0034742_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0034742_hc1t ;
+  sio:SIO_000300 30 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0034743 msc:sio:SIO_000008 msc-prop:msc_om0034743_hc1t .
+msc-prop:msc_om0034743_hc1t a msc:hc1t .
+
+msc-prop:msc_om0034743_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1] ;
+  obo:OBI_0000299 msc-prop:msc_om0034743_hc1tMeasurementDatum .
+
+msc-prop:msc_om0034743_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0034743_hc1t ;
+  sio:SIO_000300 30 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0040034 msc:sio:SIO_000008 msc-prop:msc_om0040034_hc1t .
+msc-prop:msc_om0040034_hc1t a msc:hc1t .
+
+msc-prop:msc_om0040034_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "ac-susceptibility"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 4.2] ;
+  obo:OBI_0000299 msc-prop:msc_om0040034_hc1tMeasurementDatum .
+
+msc-prop:msc_om0040034_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040034_hc1t ;
+  sio:SIO_000300 22 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0040095 msc:sio:SIO_000008 msc-prop:msc_om0040095_hc1t .
+msc-prop:msc_om0040095_hc1t a msc:hc1t .
+
+msc-prop:msc_om0040095_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "dc magnetization"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.4] ;
+  obo:OBI_0000299 msc-prop:msc_om0040095_hc1tMeasurementDatum .
+
+msc-prop:msc_om0040095_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040095_hc1t ;
+  sio:SIO_000300 9 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0040098 msc:sio:SIO_000008 msc-prop:msc_om0040098_hc1t .
+msc-prop:msc_om0040098_hc1t a msc:hc1t .
+
+msc-prop:msc_om0040098_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 3.5] ;
+  obo:OBI_0000299 msc-prop:msc_om0040098_hc1tMeasurementDatum .
+
+msc-prop:msc_om0040098_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040098_hc1t ;
+  sio:SIO_000300 22 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0040154 msc:sio:SIO_000008 msc-prop:msc_om0040154_hc1t .
+msc-prop:msc_om0040154_hc1t a msc:hc1t .
+
+msc-prop:msc_om0040154_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.6] ;
+  obo:OBI_0000299 msc-prop:msc_om0040154_hc1tMeasurementDatum .
+
+msc-prop:msc_om0040154_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040154_hc1t ;
+  sio:SIO_000300 40 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0040242 msc:sio:SIO_000008 msc-prop:msc_om0040242_hc1t .
+msc-prop:msc_om0040242_hc1t a msc:hc1t .
+
+msc-prop:msc_om0040242_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0040242_hc1tMeasurementDatum .
+
+msc-prop:msc_om0040242_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040242_hc1t ;
+  sio:SIO_000300 40 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0040724 msc:sio:SIO_000008 msc-prop:msc_om0040724_hc1t .
+msc-prop:msc_om0040724_hc1t a msc:hc1t .
+
+msc-prop:msc_om0040724_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 4.2] ;
+  obo:OBI_0000299 msc-prop:msc_om0040724_hc1tMeasurementDatum .
+
+msc-prop:msc_om0040724_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040724_hc1t ;
+  sio:SIO_000300 120 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0040725 msc:sio:SIO_000008 msc-prop:msc_om0040725_hc1t .
+msc-prop:msc_om0040725_hc1t a msc:hc1t .
+
+msc-prop:msc_om0040725_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.2] ;
+  obo:OBI_0000299 msc-prop:msc_om0040725_hc1tMeasurementDatum .
+
+msc-prop:msc_om0040725_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040725_hc1t ;
+  sio:SIO_000300 190 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0040726 msc:sio:SIO_000008 msc-prop:msc_om0040726_hc1t .
+msc-prop:msc_om0040726_hc1t a msc:hc1t .
+
+msc-prop:msc_om0040726_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.2] ;
+  obo:OBI_0000299 msc-prop:msc_om0040726_hc1tMeasurementDatum .
+
+msc-prop:msc_om0040726_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040726_hc1t ;
+  sio:SIO_000300 220 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0040727 msc:sio:SIO_000008 msc-prop:msc_om0040727_hc1t .
+msc-prop:msc_om0040727_hc1t a msc:hc1t .
+
+msc-prop:msc_om0040727_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.2] ;
+  obo:OBI_0000299 msc-prop:msc_om0040727_hc1tMeasurementDatum .
+
+msc-prop:msc_om0040727_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040727_hc1t ;
+  sio:SIO_000300 87 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0040728 msc:sio:SIO_000008 msc-prop:msc_om0040728_hc1t .
+msc-prop:msc_om0040728_hc1t a msc:hc1t .
+
+msc-prop:msc_om0040728_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.2] ;
+  obo:OBI_0000299 msc-prop:msc_om0040728_hc1tMeasurementDatum .
+
+msc-prop:msc_om0040728_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040728_hc1t ;
+  sio:SIO_000300 91 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0040818 msc:sio:SIO_000008 msc-prop:msc_om0040818_hc1t .
+msc-prop:msc_om0040818_hc1t a msc:hc1t .
+
+msc-prop:msc_om0040818_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.5] ;
+  obo:OBI_0000299 msc-prop:msc_om0040818_hc1tMeasurementDatum .
+
+msc-prop:msc_om0040818_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0040818_hc1t ;
+  sio:SIO_000300 100 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0042024 msc:sio:SIO_000008 msc-prop:msc_om0042024_hc1t .
+msc-prop:msc_om0042024_hc1t a msc:hc1t .
+
+msc-prop:msc_om0042024_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0042024_hc1tMeasurementDatum .
+
+msc-prop:msc_om0042024_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0042024_hc1t ;
+  sio:SIO_000300 35 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0090048 msc:sio:SIO_000008 msc-prop:msc_om0090048_hc1t .
+msc-prop:msc_om0090048_hc1t a msc:hc1t .
+
+msc-prop:msc_om0090048_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0090048_hc1tMeasurementDatum .
+
+msc-prop:msc_om0090048_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0090048_hc1t ;
+  sio:SIO_000300 117 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0090297 msc:sio:SIO_000008 msc-prop:msc_om0090297_hc1t .
+msc-prop:msc_om0090297_hc1t a msc:hc1t .
+
+msc-prop:msc_om0090297_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.9] ;
+  obo:OBI_0000299 msc-prop:msc_om0090297_hc1tMeasurementDatum .
+
+msc-prop:msc_om0090297_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0090297_hc1t ;
+  sio:SIO_000300 10 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0131034 msc:sio:SIO_000008 msc-prop:msc_om0131034_hc1t .
+msc-prop:msc_om0131034_hc1t a msc:hc1t .
+
+msc-prop:msc_om0131034_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.012] ;
+  obo:OBI_0000299 msc-prop:msc_om0131034_hc1tMeasurementDatum .
+
+msc-prop:msc_om0131034_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0131034_hc1t ;
+  sio:SIO_000300 0.46 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0131369 msc:sio:SIO_000008 msc-prop:msc_om0131369_hc1t .
+msc-prop:msc_om0131369_hc1t a msc:hc1t .
+
+msc-prop:msc_om0131369_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "magnetization"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 4.2] ;
+  obo:OBI_0000299 msc-prop:msc_om0131369_hc1tMeasurementDatum .
+
+msc-prop:msc_om0131369_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0131369_hc1t ;
+  sio:SIO_000300 150 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0131371 msc:sio:SIO_000008 msc-prop:msc_om0131371_hc1t .
+msc-prop:msc_om0131371_hc1t a msc:hc1t .
+
+msc-prop:msc_om0131371_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "magnetization"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 6] ;
+  obo:OBI_0000299 msc-prop:msc_om0131371_hc1tMeasurementDatum .
+
+msc-prop:msc_om0131371_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0131371_hc1t ;
+  sio:SIO_000300 250 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0131409 msc:sio:SIO_000008 msc-prop:msc_om0131409_hc1t .
+msc-prop:msc_om0131409_hc1t a msc:hc1t .
+
+msc-prop:msc_om0131409_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 4.2] ;
+  obo:OBI_0000299 msc-prop:msc_om0131409_hc1tMeasurementDatum .
+
+msc-prop:msc_om0131409_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0131409_hc1t ;
+  sio:SIO_000300 300 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0131410 msc:sio:SIO_000008 msc-prop:msc_om0131410_hc1t .
+msc-prop:msc_om0131410_hc1t a msc:hc1t .
+
+msc-prop:msc_om0131410_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.5] ;
+  obo:OBI_0000299 msc-prop:msc_om0131410_hc1tMeasurementDatum .
+
+msc-prop:msc_om0131410_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0131410_hc1t ;
+  sio:SIO_000300 200 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0131411 msc:sio:SIO_000008 msc-prop:msc_om0131411_hc1t .
+msc-prop:msc_om0131411_hc1t a msc:hc1t .
+
+msc-prop:msc_om0131411_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.5] ;
+  obo:OBI_0000299 msc-prop:msc_om0131411_hc1tMeasurementDatum .
+
+msc-prop:msc_om0131411_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0131411_hc1t ;
+  sio:SIO_000300 200 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0150597 msc:sio:SIO_000008 msc-prop:msc_om0150597_hc1t .
+msc-prop:msc_om0150597_hc1t a msc:hc1t .
+
+msc-prop:msc_om0150597_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0150597_hc1tMeasurementDatum .
+
+msc-prop:msc_om0150597_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150597_hc1t ;
+  sio:SIO_000300 20 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0150600 msc:sio:SIO_000008 msc-prop:msc_om0150600_hc1t .
+msc-prop:msc_om0150600_hc1t a msc:hc1t .
+
+msc-prop:msc_om0150600_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "deviation from linear M"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.72] ;
+  obo:OBI_0000299 msc-prop:msc_om0150600_hc1tMeasurementDatum .
+
+msc-prop:msc_om0150600_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150600_hc1t ;
+  sio:SIO_000300 3 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0150627 msc:sio:SIO_000008 msc-prop:msc_om0150627_hc1t .
+msc-prop:msc_om0150627_hc1t a msc:hc1t .
+
+msc-prop:msc_om0150627_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.9] ;
+  obo:OBI_0000299 msc-prop:msc_om0150627_hc1tMeasurementDatum .
+
+msc-prop:msc_om0150627_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150627_hc1t ;
+  sio:SIO_000300 150 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0150640 msc:sio:SIO_000008 msc-prop:msc_om0150640_hc1t .
+msc-prop:msc_om0150640_hc1t a msc:hc1t .
+
+msc-prop:msc_om0150640_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0150640_hc1tMeasurementDatum .
+
+msc-prop:msc_om0150640_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150640_hc1t ;
+  sio:SIO_000300 10 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0150746 msc:sio:SIO_000008 msc-prop:msc_om0150746_hc1t .
+msc-prop:msc_om0150746_hc1t a msc:hc1t .
+
+msc-prop:msc_om0150746_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0150746_hc1tMeasurementDatum .
+
+msc-prop:msc_om0150746_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150746_hc1t ;
+  sio:SIO_000300 15 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0151125 msc:sio:SIO_000008 msc-prop:msc_om0151125_hc1t .
+msc-prop:msc_om0151125_hc1t a msc:hc1t .
+
+msc-prop:msc_om0151125_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "deviation from linear M"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.9] ;
+  obo:OBI_0000299 msc-prop:msc_om0151125_hc1tMeasurementDatum .
+
+msc-prop:msc_om0151125_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151125_hc1t ;
+  sio:SIO_000300 90 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0151255 msc:sio:SIO_000008 msc-prop:msc_om0151255_hc1t .
+msc-prop:msc_om0151255_hc1t a msc:hc1t .
+
+msc-prop:msc_om0151255_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0151255_hc1tMeasurementDatum .
+
+msc-prop:msc_om0151255_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151255_hc1t ;
+  sio:SIO_000300 90 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0151374 msc:sio:SIO_000008 msc-prop:msc_om0151374_hc1t .
+msc-prop:msc_om0151374_hc1t a msc:hc1t .
+
+msc-prop:msc_om0151374_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.45] ;
+  obo:OBI_0000299 msc-prop:msc_om0151374_hc1tMeasurementDatum .
+
+msc-prop:msc_om0151374_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151374_hc1t ;
+  sio:SIO_000300 53 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0151566 msc:sio:SIO_000008 msc-prop:msc_om0151566_hc1t .
+msc-prop:msc_om0151566_hc1t a msc:hc1t .
+
+msc-prop:msc_om0151566_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M vs H curve"@en] ,
+    [a msc:tempc1] ;
+  obo:OBI_0000299 msc-prop:msc_om0151566_hc1tMeasurementDatum .
+
+msc-prop:msc_om0151566_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151566_hc1t ;
+  sio:SIO_000300 20 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0151965 msc:sio:SIO_000008 msc-prop:msc_om0151965_hc1t .
+msc-prop:msc_om0151965_hc1t a msc:hc1t .
+
+msc-prop:msc_om0151965_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1] ;
+  obo:OBI_0000299 msc-prop:msc_om0151965_hc1tMeasurementDatum .
+
+msc-prop:msc_om0151965_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151965_hc1t ;
+  sio:SIO_000300 0.6 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0152023 msc:sio:SIO_000008 msc-prop:msc_om0152023_hc1t .
+msc-prop:msc_om0152023_hc1t a msc:hc1t .
+
+msc-prop:msc_om0152023_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0152023_hc1tMeasurementDatum .
+
+msc-prop:msc_om0152023_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152023_hc1t ;
+  sio:SIO_000300 160 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0152206 msc:sio:SIO_000008 msc-prop:msc_om0152206_hc1t .
+msc-prop:msc_om0152206_hc1t a msc:hc1t .
+
+msc-prop:msc_om0152206_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "dc-SUS"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.353] ;
+  obo:OBI_0000299 msc-prop:msc_om0152206_hc1tMeasurementDatum .
+
+msc-prop:msc_om0152206_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152206_hc1t ;
+  sio:SIO_000300 2.2 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0152389 msc:sio:SIO_000008 msc-prop:msc_om0152389_hc1t .
+msc-prop:msc_om0152389_hc1t a msc:hc1t .
+
+msc-prop:msc_om0152389_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0152389_hc1tMeasurementDatum .
+
+msc-prop:msc_om0152389_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152389_hc1t ;
+  sio:SIO_000300 70 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0152543 msc:sio:SIO_000008 msc-prop:msc_om0152543_hc1t .
+msc-prop:msc_om0152543_hc1t a msc:hc1t .
+
+msc-prop:msc_om0152543_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0152543_hc1tMeasurementDatum .
+
+msc-prop:msc_om0152543_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152543_hc1t ;
+  sio:SIO_000300 60 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0152835 msc:sio:SIO_000008 msc-prop:msc_om0152835_hc1t .
+msc-prop:msc_om0152835_hc1t a msc:hc1t .
+
+msc-prop:msc_om0152835_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0152835_hc1tMeasurementDatum .
+
+msc-prop:msc_om0152835_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152835_hc1t ;
+  sio:SIO_000300 33 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0152893 msc:sio:SIO_000008 msc-prop:msc_om0152893_hc1t .
+msc-prop:msc_om0152893_hc1t a msc:hc1t .
+
+msc-prop:msc_om0152893_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0152893_hc1tMeasurementDatum .
+
+msc-prop:msc_om0152893_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152893_hc1t ;
+  sio:SIO_000300 90 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0153136 msc:sio:SIO_000008 msc-prop:msc_om0153136_hc1t .
+msc-prop:msc_om0153136_hc1t a msc:hc1t .
+
+msc-prop:msc_om0153136_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0153136_hc1tMeasurementDatum .
+
+msc-prop:msc_om0153136_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153136_hc1t ;
+  sio:SIO_000300 232 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0153142 msc:sio:SIO_000008 msc-prop:msc_om0153142_hc1t .
+msc-prop:msc_om0153142_hc1t a msc:hc1t .
+
+msc-prop:msc_om0153142_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 4.1] ;
+  obo:OBI_0000299 msc-prop:msc_om0153142_hc1tMeasurementDatum .
+
+msc-prop:msc_om0153142_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153142_hc1t ;
+  sio:SIO_000300 1120 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0153512 msc:sio:SIO_000008 msc-prop:msc_om0153512_hc1t .
+msc-prop:msc_om0153512_hc1t a msc:hc1t .
+
+msc-prop:msc_om0153512_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0153512_hc1tMeasurementDatum .
+
+msc-prop:msc_om0153512_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153512_hc1t ;
+  sio:SIO_000300 150 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0153513 msc:sio:SIO_000008 msc-prop:msc_om0153513_hc1t .
+msc-prop:msc_om0153513_hc1t a msc:hc1t .
+
+msc-prop:msc_om0153513_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0153513_hc1tMeasurementDatum .
+
+msc-prop:msc_om0153513_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153513_hc1t ;
+  sio:SIO_000300 160 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0153514 msc:sio:SIO_000008 msc-prop:msc_om0153514_hc1t .
+msc-prop:msc_om0153514_hc1t a msc:hc1t .
+
+msc-prop:msc_om0153514_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0153514_hc1tMeasurementDatum .
+
+msc-prop:msc_om0153514_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153514_hc1t ;
+  sio:SIO_000300 200 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0153589 msc:sio:SIO_000008 msc-prop:msc_om0153589_hc1t .
+msc-prop:msc_om0153589_hc1t a msc:hc1t .
+
+msc-prop:msc_om0153589_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0153589_hc1tMeasurementDatum .
+
+msc-prop:msc_om0153589_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153589_hc1t ;
+  sio:SIO_000300 8 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0153717 msc:sio:SIO_000008 msc-prop:msc_om0153717_hc1t .
+msc-prop:msc_om0153717_hc1t a msc:hc1t .
+
+msc-prop:msc_om0153717_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2.6] ;
+  obo:OBI_0000299 msc-prop:msc_om0153717_hc1tMeasurementDatum .
+
+msc-prop:msc_om0153717_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153717_hc1t ;
+  sio:SIO_000300 70 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0153832 msc:sio:SIO_000008 msc-prop:msc_om0153832_hc1t .
+msc-prop:msc_om0153832_hc1t a msc:hc1t .
+
+msc-prop:msc_om0153832_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0153832_hc1tMeasurementDatum .
+
+msc-prop:msc_om0153832_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153832_hc1t ;
+  sio:SIO_000300 2 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0153878 msc:sio:SIO_000008 msc-prop:msc_om0153878_hc1t .
+msc-prop:msc_om0153878_hc1t a msc:hc1t .
+
+msc-prop:msc_om0153878_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0153878_hc1tMeasurementDatum .
+
+msc-prop:msc_om0153878_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153878_hc1t ;
+  sio:SIO_000300 6 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0154078 msc:sio:SIO_000008 msc-prop:msc_om0154078_hc1t .
+msc-prop:msc_om0154078_hc1t a msc:hc1t .
+
+msc-prop:msc_om0154078_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 5] ;
+  obo:OBI_0000299 msc-prop:msc_om0154078_hc1tMeasurementDatum .
+
+msc-prop:msc_om0154078_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154078_hc1t ;
+  sio:SIO_000300 0.2 ;
+  sio:SIO_000221 "T"^^xsd:string .
+
+msc-smp:msc_om0154333 msc:sio:SIO_000008 msc-prop:msc_om0154333_hc1t .
+msc-prop:msc_om0154333_hc1t a msc:hc1t .
+
+msc-prop:msc_om0154333_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.9] ;
+  obo:OBI_0000299 msc-prop:msc_om0154333_hc1tMeasurementDatum .
+
+msc-prop:msc_om0154333_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154333_hc1t ;
+  sio:SIO_000300 5 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0154349 msc:sio:SIO_000008 msc-prop:msc_om0154349_hc1t .
+msc-prop:msc_om0154349_hc1t a msc:hc1t .
+
+msc-prop:msc_om0154349_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0154349_hc1tMeasurementDatum .
+
+msc-prop:msc_om0154349_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154349_hc1t ;
+  sio:SIO_000300 120 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0154358 msc:sio:SIO_000008 msc-prop:msc_om0154358_hc1t .
+msc-prop:msc_om0154358_hc1t a msc:hc1t .
+
+msc-prop:msc_om0154358_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1] ;
+  obo:OBI_0000299 msc-prop:msc_om0154358_hc1tMeasurementDatum .
+
+msc-prop:msc_om0154358_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154358_hc1t ;
+  sio:SIO_000300 300 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0154475 msc:sio:SIO_000008 msc-prop:msc_om0154475_hc1t .
+msc-prop:msc_om0154475_hc1t a msc:hc1t .
+
+msc-prop:msc_om0154475_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.5] ;
+  obo:OBI_0000299 msc-prop:msc_om0154475_hc1tMeasurementDatum .
+
+msc-prop:msc_om0154475_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154475_hc1t ;
+  sio:SIO_000300 3 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0154544 msc:sio:SIO_000008 msc-prop:msc_om0154544_hc1t .
+msc-prop:msc_om0154544_hc1t a msc:hc1t .
+
+msc-prop:msc_om0154544_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0154544_hc1tMeasurementDatum .
+
+msc-prop:msc_om0154544_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154544_hc1t ;
+  sio:SIO_000300 70 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0154618 msc:sio:SIO_000008 msc-prop:msc_om0154618_hc1t .
+msc-prop:msc_om0154618_hc1t a msc:hc1t .
+
+msc-prop:msc_om0154618_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.5] ;
+  obo:OBI_0000299 msc-prop:msc_om0154618_hc1tMeasurementDatum .
+
+msc-prop:msc_om0154618_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154618_hc1t ;
+  sio:SIO_000300 3 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0154786 msc:sio:SIO_000008 msc-prop:msc_om0154786_hc1t .
+msc-prop:msc_om0154786_hc1t a msc:hc1t .
+
+msc-prop:msc_om0154786_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.85] ;
+  obo:OBI_0000299 msc-prop:msc_om0154786_hc1tMeasurementDatum .
+
+msc-prop:msc_om0154786_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154786_hc1t ;
+  sio:SIO_000300 15 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0154830 msc:sio:SIO_000008 msc-prop:msc_om0154830_hc1t .
+msc-prop:msc_om0154830_hc1t a msc:hc1t .
+
+msc-prop:msc_om0154830_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0154830_hc1tMeasurementDatum .
+
+msc-prop:msc_om0154830_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154830_hc1t ;
+  sio:SIO_000300 210 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0155009 msc:sio:SIO_000008 msc-prop:msc_om0155009_hc1t .
+msc-prop:msc_om0155009_hc1t a msc:hc1t .
+
+msc-prop:msc_om0155009_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2.1] ;
+  obo:OBI_0000299 msc-prop:msc_om0155009_hc1tMeasurementDatum .
+
+msc-prop:msc_om0155009_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155009_hc1t ;
+  sio:SIO_000300 8 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0155014 msc:sio:SIO_000008 msc-prop:msc_om0155014_hc1t .
+msc-prop:msc_om0155014_hc1t a msc:hc1t .
+
+msc-prop:msc_om0155014_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1] ;
+  obo:OBI_0000299 msc-prop:msc_om0155014_hc1tMeasurementDatum .
+
+msc-prop:msc_om0155014_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155014_hc1t ;
+  sio:SIO_000300 900 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0155352 msc:sio:SIO_000008 msc-prop:msc_om0155352_hc1t .
+msc-prop:msc_om0155352_hc1t a msc:hc1t .
+
+msc-prop:msc_om0155352_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.9] ;
+  obo:OBI_0000299 msc-prop:msc_om0155352_hc1tMeasurementDatum .
+
+msc-prop:msc_om0155352_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155352_hc1t ;
+  sio:SIO_000300 5 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0155363 msc:sio:SIO_000008 msc-prop:msc_om0155363_hc1t .
+msc-prop:msc_om0155363_hc1t a msc:hc1t .
+
+msc-prop:msc_om0155363_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0155363_hc1tMeasurementDatum .
+
+msc-prop:msc_om0155363_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155363_hc1t ;
+  sio:SIO_000300 1170 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0155377 msc:sio:SIO_000008 msc-prop:msc_om0155377_hc1t .
+msc-prop:msc_om0155377_hc1t a msc:hc1t .
+
+msc-prop:msc_om0155377_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0155377_hc1tMeasurementDatum .
+
+msc-prop:msc_om0155377_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155377_hc1t ;
+  sio:SIO_000300 5 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0155526 msc:sio:SIO_000008 msc-prop:msc_om0155526_hc1t .
+msc-prop:msc_om0155526_hc1t a msc:hc1t .
+
+msc-prop:msc_om0155526_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0155526_hc1tMeasurementDatum .
+
+msc-prop:msc_om0155526_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155526_hc1t ;
+  sio:SIO_000300 90 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0155527 msc:sio:SIO_000008 msc-prop:msc_om0155527_hc1t .
+msc-prop:msc_om0155527_hc1t a msc:hc1t .
+
+msc-prop:msc_om0155527_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0155527_hc1tMeasurementDatum .
+
+msc-prop:msc_om0155527_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155527_hc1t ;
+  sio:SIO_000300 65 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0155528 msc:sio:SIO_000008 msc-prop:msc_om0155528_hc1t .
+msc-prop:msc_om0155528_hc1t a msc:hc1t .
+
+msc-prop:msc_om0155528_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0155528_hc1tMeasurementDatum .
+
+msc-prop:msc_om0155528_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155528_hc1t ;
+  sio:SIO_000300 55 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0155529 msc:sio:SIO_000008 msc-prop:msc_om0155529_hc1t .
+msc-prop:msc_om0155529_hc1t a msc:hc1t .
+
+msc-prop:msc_om0155529_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0155529_hc1tMeasurementDatum .
+
+msc-prop:msc_om0155529_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155529_hc1t ;
+  sio:SIO_000300 67 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0155537 msc:sio:SIO_000008 msc-prop:msc_om0155537_hc1t .
+msc-prop:msc_om0155537_hc1t a msc:hc1t .
+
+msc-prop:msc_om0155537_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve, GL theory"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0155537_hc1tMeasurementDatum .
+
+msc-prop:msc_om0155537_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155537_hc1t ;
+  sio:SIO_000300 25 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0155621 msc:sio:SIO_000008 msc-prop:msc_om0155621_hc1t .
+msc-prop:msc_om0155621_hc1t a msc:hc1t .
+
+msc-prop:msc_om0155621_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.9] ;
+  obo:OBI_0000299 msc-prop:msc_om0155621_hc1tMeasurementDatum .
+
+msc-prop:msc_om0155621_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155621_hc1t ;
+  sio:SIO_000300 5 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0155681 msc:sio:SIO_000008 msc-prop:msc_om0155681_hc1t .
+msc-prop:msc_om0155681_hc1t a msc:hc1t .
+
+msc-prop:msc_om0155681_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0155681_hc1tMeasurementDatum .
+
+msc-prop:msc_om0155681_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155681_hc1t ;
+  sio:SIO_000300 10 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0155684 msc:sio:SIO_000008 msc-prop:msc_om0155684_hc1t .
+msc-prop:msc_om0155684_hc1t a msc:hc1t .
+
+msc-prop:msc_om0155684_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0155684_hc1tMeasurementDatum .
+
+msc-prop:msc_om0155684_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155684_hc1t ;
+  sio:SIO_000300 30 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0156195 msc:sio:SIO_000008 msc-prop:msc_om0156195_hc1t .
+msc-prop:msc_om0156195_hc1t a msc:hc1t .
+
+msc-prop:msc_om0156195_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H, GL approx."@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0156195_hc1tMeasurementDatum .
+
+msc-prop:msc_om0156195_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156195_hc1t ;
+  sio:SIO_000300 1.44 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0156303 msc:sio:SIO_000008 msc-prop:msc_om0156303_hc1t .
+msc-prop:msc_om0156303_hc1t a msc:hc1t .
+
+msc-prop:msc_om0156303_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M -H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0156303_hc1tMeasurementDatum .
+
+msc-prop:msc_om0156303_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156303_hc1t ;
+  sio:SIO_000300 1 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0156421 msc:sio:SIO_000008 msc-prop:msc_om0156421_hc1t .
+msc-prop:msc_om0156421_hc1t a msc:hc1t .
+
+msc-prop:msc_om0156421_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-T curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0156421_hc1tMeasurementDatum .
+
+msc-prop:msc_om0156421_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156421_hc1t ;
+  sio:SIO_000300 7 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0156450 msc:sio:SIO_000008 msc-prop:msc_om0156450_hc1t .
+msc-prop:msc_om0156450_hc1t a msc:hc1t .
+
+msc-prop:msc_om0156450_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 3] ;
+  obo:OBI_0000299 msc-prop:msc_om0156450_hc1tMeasurementDatum .
+
+msc-prop:msc_om0156450_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156450_hc1t ;
+  sio:SIO_000300 50 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0156579 msc:sio:SIO_000008 msc-prop:msc_om0156579_hc1t .
+msc-prop:msc_om0156579_hc1t a msc:hc1t .
+
+msc-prop:msc_om0156579_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.7] ;
+  obo:OBI_0000299 msc-prop:msc_om0156579_hc1tMeasurementDatum .
+
+msc-prop:msc_om0156579_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156579_hc1t ;
+  sio:SIO_000300 44 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0156595 msc:sio:SIO_000008 msc-prop:msc_om0156595_hc1t .
+msc-prop:msc_om0156595_hc1t a msc:hc1t .
+
+msc-prop:msc_om0156595_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1] ;
+  obo:OBI_0000299 msc-prop:msc_om0156595_hc1tMeasurementDatum .
+
+msc-prop:msc_om0156595_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156595_hc1t ;
+  sio:SIO_000300 100 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0156676 msc:sio:SIO_000008 msc-prop:msc_om0156676_hc1t .
+msc-prop:msc_om0156676_hc1t a msc:hc1t .
+
+msc-prop:msc_om0156676_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 10] ;
+  obo:OBI_0000299 msc-prop:msc_om0156676_hc1tMeasurementDatum .
+
+msc-prop:msc_om0156676_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156676_hc1t ;
+  sio:SIO_000300 200 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0156815 msc:sio:SIO_000008 msc-prop:msc_om0156815_hc1t .
+msc-prop:msc_om0156815_hc1t a msc:hc1t .
+
+msc-prop:msc_om0156815_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve, Hc1(T)=A*(1-t^2)"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0156815_hc1tMeasurementDatum .
+
+msc-prop:msc_om0156815_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156815_hc1t ;
+  sio:SIO_000300 5.2 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0156897 msc:sio:SIO_000008 msc-prop:msc_om0156897_hc1t .
+msc-prop:msc_om0156897_hc1t a msc:hc1t .
+
+msc-prop:msc_om0156897_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve, Linear approx."@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.7] ;
+  obo:OBI_0000299 msc-prop:msc_om0156897_hc1tMeasurementDatum .
+
+msc-prop:msc_om0156897_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156897_hc1t ;
+  sio:SIO_000300 10 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0156917 msc:sio:SIO_000008 msc-prop:msc_om0156917_hc1t .
+msc-prop:msc_om0156917_hc1t a msc:hc1t .
+
+msc-prop:msc_om0156917_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.85] ;
+  obo:OBI_0000299 msc-prop:msc_om0156917_hc1tMeasurementDatum .
+
+msc-prop:msc_om0156917_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156917_hc1t ;
+  sio:SIO_000300 60 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0156920 msc:sio:SIO_000008 msc-prop:msc_om0156920_hc1t .
+msc-prop:msc_om0156920_hc1t a msc:hc1t .
+
+msc-prop:msc_om0156920_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1] ;
+  obo:OBI_0000299 msc-prop:msc_om0156920_hc1tMeasurementDatum .
+
+msc-prop:msc_om0156920_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156920_hc1t ;
+  sio:SIO_000300 117 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157105 msc:sio:SIO_000008 msc-prop:msc_om0157105_hc1t .
+msc-prop:msc_om0157105_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157105_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157105_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157105_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157105_hc1t ;
+  sio:SIO_000300 70 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157106 msc:sio:SIO_000008 msc-prop:msc_om0157106_hc1t .
+msc-prop:msc_om0157106_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157106_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157106_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157106_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157106_hc1t ;
+  sio:SIO_000300 80 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157107 msc:sio:SIO_000008 msc-prop:msc_om0157107_hc1t .
+msc-prop:msc_om0157107_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157107_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157107_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157107_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157107_hc1t ;
+  sio:SIO_000300 110 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157108 msc:sio:SIO_000008 msc-prop:msc_om0157108_hc1t .
+msc-prop:msc_om0157108_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157108_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157108_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157108_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157108_hc1t ;
+  sio:SIO_000300 70 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157109 msc:sio:SIO_000008 msc-prop:msc_om0157109_hc1t .
+msc-prop:msc_om0157109_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157109_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157109_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157109_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157109_hc1t ;
+  sio:SIO_000300 90 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157110 msc:sio:SIO_000008 msc-prop:msc_om0157110_hc1t .
+msc-prop:msc_om0157110_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157110_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157110_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157110_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157110_hc1t ;
+  sio:SIO_000300 80 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157111 msc:sio:SIO_000008 msc-prop:msc_om0157111_hc1t .
+msc-prop:msc_om0157111_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157111_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157111_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157111_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157111_hc1t ;
+  sio:SIO_000300 115 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157166 msc:sio:SIO_000008 msc-prop:msc_om0157166_hc1t .
+msc-prop:msc_om0157166_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157166_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.5] ;
+  obo:OBI_0000299 msc-prop:msc_om0157166_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157166_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157166_hc1t ;
+  sio:SIO_000300 10 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157290 msc:sio:SIO_000008 msc-prop:msc_om0157290_hc1t .
+msc-prop:msc_om0157290_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157290_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157290_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157290_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157290_hc1t ;
+  sio:SIO_000300 11 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157420 msc:sio:SIO_000008 msc-prop:msc_om0157420_hc1t .
+msc-prop:msc_om0157420_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157420_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157420_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157420_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157420_hc1t ;
+  sio:SIO_000300 70 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157421 msc:sio:SIO_000008 msc-prop:msc_om0157421_hc1t .
+msc-prop:msc_om0157421_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157421_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157421_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157421_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157421_hc1t ;
+  sio:SIO_000300 80 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157422 msc:sio:SIO_000008 msc-prop:msc_om0157422_hc1t .
+msc-prop:msc_om0157422_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157422_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157422_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157422_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157422_hc1t ;
+  sio:SIO_000300 110 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157423 msc:sio:SIO_000008 msc-prop:msc_om0157423_hc1t .
+msc-prop:msc_om0157423_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157423_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157423_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157423_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157423_hc1t ;
+  sio:SIO_000300 70 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157424 msc:sio:SIO_000008 msc-prop:msc_om0157424_hc1t .
+msc-prop:msc_om0157424_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157424_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157424_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157424_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157424_hc1t ;
+  sio:SIO_000300 90 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157425 msc:sio:SIO_000008 msc-prop:msc_om0157425_hc1t .
+msc-prop:msc_om0157425_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157425_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157425_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157425_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157425_hc1t ;
+  sio:SIO_000300 80 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157426 msc:sio:SIO_000008 msc-prop:msc_om0157426_hc1t .
+msc-prop:msc_om0157426_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157426_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157426_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157426_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157426_hc1t ;
+  sio:SIO_000300 115 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157513 msc:sio:SIO_000008 msc-prop:msc_om0157513_hc1t .
+msc-prop:msc_om0157513_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157513_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157513_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157513_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157513_hc1t ;
+  sio:SIO_000300 155 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157517 msc:sio:SIO_000008 msc-prop:msc_om0157517_hc1t .
+msc-prop:msc_om0157517_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157517_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157517_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157517_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157517_hc1t ;
+  sio:SIO_000300 7.04 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157563 msc:sio:SIO_000008 msc-prop:msc_om0157563_hc1t .
+msc-prop:msc_om0157563_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157563_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0157563_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157563_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157563_hc1t ;
+  sio:SIO_000300 3.5 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157567 msc:sio:SIO_000008 msc-prop:msc_om0157567_hc1t .
+msc-prop:msc_om0157567_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157567_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.5] ;
+  obo:OBI_0000299 msc-prop:msc_om0157567_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157567_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157567_hc1t ;
+  sio:SIO_000300 40 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157577 msc:sio:SIO_000008 msc-prop:msc_om0157577_hc1t .
+msc-prop:msc_om0157577_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157577_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157577_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157577_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157577_hc1t ;
+  sio:SIO_000300 4.5 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0157585 msc:sio:SIO_000008 msc-prop:msc_om0157585_hc1t .
+msc-prop:msc_om0157585_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157585_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2.5] ;
+  obo:OBI_0000299 msc-prop:msc_om0157585_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157585_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157585_hc1t ;
+  sio:SIO_000300 35 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157586 msc:sio:SIO_000008 msc-prop:msc_om0157586_hc1t .
+msc-prop:msc_om0157586_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157586_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2.5] ;
+  obo:OBI_0000299 msc-prop:msc_om0157586_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157586_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157586_hc1t ;
+  sio:SIO_000300 67 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157614 msc:sio:SIO_000008 msc-prop:msc_om0157614_hc1t .
+msc-prop:msc_om0157614_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157614_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve, (1-t^2)"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.48] ;
+  obo:OBI_0000299 msc-prop:msc_om0157614_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157614_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157614_hc1t ;
+  sio:SIO_000300 20 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157664 msc:sio:SIO_000008 msc-prop:msc_om0157664_hc1t .
+msc-prop:msc_om0157664_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157664_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 5] ;
+  obo:OBI_0000299 msc-prop:msc_om0157664_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157664_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157664_hc1t ;
+  sio:SIO_000300 30 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0157734 msc:sio:SIO_000008 msc-prop:msc_om0157734_hc1t .
+msc-prop:msc_om0157734_hc1t a msc:hc1t .
+
+msc-prop:msc_om0157734_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ;
+  obo:OBI_0000299 msc-prop:msc_om0157734_hc1tMeasurementDatum .
+
+msc-prop:msc_om0157734_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157734_hc1t ;
+  sio:SIO_000300 0.3 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0158333 msc:sio:SIO_000008 msc-prop:msc_om0158333_hc1t .
+msc-prop:msc_om0158333_hc1t a msc:hc1t .
+
+msc-prop:msc_om0158333_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.73] ;
+  obo:OBI_0000299 msc-prop:msc_om0158333_hc1tMeasurementDatum .
+
+msc-prop:msc_om0158333_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158333_hc1t ;
+  sio:SIO_000300 30 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0158344 msc:sio:SIO_000008 msc-prop:msc_om0158344_hc1t .
+msc-prop:msc_om0158344_hc1t a msc:hc1t .
+
+msc-prop:msc_om0158344_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 3] ;
+  obo:OBI_0000299 msc-prop:msc_om0158344_hc1tMeasurementDatum .
+
+msc-prop:msc_om0158344_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158344_hc1t ;
+  sio:SIO_000300 20 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0158385 msc:sio:SIO_000008 msc-prop:msc_om0158385_hc1t .
+msc-prop:msc_om0158385_hc1t a msc:hc1t .
+
+msc-prop:msc_om0158385_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.51] ;
+  obo:OBI_0000299 msc-prop:msc_om0158385_hc1tMeasurementDatum .
+
+msc-prop:msc_om0158385_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158385_hc1t ;
+  sio:SIO_000300 143 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0158549 msc:sio:SIO_000008 msc-prop:msc_om0158549_hc1t .
+msc-prop:msc_om0158549_hc1t a msc:hc1t .
+
+msc-prop:msc_om0158549_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.5] ;
+  obo:OBI_0000299 msc-prop:msc_om0158549_hc1tMeasurementDatum .
+
+msc-prop:msc_om0158549_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158549_hc1t ;
+  sio:SIO_000300 40 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0158631 msc:sio:SIO_000008 msc-prop:msc_om0158631_hc1t .
+msc-prop:msc_om0158631_hc1t a msc:hc1t .
+
+msc-prop:msc_om0158631_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "H-M curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ;
+  obo:OBI_0000299 msc-prop:msc_om0158631_hc1tMeasurementDatum .
+
+msc-prop:msc_om0158631_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158631_hc1t ;
+  sio:SIO_000300 20 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0158734 msc:sio:SIO_000008 msc-prop:msc_om0158734_hc1t .
+msc-prop:msc_om0158734_hc1t a msc:hc1t .
+
+msc-prop:msc_om0158734_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.4] ;
+  obo:OBI_0000299 msc-prop:msc_om0158734_hc1tMeasurementDatum .
+
+msc-prop:msc_om0158734_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158734_hc1t ;
+  sio:SIO_000300 30 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0158862 msc:sio:SIO_000008 msc-prop:msc_om0158862_hc1t .
+msc-prop:msc_om0158862_hc1t a msc:hc1t .
+
+msc-prop:msc_om0158862_hc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:comment "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 0.5] ;
+  obo:OBI_0000299 msc-prop:msc_om0158862_hc1tMeasurementDatum .
+
+msc-prop:msc_om0158862_hc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158862_hc1t ;
+  sio:SIO_000300 10 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+

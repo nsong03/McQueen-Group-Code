@@ -1,0 +1,160 @@
+Prefixes necessary for SPARQL queries 
+
+Namespaces for the semantic use of the SuperCon RDF and MSC ontologies are listed below. These prefixes must be listed in the header of the query statement without amendment when searching with SPARQL.
+
+prefix bibo: <http://purl.org/ontology/bibo/>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#>
+prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#>
+prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#>
+prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#>
+prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#>
+prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#>
+prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#>
+prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#>
+prefix obo: <http://purl.obolibrary.org/obo/>
+prefix prism: <http://prismstandard.org/namespaces/basic/2.0/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix sio: <http://semanticscience.org/resource/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+### SPARQL Example 1:
+the number (?count) of the samples (?sample) with superconducting property
+
+select (count(?sample) as ?count)
+where
+ {
+ ?SpecProp rdfs:subClassOf msc:SuperConductingProperty.
+ ?property a ?SpecProp .
+ ?datum obo:IAO_0000221 ?property ;
+   sio:SIO_000300 ?val .
+ ?sample sio:SIO_000008 ?property.
+}
+
+To obtain the overall sample count for property categories, we can write a query statement using msc:Property:
+
+select (count(?sample) as ?count)
+where
+ {
+  ?SpecProp rdfs:subClassOf ?PropCat .
+  ?PropCat rdfs:subClassOf msc:Property .
+  ?property a ?SpecProp .
+  ?datum obo:IAO_0000221 ?property ;
+    sio:SIO_000300 ?val .
+  ?sample sio:SIO_000008 ?property.
+}
+
+### Example 2:
+The number of samples when the instrument used for measuring c-axis lattice constants is “single crystal X-ray diffraction” (obo:CHMO_0000159)
+
+select (count(?sample) as ?count)
+where
+ {
+ ?sample sio:SIO_000008 ?internal .
+ ?internal obo:RO_0000058 ?latc .
+ ?CrystMeas obo:OBI_0000299 ?latcDatum ;
+   msc:hasCondition [ a obo:CHMO_0000159 ] .
+
+ ?latcDatum a obo:IAO_0000109 ;
+   obo:IAO_0000221 ?latc .
+} 
+
+A similar count can be performed for ‘powder X-ray diffraction’ by replacing ‘obo:CHMO_0000159’ with ‘obo:CHMO_0000158’.
+
+Furthermore, the number of ‘X-ray diffraction samples (obo:CHMO_0000156)’ can be derived using the following SPARQL query and the upper concepts of the CHMO ontology:
+
+select (count(?sample) as ?count)
+where
+ {
+ ?sample sio:SIO_000008 ?internal .
+ ?internal obo:RO_0000058 ?latc .
+ ?CrystMeas obo:OBI_0000299 ?latcDatum ;
+   msc:hasCondition [ a ?meth ] .
+ ?meth rdfs:subClassOf obo:CHMO_0000156 .
+
+ ?latcDatum a obo:IAO_0000109 ;
+   obo:IAO_0000221 ?latc .
+} 
+
+### Example 3: 
+List of properties obtained (?p_label), descriptions (?p_comment), and applied external fields (?f_label) for measurements in which external fields parallel to the ab plane are applied.
+
+select distinct ?p_label ?p_comment ?f_label 
+where
+ {
+ ?datum obo:IAO_0000221 ?property .
+ ?measurement obo:OBI_0000299 ?datum ;
+   msc:hasCondition [ a ?field ;
+   msc:ParallelTo msc:ab_plane] .
+ ?property a ?p_type .
+ ?p_type rdfs:label ?p_label;
+   rdfs:comment ?p_comment .
+ ?field rdfs:label ?f_label .
+} order by (?p_label)
+
+The predicate ‘msc:ParallelTo’ should be changed to ‘msc:PerpendicularTo’ to change this to ‘perpendicular to the ab-plane,’ and ‘msc:ab_plane’ should be ‘msc:c_axis’ to change this to ‘parallel to the c-axis’.
+
+### Example 4: 
+This query displays the physical properties measured in external magnetic fields parallel to the ab plane and parallel to the c axis, along with the chemical formula of the sample.
+
+select distinct ?val_element ?label_Par ?val_Par ?unit_Par ?label_Per ?val_Per ?unit_Per
+where
+ {
+ ?datum_Par obo:IAO_0000221 ?property_Par .
+ ?measurement_Par obo:OBI_0000299 ?datum_Par ;
+   msc:hasCondition [ msc:ParallelTo msc:ab_plane] ,
+     msc:temp_77 .
+ ?sample sio:SIO_000008 ?property_Par ;
+   sio:SIO_000008 ?element .
+ ?element a msc:element ;
+   sio:SIO_000300 ?val_element .
+ ?property_Par a ?propertyClass_Par .
+ ?propertyClass_Par rdfs:label ?label_Par .
+ ?datum_Per obo:IAO_0000221 ?property_Per ;
+   sio:SIO_000300 ?val_Par ;
+   sio:SIO_000221 ?unit_Par .
+
+ ?measurement_Per obo:OBI_0000299 ?datum_Per ;
+   msc:hasCondition [ msc:ParallelTo msc:c_axis] ,
+     msc:temp_77 .
+ ?sample sio:SIO_000008 ?property_Per.
+ ?property_Per a ?propertyClass_Per .
+ ?propertyClass_Per rdfs:label ?label_Per .
+ ?datum_Per obo:IAO_0000221 ?property_Per ;
+   sio:SIO_000300 ?val_Per ;
+   sio:SIO_000221 ?unit_Per .
+} order by (?val_element)
+
+The physical property values (?val_Par) and unit values (?unit_Par) of the samples acquired by applying an external field parallel to the ab plane (msc:ab_plane) at 77 K (msc:temp_77) were retrieved. In the second half, a similar search for physical properties (?val_Par) and units (?unit_Per) was performed under the same conditions, with the exception that the external field was applied parallel to the c-axis (msc:c_axis), which displays data for samples that satisfy both conditions.
+
+
+### Example 5: 
+
+select distinct ?name_val ?val_oz ?rat ?val_dtc ?unit_dtc
+where
+ {
+ ?sample sio:SIO_000008 ?oz, ?dtc, ?name .
+
+ ?dtc a msc:dtc ;
+   msc:dependsOn [ sio:SIO_000300 "O" ;
+   obo:RO_0000087 ?isorole ] .
+ ?isorole a msc:IsotopeRole ;
+   sio:SIO_000008 [ sio:SIO_000300 ?rat ] .
+ ?datum_dtc sio:SIO_000300 ?val_dtc ;
+   sio:SIO_000221 ?unit_dtc ;
+   obo:IAO_0000221 ?dtc .
+
+ ?oz a msc:oz .
+ ?oz_meas a msc:Measurement ;
+   obo:OBI_0000299 ?datum_oz .
+ ?datum_oz a obo:IAO_0000109 ;
+   obo:IAO_0000221 ?oz ;
+   sio:SIO_000300 ?val_oz .
+
+ ?name a msc:name ;
+   sio:SIO_000300 ?name_val .
+}
+
+This query can be divided into three parts: one that extracts the change in Tc using oxygen isotopes (?dtc, msc:dtc), which is used to extract the measured composition ratio of oxygen (?oz, msc:oz) and extract the name of the sample (? Name: msc:name). Samples from which all of these data can be extracted ultimately remain on the list of search results. 

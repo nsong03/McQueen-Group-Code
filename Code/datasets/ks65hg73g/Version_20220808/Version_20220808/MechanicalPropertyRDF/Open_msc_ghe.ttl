@@ -1,0 +1,101 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msc-smp:msc_om0002878 sio:SIO_000008 msc-prop:msc_om0002878_ghe .
+msc-prop:msc_om0002878_ghe a msc:ghe .
+
+msc-prop:msc_om0002878_gheMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_He ;
+  obo:OBI_0000299 msc-prop:msc_om0002878_gheMeasurementDatum .
+
+msc-prop:msc_om0002878_gheMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002878_ghe ;
+  sio:SIO_000300 11 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002879 sio:SIO_000008 msc-prop:msc_om0002879_ghe .
+msc-prop:msc_om0002879_ghe a msc:ghe .
+
+msc-prop:msc_om0002879_gheMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_He ;
+  obo:OBI_0000299 msc-prop:msc_om0002879_gheMeasurementDatum .
+
+msc-prop:msc_om0002879_gheMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002879_ghe ;
+  sio:SIO_000300 14 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0033787 sio:SIO_000008 msc-prop:msc_om0033787_ghe .
+msc-prop:msc_om0033787_ghe a msc:ghe .
+
+msc-prop:msc_om0033787_gheMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_He ;
+  obo:OBI_0000299 msc-prop:msc_om0033787_gheMeasurementDatum .
+
+msc-prop:msc_om0033787_gheMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033787_ghe ;
+  sio:SIO_000300 64.5 ;
+  sio:SIO_000221 "GPa"^^xsd:string .
+
+msc-smp:msc_om0033812 sio:SIO_000008 msc-prop:msc_om0033812_ghe .
+msc-prop:msc_om0033812_ghe a msc:ghe .
+
+msc-prop:msc_om0033812_gheMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_He ;
+  obo:OBI_0000299 msc-prop:msc_om0033812_gheMeasurementDatum .
+
+msc-prop:msc_om0033812_gheMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033812_ghe ;
+  sio:SIO_000300 21.51 ;
+  sio:SIO_000221 "GPa"^^xsd:string .
+
+msc-smp:msc_om0033813 sio:SIO_000008 msc-prop:msc_om0033813_ghe .
+msc-prop:msc_om0033813_ghe a msc:ghe .
+
+msc-prop:msc_om0033813_gheMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_He ;
+  obo:OBI_0000299 msc-prop:msc_om0033813_gheMeasurementDatum .
+
+msc-prop:msc_om0033813_gheMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033813_ghe ;
+  sio:SIO_000300 23.59 ;
+  sio:SIO_000221 "GPa"^^xsd:string .
+
+msc-smp:msc_om0033814 sio:SIO_000008 msc-prop:msc_om0033814_ghe .
+msc-prop:msc_om0033814_ghe a msc:ghe .
+
+msc-prop:msc_om0033814_gheMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_He ;
+  obo:OBI_0000299 msc-prop:msc_om0033814_gheMeasurementDatum .
+
+msc-prop:msc_om0033814_gheMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033814_ghe ;
+  sio:SIO_000300 24.16 ;
+  sio:SIO_000221 "GPa"^^xsd:string .
+
+msc-smp:msc_om0033815 sio:SIO_000008 msc-prop:msc_om0033815_ghe .
+msc-prop:msc_om0033815_ghe a msc:ghe .
+
+msc-prop:msc_om0033815_gheMeasurement a msc:Measurement ;
+  msc:hasCondition msc:temp_He ;
+  obo:OBI_0000299 msc-prop:msc_om0033815_gheMeasurementDatum .
+
+msc-prop:msc_om0033815_gheMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033815_ghe ;
+  sio:SIO_000300 24.23 ;
+  sio:SIO_000221 "GPa"^^xsd:string .
+

@@ -1,0 +1,301 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msc-smp:msc_om0008284 msc:sio:SIO_000008 msc-prop:msc_om0008284_phc1t .
+msc-prop:msc_om0008284_phc1t a msc:phc1t .
+
+msc-prop:msc_om0008284_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "deviation from linear region in M vs H"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 77] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008284_phc1tMeasurementDatum .
+
+msc-prop:msc_om0008284_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008284_phc1t ;
+  sio:SIO_000300 78.5 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0008285 msc:sio:SIO_000008 msc-prop:msc_om0008285_phc1t .
+msc-prop:msc_om0008285_phc1t a msc:phc1t .
+
+msc-prop:msc_om0008285_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 77] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008285_phc1tMeasurementDatum .
+
+msc-prop:msc_om0008285_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008285_phc1t ;
+  sio:SIO_000300 33.7 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0008286 msc:sio:SIO_000008 msc-prop:msc_om0008286_phc1t .
+msc-prop:msc_om0008286_phc1t a msc:phc1t .
+
+msc-prop:msc_om0008286_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label ""@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 77] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0008286_phc1tMeasurementDatum .
+
+msc-prop:msc_om0008286_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0008286_phc1t ;
+  sio:SIO_000300 47.9 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0034741 msc:sio:SIO_000008 msc-prop:msc_om0034741_phc1t .
+msc-prop:msc_om0034741_phc1t a msc:phc1t .
+
+msc-prop:msc_om0034741_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "M-H curve"@en] ,
+    [a msc:tempc1] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0034741_phc1tMeasurementDatum .
+
+msc-prop:msc_om0034741_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0034741_phc1t ;
+  sio:SIO_000300 1.7 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0034742 msc:sio:SIO_000008 msc-prop:msc_om0034742_phc1t .
+msc-prop:msc_om0034742_phc1t a msc:phc1t .
+
+msc-prop:msc_om0034742_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "M-H curve"@en] ,
+    [a msc:tempc1] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0034742_phc1tMeasurementDatum .
+
+msc-prop:msc_om0034742_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0034742_phc1t ;
+  sio:SIO_000300 4 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0034743 msc:sio:SIO_000008 msc-prop:msc_om0034743_phc1t .
+msc-prop:msc_om0034743_phc1t a msc:phc1t .
+
+msc-prop:msc_om0034743_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "M-H curve"@en] ,
+    [a msc:tempc1] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0034743_phc1tMeasurementDatum .
+
+msc-prop:msc_om0034743_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0034743_phc1t ;
+  sio:SIO_000300 8 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0151315 msc:sio:SIO_000008 msc-prop:msc_om0151315_phc1t .
+msc-prop:msc_om0151315_phc1t a msc:phc1t .
+
+msc-prop:msc_om0151315_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0151315_phc1tMeasurementDatum .
+
+msc-prop:msc_om0151315_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151315_phc1t ;
+  sio:SIO_000300 52 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0151774 msc:sio:SIO_000008 msc-prop:msc_om0151774_phc1t .
+msc-prop:msc_om0151774_phc1t a msc:phc1t .
+
+msc-prop:msc_om0151774_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0151774_phc1tMeasurementDatum .
+
+msc-prop:msc_om0151774_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151774_phc1t ;
+  sio:SIO_000300 510 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0151775 msc:sio:SIO_000008 msc-prop:msc_om0151775_phc1t .
+msc-prop:msc_om0151775_phc1t a msc:phc1t .
+
+msc-prop:msc_om0151775_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0151775_phc1tMeasurementDatum .
+
+msc-prop:msc_om0151775_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151775_phc1t ;
+  sio:SIO_000300 800 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0151777 msc:sio:SIO_000008 msc-prop:msc_om0151777_phc1t .
+msc-prop:msc_om0151777_phc1t a msc:phc1t .
+
+msc-prop:msc_om0151777_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0151777_phc1tMeasurementDatum .
+
+msc-prop:msc_om0151777_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151777_phc1t ;
+  sio:SIO_000300 600 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0151778 msc:sio:SIO_000008 msc-prop:msc_om0151778_phc1t .
+msc-prop:msc_om0151778_phc1t a msc:phc1t .
+
+msc-prop:msc_om0151778_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0151778_phc1tMeasurementDatum .
+
+msc-prop:msc_om0151778_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151778_phc1t ;
+  sio:SIO_000300 90 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0153860 msc:sio:SIO_000008 msc-prop:msc_om0153860_phc1t .
+msc-prop:msc_om0153860_phc1t a msc:phc1t .
+
+msc-prop:msc_om0153860_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "M-H curve, H//b-axis"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 2] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0153860_phc1tMeasurementDatum .
+
+msc-prop:msc_om0153860_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153860_phc1t ;
+  sio:SIO_000300 4 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0154123 msc:sio:SIO_000008 msc-prop:msc_om0154123_phc1t .
+msc-prop:msc_om0154123_phc1t a msc:phc1t .
+
+msc-prop:msc_om0154123_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "M-H curve, linear approx."@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0154123_phc1tMeasurementDatum .
+
+msc-prop:msc_om0154123_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154123_phc1t ;
+  sio:SIO_000300 114 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0156595 msc:sio:SIO_000008 msc-prop:msc_om0156595_phc1t .
+msc-prop:msc_om0156595_phc1t a msc:phc1t .
+
+msc-prop:msc_om0156595_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "M-H curve"@en] ,
+    [a msc:tempc1] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0156595_phc1tMeasurementDatum .
+
+msc-prop:msc_om0156595_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156595_phc1t ;
+  sio:SIO_000300 5 ;
+  sio:SIO_000221 "Oe"^^xsd:string .
+
+msc-smp:msc_om0156598 msc:sio:SIO_000008 msc-prop:msc_om0156598_phc1t .
+msc-prop:msc_om0156598_phc1t a msc:phc1t .
+
+msc-prop:msc_om0156598_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0156598_phc1tMeasurementDatum .
+
+msc-prop:msc_om0156598_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156598_phc1t ;
+  sio:SIO_000300 9 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+
+msc-smp:msc_om0156599 msc:sio:SIO_000008 msc-prop:msc_om0156599_phc1t .
+msc-prop:msc_om0156599_phc1t a msc:phc1t .
+
+msc-prop:msc_om0156599_phc1tMeasurement a msc:Measurement ;
+  msc:hasCondition
+    [a msc:mhc1 ;
+     rdfs:label "M-H curve"@en] ,
+    [a msc:tempc1 ;
+     sio:SIO_000300 1.8] ,
+    [a msc:MagneticField ;
+     msc:ParallelTo msc:ab_plane] ;
+  obo:OBI_0000299 msc-prop:msc_om0156599_phc1tMeasurementDatum .
+
+msc-prop:msc_om0156599_phc1tMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156599_phc1t ;
+  sio:SIO_000300 6 ;
+  sio:SIO_000221 "mT"^^xsd:string .
+

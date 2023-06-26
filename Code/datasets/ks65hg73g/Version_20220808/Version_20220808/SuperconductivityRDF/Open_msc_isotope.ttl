@@ -1,0 +1,5261 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msc-smp:msc_om0000961 sio:SIO_000008 msc-prop:msc_om0000961_isotope .
+msc-prop:msc_om0000961_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0000961_IsotopeRole ] .
+
+msc-prop:msc_om0000961_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 75 ] .
+
+msc-prop:msc_om0000961_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0000961_isotope .
+
+msc-smp:msc_om0000962 sio:SIO_000008 msc-prop:msc_om0000962_isotope .
+msc-prop:msc_om0000962_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0000962_IsotopeRole ] .
+
+msc-prop:msc_om0000962_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 75 ] .
+
+msc-prop:msc_om0000962_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0000962_isotope .
+
+msc-smp:msc_om0000963 sio:SIO_000008 msc-prop:msc_om0000963_isotope .
+msc-prop:msc_om0000963_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0000963_IsotopeRole ] .
+
+msc-prop:msc_om0000963_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0000963_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0000963_isotope .
+
+msc-smp:msc_om0000964 sio:SIO_000008 msc-prop:msc_om0000964_isotope .
+msc-prop:msc_om0000964_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0000964_IsotopeRole ] .
+
+msc-prop:msc_om0000964_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0000964_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.046 ;
+  obo:IAO_0000221 msc-prop:msc_om0000964_isotope .
+
+msc-smp:msc_om0000965 sio:SIO_000008 msc-prop:msc_om0000965_isotope .
+msc-prop:msc_om0000965_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0000965_IsotopeRole ] .
+
+msc-prop:msc_om0000965_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0000965_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0000965_isotope .
+
+msc-smp:msc_om0000967 sio:SIO_000008 msc-prop:msc_om0000967_isotope .
+msc-prop:msc_om0000967_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0000967_IsotopeRole ] .
+
+msc-prop:msc_om0000967_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0000967_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.019 ;
+  obo:IAO_0000221 msc-prop:msc_om0000967_isotope .
+
+msc-smp:msc_om0000968 sio:SIO_000008 msc-prop:msc_om0000968_isotope .
+msc-prop:msc_om0000968_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0000968_IsotopeRole ] .
+
+msc-prop:msc_om0000968_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0000968_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.14 ;
+  obo:IAO_0000221 msc-prop:msc_om0000968_isotope .
+
+msc-smp:msc_om0000969 sio:SIO_000008 msc-prop:msc_om0000969_isotope .
+msc-prop:msc_om0000969_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0000969_IsotopeRole ] .
+
+msc-prop:msc_om0000969_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0000969_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.019 ;
+  obo:IAO_0000221 msc-prop:msc_om0000969_isotope .
+
+msc-smp:msc_om0001289 sio:SIO_000008 msc-prop:msc_om0001289_isotope .
+msc-prop:msc_om0001289_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0001289_IsotopeRole ] .
+
+msc-prop:msc_om0001289_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0001289_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.4 ;
+  obo:IAO_0000221 msc-prop:msc_om0001289_isotope .
+
+msc-smp:msc_om0001290 sio:SIO_000008 msc-prop:msc_om0001290_isotope .
+msc-prop:msc_om0001290_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0001290_IsotopeRole ] .
+
+msc-prop:msc_om0001290_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 88 ] .
+
+msc-prop:msc_om0001290_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.64 ;
+  obo:IAO_0000221 msc-prop:msc_om0001290_isotope .
+
+msc-smp:msc_om0001291 sio:SIO_000008 msc-prop:msc_om0001291_isotope .
+msc-prop:msc_om0001291_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0001291_IsotopeRole ] .
+
+msc-prop:msc_om0001291_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 87 ] .
+
+msc-prop:msc_om0001291_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.08 ;
+  obo:IAO_0000221 msc-prop:msc_om0001291_isotope .
+
+msc-smp:msc_om0001292 sio:SIO_000008 msc-prop:msc_om0001292_isotope .
+msc-prop:msc_om0001292_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0001292_IsotopeRole ] .
+
+msc-prop:msc_om0001292_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 84 ] .
+
+msc-prop:msc_om0001292_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.06 ;
+  obo:IAO_0000221 msc-prop:msc_om0001292_isotope .
+
+msc-smp:msc_om0001293 sio:SIO_000008 msc-prop:msc_om0001293_isotope .
+msc-prop:msc_om0001293_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0001293_IsotopeRole ] .
+
+msc-prop:msc_om0001293_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 88 ] .
+
+msc-prop:msc_om0001293_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.1 ;
+  obo:IAO_0000221 msc-prop:msc_om0001293_isotope .
+
+msc-smp:msc_om0001294 sio:SIO_000008 msc-prop:msc_om0001294_isotope .
+msc-prop:msc_om0001294_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0001294_IsotopeRole ] .
+
+msc-prop:msc_om0001294_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 86 ] .
+
+msc-prop:msc_om0001294_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.12 ;
+  obo:IAO_0000221 msc-prop:msc_om0001294_isotope .
+
+msc-smp:msc_om0002603 sio:SIO_000008 msc-prop:msc_om0002603_isotope .
+msc-prop:msc_om0002603_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0002603_IsotopeRole ] .
+
+msc-prop:msc_om0002603_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0002603_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.42 ;
+  obo:IAO_0000221 msc-prop:msc_om0002603_isotope .
+
+msc-smp:msc_om0002959 sio:SIO_000008 msc-prop:msc_om0002959_isotope .
+msc-prop:msc_om0002959_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0002959_IsotopeRole ] .
+
+msc-prop:msc_om0002959_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0002959_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.1 ;
+  obo:IAO_0000221 msc-prop:msc_om0002959_isotope .
+
+msc-smp:msc_om0002960 sio:SIO_000008 msc-prop:msc_om0002960_isotope .
+msc-prop:msc_om0002960_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0002960_IsotopeRole ] .
+
+msc-prop:msc_om0002960_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 84 ] .
+
+msc-prop:msc_om0002960_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.09 ;
+  obo:IAO_0000221 msc-prop:msc_om0002960_isotope .
+
+msc-smp:msc_om0002961 sio:SIO_000008 msc-prop:msc_om0002961_isotope .
+msc-prop:msc_om0002961_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0002961_IsotopeRole ] .
+
+msc-prop:msc_om0002961_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 78 ] .
+
+msc-prop:msc_om0002961_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.05 ;
+  obo:IAO_0000221 msc-prop:msc_om0002961_isotope .
+
+msc-smp:msc_om0002962 sio:SIO_000008 msc-prop:msc_om0002962_isotope .
+msc-prop:msc_om0002962_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0002962_IsotopeRole ] .
+
+msc-prop:msc_om0002962_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 76 ] .
+
+msc-prop:msc_om0002962_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.05 ;
+  obo:IAO_0000221 msc-prop:msc_om0002962_isotope .
+
+msc-smp:msc_om0002963 sio:SIO_000008 msc-prop:msc_om0002963_isotope .
+msc-prop:msc_om0002963_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0002963_IsotopeRole ] .
+
+msc-prop:msc_om0002963_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 84.6 ] .
+
+msc-prop:msc_om0002963_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.09 ;
+  obo:IAO_0000221 msc-prop:msc_om0002963_isotope .
+
+msc-smp:msc_om0002964 sio:SIO_000008 msc-prop:msc_om0002964_isotope .
+msc-prop:msc_om0002964_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0002964_IsotopeRole ] .
+
+msc-prop:msc_om0002964_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 79 ] .
+
+msc-prop:msc_om0002964_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.15 ;
+  obo:IAO_0000221 msc-prop:msc_om0002964_isotope .
+
+msc-smp:msc_om0002965 sio:SIO_000008 msc-prop:msc_om0002965_isotope .
+msc-prop:msc_om0002965_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0002965_IsotopeRole ] .
+
+msc-prop:msc_om0002965_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 85.5 ] .
+
+msc-prop:msc_om0002965_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.27 ;
+  obo:IAO_0000221 msc-prop:msc_om0002965_isotope .
+
+msc-smp:msc_om0002966 sio:SIO_000008 msc-prop:msc_om0002966_isotope .
+msc-prop:msc_om0002966_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0002966_IsotopeRole ] .
+
+msc-prop:msc_om0002966_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 85.9 ] .
+
+msc-prop:msc_om0002966_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.45 ;
+  obo:IAO_0000221 msc-prop:msc_om0002966_isotope .
+
+msc-smp:msc_om0002967 sio:SIO_000008 msc-prop:msc_om0002967_isotope .
+msc-prop:msc_om0002967_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0002967_IsotopeRole ] .
+
+msc-prop:msc_om0002967_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 72.1 ] .
+
+msc-prop:msc_om0002967_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.17 ;
+  obo:IAO_0000221 msc-prop:msc_om0002967_isotope .
+
+msc-smp:msc_om0002968 sio:SIO_000008 msc-prop:msc_om0002968_isotope .
+msc-prop:msc_om0002968_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Li" ;
+    obo:RO_0000087 msc-prop:msc_om0002968_IsotopeRole ] .
+
+msc-prop:msc_om0002968_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 99 ] .
+
+msc-prop:msc_om0002968_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.013 ;
+  obo:IAO_0000221 msc-prop:msc_om0002968_isotope .
+
+msc-smp:msc_om0003054 sio:SIO_000008 msc-prop:msc_om0003054_isotope .
+msc-prop:msc_om0003054_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003054_IsotopeRole ] .
+
+msc-prop:msc_om0003054_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 65 ] .
+
+msc-prop:msc_om0003054_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.21 ;
+  obo:IAO_0000221 msc-prop:msc_om0003054_isotope .
+
+msc-smp:msc_om0003055 sio:SIO_000008 msc-prop:msc_om0003055_isotope .
+msc-prop:msc_om0003055_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003055_IsotopeRole ] .
+
+msc-prop:msc_om0003055_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 85 ] .
+
+msc-prop:msc_om0003055_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.22 ;
+  obo:IAO_0000221 msc-prop:msc_om0003055_isotope .
+
+msc-smp:msc_om0003188 sio:SIO_000008 msc-prop:msc_om0003188_isotope .
+msc-prop:msc_om0003188_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003188_IsotopeRole ] .
+
+msc-prop:msc_om0003188_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 89.4 ] .
+
+msc-prop:msc_om0003188_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.65 ;
+  obo:IAO_0000221 msc-prop:msc_om0003188_isotope .
+
+msc-smp:msc_om0003189 sio:SIO_000008 msc-prop:msc_om0003189_isotope .
+msc-prop:msc_om0003189_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003189_IsotopeRole ] .
+
+msc-prop:msc_om0003189_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 91.6 ] .
+
+msc-prop:msc_om0003189_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.44 ;
+  obo:IAO_0000221 msc-prop:msc_om0003189_isotope .
+
+msc-smp:msc_om0003319 sio:SIO_000008 msc-prop:msc_om0003319_isotope .
+msc-prop:msc_om0003319_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003319_IsotopeRole ] .
+
+msc-prop:msc_om0003319_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 97 ] .
+
+msc-prop:msc_om0003319_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.025 ;
+  obo:IAO_0000221 msc-prop:msc_om0003319_isotope .
+
+msc-smp:msc_om0003320 sio:SIO_000008 msc-prop:msc_om0003320_isotope .
+msc-prop:msc_om0003320_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003320_IsotopeRole ] .
+
+msc-prop:msc_om0003320_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 97 ] .
+
+msc-prop:msc_om0003320_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.039 ;
+  obo:IAO_0000221 msc-prop:msc_om0003320_isotope .
+
+msc-smp:msc_om0003321 sio:SIO_000008 msc-prop:msc_om0003321_isotope .
+msc-prop:msc_om0003321_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003321_IsotopeRole ] .
+
+msc-prop:msc_om0003321_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 97 ] .
+
+msc-prop:msc_om0003321_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.14 ;
+  obo:IAO_0000221 msc-prop:msc_om0003321_isotope .
+
+msc-smp:msc_om0003322 sio:SIO_000008 msc-prop:msc_om0003322_isotope .
+msc-prop:msc_om0003322_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003322_IsotopeRole ] .
+
+msc-prop:msc_om0003322_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 97 ] .
+
+msc-prop:msc_om0003322_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.213 ;
+  obo:IAO_0000221 msc-prop:msc_om0003322_isotope .
+
+msc-smp:msc_om0003323 sio:SIO_000008 msc-prop:msc_om0003323_isotope .
+msc-prop:msc_om0003323_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003323_IsotopeRole ] .
+
+msc-prop:msc_om0003323_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 95 ] .
+
+msc-prop:msc_om0003323_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.324 ;
+  obo:IAO_0000221 msc-prop:msc_om0003323_isotope .
+
+msc-smp:msc_om0003324 sio:SIO_000008 msc-prop:msc_om0003324_isotope .
+msc-prop:msc_om0003324_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003324_IsotopeRole ] .
+
+msc-prop:msc_om0003324_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 94 ] .
+
+msc-prop:msc_om0003324_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.38 ;
+  obo:IAO_0000221 msc-prop:msc_om0003324_isotope .
+
+msc-smp:msc_om0003325 sio:SIO_000008 msc-prop:msc_om0003325_isotope .
+msc-prop:msc_om0003325_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003325_IsotopeRole ] .
+
+msc-prop:msc_om0003325_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 97 ] .
+
+msc-prop:msc_om0003325_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.269 ;
+  obo:IAO_0000221 msc-prop:msc_om0003325_isotope .
+
+msc-smp:msc_om0003476 sio:SIO_000008 msc-prop:msc_om0003476_isotope .
+msc-prop:msc_om0003476_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0003476_IsotopeRole ] .
+
+msc-prop:msc_om0003476_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 60 ] .
+
+msc-prop:msc_om0003476_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 2 ;
+  obo:IAO_0000221 msc-prop:msc_om0003476_isotope .
+
+msc-smp:msc_om0003477 sio:SIO_000008 msc-prop:msc_om0003477_isotope .
+msc-prop:msc_om0003477_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0003477_IsotopeRole ] .
+
+msc-prop:msc_om0003477_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 60 ] .
+
+msc-prop:msc_om0003477_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.2 ;
+  obo:IAO_0000221 msc-prop:msc_om0003477_isotope .
+
+msc-smp:msc_om0003771 sio:SIO_000008 msc-prop:msc_om0003771_isotope .
+msc-prop:msc_om0003771_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003771_IsotopeRole ] .
+
+msc-prop:msc_om0003771_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0003771_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.15 ;
+  obo:IAO_0000221 msc-prop:msc_om0003771_isotope .
+
+msc-smp:msc_om0003869 sio:SIO_000008 msc-prop:msc_om0003869_isotope .
+msc-prop:msc_om0003869_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003869_IsotopeRole ] .
+
+msc-prop:msc_om0003869_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 91 ] .
+
+msc-prop:msc_om0003869_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.016 ;
+  obo:IAO_0000221 msc-prop:msc_om0003869_isotope .
+
+msc-smp:msc_om0003974 sio:SIO_000008 msc-prop:msc_om0003974_isotope .
+msc-prop:msc_om0003974_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0003974_IsotopeRole ] .
+
+msc-prop:msc_om0003974_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 81 ] .
+
+msc-prop:msc_om0003974_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.14 ;
+  obo:IAO_0000221 msc-prop:msc_om0003974_isotope .
+
+msc-smp:msc_om0005034 sio:SIO_000008 msc-prop:msc_om0005034_isotope .
+msc-prop:msc_om0005034_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005034_IsotopeRole ] .
+
+msc-prop:msc_om0005034_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 94 ] .
+
+msc-prop:msc_om0005034_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.249 ;
+  obo:IAO_0000221 msc-prop:msc_om0005034_isotope .
+
+msc-smp:msc_om0005035 sio:SIO_000008 msc-prop:msc_om0005035_isotope .
+msc-prop:msc_om0005035_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005035_IsotopeRole ] .
+
+msc-prop:msc_om0005035_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 94 ] .
+
+msc-prop:msc_om0005035_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.38 ;
+  obo:IAO_0000221 msc-prop:msc_om0005035_isotope .
+
+msc-smp:msc_om0005036 sio:SIO_000008 msc-prop:msc_om0005036_isotope .
+msc-prop:msc_om0005036_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005036_IsotopeRole ] .
+
+msc-prop:msc_om0005036_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 89 ] .
+
+msc-prop:msc_om0005036_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.62 ;
+  obo:IAO_0000221 msc-prop:msc_om0005036_isotope .
+
+msc-smp:msc_om0005037 sio:SIO_000008 msc-prop:msc_om0005037_isotope .
+msc-prop:msc_om0005037_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005037_IsotopeRole ] .
+
+msc-prop:msc_om0005037_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 93 ] .
+
+msc-prop:msc_om0005037_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.102 ;
+  obo:IAO_0000221 msc-prop:msc_om0005037_isotope .
+
+msc-smp:msc_om0005038 sio:SIO_000008 msc-prop:msc_om0005038_isotope .
+msc-prop:msc_om0005038_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005038_IsotopeRole ] .
+
+msc-prop:msc_om0005038_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 93 ] .
+
+msc-prop:msc_om0005038_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.089 ;
+  obo:IAO_0000221 msc-prop:msc_om0005038_isotope .
+
+msc-smp:msc_om0005039 sio:SIO_000008 msc-prop:msc_om0005039_isotope .
+msc-prop:msc_om0005039_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005039_IsotopeRole ] .
+
+msc-prop:msc_om0005039_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 93 ] .
+
+msc-prop:msc_om0005039_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.131 ;
+  obo:IAO_0000221 msc-prop:msc_om0005039_isotope .
+
+msc-smp:msc_om0005040 sio:SIO_000008 msc-prop:msc_om0005040_isotope .
+msc-prop:msc_om0005040_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005040_IsotopeRole ] .
+
+msc-prop:msc_om0005040_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 93 ] .
+
+msc-prop:msc_om0005040_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.098 ;
+  obo:IAO_0000221 msc-prop:msc_om0005040_isotope .
+
+msc-smp:msc_om0005041 sio:SIO_000008 msc-prop:msc_om0005041_isotope .
+msc-prop:msc_om0005041_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005041_IsotopeRole ] .
+
+msc-prop:msc_om0005041_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0005041_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.138 ;
+  obo:IAO_0000221 msc-prop:msc_om0005041_isotope .
+
+msc-smp:msc_om0005042 sio:SIO_000008 msc-prop:msc_om0005042_isotope .
+msc-prop:msc_om0005042_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005042_IsotopeRole ] .
+
+msc-prop:msc_om0005042_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 86 ] .
+
+msc-prop:msc_om0005042_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.19 ;
+  obo:IAO_0000221 msc-prop:msc_om0005042_isotope .
+
+msc-smp:msc_om0005043 sio:SIO_000008 msc-prop:msc_om0005043_isotope .
+msc-prop:msc_om0005043_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005043_IsotopeRole ] .
+
+msc-prop:msc_om0005043_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 96 ] .
+
+msc-prop:msc_om0005043_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.047 ;
+  obo:IAO_0000221 msc-prop:msc_om0005043_isotope .
+
+msc-smp:msc_om0005044 sio:SIO_000008 msc-prop:msc_om0005044_isotope .
+msc-prop:msc_om0005044_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005044_IsotopeRole ] .
+
+msc-prop:msc_om0005044_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 96 ] .
+
+msc-prop:msc_om0005044_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.056 ;
+  obo:IAO_0000221 msc-prop:msc_om0005044_isotope .
+
+msc-smp:msc_om0005045 sio:SIO_000008 msc-prop:msc_om0005045_isotope .
+msc-prop:msc_om0005045_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005045_IsotopeRole ] .
+
+msc-prop:msc_om0005045_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 96 ] .
+
+msc-prop:msc_om0005045_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.16 ;
+  obo:IAO_0000221 msc-prop:msc_om0005045_isotope .
+
+msc-smp:msc_om0005046 sio:SIO_000008 msc-prop:msc_om0005046_isotope .
+msc-prop:msc_om0005046_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005046_IsotopeRole ] .
+
+msc-prop:msc_om0005046_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 96 ] .
+
+msc-prop:msc_om0005046_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.209 ;
+  obo:IAO_0000221 msc-prop:msc_om0005046_isotope .
+
+msc-smp:msc_om0005047 sio:SIO_000008 msc-prop:msc_om0005047_isotope .
+msc-prop:msc_om0005047_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005047_IsotopeRole ] .
+
+msc-prop:msc_om0005047_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 95 ] .
+
+msc-prop:msc_om0005047_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.24 ;
+  obo:IAO_0000221 msc-prop:msc_om0005047_isotope .
+
+msc-smp:msc_om0005048 sio:SIO_000008 msc-prop:msc_om0005048_isotope .
+msc-prop:msc_om0005048_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005048_IsotopeRole ] .
+
+msc-prop:msc_om0005048_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 95 ] .
+
+msc-prop:msc_om0005048_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.357 ;
+  obo:IAO_0000221 msc-prop:msc_om0005048_isotope .
+
+msc-smp:msc_om0005049 sio:SIO_000008 msc-prop:msc_om0005049_isotope .
+msc-prop:msc_om0005049_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005049_IsotopeRole ] .
+
+msc-prop:msc_om0005049_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 93 ] .
+
+msc-prop:msc_om0005049_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.376 ;
+  obo:IAO_0000221 msc-prop:msc_om0005049_isotope .
+
+msc-smp:msc_om0005050 sio:SIO_000008 msc-prop:msc_om0005050_isotope .
+msc-prop:msc_om0005050_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005050_IsotopeRole ] .
+
+msc-prop:msc_om0005050_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 96 ] .
+
+msc-prop:msc_om0005050_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.04 ;
+  obo:IAO_0000221 msc-prop:msc_om0005050_isotope .
+
+msc-smp:msc_om0005051 sio:SIO_000008 msc-prop:msc_om0005051_isotope .
+msc-prop:msc_om0005051_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005051_IsotopeRole ] .
+
+msc-prop:msc_om0005051_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 96 ] .
+
+msc-prop:msc_om0005051_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.07 ;
+  obo:IAO_0000221 msc-prop:msc_om0005051_isotope .
+
+msc-smp:msc_om0005052 sio:SIO_000008 msc-prop:msc_om0005052_isotope .
+msc-prop:msc_om0005052_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005052_IsotopeRole ] .
+
+msc-prop:msc_om0005052_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 96 ] .
+
+msc-prop:msc_om0005052_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.082 ;
+  obo:IAO_0000221 msc-prop:msc_om0005052_isotope .
+
+msc-smp:msc_om0005053 sio:SIO_000008 msc-prop:msc_om0005053_isotope .
+msc-prop:msc_om0005053_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005053_IsotopeRole ] .
+
+msc-prop:msc_om0005053_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 96 ] .
+
+msc-prop:msc_om0005053_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.126 ;
+  obo:IAO_0000221 msc-prop:msc_om0005053_isotope .
+
+msc-smp:msc_om0005054 sio:SIO_000008 msc-prop:msc_om0005054_isotope .
+msc-prop:msc_om0005054_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005054_IsotopeRole ] .
+
+msc-prop:msc_om0005054_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 96 ] .
+
+msc-prop:msc_om0005054_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.04 ;
+  obo:IAO_0000221 msc-prop:msc_om0005054_isotope .
+
+msc-smp:msc_om0005055 sio:SIO_000008 msc-prop:msc_om0005055_isotope .
+msc-prop:msc_om0005055_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005055_IsotopeRole ] .
+
+msc-prop:msc_om0005055_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 96 ] .
+
+msc-prop:msc_om0005055_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.046 ;
+  obo:IAO_0000221 msc-prop:msc_om0005055_isotope .
+
+msc-smp:msc_om0005056 sio:SIO_000008 msc-prop:msc_om0005056_isotope .
+msc-prop:msc_om0005056_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005056_IsotopeRole ] .
+
+msc-prop:msc_om0005056_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 96 ] .
+
+msc-prop:msc_om0005056_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.054 ;
+  obo:IAO_0000221 msc-prop:msc_om0005056_isotope .
+
+msc-smp:msc_om0005057 sio:SIO_000008 msc-prop:msc_om0005057_isotope .
+msc-prop:msc_om0005057_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005057_IsotopeRole ] .
+
+msc-prop:msc_om0005057_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 91 ] .
+
+msc-prop:msc_om0005057_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.079 ;
+  obo:IAO_0000221 msc-prop:msc_om0005057_isotope .
+
+msc-smp:msc_om0005058 sio:SIO_000008 msc-prop:msc_om0005058_isotope .
+msc-prop:msc_om0005058_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005058_IsotopeRole ] .
+
+msc-prop:msc_om0005058_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 91 ] .
+
+msc-prop:msc_om0005058_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0005058_isotope .
+
+msc-smp:msc_om0005059 sio:SIO_000008 msc-prop:msc_om0005059_isotope .
+msc-prop:msc_om0005059_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0005059_IsotopeRole ] .
+
+msc-prop:msc_om0005059_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 91 ] .
+
+msc-prop:msc_om0005059_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.101 ;
+  obo:IAO_0000221 msc-prop:msc_om0005059_isotope .
+
+msc-smp:msc_om0006296 sio:SIO_000008 msc-prop:msc_om0006296_isotope .
+msc-prop:msc_om0006296_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006296_IsotopeRole ] .
+
+msc-prop:msc_om0006296_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006296_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.013 ;
+  obo:IAO_0000221 msc-prop:msc_om0006296_isotope .
+
+msc-smp:msc_om0006297 sio:SIO_000008 msc-prop:msc_om0006297_isotope .
+msc-prop:msc_om0006297_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006297_IsotopeRole ] .
+
+msc-prop:msc_om0006297_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006297_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.4 ;
+  obo:IAO_0000221 msc-prop:msc_om0006297_isotope .
+
+msc-smp:msc_om0006298 sio:SIO_000008 msc-prop:msc_om0006298_isotope .
+msc-prop:msc_om0006298_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006298_IsotopeRole ] .
+
+msc-prop:msc_om0006298_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006298_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.16 ;
+  obo:IAO_0000221 msc-prop:msc_om0006298_isotope .
+
+msc-smp:msc_om0006299 sio:SIO_000008 msc-prop:msc_om0006299_isotope .
+msc-prop:msc_om0006299_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006299_IsotopeRole ] .
+
+msc-prop:msc_om0006299_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006299_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.16 ;
+  obo:IAO_0000221 msc-prop:msc_om0006299_isotope .
+
+msc-smp:msc_om0006300 sio:SIO_000008 msc-prop:msc_om0006300_isotope .
+msc-prop:msc_om0006300_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006300_IsotopeRole ] .
+
+msc-prop:msc_om0006300_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006300_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.13 ;
+  obo:IAO_0000221 msc-prop:msc_om0006300_isotope .
+
+msc-smp:msc_om0006301 sio:SIO_000008 msc-prop:msc_om0006301_isotope .
+msc-prop:msc_om0006301_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006301_IsotopeRole ] .
+
+msc-prop:msc_om0006301_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006301_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.14 ;
+  obo:IAO_0000221 msc-prop:msc_om0006301_isotope .
+
+msc-smp:msc_om0006302 sio:SIO_000008 msc-prop:msc_om0006302_isotope .
+msc-prop:msc_om0006302_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006302_IsotopeRole ] .
+
+msc-prop:msc_om0006302_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006302_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.16 ;
+  obo:IAO_0000221 msc-prop:msc_om0006302_isotope .
+
+msc-smp:msc_om0006303 sio:SIO_000008 msc-prop:msc_om0006303_isotope .
+msc-prop:msc_om0006303_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006303_IsotopeRole ] .
+
+msc-prop:msc_om0006303_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006303_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.11 ;
+  obo:IAO_0000221 msc-prop:msc_om0006303_isotope .
+
+msc-smp:msc_om0006304 sio:SIO_000008 msc-prop:msc_om0006304_isotope .
+msc-prop:msc_om0006304_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006304_IsotopeRole ] .
+
+msc-prop:msc_om0006304_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006304_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.18 ;
+  obo:IAO_0000221 msc-prop:msc_om0006304_isotope .
+
+msc-smp:msc_om0006305 sio:SIO_000008 msc-prop:msc_om0006305_isotope .
+msc-prop:msc_om0006305_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006305_IsotopeRole ] .
+
+msc-prop:msc_om0006305_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006305_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.22 ;
+  obo:IAO_0000221 msc-prop:msc_om0006305_isotope .
+
+msc-smp:msc_om0006306 sio:SIO_000008 msc-prop:msc_om0006306_isotope .
+msc-prop:msc_om0006306_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006306_IsotopeRole ] .
+
+msc-prop:msc_om0006306_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006306_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.32 ;
+  obo:IAO_0000221 msc-prop:msc_om0006306_isotope .
+
+msc-smp:msc_om0006307 sio:SIO_000008 msc-prop:msc_om0006307_isotope .
+msc-prop:msc_om0006307_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006307_IsotopeRole ] .
+
+msc-prop:msc_om0006307_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006307_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.25 ;
+  obo:IAO_0000221 msc-prop:msc_om0006307_isotope .
+
+msc-smp:msc_om0006308 sio:SIO_000008 msc-prop:msc_om0006308_isotope .
+msc-prop:msc_om0006308_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006308_IsotopeRole ] .
+
+msc-prop:msc_om0006308_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006308_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.27 ;
+  obo:IAO_0000221 msc-prop:msc_om0006308_isotope .
+
+msc-smp:msc_om0006309 sio:SIO_000008 msc-prop:msc_om0006309_isotope .
+msc-prop:msc_om0006309_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006309_IsotopeRole ] .
+
+msc-prop:msc_om0006309_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006309_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.32 ;
+  obo:IAO_0000221 msc-prop:msc_om0006309_isotope .
+
+msc-smp:msc_om0006310 sio:SIO_000008 msc-prop:msc_om0006310_isotope .
+msc-prop:msc_om0006310_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006310_IsotopeRole ] .
+
+msc-prop:msc_om0006310_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006310_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.08 ;
+  obo:IAO_0000221 msc-prop:msc_om0006310_isotope .
+
+msc-smp:msc_om0006311 sio:SIO_000008 msc-prop:msc_om0006311_isotope .
+msc-prop:msc_om0006311_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006311_IsotopeRole ] .
+
+msc-prop:msc_om0006311_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006311_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.38 ;
+  obo:IAO_0000221 msc-prop:msc_om0006311_isotope .
+
+msc-smp:msc_om0006312 sio:SIO_000008 msc-prop:msc_om0006312_isotope .
+msc-prop:msc_om0006312_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0006312_IsotopeRole ] .
+
+msc-prop:msc_om0006312_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0006312_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.17 ;
+  obo:IAO_0000221 msc-prop:msc_om0006312_isotope .
+
+msc-smp:msc_om0007273 sio:SIO_000008 msc-prop:msc_om0007273_isotope .
+msc-prop:msc_om0007273_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0007273_IsotopeRole ] .
+
+msc-prop:msc_om0007273_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0007273_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.017 ;
+  obo:IAO_0000221 msc-prop:msc_om0007273_isotope .
+
+msc-smp:msc_om0007274 sio:SIO_000008 msc-prop:msc_om0007274_isotope .
+msc-prop:msc_om0007274_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0007274_IsotopeRole ] .
+
+msc-prop:msc_om0007274_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0007274_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.25 ;
+  obo:IAO_0000221 msc-prop:msc_om0007274_isotope .
+
+msc-smp:msc_om0007275 sio:SIO_000008 msc-prop:msc_om0007275_isotope .
+msc-prop:msc_om0007275_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0007275_IsotopeRole ] .
+
+msc-prop:msc_om0007275_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0007275_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.37 ;
+  obo:IAO_0000221 msc-prop:msc_om0007275_isotope .
+
+msc-smp:msc_om0007276 sio:SIO_000008 msc-prop:msc_om0007276_isotope .
+msc-prop:msc_om0007276_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0007276_IsotopeRole ] .
+
+msc-prop:msc_om0007276_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0007276_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.37 ;
+  obo:IAO_0000221 msc-prop:msc_om0007276_isotope .
+
+msc-smp:msc_om0009003 sio:SIO_000008 msc-prop:msc_om0009003_isotope .
+msc-prop:msc_om0009003_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009003_IsotopeRole ] .
+
+msc-prop:msc_om0009003_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0009003_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.12 ;
+  obo:IAO_0000221 msc-prop:msc_om0009003_isotope .
+
+msc-smp:msc_om0009207 sio:SIO_000008 msc-prop:msc_om0009207_isotope .
+msc-prop:msc_om0009207_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009207_IsotopeRole ] .
+
+msc-prop:msc_om0009207_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 97 ] .
+
+msc-prop:msc_om0009207_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.47 ;
+  obo:IAO_0000221 msc-prop:msc_om0009207_isotope .
+
+msc-smp:msc_om0009208 sio:SIO_000008 msc-prop:msc_om0009208_isotope .
+msc-prop:msc_om0009208_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009208_IsotopeRole ] .
+
+msc-prop:msc_om0009208_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 97 ] .
+
+msc-prop:msc_om0009208_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.4 ;
+  obo:IAO_0000221 msc-prop:msc_om0009208_isotope .
+
+msc-smp:msc_om0009209 sio:SIO_000008 msc-prop:msc_om0009209_isotope .
+msc-prop:msc_om0009209_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009209_IsotopeRole ] .
+
+msc-prop:msc_om0009209_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0009209_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.076 ;
+  obo:IAO_0000221 msc-prop:msc_om0009209_isotope .
+
+msc-smp:msc_om0009210 sio:SIO_000008 msc-prop:msc_om0009210_isotope .
+msc-prop:msc_om0009210_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009210_IsotopeRole ] .
+
+msc-prop:msc_om0009210_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 88 ] .
+
+msc-prop:msc_om0009210_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.056 ;
+  obo:IAO_0000221 msc-prop:msc_om0009210_isotope .
+
+msc-smp:msc_om0009211 sio:SIO_000008 msc-prop:msc_om0009211_isotope .
+msc-prop:msc_om0009211_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009211_IsotopeRole ] .
+
+msc-prop:msc_om0009211_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 75 ] .
+
+msc-prop:msc_om0009211_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.005 ;
+  obo:IAO_0000221 msc-prop:msc_om0009211_isotope .
+
+msc-smp:msc_om0009567 sio:SIO_000008 msc-prop:msc_om0009567_isotope .
+msc-prop:msc_om0009567_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009567_IsotopeRole ] .
+
+msc-prop:msc_om0009567_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 60 ] .
+
+msc-prop:msc_om0009567_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.37 ;
+  obo:IAO_0000221 msc-prop:msc_om0009567_isotope .
+
+msc-smp:msc_om0009568 sio:SIO_000008 msc-prop:msc_om0009568_isotope .
+msc-prop:msc_om0009568_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009568_IsotopeRole ] .
+
+msc-prop:msc_om0009568_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0009568_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.42 ;
+  obo:IAO_0000221 msc-prop:msc_om0009568_isotope .
+
+msc-smp:msc_om0009639 sio:SIO_000008 msc-prop:msc_om0009639_isotope .
+msc-prop:msc_om0009639_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009639_IsotopeRole ] .
+
+msc-prop:msc_om0009639_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0009639_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.03 ;
+  obo:IAO_0000221 msc-prop:msc_om0009639_isotope .
+
+msc-smp:msc_om0009640 sio:SIO_000008 msc-prop:msc_om0009640_isotope .
+msc-prop:msc_om0009640_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009640_IsotopeRole ] .
+
+msc-prop:msc_om0009640_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0009640_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.012 ;
+  obo:IAO_0000221 msc-prop:msc_om0009640_isotope .
+
+msc-smp:msc_om0009642 sio:SIO_000008 msc-prop:msc_om0009642_isotope .
+msc-prop:msc_om0009642_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009642_IsotopeRole ] .
+
+msc-prop:msc_om0009642_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0009642_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.065 ;
+  obo:IAO_0000221 msc-prop:msc_om0009642_isotope .
+
+msc-smp:msc_om0009643 sio:SIO_000008 msc-prop:msc_om0009643_isotope .
+msc-prop:msc_om0009643_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009643_IsotopeRole ] .
+
+msc-prop:msc_om0009643_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0009643_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009643_isotope .
+
+msc-smp:msc_om0009646 sio:SIO_000008 msc-prop:msc_om0009646_isotope .
+msc-prop:msc_om0009646_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009646_IsotopeRole ] .
+
+msc-prop:msc_om0009646_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0009646_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.083 ;
+  obo:IAO_0000221 msc-prop:msc_om0009646_isotope .
+
+msc-smp:msc_om0009647 sio:SIO_000008 msc-prop:msc_om0009647_isotope .
+msc-prop:msc_om0009647_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009647_IsotopeRole ] .
+
+msc-prop:msc_om0009647_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0009647_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.062 ;
+  obo:IAO_0000221 msc-prop:msc_om0009647_isotope .
+
+msc-smp:msc_om0009648 sio:SIO_000008 msc-prop:msc_om0009648_isotope .
+msc-prop:msc_om0009648_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009648_IsotopeRole ] .
+
+msc-prop:msc_om0009648_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0009648_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.051 ;
+  obo:IAO_0000221 msc-prop:msc_om0009648_isotope .
+
+msc-smp:msc_om0009649 sio:SIO_000008 msc-prop:msc_om0009649_isotope .
+msc-prop:msc_om0009649_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009649_IsotopeRole ] .
+
+msc-prop:msc_om0009649_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0009649_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.023 ;
+  obo:IAO_0000221 msc-prop:msc_om0009649_isotope .
+
+msc-smp:msc_om0009650 sio:SIO_000008 msc-prop:msc_om0009650_isotope .
+msc-prop:msc_om0009650_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009650_IsotopeRole ] .
+
+msc-prop:msc_om0009650_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0009650_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.047 ;
+  obo:IAO_0000221 msc-prop:msc_om0009650_isotope .
+
+msc-smp:msc_om0009652 sio:SIO_000008 msc-prop:msc_om0009652_isotope .
+msc-prop:msc_om0009652_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009652_IsotopeRole ] .
+
+msc-prop:msc_om0009652_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0009652_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.074 ;
+  obo:IAO_0000221 msc-prop:msc_om0009652_isotope .
+
+msc-smp:msc_om0009690 sio:SIO_000008 msc-prop:msc_om0009690_isotope .
+msc-prop:msc_om0009690_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009690_IsotopeRole ] .
+
+msc-prop:msc_om0009690_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0009690_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.18 ;
+  obo:IAO_0000221 msc-prop:msc_om0009690_isotope .
+
+msc-smp:msc_om0009691 sio:SIO_000008 msc-prop:msc_om0009691_isotope .
+msc-prop:msc_om0009691_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0009691_IsotopeRole ] .
+
+msc-prop:msc_om0009691_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0009691_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.04 ;
+  obo:IAO_0000221 msc-prop:msc_om0009691_isotope .
+
+msc-smp:msc_om0010339 sio:SIO_000008 msc-prop:msc_om0010339_isotope .
+msc-prop:msc_om0010339_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0010339_IsotopeRole ] .
+
+msc-prop:msc_om0010339_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0010339_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.08 ;
+  obo:IAO_0000221 msc-prop:msc_om0010339_isotope .
+
+msc-smp:msc_om0011322 sio:SIO_000008 msc-prop:msc_om0011322_isotope .
+msc-prop:msc_om0011322_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011322_IsotopeRole ] .
+
+msc-prop:msc_om0011322_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 84.6 ] .
+
+msc-prop:msc_om0011322_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.11 ;
+  obo:IAO_0000221 msc-prop:msc_om0011322_isotope .
+
+msc-smp:msc_om0011323 sio:SIO_000008 msc-prop:msc_om0011323_isotope .
+msc-prop:msc_om0011323_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011323_IsotopeRole ] .
+
+msc-prop:msc_om0011323_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 79 ] .
+
+msc-prop:msc_om0011323_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.19 ;
+  obo:IAO_0000221 msc-prop:msc_om0011323_isotope .
+
+msc-smp:msc_om0011324 sio:SIO_000008 msc-prop:msc_om0011324_isotope .
+msc-prop:msc_om0011324_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011324_IsotopeRole ] .
+
+msc-prop:msc_om0011324_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 85.5 ] .
+
+msc-prop:msc_om0011324_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.31 ;
+  obo:IAO_0000221 msc-prop:msc_om0011324_isotope .
+
+msc-smp:msc_om0011325 sio:SIO_000008 msc-prop:msc_om0011325_isotope .
+msc-prop:msc_om0011325_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011325_IsotopeRole ] .
+
+msc-prop:msc_om0011325_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 85.9 ] .
+
+msc-prop:msc_om0011325_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.51 ;
+  obo:IAO_0000221 msc-prop:msc_om0011325_isotope .
+
+msc-smp:msc_om0011326 sio:SIO_000008 msc-prop:msc_om0011326_isotope .
+msc-prop:msc_om0011326_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011326_IsotopeRole ] .
+
+msc-prop:msc_om0011326_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 85 ] .
+
+msc-prop:msc_om0011326_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.14 ;
+  obo:IAO_0000221 msc-prop:msc_om0011326_isotope .
+
+msc-smp:msc_om0011327 sio:SIO_000008 msc-prop:msc_om0011327_isotope .
+msc-prop:msc_om0011327_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011327_IsotopeRole ] .
+
+msc-prop:msc_om0011327_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 84 ] .
+
+msc-prop:msc_om0011327_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.08 ;
+  obo:IAO_0000221 msc-prop:msc_om0011327_isotope .
+
+msc-smp:msc_om0011328 sio:SIO_000008 msc-prop:msc_om0011328_isotope .
+msc-prop:msc_om0011328_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011328_IsotopeRole ] .
+
+msc-prop:msc_om0011328_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 78 ] .
+
+msc-prop:msc_om0011328_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.15 ;
+  obo:IAO_0000221 msc-prop:msc_om0011328_isotope .
+
+msc-smp:msc_om0011329 sio:SIO_000008 msc-prop:msc_om0011329_isotope .
+msc-prop:msc_om0011329_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011329_IsotopeRole ] .
+
+msc-prop:msc_om0011329_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 77 ] .
+
+msc-prop:msc_om0011329_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.07 ;
+  obo:IAO_0000221 msc-prop:msc_om0011329_isotope .
+
+msc-smp:msc_om0011330 sio:SIO_000008 msc-prop:msc_om0011330_isotope .
+msc-prop:msc_om0011330_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011330_IsotopeRole ] .
+
+msc-prop:msc_om0011330_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 76 ] .
+
+msc-prop:msc_om0011330_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.09 ;
+  obo:IAO_0000221 msc-prop:msc_om0011330_isotope .
+
+msc-smp:msc_om0011331 sio:SIO_000008 msc-prop:msc_om0011331_isotope .
+msc-prop:msc_om0011331_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011331_IsotopeRole ] .
+
+msc-prop:msc_om0011331_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 75 ] .
+
+msc-prop:msc_om0011331_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.1 ;
+  obo:IAO_0000221 msc-prop:msc_om0011331_isotope .
+
+msc-smp:msc_om0011332 sio:SIO_000008 msc-prop:msc_om0011332_isotope .
+msc-prop:msc_om0011332_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011332_IsotopeRole ] .
+
+msc-prop:msc_om0011332_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0011332_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.09 ;
+  obo:IAO_0000221 msc-prop:msc_om0011332_isotope .
+
+msc-smp:msc_om0011333 sio:SIO_000008 msc-prop:msc_om0011333_isotope .
+msc-prop:msc_om0011333_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011333_IsotopeRole ] .
+
+msc-prop:msc_om0011333_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0011333_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.06 ;
+  obo:IAO_0000221 msc-prop:msc_om0011333_isotope .
+
+msc-smp:msc_om0011334 sio:SIO_000008 msc-prop:msc_om0011334_isotope .
+msc-prop:msc_om0011334_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011334_IsotopeRole ] .
+
+msc-prop:msc_om0011334_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0011334_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.06 ;
+  obo:IAO_0000221 msc-prop:msc_om0011334_isotope .
+
+msc-smp:msc_om0011335 sio:SIO_000008 msc-prop:msc_om0011335_isotope .
+msc-prop:msc_om0011335_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011335_IsotopeRole ] .
+
+msc-prop:msc_om0011335_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0011335_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.04 ;
+  obo:IAO_0000221 msc-prop:msc_om0011335_isotope .
+
+msc-smp:msc_om0011336 sio:SIO_000008 msc-prop:msc_om0011336_isotope .
+msc-prop:msc_om0011336_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011336_IsotopeRole ] .
+
+msc-prop:msc_om0011336_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0011336_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.06 ;
+  obo:IAO_0000221 msc-prop:msc_om0011336_isotope .
+
+msc-smp:msc_om0011337 sio:SIO_000008 msc-prop:msc_om0011337_isotope .
+msc-prop:msc_om0011337_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011337_IsotopeRole ] .
+
+msc-prop:msc_om0011337_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 86 ] .
+
+msc-prop:msc_om0011337_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.14 ;
+  obo:IAO_0000221 msc-prop:msc_om0011337_isotope .
+
+msc-smp:msc_om0011338 sio:SIO_000008 msc-prop:msc_om0011338_isotope .
+msc-prop:msc_om0011338_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011338_IsotopeRole ] .
+
+msc-prop:msc_om0011338_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 88 ] .
+
+msc-prop:msc_om0011338_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.19 ;
+  obo:IAO_0000221 msc-prop:msc_om0011338_isotope .
+
+msc-smp:msc_om0011339 sio:SIO_000008 msc-prop:msc_om0011339_isotope .
+msc-prop:msc_om0011339_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011339_IsotopeRole ] .
+
+msc-prop:msc_om0011339_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0011339_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.7 ;
+  obo:IAO_0000221 msc-prop:msc_om0011339_isotope .
+
+msc-smp:msc_om0011340 sio:SIO_000008 msc-prop:msc_om0011340_isotope .
+msc-prop:msc_om0011340_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011340_IsotopeRole ] .
+
+msc-prop:msc_om0011340_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0011340_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.34 ;
+  obo:IAO_0000221 msc-prop:msc_om0011340_isotope .
+
+msc-smp:msc_om0011341 sio:SIO_000008 msc-prop:msc_om0011341_isotope .
+msc-prop:msc_om0011341_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011341_IsotopeRole ] .
+
+msc-prop:msc_om0011341_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0011341_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.27 ;
+  obo:IAO_0000221 msc-prop:msc_om0011341_isotope .
+
+msc-smp:msc_om0011803 sio:SIO_000008 msc-prop:msc_om0011803_isotope .
+msc-prop:msc_om0011803_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011803_IsotopeRole ] .
+
+msc-prop:msc_om0011803_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 86 ] .
+
+msc-prop:msc_om0011803_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.5 ;
+  obo:IAO_0000221 msc-prop:msc_om0011803_isotope .
+
+msc-smp:msc_om0011804 sio:SIO_000008 msc-prop:msc_om0011804_isotope .
+msc-prop:msc_om0011804_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011804_IsotopeRole ] .
+
+msc-prop:msc_om0011804_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0011804_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.54 ;
+  obo:IAO_0000221 msc-prop:msc_om0011804_isotope .
+
+msc-smp:msc_om0011805 sio:SIO_000008 msc-prop:msc_om0011805_isotope .
+msc-prop:msc_om0011805_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0011805_IsotopeRole ] .
+
+msc-prop:msc_om0011805_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 85 ] .
+
+msc-prop:msc_om0011805_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.9 ;
+  obo:IAO_0000221 msc-prop:msc_om0011805_isotope .
+
+msc-smp:msc_om0020055 sio:SIO_000008 msc-prop:msc_om0020055_isotope .
+msc-prop:msc_om0020055_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020055_IsotopeRole ] .
+
+msc-prop:msc_om0020055_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020055_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.143 ;
+  obo:IAO_0000221 msc-prop:msc_om0020055_isotope .
+
+msc-smp:msc_om0020056 sio:SIO_000008 msc-prop:msc_om0020056_isotope .
+msc-prop:msc_om0020056_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020056_IsotopeRole ] .
+
+msc-prop:msc_om0020056_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020056_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.125 ;
+  obo:IAO_0000221 msc-prop:msc_om0020056_isotope .
+
+msc-smp:msc_om0020057 sio:SIO_000008 msc-prop:msc_om0020057_isotope .
+msc-prop:msc_om0020057_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020057_IsotopeRole ] .
+
+msc-prop:msc_om0020057_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020057_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.147 ;
+  obo:IAO_0000221 msc-prop:msc_om0020057_isotope .
+
+msc-smp:msc_om0020058 sio:SIO_000008 msc-prop:msc_om0020058_isotope .
+msc-prop:msc_om0020058_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020058_IsotopeRole ] .
+
+msc-prop:msc_om0020058_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020058_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.252 ;
+  obo:IAO_0000221 msc-prop:msc_om0020058_isotope .
+
+msc-smp:msc_om0020059 sio:SIO_000008 msc-prop:msc_om0020059_isotope .
+msc-prop:msc_om0020059_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020059_IsotopeRole ] .
+
+msc-prop:msc_om0020059_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020059_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.266 ;
+  obo:IAO_0000221 msc-prop:msc_om0020059_isotope .
+
+msc-smp:msc_om0020060 sio:SIO_000008 msc-prop:msc_om0020060_isotope .
+msc-prop:msc_om0020060_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020060_IsotopeRole ] .
+
+msc-prop:msc_om0020060_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020060_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.367 ;
+  obo:IAO_0000221 msc-prop:msc_om0020060_isotope .
+
+msc-smp:msc_om0020061 sio:SIO_000008 msc-prop:msc_om0020061_isotope .
+msc-prop:msc_om0020061_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020061_IsotopeRole ] .
+
+msc-prop:msc_om0020061_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020061_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.335 ;
+  obo:IAO_0000221 msc-prop:msc_om0020061_isotope .
+
+msc-smp:msc_om0020062 sio:SIO_000008 msc-prop:msc_om0020062_isotope .
+msc-prop:msc_om0020062_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020062_IsotopeRole ] .
+
+msc-prop:msc_om0020062_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020062_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.148 ;
+  obo:IAO_0000221 msc-prop:msc_om0020062_isotope .
+
+msc-smp:msc_om0020063 sio:SIO_000008 msc-prop:msc_om0020063_isotope .
+msc-prop:msc_om0020063_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020063_IsotopeRole ] .
+
+msc-prop:msc_om0020063_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020063_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.203 ;
+  obo:IAO_0000221 msc-prop:msc_om0020063_isotope .
+
+msc-smp:msc_om0020064 sio:SIO_000008 msc-prop:msc_om0020064_isotope .
+msc-prop:msc_om0020064_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020064_IsotopeRole ] .
+
+msc-prop:msc_om0020064_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020064_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.274 ;
+  obo:IAO_0000221 msc-prop:msc_om0020064_isotope .
+
+msc-smp:msc_om0020065 sio:SIO_000008 msc-prop:msc_om0020065_isotope .
+msc-prop:msc_om0020065_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020065_IsotopeRole ] .
+
+msc-prop:msc_om0020065_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020065_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.69 ;
+  obo:IAO_0000221 msc-prop:msc_om0020065_isotope .
+
+msc-smp:msc_om0020066 sio:SIO_000008 msc-prop:msc_om0020066_isotope .
+msc-prop:msc_om0020066_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020066_IsotopeRole ] .
+
+msc-prop:msc_om0020066_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020066_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.805 ;
+  obo:IAO_0000221 msc-prop:msc_om0020066_isotope .
+
+msc-smp:msc_om0020067 sio:SIO_000008 msc-prop:msc_om0020067_isotope .
+msc-prop:msc_om0020067_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020067_IsotopeRole ] .
+
+msc-prop:msc_om0020067_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020067_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.966 ;
+  obo:IAO_0000221 msc-prop:msc_om0020067_isotope .
+
+msc-smp:msc_om0020068 sio:SIO_000008 msc-prop:msc_om0020068_isotope .
+msc-prop:msc_om0020068_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020068_IsotopeRole ] .
+
+msc-prop:msc_om0020068_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020068_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.29 ;
+  obo:IAO_0000221 msc-prop:msc_om0020068_isotope .
+
+msc-smp:msc_om0020069 sio:SIO_000008 msc-prop:msc_om0020069_isotope .
+msc-prop:msc_om0020069_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020069_IsotopeRole ] .
+
+msc-prop:msc_om0020069_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020069_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.148 ;
+  obo:IAO_0000221 msc-prop:msc_om0020069_isotope .
+
+msc-smp:msc_om0020070 sio:SIO_000008 msc-prop:msc_om0020070_isotope .
+msc-prop:msc_om0020070_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020070_IsotopeRole ] .
+
+msc-prop:msc_om0020070_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020070_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.158 ;
+  obo:IAO_0000221 msc-prop:msc_om0020070_isotope .
+
+msc-smp:msc_om0020071 sio:SIO_000008 msc-prop:msc_om0020071_isotope .
+msc-prop:msc_om0020071_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020071_IsotopeRole ] .
+
+msc-prop:msc_om0020071_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020071_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.203 ;
+  obo:IAO_0000221 msc-prop:msc_om0020071_isotope .
+
+msc-smp:msc_om0020072 sio:SIO_000008 msc-prop:msc_om0020072_isotope .
+msc-prop:msc_om0020072_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020072_IsotopeRole ] .
+
+msc-prop:msc_om0020072_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020072_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.26 ;
+  obo:IAO_0000221 msc-prop:msc_om0020072_isotope .
+
+msc-smp:msc_om0020073 sio:SIO_000008 msc-prop:msc_om0020073_isotope .
+msc-prop:msc_om0020073_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020073_IsotopeRole ] .
+
+msc-prop:msc_om0020073_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020073_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.44 ;
+  obo:IAO_0000221 msc-prop:msc_om0020073_isotope .
+
+msc-smp:msc_om0020074 sio:SIO_000008 msc-prop:msc_om0020074_isotope .
+msc-prop:msc_om0020074_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020074_IsotopeRole ] .
+
+msc-prop:msc_om0020074_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020074_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.677 ;
+  obo:IAO_0000221 msc-prop:msc_om0020074_isotope .
+
+msc-smp:msc_om0020075 sio:SIO_000008 msc-prop:msc_om0020075_isotope .
+msc-prop:msc_om0020075_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020075_IsotopeRole ] .
+
+msc-prop:msc_om0020075_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020075_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.146 ;
+  obo:IAO_0000221 msc-prop:msc_om0020075_isotope .
+
+msc-smp:msc_om0020076 sio:SIO_000008 msc-prop:msc_om0020076_isotope .
+msc-prop:msc_om0020076_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020076_IsotopeRole ] .
+
+msc-prop:msc_om0020076_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020076_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.157 ;
+  obo:IAO_0000221 msc-prop:msc_om0020076_isotope .
+
+msc-smp:msc_om0020077 sio:SIO_000008 msc-prop:msc_om0020077_isotope .
+msc-prop:msc_om0020077_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020077_IsotopeRole ] .
+
+msc-prop:msc_om0020077_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020077_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.168 ;
+  obo:IAO_0000221 msc-prop:msc_om0020077_isotope .
+
+msc-smp:msc_om0020078 sio:SIO_000008 msc-prop:msc_om0020078_isotope .
+msc-prop:msc_om0020078_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020078_IsotopeRole ] .
+
+msc-prop:msc_om0020078_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020078_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.236 ;
+  obo:IAO_0000221 msc-prop:msc_om0020078_isotope .
+
+msc-smp:msc_om0020079 sio:SIO_000008 msc-prop:msc_om0020079_isotope .
+msc-prop:msc_om0020079_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020079_IsotopeRole ] .
+
+msc-prop:msc_om0020079_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020079_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.388 ;
+  obo:IAO_0000221 msc-prop:msc_om0020079_isotope .
+
+msc-smp:msc_om0020080 sio:SIO_000008 msc-prop:msc_om0020080_isotope .
+msc-prop:msc_om0020080_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020080_IsotopeRole ] .
+
+msc-prop:msc_om0020080_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020080_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.455 ;
+  obo:IAO_0000221 msc-prop:msc_om0020080_isotope .
+
+msc-smp:msc_om0020081 sio:SIO_000008 msc-prop:msc_om0020081_isotope .
+msc-prop:msc_om0020081_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020081_IsotopeRole ] .
+
+msc-prop:msc_om0020081_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020081_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.29 ;
+  obo:IAO_0000221 msc-prop:msc_om0020081_isotope .
+
+msc-smp:msc_om0020082 sio:SIO_000008 msc-prop:msc_om0020082_isotope .
+msc-prop:msc_om0020082_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020082_IsotopeRole ] .
+
+msc-prop:msc_om0020082_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020082_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.075 ;
+  obo:IAO_0000221 msc-prop:msc_om0020082_isotope .
+
+msc-smp:msc_om0020083 sio:SIO_000008 msc-prop:msc_om0020083_isotope .
+msc-prop:msc_om0020083_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020083_IsotopeRole ] .
+
+msc-prop:msc_om0020083_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020083_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.219 ;
+  obo:IAO_0000221 msc-prop:msc_om0020083_isotope .
+
+msc-smp:msc_om0020084 sio:SIO_000008 msc-prop:msc_om0020084_isotope .
+msc-prop:msc_om0020084_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020084_IsotopeRole ] .
+
+msc-prop:msc_om0020084_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020084_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.165 ;
+  obo:IAO_0000221 msc-prop:msc_om0020084_isotope .
+
+msc-smp:msc_om0020085 sio:SIO_000008 msc-prop:msc_om0020085_isotope .
+msc-prop:msc_om0020085_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020085_IsotopeRole ] .
+
+msc-prop:msc_om0020085_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020085_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.137 ;
+  obo:IAO_0000221 msc-prop:msc_om0020085_isotope .
+
+msc-smp:msc_om0020086 sio:SIO_000008 msc-prop:msc_om0020086_isotope .
+msc-prop:msc_om0020086_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020086_IsotopeRole ] .
+
+msc-prop:msc_om0020086_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020086_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.136 ;
+  obo:IAO_0000221 msc-prop:msc_om0020086_isotope .
+
+msc-smp:msc_om0020087 sio:SIO_000008 msc-prop:msc_om0020087_isotope .
+msc-prop:msc_om0020087_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020087_IsotopeRole ] .
+
+msc-prop:msc_om0020087_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020087_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.131 ;
+  obo:IAO_0000221 msc-prop:msc_om0020087_isotope .
+
+msc-smp:msc_om0020088 sio:SIO_000008 msc-prop:msc_om0020088_isotope .
+msc-prop:msc_om0020088_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020088_IsotopeRole ] .
+
+msc-prop:msc_om0020088_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020088_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.125 ;
+  obo:IAO_0000221 msc-prop:msc_om0020088_isotope .
+
+msc-smp:msc_om0020089 sio:SIO_000008 msc-prop:msc_om0020089_isotope .
+msc-prop:msc_om0020089_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020089_IsotopeRole ] .
+
+msc-prop:msc_om0020089_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020089_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.115 ;
+  obo:IAO_0000221 msc-prop:msc_om0020089_isotope .
+
+msc-smp:msc_om0020090 sio:SIO_000008 msc-prop:msc_om0020090_isotope .
+msc-prop:msc_om0020090_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020090_IsotopeRole ] .
+
+msc-prop:msc_om0020090_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020090_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.155 ;
+  obo:IAO_0000221 msc-prop:msc_om0020090_isotope .
+
+msc-smp:msc_om0020091 sio:SIO_000008 msc-prop:msc_om0020091_isotope .
+msc-prop:msc_om0020091_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020091_IsotopeRole ] .
+
+msc-prop:msc_om0020091_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020091_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.11 ;
+  obo:IAO_0000221 msc-prop:msc_om0020091_isotope .
+
+msc-smp:msc_om0020092 sio:SIO_000008 msc-prop:msc_om0020092_isotope .
+msc-prop:msc_om0020092_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020092_IsotopeRole ] .
+
+msc-prop:msc_om0020092_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020092_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.123 ;
+  obo:IAO_0000221 msc-prop:msc_om0020092_isotope .
+
+msc-smp:msc_om0020093 sio:SIO_000008 msc-prop:msc_om0020093_isotope .
+msc-prop:msc_om0020093_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020093_IsotopeRole ] .
+
+msc-prop:msc_om0020093_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020093_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.143 ;
+  obo:IAO_0000221 msc-prop:msc_om0020093_isotope .
+
+msc-smp:msc_om0020094 sio:SIO_000008 msc-prop:msc_om0020094_isotope .
+msc-prop:msc_om0020094_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020094_IsotopeRole ] .
+
+msc-prop:msc_om0020094_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020094_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.167 ;
+  obo:IAO_0000221 msc-prop:msc_om0020094_isotope .
+
+msc-smp:msc_om0020095 sio:SIO_000008 msc-prop:msc_om0020095_isotope .
+msc-prop:msc_om0020095_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020095_IsotopeRole ] .
+
+msc-prop:msc_om0020095_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020095_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.253 ;
+  obo:IAO_0000221 msc-prop:msc_om0020095_isotope .
+
+msc-smp:msc_om0020096 sio:SIO_000008 msc-prop:msc_om0020096_isotope .
+msc-prop:msc_om0020096_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020096_IsotopeRole ] .
+
+msc-prop:msc_om0020096_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020096_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.307 ;
+  obo:IAO_0000221 msc-prop:msc_om0020096_isotope .
+
+msc-smp:msc_om0020097 sio:SIO_000008 msc-prop:msc_om0020097_isotope .
+msc-prop:msc_om0020097_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020097_IsotopeRole ] .
+
+msc-prop:msc_om0020097_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020097_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.507 ;
+  obo:IAO_0000221 msc-prop:msc_om0020097_isotope .
+
+msc-smp:msc_om0020098 sio:SIO_000008 msc-prop:msc_om0020098_isotope .
+msc-prop:msc_om0020098_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0020098_IsotopeRole ] .
+
+msc-prop:msc_om0020098_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0020098_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.564 ;
+  obo:IAO_0000221 msc-prop:msc_om0020098_isotope .
+
+msc-smp:msc_om0033727 sio:SIO_000008 msc-prop:msc_om0033727_isotope .
+msc-prop:msc_om0033727_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0033727_IsotopeRole ] .
+
+msc-prop:msc_om0033727_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 81 ] .
+
+msc-prop:msc_om0033727_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.11 ;
+  obo:IAO_0000221 msc-prop:msc_om0033727_isotope .
+
+msc-smp:msc_om0033728 sio:SIO_000008 msc-prop:msc_om0033728_isotope .
+msc-prop:msc_om0033728_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0033728_IsotopeRole ] .
+
+msc-prop:msc_om0033728_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0033728_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.29 ;
+  obo:IAO_0000221 msc-prop:msc_om0033728_isotope .
+
+msc-smp:msc_om0033923 sio:SIO_000008 msc-prop:msc_om0033923_isotope .
+msc-prop:msc_om0033923_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0033923_IsotopeRole ] .
+
+msc-prop:msc_om0033923_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 98 ] .
+
+msc-prop:msc_om0033923_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.22 ;
+  obo:IAO_0000221 msc-prop:msc_om0033923_isotope .
+
+msc-smp:msc_om0033924 sio:SIO_000008 msc-prop:msc_om0033924_isotope .
+msc-prop:msc_om0033924_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0033924_IsotopeRole ] .
+
+msc-prop:msc_om0033924_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 78 ] .
+
+msc-prop:msc_om0033924_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.37 ;
+  obo:IAO_0000221 msc-prop:msc_om0033924_isotope .
+
+msc-smp:msc_om0034271 sio:SIO_000008 msc-prop:msc_om0034271_isotope .
+msc-prop:msc_om0034271_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0034271_IsotopeRole ] .
+
+msc-prop:msc_om0034271_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 78 ] .
+
+msc-prop:msc_om0034271_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.22 ;
+  obo:IAO_0000221 msc-prop:msc_om0034271_isotope .
+
+msc-smp:msc_om0034272 sio:SIO_000008 msc-prop:msc_om0034272_isotope .
+msc-prop:msc_om0034272_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0034272_IsotopeRole ] .
+
+msc-prop:msc_om0034272_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 78 ] .
+
+msc-prop:msc_om0034272_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.37 ;
+  obo:IAO_0000221 msc-prop:msc_om0034272_isotope .
+
+msc-smp:msc_om0040004 sio:SIO_000008 msc-prop:msc_om0040004_isotope .
+msc-prop:msc_om0040004_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Tl" ;
+    obo:RO_0000087 msc-prop:msc_om0040004_IsotopeRole ] .
+
+msc-prop:msc_om0040004_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 99.73 ] .
+
+msc-prop:msc_om0040004_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.49 ;
+  obo:IAO_0000221 msc-prop:msc_om0040004_isotope .
+
+msc-smp:msc_om0040008 sio:SIO_000008 msc-prop:msc_om0040008_isotope .
+msc-prop:msc_om0040008_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Pb" ;
+    obo:RO_0000087 msc-prop:msc_om0040008_IsotopeRole ] .
+
+msc-prop:msc_om0040008_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040008_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.52 ;
+  obo:IAO_0000221 msc-prop:msc_om0040008_isotope .
+
+msc-smp:msc_om0040010 sio:SIO_000008 msc-prop:msc_om0040010_isotope .
+msc-prop:msc_om0040010_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Sn" ;
+    obo:RO_0000087 msc-prop:msc_om0040010_IsotopeRole ] .
+
+msc-prop:msc_om0040010_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040010_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.505 ;
+  obo:IAO_0000221 msc-prop:msc_om0040010_isotope .
+
+msc-smp:msc_om0040012 sio:SIO_000008 msc-prop:msc_om0040012_isotope .
+msc-prop:msc_om0040012_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Hg" ;
+    obo:RO_0000087 msc-prop:msc_om0040012_IsotopeRole ] .
+
+msc-prop:msc_om0040012_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040012_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.504 ;
+  obo:IAO_0000221 msc-prop:msc_om0040012_isotope .
+
+msc-smp:msc_om0040013 sio:SIO_000008 msc-prop:msc_om0040013_isotope .
+msc-prop:msc_om0040013_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Mo" ;
+    obo:RO_0000087 msc-prop:msc_om0040013_IsotopeRole ] .
+
+msc-prop:msc_om0040013_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040013_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.23 ;
+  obo:IAO_0000221 msc-prop:msc_om0040013_isotope .
+
+msc-smp:msc_om0040016 sio:SIO_000008 msc-prop:msc_om0040016_isotope .
+msc-prop:msc_om0040016_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Mo" ;
+    obo:RO_0000087 msc-prop:msc_om0040016_IsotopeRole ] .
+
+msc-prop:msc_om0040016_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040016_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.23 ;
+  obo:IAO_0000221 msc-prop:msc_om0040016_isotope .
+
+msc-smp:msc_om0040017 sio:SIO_000008 msc-prop:msc_om0040017_isotope .
+msc-prop:msc_om0040017_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Mo" ;
+    obo:RO_0000087 msc-prop:msc_om0040017_IsotopeRole ] .
+
+msc-prop:msc_om0040017_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040017_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.37 ;
+  obo:IAO_0000221 msc-prop:msc_om0040017_isotope .
+
+msc-smp:msc_om0040022 sio:SIO_000008 msc-prop:msc_om0040022_isotope .
+msc-prop:msc_om0040022_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Ga" ;
+    obo:RO_0000087 msc-prop:msc_om0040022_IsotopeRole ] .
+
+msc-prop:msc_om0040022_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040022_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.43 ;
+  obo:IAO_0000221 msc-prop:msc_om0040022_isotope .
+
+msc-smp:msc_om0040025 sio:SIO_000008 msc-prop:msc_om0040025_isotope .
+msc-prop:msc_om0040025_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "U" ;
+    obo:RO_0000087 msc-prop:msc_om0040025_IsotopeRole ] .
+
+msc-prop:msc_om0040025_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040025_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.4 ;
+  obo:IAO_0000221 msc-prop:msc_om0040025_isotope .
+
+msc-smp:msc_om0040026 sio:SIO_000008 msc-prop:msc_om0040026_isotope .
+msc-prop:msc_om0040026_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cd" ;
+    obo:RO_0000087 msc-prop:msc_om0040026_IsotopeRole ] .
+
+msc-prop:msc_om0040026_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040026_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.385 ;
+  obo:IAO_0000221 msc-prop:msc_om0040026_isotope .
+
+msc-smp:msc_om0040178 sio:SIO_000008 msc-prop:msc_om0040178_isotope .
+msc-prop:msc_om0040178_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Zr" ;
+    obo:RO_0000087 msc-prop:msc_om0040178_IsotopeRole ] .
+
+msc-prop:msc_om0040178_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040178_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.05 ;
+  obo:IAO_0000221 msc-prop:msc_om0040178_isotope .
+
+msc-smp:msc_om0040179 sio:SIO_000008 msc-prop:msc_om0040179_isotope .
+msc-prop:msc_om0040179_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Re" ;
+    obo:RO_0000087 msc-prop:msc_om0040179_IsotopeRole ] .
+
+msc-prop:msc_om0040179_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040179_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.356 ;
+  obo:IAO_0000221 msc-prop:msc_om0040179_isotope .
+
+msc-smp:msc_om0040180 sio:SIO_000008 msc-prop:msc_om0040180_isotope .
+msc-prop:msc_om0040180_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Zn" ;
+    obo:RO_0000087 msc-prop:msc_om0040180_IsotopeRole ] .
+
+msc-prop:msc_om0040180_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040180_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.375 ;
+  obo:IAO_0000221 msc-prop:msc_om0040180_isotope .
+
+msc-smp:msc_om0040182 sio:SIO_000008 msc-prop:msc_om0040182_isotope .
+msc-prop:msc_om0040182_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "U" ;
+    obo:RO_0000087 msc-prop:msc_om0040182_IsotopeRole ] .
+
+msc-prop:msc_om0040182_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040182_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.53 ;
+  obo:IAO_0000221 msc-prop:msc_om0040182_isotope .
+
+msc-smp:msc_om0040185 sio:SIO_000008 msc-prop:msc_om0040185_isotope .
+msc-prop:msc_om0040185_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "U" ;
+    obo:RO_0000087 msc-prop:msc_om0040185_IsotopeRole ] .
+
+msc-prop:msc_om0040185_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040185_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.54 ;
+  obo:IAO_0000221 msc-prop:msc_om0040185_isotope .
+
+msc-smp:msc_om0040187 sio:SIO_000008 msc-prop:msc_om0040187_isotope .
+msc-prop:msc_om0040187_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Ru" ;
+    obo:RO_0000087 msc-prop:msc_om0040187_IsotopeRole ] .
+
+msc-prop:msc_om0040187_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040187_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0040187_isotope .
+
+msc-smp:msc_om0040188 sio:SIO_000008 msc-prop:msc_om0040188_isotope .
+msc-prop:msc_om0040188_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Os" ;
+    obo:RO_0000087 msc-prop:msc_om0040188_IsotopeRole ] .
+
+msc-prop:msc_om0040188_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040188_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.21 ;
+  obo:IAO_0000221 msc-prop:msc_om0040188_isotope .
+
+msc-smp:msc_om0040190 sio:SIO_000008 msc-prop:msc_om0040190_isotope .
+msc-prop:msc_om0040190_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Pb" ;
+    obo:RO_0000087 msc-prop:msc_om0040190_IsotopeRole ] .
+
+msc-prop:msc_om0040190_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040190_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.501 ;
+  obo:IAO_0000221 msc-prop:msc_om0040190_isotope .
+
+msc-smp:msc_om0040225 sio:SIO_000008 msc-prop:msc_om0040225_isotope .
+msc-prop:msc_om0040225_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0040225_IsotopeRole ] .
+
+msc-prop:msc_om0040225_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 86 ] .
+
+msc-prop:msc_om0040225_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.91 ;
+  obo:IAO_0000221 msc-prop:msc_om0040225_isotope .
+
+msc-smp:msc_om0040226 sio:SIO_000008 msc-prop:msc_om0040226_isotope .
+msc-prop:msc_om0040226_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0040226_IsotopeRole ] .
+
+msc-prop:msc_om0040226_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 100 ] .
+
+msc-prop:msc_om0040226_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.93 ;
+  obo:IAO_0000221 msc-prop:msc_om0040226_isotope .
+
+msc-smp:msc_om0040227 sio:SIO_000008 msc-prop:msc_om0040227_isotope .
+msc-prop:msc_om0040227_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0040227_IsotopeRole ] .
+
+msc-prop:msc_om0040227_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0040227_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.11 ;
+  obo:IAO_0000221 msc-prop:msc_om0040227_isotope .
+
+msc-smp:msc_om0040228 sio:SIO_000008 msc-prop:msc_om0040228_isotope .
+msc-prop:msc_om0040228_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0040228_IsotopeRole ] .
+
+msc-prop:msc_om0040228_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 100 ] .
+
+msc-prop:msc_om0040228_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.15 ;
+  obo:IAO_0000221 msc-prop:msc_om0040228_isotope .
+
+msc-smp:msc_om0040229 sio:SIO_000008 msc-prop:msc_om0040229_isotope .
+msc-prop:msc_om0040229_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0040229_IsotopeRole ] .
+
+msc-prop:msc_om0040229_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040229_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.098 ;
+  obo:IAO_0000221 msc-prop:msc_om0040229_isotope .
+
+msc-smp:msc_om0040230 sio:SIO_000008 msc-prop:msc_om0040230_isotope .
+msc-prop:msc_om0040230_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0040230_IsotopeRole ] .
+
+msc-prop:msc_om0040230_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 95 ] .
+
+msc-prop:msc_om0040230_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.015 ;
+  obo:IAO_0000221 msc-prop:msc_om0040230_isotope .
+
+msc-smp:msc_om0040231 sio:SIO_000008 msc-prop:msc_om0040231_isotope .
+msc-prop:msc_om0040231_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0040231_IsotopeRole ] .
+
+msc-prop:msc_om0040231_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040231_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.09 ;
+  obo:IAO_0000221 msc-prop:msc_om0040231_isotope .
+
+msc-smp:msc_om0040232 sio:SIO_000008 msc-prop:msc_om0040232_isotope .
+msc-prop:msc_om0040232_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0040232_IsotopeRole ] .
+
+msc-prop:msc_om0040232_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040232_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.16 ;
+  obo:IAO_0000221 msc-prop:msc_om0040232_isotope .
+
+msc-smp:msc_om0040233 sio:SIO_000008 msc-prop:msc_om0040233_isotope .
+msc-prop:msc_om0040233_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0040233_IsotopeRole ] .
+
+msc-prop:msc_om0040233_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040233_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.22 ;
+  obo:IAO_0000221 msc-prop:msc_om0040233_isotope .
+
+msc-smp:msc_om0040234 sio:SIO_000008 msc-prop:msc_om0040234_isotope .
+msc-prop:msc_om0040234_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0040234_IsotopeRole ] .
+
+msc-prop:msc_om0040234_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040234_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.09 ;
+  obo:IAO_0000221 msc-prop:msc_om0040234_isotope .
+
+msc-smp:msc_om0040235 sio:SIO_000008 msc-prop:msc_om0040235_isotope .
+msc-prop:msc_om0040235_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0040235_IsotopeRole ] .
+
+msc-prop:msc_om0040235_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040235_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.1 ;
+  obo:IAO_0000221 msc-prop:msc_om0040235_isotope .
+
+msc-smp:msc_om0040236 sio:SIO_000008 msc-prop:msc_om0040236_isotope .
+msc-prop:msc_om0040236_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0040236_IsotopeRole ] .
+
+msc-prop:msc_om0040236_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040236_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.2 ;
+  obo:IAO_0000221 msc-prop:msc_om0040236_isotope .
+
+msc-smp:msc_om0040237 sio:SIO_000008 msc-prop:msc_om0040237_isotope .
+msc-prop:msc_om0040237_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0040237_IsotopeRole ] .
+
+msc-prop:msc_om0040237_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040237_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.36 ;
+  obo:IAO_0000221 msc-prop:msc_om0040237_isotope .
+
+msc-smp:msc_om0040238 sio:SIO_000008 msc-prop:msc_om0040238_isotope .
+msc-prop:msc_om0040238_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0040238_IsotopeRole ] .
+
+msc-prop:msc_om0040238_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040238_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.331 ;
+  obo:IAO_0000221 msc-prop:msc_om0040238_isotope .
+
+msc-smp:msc_om0040496 sio:SIO_000008 msc-prop:msc_om0040496_isotope .
+msc-prop:msc_om0040496_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "U" ;
+    obo:RO_0000087 msc-prop:msc_om0040496_IsotopeRole ] .
+
+msc-prop:msc_om0040496_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040496_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 2.2 ;
+  obo:IAO_0000221 msc-prop:msc_om0040496_isotope .
+
+msc-smp:msc_om0040497 sio:SIO_000008 msc-prop:msc_om0040497_isotope .
+msc-prop:msc_om0040497_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Mo" ;
+    obo:RO_0000087 msc-prop:msc_om0040497_IsotopeRole ] .
+
+msc-prop:msc_om0040497_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040497_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.27 ;
+  obo:IAO_0000221 msc-prop:msc_om0040497_isotope .
+
+msc-smp:msc_om0040498 sio:SIO_000008 msc-prop:msc_om0040498_isotope .
+msc-prop:msc_om0040498_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Se" ;
+    obo:RO_0000087 msc-prop:msc_om0040498_IsotopeRole ] .
+
+msc-prop:msc_om0040498_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040498_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.27 ;
+  obo:IAO_0000221 msc-prop:msc_om0040498_isotope .
+
+msc-smp:msc_om0040600 sio:SIO_000008 msc-prop:msc_om0040600_isotope .
+msc-prop:msc_om0040600_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "H" ;
+    obo:RO_0000087 msc-prop:msc_om0040600_IsotopeRole ] .
+
+msc-prop:msc_om0040600_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0040600_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.5 ;
+  obo:IAO_0000221 msc-prop:msc_om0040600_isotope .
+
+msc-smp:msc_om0042071 sio:SIO_000008 msc-prop:msc_om0042071_isotope .
+msc-prop:msc_om0042071_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Ca" ;
+    obo:RO_0000087 msc-prop:msc_om0042071_IsotopeRole ] .
+
+msc-prop:msc_om0042071_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0042071_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.55 ;
+  obo:IAO_0000221 msc-prop:msc_om0042071_isotope .
+
+msc-smp:msc_om0042072 sio:SIO_000008 msc-prop:msc_om0042072_isotope .
+msc-prop:msc_om0042072_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Ca" ;
+    obo:RO_0000087 msc-prop:msc_om0042072_IsotopeRole ] .
+
+msc-prop:msc_om0042072_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0042072_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.5 ;
+  obo:IAO_0000221 msc-prop:msc_om0042072_isotope .
+
+msc-smp:msc_om0042112 sio:SIO_000008 msc-prop:msc_om0042112_isotope .
+msc-prop:msc_om0042112_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cd" ;
+    obo:RO_0000087 msc-prop:msc_om0042112_IsotopeRole ] .
+
+msc-prop:msc_om0042112_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0042112_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.32 ;
+  obo:IAO_0000221 msc-prop:msc_om0042112_isotope .
+
+msc-smp:msc_om0090356 sio:SIO_000008 msc-prop:msc_om0090356_isotope .
+msc-prop:msc_om0090356_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Zr" ;
+    obo:RO_0000087 msc-prop:msc_om0090356_IsotopeRole ] .
+
+msc-prop:msc_om0090356_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0090356_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.32 ;
+  obo:IAO_0000221 msc-prop:msc_om0090356_isotope .
+
+msc-smp:msc_om0090357 sio:SIO_000008 msc-prop:msc_om0090357_isotope .
+msc-prop:msc_om0090357_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Mo" ;
+    obo:RO_0000087 msc-prop:msc_om0090357_IsotopeRole ] .
+
+msc-prop:msc_om0090357_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0090357_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.42 ;
+  obo:IAO_0000221 msc-prop:msc_om0090357_isotope .
+
+msc-smp:msc_om0090358 sio:SIO_000008 msc-prop:msc_om0090358_isotope .
+msc-prop:msc_om0090358_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "B" ;
+    obo:RO_0000087 msc-prop:msc_om0090358_IsotopeRole ] .
+
+msc-prop:msc_om0090358_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0090358_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.004 ;
+  obo:IAO_0000221 msc-prop:msc_om0090358_isotope .
+
+msc-smp:msc_om0090359 sio:SIO_000008 msc-prop:msc_om0090359_isotope .
+msc-prop:msc_om0090359_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "W" ;
+    obo:RO_0000087 msc-prop:msc_om0090359_IsotopeRole ] .
+
+msc-prop:msc_om0090359_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0090359_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.52 ;
+  obo:IAO_0000221 msc-prop:msc_om0090359_isotope .
+
+msc-smp:msc_om0090360 sio:SIO_000008 msc-prop:msc_om0090360_isotope .
+msc-prop:msc_om0090360_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "B" ;
+    obo:RO_0000087 msc-prop:msc_om0090360_IsotopeRole ] .
+
+msc-prop:msc_om0090360_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0090360_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.09 ;
+  obo:IAO_0000221 msc-prop:msc_om0090360_isotope .
+
+msc-smp:msc_om0090361 sio:SIO_000008 msc-prop:msc_om0090361_isotope .
+msc-prop:msc_om0090361_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Sn" ;
+    obo:RO_0000087 msc-prop:msc_om0090361_IsotopeRole ] .
+
+msc-prop:msc_om0090361_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0090361_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.025 ;
+  obo:IAO_0000221 msc-prop:msc_om0090361_isotope .
+
+msc-smp:msc_om0090362 sio:SIO_000008 msc-prop:msc_om0090362_isotope .
+msc-prop:msc_om0090362_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Sn" ;
+    obo:RO_0000087 msc-prop:msc_om0090362_IsotopeRole ] .
+
+msc-prop:msc_om0090362_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0090362_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.46 ;
+  obo:IAO_0000221 msc-prop:msc_om0090362_isotope .
+
+msc-smp:msc_om0090363 sio:SIO_000008 msc-prop:msc_om0090363_isotope .
+msc-prop:msc_om0090363_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Mo" ;
+    obo:RO_0000087 msc-prop:msc_om0090363_IsotopeRole ] .
+
+msc-prop:msc_om0090363_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0090363_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.22 ;
+  obo:IAO_0000221 msc-prop:msc_om0090363_isotope .
+
+msc-smp:msc_om0090364 sio:SIO_000008 msc-prop:msc_om0090364_isotope .
+msc-prop:msc_om0090364_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Mo" ;
+    obo:RO_0000087 msc-prop:msc_om0090364_IsotopeRole ] .
+
+msc-prop:msc_om0090364_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0090364_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.33 ;
+  obo:IAO_0000221 msc-prop:msc_om0090364_isotope .
+
+msc-smp:msc_om0090365 sio:SIO_000008 msc-prop:msc_om0090365_isotope .
+msc-prop:msc_om0090365_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Mo" ;
+    obo:RO_0000087 msc-prop:msc_om0090365_IsotopeRole ] .
+
+msc-prop:msc_om0090365_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0090365_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.23 ;
+  obo:IAO_0000221 msc-prop:msc_om0090365_isotope .
+
+msc-smp:msc_om0106011 sio:SIO_000008 msc-prop:msc_om0106011_isotope .
+msc-prop:msc_om0106011_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0106011_IsotopeRole ] .
+
+msc-prop:msc_om0106011_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0106011_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.51 ;
+  obo:IAO_0000221 msc-prop:msc_om0106011_isotope .
+
+msc-smp:msc_om0106153 sio:SIO_000008 msc-prop:msc_om0106153_isotope .
+msc-prop:msc_om0106153_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "B" ;
+    obo:RO_0000087 msc-prop:msc_om0106153_IsotopeRole ] .
+
+msc-prop:msc_om0106153_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0106153_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.25 ;
+  obo:IAO_0000221 msc-prop:msc_om0106153_isotope .
+
+msc-smp:msc_om0106154 sio:SIO_000008 msc-prop:msc_om0106154_isotope .
+msc-prop:msc_om0106154_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0106154_IsotopeRole ] .
+
+msc-prop:msc_om0106154_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0106154_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.08 ;
+  obo:IAO_0000221 msc-prop:msc_om0106154_isotope .
+
+msc-smp:msc_om0106155 sio:SIO_000008 msc-prop:msc_om0106155_isotope .
+msc-prop:msc_om0106155_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "B" ;
+    obo:RO_0000087 msc-prop:msc_om0106155_IsotopeRole ] .
+
+msc-prop:msc_om0106155_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0106155_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.32 ;
+  obo:IAO_0000221 msc-prop:msc_om0106155_isotope .
+
+msc-smp:msc_om0106254 sio:SIO_000008 msc-prop:msc_om0106254_isotope .
+msc-prop:msc_om0106254_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0106254_IsotopeRole ] .
+
+msc-prop:msc_om0106254_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0106254_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.21 ;
+  obo:IAO_0000221 msc-prop:msc_om0106254_isotope .
+
+msc-smp:msc_om0106255 sio:SIO_000008 msc-prop:msc_om0106255_isotope .
+msc-prop:msc_om0106255_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "" ;
+    obo:RO_0000087 msc-prop:msc_om0106255_IsotopeRole ] .
+
+msc-prop:msc_om0106255_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0106255_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.11 ;
+  obo:IAO_0000221 msc-prop:msc_om0106255_isotope .
+
+msc-smp:msc_om0106273 sio:SIO_000008 msc-prop:msc_om0106273_isotope .
+msc-prop:msc_om0106273_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0106273_IsotopeRole ] .
+
+msc-prop:msc_om0106273_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0106273_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.21 ;
+  obo:IAO_0000221 msc-prop:msc_om0106273_isotope .
+
+msc-smp:msc_om0109325 sio:SIO_000008 msc-prop:msc_om0109325_isotope .
+msc-prop:msc_om0109325_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "B" ;
+    obo:RO_0000087 msc-prop:msc_om0109325_IsotopeRole ] .
+
+msc-prop:msc_om0109325_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109325_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.26 ;
+  obo:IAO_0000221 msc-prop:msc_om0109325_isotope .
+
+msc-smp:msc_om0109329 sio:SIO_000008 msc-prop:msc_om0109329_isotope .
+msc-prop:msc_om0109329_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "B" ;
+    obo:RO_0000087 msc-prop:msc_om0109329_IsotopeRole ] .
+
+msc-prop:msc_om0109329_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109329_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.3 ;
+  obo:IAO_0000221 msc-prop:msc_om0109329_isotope .
+
+msc-smp:msc_om0109330 sio:SIO_000008 msc-prop:msc_om0109330_isotope .
+msc-prop:msc_om0109330_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "B" ;
+    obo:RO_0000087 msc-prop:msc_om0109330_IsotopeRole ] .
+
+msc-prop:msc_om0109330_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109330_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.29 ;
+  obo:IAO_0000221 msc-prop:msc_om0109330_isotope .
+
+msc-smp:msc_om0109331 sio:SIO_000008 msc-prop:msc_om0109331_isotope .
+msc-prop:msc_om0109331_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "B" ;
+    obo:RO_0000087 msc-prop:msc_om0109331_IsotopeRole ] .
+
+msc-prop:msc_om0109331_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109331_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.31 ;
+  obo:IAO_0000221 msc-prop:msc_om0109331_isotope .
+
+msc-smp:msc_om0109491 sio:SIO_000008 msc-prop:msc_om0109491_isotope .
+msc-prop:msc_om0109491_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0109491_IsotopeRole ] .
+
+msc-prop:msc_om0109491_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109491_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 2 ;
+  obo:IAO_0000221 msc-prop:msc_om0109491_isotope .
+
+msc-smp:msc_om0109492 sio:SIO_000008 msc-prop:msc_om0109492_isotope .
+msc-prop:msc_om0109492_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0109492_IsotopeRole ] .
+
+msc-prop:msc_om0109492_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109492_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.2 ;
+  obo:IAO_0000221 msc-prop:msc_om0109492_isotope .
+
+msc-smp:msc_om0109577 sio:SIO_000008 msc-prop:msc_om0109577_isotope .
+msc-prop:msc_om0109577_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "B" ;
+    obo:RO_0000087 msc-prop:msc_om0109577_IsotopeRole ] .
+
+msc-prop:msc_om0109577_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109577_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.3 ;
+  obo:IAO_0000221 msc-prop:msc_om0109577_isotope .
+
+msc-smp:msc_om0109578 sio:SIO_000008 msc-prop:msc_om0109578_isotope .
+msc-prop:msc_om0109578_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Mg" ;
+    obo:RO_0000087 msc-prop:msc_om0109578_IsotopeRole ] .
+
+msc-prop:msc_om0109578_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109578_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.02 ;
+  obo:IAO_0000221 msc-prop:msc_om0109578_isotope .
+
+msc-smp:msc_om0109630 sio:SIO_000008 msc-prop:msc_om0109630_isotope .
+msc-prop:msc_om0109630_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0109630_IsotopeRole ] .
+
+msc-prop:msc_om0109630_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 99 ] .
+
+msc-prop:msc_om0109630_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.3 ;
+  obo:IAO_0000221 msc-prop:msc_om0109630_isotope .
+
+msc-smp:msc_om0109631 sio:SIO_000008 msc-prop:msc_om0109631_isotope .
+msc-prop:msc_om0109631_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0109631_IsotopeRole ] .
+
+msc-prop:msc_om0109631_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109631_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.3 ;
+  obo:IAO_0000221 msc-prop:msc_om0109631_isotope .
+
+msc-smp:msc_om0109637 sio:SIO_000008 msc-prop:msc_om0109637_isotope .
+msc-prop:msc_om0109637_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0109637_IsotopeRole ] .
+
+msc-prop:msc_om0109637_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109637_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.45 ;
+  obo:IAO_0000221 msc-prop:msc_om0109637_isotope .
+
+msc-smp:msc_om0109644 sio:SIO_000008 msc-prop:msc_om0109644_isotope .
+msc-prop:msc_om0109644_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0109644_IsotopeRole ] .
+
+msc-prop:msc_om0109644_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109644_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.4 ;
+  obo:IAO_0000221 msc-prop:msc_om0109644_isotope .
+
+msc-smp:msc_om0109649 sio:SIO_000008 msc-prop:msc_om0109649_isotope .
+msc-prop:msc_om0109649_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0109649_IsotopeRole ] .
+
+msc-prop:msc_om0109649_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109649_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.37 ;
+  obo:IAO_0000221 msc-prop:msc_om0109649_isotope .
+
+msc-smp:msc_om0109686 sio:SIO_000008 msc-prop:msc_om0109686_isotope .
+msc-prop:msc_om0109686_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0109686_IsotopeRole ] .
+
+msc-prop:msc_om0109686_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109686_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.37 ;
+  obo:IAO_0000221 msc-prop:msc_om0109686_isotope .
+
+msc-smp:msc_om0109700 sio:SIO_000008 msc-prop:msc_om0109700_isotope .
+msc-prop:msc_om0109700_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0109700_IsotopeRole ] .
+
+msc-prop:msc_om0109700_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109700_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 2 ;
+  obo:IAO_0000221 msc-prop:msc_om0109700_isotope .
+
+msc-smp:msc_om0109701 sio:SIO_000008 msc-prop:msc_om0109701_isotope .
+msc-prop:msc_om0109701_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0109701_IsotopeRole ] .
+
+msc-prop:msc_om0109701_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109701_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.2 ;
+  obo:IAO_0000221 msc-prop:msc_om0109701_isotope .
+
+msc-smp:msc_om0109965 sio:SIO_000008 msc-prop:msc_om0109965_isotope .
+msc-prop:msc_om0109965_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "B" ;
+    obo:RO_0000087 msc-prop:msc_om0109965_IsotopeRole ] .
+
+msc-prop:msc_om0109965_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0109965_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1 ;
+  obo:IAO_0000221 msc-prop:msc_om0109965_isotope .
+
+msc-smp:msc_om0111179 sio:SIO_000008 msc-prop:msc_om0111179_isotope .
+msc-prop:msc_om0111179_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "B" ;
+    obo:RO_0000087 msc-prop:msc_om0111179_IsotopeRole ] .
+
+msc-prop:msc_om0111179_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0111179_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.11 ;
+  obo:IAO_0000221 msc-prop:msc_om0111179_isotope .
+
+msc-smp:msc_om0111480 sio:SIO_000008 msc-prop:msc_om0111480_isotope .
+msc-prop:msc_om0111480_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "N" ;
+    obo:RO_0000087 msc-prop:msc_om0111480_IsotopeRole ] .
+
+msc-prop:msc_om0111480_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0111480_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.07 ;
+  obo:IAO_0000221 msc-prop:msc_om0111480_isotope .
+
+msc-smp:msc_om0111541 sio:SIO_000008 msc-prop:msc_om0111541_isotope .
+msc-prop:msc_om0111541_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Si" ;
+    obo:RO_0000087 msc-prop:msc_om0111541_IsotopeRole ] .
+
+msc-prop:msc_om0111541_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0111541_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.17 ;
+  obo:IAO_0000221 msc-prop:msc_om0111541_isotope .
+
+msc-smp:msc_om0111811 sio:SIO_000008 msc-prop:msc_om0111811_isotope .
+msc-prop:msc_om0111811_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "B" ;
+    obo:RO_0000087 msc-prop:msc_om0111811_IsotopeRole ] .
+
+msc-prop:msc_om0111811_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0111811_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.29 ;
+  obo:IAO_0000221 msc-prop:msc_om0111811_isotope .
+
+msc-smp:msc_om0113077 sio:SIO_000008 msc-prop:msc_om0113077_isotope .
+msc-prop:msc_om0113077_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0113077_IsotopeRole ] .
+
+msc-prop:msc_om0113077_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0113077_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.54 ;
+  obo:IAO_0000221 msc-prop:msc_om0113077_isotope .
+
+msc-smp:msc_om0150026 sio:SIO_000008 msc-prop:msc_om0150026_isotope .
+msc-prop:msc_om0150026_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Sn" ;
+    obo:RO_0000087 msc-prop:msc_om0150026_IsotopeRole ] .
+
+msc-prop:msc_om0150026_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150026_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.08 ;
+  obo:IAO_0000221 msc-prop:msc_om0150026_isotope .
+
+msc-smp:msc_om0150027 sio:SIO_000008 msc-prop:msc_om0150027_isotope .
+msc-prop:msc_om0150027_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Sn" ;
+    obo:RO_0000087 msc-prop:msc_om0150027_IsotopeRole ] .
+
+msc-prop:msc_om0150027_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150027_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.46 ;
+  obo:IAO_0000221 msc-prop:msc_om0150027_isotope .
+
+msc-smp:msc_om0150028 sio:SIO_000008 msc-prop:msc_om0150028_isotope .
+msc-prop:msc_om0150028_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Pb" ;
+    obo:RO_0000087 msc-prop:msc_om0150028_IsotopeRole ] .
+
+msc-prop:msc_om0150028_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150028_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.478 ;
+  obo:IAO_0000221 msc-prop:msc_om0150028_isotope .
+
+msc-smp:msc_om0150029 sio:SIO_000008 msc-prop:msc_om0150029_isotope .
+msc-prop:msc_om0150029_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Pb" ;
+    obo:RO_0000087 msc-prop:msc_om0150029_IsotopeRole ] .
+
+msc-prop:msc_om0150029_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150029_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.501 ;
+  obo:IAO_0000221 msc-prop:msc_om0150029_isotope .
+
+msc-smp:msc_om0150030 sio:SIO_000008 msc-prop:msc_om0150030_isotope .
+msc-prop:msc_om0150030_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Pb" ;
+    obo:RO_0000087 msc-prop:msc_om0150030_IsotopeRole ] .
+
+msc-prop:msc_om0150030_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150030_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.461 ;
+  obo:IAO_0000221 msc-prop:msc_om0150030_isotope .
+
+msc-smp:msc_om0150031 sio:SIO_000008 msc-prop:msc_om0150031_isotope .
+msc-prop:msc_om0150031_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Ru" ;
+    obo:RO_0000087 msc-prop:msc_om0150031_IsotopeRole ] .
+
+msc-prop:msc_om0150031_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150031_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0150031_isotope .
+
+msc-smp:msc_om0150063 sio:SIO_000008 msc-prop:msc_om0150063_isotope .
+msc-prop:msc_om0150063_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150063_IsotopeRole ] .
+
+msc-prop:msc_om0150063_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150063_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.24 ;
+  obo:IAO_0000221 msc-prop:msc_om0150063_isotope .
+
+msc-smp:msc_om0150064 sio:SIO_000008 msc-prop:msc_om0150064_isotope .
+msc-prop:msc_om0150064_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150064_IsotopeRole ] .
+
+msc-prop:msc_om0150064_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150064_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.89 ;
+  obo:IAO_0000221 msc-prop:msc_om0150064_isotope .
+
+msc-smp:msc_om0150065 sio:SIO_000008 msc-prop:msc_om0150065_isotope .
+msc-prop:msc_om0150065_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150065_IsotopeRole ] .
+
+msc-prop:msc_om0150065_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150065_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.98 ;
+  obo:IAO_0000221 msc-prop:msc_om0150065_isotope .
+
+msc-smp:msc_om0150066 sio:SIO_000008 msc-prop:msc_om0150066_isotope .
+msc-prop:msc_om0150066_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150066_IsotopeRole ] .
+
+msc-prop:msc_om0150066_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150066_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.33 ;
+  obo:IAO_0000221 msc-prop:msc_om0150066_isotope .
+
+msc-smp:msc_om0150067 sio:SIO_000008 msc-prop:msc_om0150067_isotope .
+msc-prop:msc_om0150067_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150067_IsotopeRole ] .
+
+msc-prop:msc_om0150067_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 52 ] .
+
+msc-prop:msc_om0150067_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.16 ;
+  obo:IAO_0000221 msc-prop:msc_om0150067_isotope .
+
+msc-smp:msc_om0150068 sio:SIO_000008 msc-prop:msc_om0150068_isotope .
+msc-prop:msc_om0150068_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150068_IsotopeRole ] .
+
+msc-prop:msc_om0150068_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 73 ] .
+
+msc-prop:msc_om0150068_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.16 ;
+  obo:IAO_0000221 msc-prop:msc_om0150068_isotope .
+
+msc-smp:msc_om0150069 sio:SIO_000008 msc-prop:msc_om0150069_isotope .
+msc-prop:msc_om0150069_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150069_IsotopeRole ] .
+
+msc-prop:msc_om0150069_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150069_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.05 ;
+  obo:IAO_0000221 msc-prop:msc_om0150069_isotope .
+
+msc-smp:msc_om0150070 sio:SIO_000008 msc-prop:msc_om0150070_isotope .
+msc-prop:msc_om0150070_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150070_IsotopeRole ] .
+
+msc-prop:msc_om0150070_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150070_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.34 ;
+  obo:IAO_0000221 msc-prop:msc_om0150070_isotope .
+
+msc-smp:msc_om0150071 sio:SIO_000008 msc-prop:msc_om0150071_isotope .
+msc-prop:msc_om0150071_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150071_IsotopeRole ] .
+
+msc-prop:msc_om0150071_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150071_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.62 ;
+  obo:IAO_0000221 msc-prop:msc_om0150071_isotope .
+
+msc-smp:msc_om0150072 sio:SIO_000008 msc-prop:msc_om0150072_isotope .
+msc-prop:msc_om0150072_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150072_IsotopeRole ] .
+
+msc-prop:msc_om0150072_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150072_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.12 ;
+  obo:IAO_0000221 msc-prop:msc_om0150072_isotope .
+
+msc-smp:msc_om0150254 sio:SIO_000008 msc-prop:msc_om0150254_isotope .
+msc-prop:msc_om0150254_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "N" ;
+    obo:RO_0000087 msc-prop:msc_om0150254_IsotopeRole ] .
+
+msc-prop:msc_om0150254_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150254_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.07 ;
+  obo:IAO_0000221 msc-prop:msc_om0150254_isotope .
+
+msc-smp:msc_om0150330 sio:SIO_000008 msc-prop:msc_om0150330_isotope .
+msc-prop:msc_om0150330_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150330_IsotopeRole ] .
+
+msc-prop:msc_om0150330_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150330_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.25 ;
+  obo:IAO_0000221 msc-prop:msc_om0150330_isotope .
+
+msc-smp:msc_om0150331 sio:SIO_000008 msc-prop:msc_om0150331_isotope .
+msc-prop:msc_om0150331_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150331_IsotopeRole ] .
+
+msc-prop:msc_om0150331_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150331_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.14 ;
+  obo:IAO_0000221 msc-prop:msc_om0150331_isotope .
+
+msc-smp:msc_om0150332 sio:SIO_000008 msc-prop:msc_om0150332_isotope .
+msc-prop:msc_om0150332_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150332_IsotopeRole ] .
+
+msc-prop:msc_om0150332_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150332_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.02 ;
+  obo:IAO_0000221 msc-prop:msc_om0150332_isotope .
+
+msc-smp:msc_om0150510 sio:SIO_000008 msc-prop:msc_om0150510_isotope .
+msc-prop:msc_om0150510_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150510_IsotopeRole ] .
+
+msc-prop:msc_om0150510_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0150510_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.013 ;
+  obo:IAO_0000221 msc-prop:msc_om0150510_isotope .
+
+msc-smp:msc_om0150511 sio:SIO_000008 msc-prop:msc_om0150511_isotope .
+msc-prop:msc_om0150511_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150511_IsotopeRole ] .
+
+msc-prop:msc_om0150511_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150511_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.023 ;
+  obo:IAO_0000221 msc-prop:msc_om0150511_isotope .
+
+msc-smp:msc_om0150512 sio:SIO_000008 msc-prop:msc_om0150512_isotope .
+msc-prop:msc_om0150512_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150512_IsotopeRole ] .
+
+msc-prop:msc_om0150512_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150512_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.001 ;
+  obo:IAO_0000221 msc-prop:msc_om0150512_isotope .
+
+msc-smp:msc_om0150513 sio:SIO_000008 msc-prop:msc_om0150513_isotope .
+msc-prop:msc_om0150513_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150513_IsotopeRole ] .
+
+msc-prop:msc_om0150513_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0150513_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.014 ;
+  obo:IAO_0000221 msc-prop:msc_om0150513_isotope .
+
+msc-smp:msc_om0150824 sio:SIO_000008 msc-prop:msc_om0150824_isotope .
+msc-prop:msc_om0150824_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150824_IsotopeRole ] .
+
+msc-prop:msc_om0150824_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150824_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.018 ;
+  obo:IAO_0000221 msc-prop:msc_om0150824_isotope .
+
+msc-smp:msc_om0150825 sio:SIO_000008 msc-prop:msc_om0150825_isotope .
+msc-prop:msc_om0150825_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150825_IsotopeRole ] .
+
+msc-prop:msc_om0150825_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150825_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.086 ;
+  obo:IAO_0000221 msc-prop:msc_om0150825_isotope .
+
+msc-smp:msc_om0150826 sio:SIO_000008 msc-prop:msc_om0150826_isotope .
+msc-prop:msc_om0150826_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150826_IsotopeRole ] .
+
+msc-prop:msc_om0150826_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150826_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.163 ;
+  obo:IAO_0000221 msc-prop:msc_om0150826_isotope .
+
+msc-smp:msc_om0150827 sio:SIO_000008 msc-prop:msc_om0150827_isotope .
+msc-prop:msc_om0150827_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150827_IsotopeRole ] .
+
+msc-prop:msc_om0150827_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150827_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.277 ;
+  obo:IAO_0000221 msc-prop:msc_om0150827_isotope .
+
+msc-smp:msc_om0150828 sio:SIO_000008 msc-prop:msc_om0150828_isotope .
+msc-prop:msc_om0150828_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150828_IsotopeRole ] .
+
+msc-prop:msc_om0150828_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150828_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.302 ;
+  obo:IAO_0000221 msc-prop:msc_om0150828_isotope .
+
+msc-smp:msc_om0150829 sio:SIO_000008 msc-prop:msc_om0150829_isotope .
+msc-prop:msc_om0150829_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150829_IsotopeRole ] .
+
+msc-prop:msc_om0150829_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150829_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.024 ;
+  obo:IAO_0000221 msc-prop:msc_om0150829_isotope .
+
+msc-smp:msc_om0150830 sio:SIO_000008 msc-prop:msc_om0150830_isotope .
+msc-prop:msc_om0150830_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150830_IsotopeRole ] .
+
+msc-prop:msc_om0150830_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150830_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 7 ;
+  obo:IAO_0000221 msc-prop:msc_om0150830_isotope .
+
+msc-smp:msc_om0150902 sio:SIO_000008 msc-prop:msc_om0150902_isotope .
+msc-prop:msc_om0150902_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150902_IsotopeRole ] .
+
+msc-prop:msc_om0150902_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 95 ] .
+
+msc-prop:msc_om0150902_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.0805 ;
+  obo:IAO_0000221 msc-prop:msc_om0150902_isotope .
+
+msc-smp:msc_om0150937 sio:SIO_000008 msc-prop:msc_om0150937_isotope .
+msc-prop:msc_om0150937_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150937_IsotopeRole ] .
+
+msc-prop:msc_om0150937_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 75 ] .
+
+msc-prop:msc_om0150937_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.74 ;
+  obo:IAO_0000221 msc-prop:msc_om0150937_isotope .
+
+msc-smp:msc_om0150938 sio:SIO_000008 msc-prop:msc_om0150938_isotope .
+msc-prop:msc_om0150938_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150938_IsotopeRole ] .
+
+msc-prop:msc_om0150938_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 85 ] .
+
+msc-prop:msc_om0150938_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.06 ;
+  obo:IAO_0000221 msc-prop:msc_om0150938_isotope .
+
+msc-smp:msc_om0150939 sio:SIO_000008 msc-prop:msc_om0150939_isotope .
+msc-prop:msc_om0150939_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150939_IsotopeRole ] .
+
+msc-prop:msc_om0150939_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0150939_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.3 ;
+  obo:IAO_0000221 msc-prop:msc_om0150939_isotope .
+
+msc-smp:msc_om0150940 sio:SIO_000008 msc-prop:msc_om0150940_isotope .
+msc-prop:msc_om0150940_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150940_IsotopeRole ] .
+
+msc-prop:msc_om0150940_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0150940_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.53 ;
+  obo:IAO_0000221 msc-prop:msc_om0150940_isotope .
+
+msc-smp:msc_om0150941 sio:SIO_000008 msc-prop:msc_om0150941_isotope .
+msc-prop:msc_om0150941_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150941_IsotopeRole ] .
+
+msc-prop:msc_om0150941_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 91 ] .
+
+msc-prop:msc_om0150941_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.62 ;
+  obo:IAO_0000221 msc-prop:msc_om0150941_isotope .
+
+msc-smp:msc_om0150944 sio:SIO_000008 msc-prop:msc_om0150944_isotope .
+msc-prop:msc_om0150944_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150944_IsotopeRole ] .
+
+msc-prop:msc_om0150944_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 86 ] .
+
+msc-prop:msc_om0150944_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.21 ;
+  obo:IAO_0000221 msc-prop:msc_om0150944_isotope .
+
+msc-smp:msc_om0150945 sio:SIO_000008 msc-prop:msc_om0150945_isotope .
+msc-prop:msc_om0150945_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150945_IsotopeRole ] .
+
+msc-prop:msc_om0150945_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0150945_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.11 ;
+  obo:IAO_0000221 msc-prop:msc_om0150945_isotope .
+
+msc-smp:msc_om0150947 sio:SIO_000008 msc-prop:msc_om0150947_isotope .
+msc-prop:msc_om0150947_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150947_IsotopeRole ] .
+
+msc-prop:msc_om0150947_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0150947_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.78 ;
+  obo:IAO_0000221 msc-prop:msc_om0150947_isotope .
+
+msc-smp:msc_om0150948 sio:SIO_000008 msc-prop:msc_om0150948_isotope .
+msc-prop:msc_om0150948_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150948_IsotopeRole ] .
+
+msc-prop:msc_om0150948_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 87 ] .
+
+msc-prop:msc_om0150948_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.85 ;
+  obo:IAO_0000221 msc-prop:msc_om0150948_isotope .
+
+msc-smp:msc_om0150949 sio:SIO_000008 msc-prop:msc_om0150949_isotope .
+msc-prop:msc_om0150949_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150949_IsotopeRole ] .
+
+msc-prop:msc_om0150949_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 89 ] .
+
+msc-prop:msc_om0150949_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.57 ;
+  obo:IAO_0000221 msc-prop:msc_om0150949_isotope .
+
+msc-smp:msc_om0150950 sio:SIO_000008 msc-prop:msc_om0150950_isotope .
+msc-prop:msc_om0150950_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150950_IsotopeRole ] .
+
+msc-prop:msc_om0150950_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0150950_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.15 ;
+  obo:IAO_0000221 msc-prop:msc_om0150950_isotope .
+
+msc-smp:msc_om0150951 sio:SIO_000008 msc-prop:msc_om0150951_isotope .
+msc-prop:msc_om0150951_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150951_IsotopeRole ] .
+
+msc-prop:msc_om0150951_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 85 ] .
+
+msc-prop:msc_om0150951_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.05 ;
+  obo:IAO_0000221 msc-prop:msc_om0150951_isotope .
+
+msc-smp:msc_om0150952 sio:SIO_000008 msc-prop:msc_om0150952_isotope .
+msc-prop:msc_om0150952_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150952_IsotopeRole ] .
+
+msc-prop:msc_om0150952_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0150952_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.7 ;
+  obo:IAO_0000221 msc-prop:msc_om0150952_isotope .
+
+msc-smp:msc_om0150953 sio:SIO_000008 msc-prop:msc_om0150953_isotope .
+msc-prop:msc_om0150953_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150953_IsotopeRole ] .
+
+msc-prop:msc_om0150953_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 85 ] .
+
+msc-prop:msc_om0150953_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.19 ;
+  obo:IAO_0000221 msc-prop:msc_om0150953_isotope .
+
+msc-smp:msc_om0150954 sio:SIO_000008 msc-prop:msc_om0150954_isotope .
+msc-prop:msc_om0150954_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150954_IsotopeRole ] .
+
+msc-prop:msc_om0150954_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 92 ] .
+
+msc-prop:msc_om0150954_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.81 ;
+  obo:IAO_0000221 msc-prop:msc_om0150954_isotope .
+
+msc-smp:msc_om0150955 sio:SIO_000008 msc-prop:msc_om0150955_isotope .
+msc-prop:msc_om0150955_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150955_IsotopeRole ] .
+
+msc-prop:msc_om0150955_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 89 ] .
+
+msc-prop:msc_om0150955_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.66 ;
+  obo:IAO_0000221 msc-prop:msc_om0150955_isotope .
+
+msc-smp:msc_om0150956 sio:SIO_000008 msc-prop:msc_om0150956_isotope .
+msc-prop:msc_om0150956_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150956_IsotopeRole ] .
+
+msc-prop:msc_om0150956_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 17 ] .
+
+msc-prop:msc_om0150956_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.5 ;
+  obo:IAO_0000221 msc-prop:msc_om0150956_isotope .
+
+msc-smp:msc_om0150957 sio:SIO_000008 msc-prop:msc_om0150957_isotope .
+msc-prop:msc_om0150957_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150957_IsotopeRole ] .
+
+msc-prop:msc_om0150957_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 49 ] .
+
+msc-prop:msc_om0150957_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.51 ;
+  obo:IAO_0000221 msc-prop:msc_om0150957_isotope .
+
+msc-smp:msc_om0150958 sio:SIO_000008 msc-prop:msc_om0150958_isotope .
+msc-prop:msc_om0150958_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150958_IsotopeRole ] .
+
+msc-prop:msc_om0150958_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 72 ] .
+
+msc-prop:msc_om0150958_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.52 ;
+  obo:IAO_0000221 msc-prop:msc_om0150958_isotope .
+
+msc-smp:msc_om0150959 sio:SIO_000008 msc-prop:msc_om0150959_isotope .
+msc-prop:msc_om0150959_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150959_IsotopeRole ] .
+
+msc-prop:msc_om0150959_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 93 ] .
+
+msc-prop:msc_om0150959_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.55 ;
+  obo:IAO_0000221 msc-prop:msc_om0150959_isotope .
+
+msc-smp:msc_om0150960 sio:SIO_000008 msc-prop:msc_om0150960_isotope .
+msc-prop:msc_om0150960_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150960_IsotopeRole ] .
+
+msc-prop:msc_om0150960_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 89 ] .
+
+msc-prop:msc_om0150960_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.71 ;
+  obo:IAO_0000221 msc-prop:msc_om0150960_isotope .
+
+msc-smp:msc_om0150961 sio:SIO_000008 msc-prop:msc_om0150961_isotope .
+msc-prop:msc_om0150961_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150961_IsotopeRole ] .
+
+msc-prop:msc_om0150961_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 53 ] .
+
+msc-prop:msc_om0150961_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.12 ;
+  obo:IAO_0000221 msc-prop:msc_om0150961_isotope .
+
+msc-smp:msc_om0150962 sio:SIO_000008 msc-prop:msc_om0150962_isotope .
+msc-prop:msc_om0150962_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150962_IsotopeRole ] .
+
+msc-prop:msc_om0150962_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 54 ] .
+
+msc-prop:msc_om0150962_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.14 ;
+  obo:IAO_0000221 msc-prop:msc_om0150962_isotope .
+
+msc-smp:msc_om0150963 sio:SIO_000008 msc-prop:msc_om0150963_isotope .
+msc-prop:msc_om0150963_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150963_IsotopeRole ] .
+
+msc-prop:msc_om0150963_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 53 ] .
+
+msc-prop:msc_om0150963_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.2 ;
+  obo:IAO_0000221 msc-prop:msc_om0150963_isotope .
+
+msc-smp:msc_om0150964 sio:SIO_000008 msc-prop:msc_om0150964_isotope .
+msc-prop:msc_om0150964_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150964_IsotopeRole ] .
+
+msc-prop:msc_om0150964_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 54 ] .
+
+msc-prop:msc_om0150964_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.23 ;
+  obo:IAO_0000221 msc-prop:msc_om0150964_isotope .
+
+msc-smp:msc_om0150965 sio:SIO_000008 msc-prop:msc_om0150965_isotope .
+msc-prop:msc_om0150965_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150965_IsotopeRole ] .
+
+msc-prop:msc_om0150965_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 55 ] .
+
+msc-prop:msc_om0150965_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.27 ;
+  obo:IAO_0000221 msc-prop:msc_om0150965_isotope .
+
+msc-smp:msc_om0150966 sio:SIO_000008 msc-prop:msc_om0150966_isotope .
+msc-prop:msc_om0150966_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150966_IsotopeRole ] .
+
+msc-prop:msc_om0150966_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 52 ] .
+
+msc-prop:msc_om0150966_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.37 ;
+  obo:IAO_0000221 msc-prop:msc_om0150966_isotope .
+
+msc-smp:msc_om0150967 sio:SIO_000008 msc-prop:msc_om0150967_isotope .
+msc-prop:msc_om0150967_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150967_IsotopeRole ] .
+
+msc-prop:msc_om0150967_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 53 ] .
+
+msc-prop:msc_om0150967_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.45 ;
+  obo:IAO_0000221 msc-prop:msc_om0150967_isotope .
+
+msc-smp:msc_om0150968 sio:SIO_000008 msc-prop:msc_om0150968_isotope .
+msc-prop:msc_om0150968_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150968_IsotopeRole ] .
+
+msc-prop:msc_om0150968_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 70 ] .
+
+msc-prop:msc_om0150968_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.16 ;
+  obo:IAO_0000221 msc-prop:msc_om0150968_isotope .
+
+msc-smp:msc_om0150969 sio:SIO_000008 msc-prop:msc_om0150969_isotope .
+msc-prop:msc_om0150969_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150969_IsotopeRole ] .
+
+msc-prop:msc_om0150969_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 70 ] .
+
+msc-prop:msc_om0150969_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.17 ;
+  obo:IAO_0000221 msc-prop:msc_om0150969_isotope .
+
+msc-smp:msc_om0150970 sio:SIO_000008 msc-prop:msc_om0150970_isotope .
+msc-prop:msc_om0150970_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150970_IsotopeRole ] .
+
+msc-prop:msc_om0150970_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 67 ] .
+
+msc-prop:msc_om0150970_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.6 ;
+  obo:IAO_0000221 msc-prop:msc_om0150970_isotope .
+
+msc-smp:msc_om0150971 sio:SIO_000008 msc-prop:msc_om0150971_isotope .
+msc-prop:msc_om0150971_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150971_IsotopeRole ] .
+
+msc-prop:msc_om0150971_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 69 ] .
+
+msc-prop:msc_om0150971_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.66 ;
+  obo:IAO_0000221 msc-prop:msc_om0150971_isotope .
+
+msc-smp:msc_om0150972 sio:SIO_000008 msc-prop:msc_om0150972_isotope .
+msc-prop:msc_om0150972_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150972_IsotopeRole ] .
+
+msc-prop:msc_om0150972_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 55 ] .
+
+msc-prop:msc_om0150972_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.14 ;
+  obo:IAO_0000221 msc-prop:msc_om0150972_isotope .
+
+msc-smp:msc_om0150973 sio:SIO_000008 msc-prop:msc_om0150973_isotope .
+msc-prop:msc_om0150973_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150973_IsotopeRole ] .
+
+msc-prop:msc_om0150973_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 55 ] .
+
+msc-prop:msc_om0150973_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.13 ;
+  obo:IAO_0000221 msc-prop:msc_om0150973_isotope .
+
+msc-smp:msc_om0150974 sio:SIO_000008 msc-prop:msc_om0150974_isotope .
+msc-prop:msc_om0150974_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150974_IsotopeRole ] .
+
+msc-prop:msc_om0150974_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 55 ] .
+
+msc-prop:msc_om0150974_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.15 ;
+  obo:IAO_0000221 msc-prop:msc_om0150974_isotope .
+
+msc-smp:msc_om0150975 sio:SIO_000008 msc-prop:msc_om0150975_isotope .
+msc-prop:msc_om0150975_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150975_IsotopeRole ] .
+
+msc-prop:msc_om0150975_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 55 ] .
+
+msc-prop:msc_om0150975_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.25 ;
+  obo:IAO_0000221 msc-prop:msc_om0150975_isotope .
+
+msc-smp:msc_om0150976 sio:SIO_000008 msc-prop:msc_om0150976_isotope .
+msc-prop:msc_om0150976_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150976_IsotopeRole ] .
+
+msc-prop:msc_om0150976_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150976_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.25 ;
+  obo:IAO_0000221 msc-prop:msc_om0150976_isotope .
+
+msc-smp:msc_om0150977 sio:SIO_000008 msc-prop:msc_om0150977_isotope .
+msc-prop:msc_om0150977_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150977_IsotopeRole ] .
+
+msc-prop:msc_om0150977_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 55 ] .
+
+msc-prop:msc_om0150977_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.37 ;
+  obo:IAO_0000221 msc-prop:msc_om0150977_isotope .
+
+msc-smp:msc_om0150978 sio:SIO_000008 msc-prop:msc_om0150978_isotope .
+msc-prop:msc_om0150978_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150978_IsotopeRole ] .
+
+msc-prop:msc_om0150978_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 55 ] .
+
+msc-prop:msc_om0150978_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.34 ;
+  obo:IAO_0000221 msc-prop:msc_om0150978_isotope .
+
+msc-smp:msc_om0150979 sio:SIO_000008 msc-prop:msc_om0150979_isotope .
+msc-prop:msc_om0150979_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150979_IsotopeRole ] .
+
+msc-prop:msc_om0150979_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150979_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.16 ;
+  obo:IAO_0000221 msc-prop:msc_om0150979_isotope .
+
+msc-smp:msc_om0150980 sio:SIO_000008 msc-prop:msc_om0150980_isotope .
+msc-prop:msc_om0150980_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150980_IsotopeRole ] .
+
+msc-prop:msc_om0150980_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150980_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.2 ;
+  obo:IAO_0000221 msc-prop:msc_om0150980_isotope .
+
+msc-smp:msc_om0150981 sio:SIO_000008 msc-prop:msc_om0150981_isotope .
+msc-prop:msc_om0150981_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150981_IsotopeRole ] .
+
+msc-prop:msc_om0150981_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150981_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.26 ;
+  obo:IAO_0000221 msc-prop:msc_om0150981_isotope .
+
+msc-smp:msc_om0150982 sio:SIO_000008 msc-prop:msc_om0150982_isotope .
+msc-prop:msc_om0150982_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150982_IsotopeRole ] .
+
+msc-prop:msc_om0150982_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150982_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.44 ;
+  obo:IAO_0000221 msc-prop:msc_om0150982_isotope .
+
+msc-smp:msc_om0150983 sio:SIO_000008 msc-prop:msc_om0150983_isotope .
+msc-prop:msc_om0150983_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150983_IsotopeRole ] .
+
+msc-prop:msc_om0150983_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150983_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.68 ;
+  obo:IAO_0000221 msc-prop:msc_om0150983_isotope .
+
+msc-smp:msc_om0150984 sio:SIO_000008 msc-prop:msc_om0150984_isotope .
+msc-prop:msc_om0150984_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150984_IsotopeRole ] .
+
+msc-prop:msc_om0150984_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150984_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.15 ;
+  obo:IAO_0000221 msc-prop:msc_om0150984_isotope .
+
+msc-smp:msc_om0150985 sio:SIO_000008 msc-prop:msc_om0150985_isotope .
+msc-prop:msc_om0150985_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150985_IsotopeRole ] .
+
+msc-prop:msc_om0150985_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150985_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.2 ;
+  obo:IAO_0000221 msc-prop:msc_om0150985_isotope .
+
+msc-smp:msc_om0150986 sio:SIO_000008 msc-prop:msc_om0150986_isotope .
+msc-prop:msc_om0150986_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150986_IsotopeRole ] .
+
+msc-prop:msc_om0150986_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150986_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.27 ;
+  obo:IAO_0000221 msc-prop:msc_om0150986_isotope .
+
+msc-smp:msc_om0150987 sio:SIO_000008 msc-prop:msc_om0150987_isotope .
+msc-prop:msc_om0150987_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150987_IsotopeRole ] .
+
+msc-prop:msc_om0150987_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150987_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.69 ;
+  obo:IAO_0000221 msc-prop:msc_om0150987_isotope .
+
+msc-smp:msc_om0150988 sio:SIO_000008 msc-prop:msc_om0150988_isotope .
+msc-prop:msc_om0150988_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150988_IsotopeRole ] .
+
+msc-prop:msc_om0150988_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150988_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.81 ;
+  obo:IAO_0000221 msc-prop:msc_om0150988_isotope .
+
+msc-smp:msc_om0150989 sio:SIO_000008 msc-prop:msc_om0150989_isotope .
+msc-prop:msc_om0150989_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150989_IsotopeRole ] .
+
+msc-prop:msc_om0150989_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150989_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.97 ;
+  obo:IAO_0000221 msc-prop:msc_om0150989_isotope .
+
+msc-smp:msc_om0150990 sio:SIO_000008 msc-prop:msc_om0150990_isotope .
+msc-prop:msc_om0150990_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150990_IsotopeRole ] .
+
+msc-prop:msc_om0150990_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150990_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.3 ;
+  obo:IAO_0000221 msc-prop:msc_om0150990_isotope .
+
+msc-smp:msc_om0150991 sio:SIO_000008 msc-prop:msc_om0150991_isotope .
+msc-prop:msc_om0150991_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150991_IsotopeRole ] .
+
+msc-prop:msc_om0150991_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 90 ] .
+
+msc-prop:msc_om0150991_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.72 ;
+  obo:IAO_0000221 msc-prop:msc_om0150991_isotope .
+
+msc-smp:msc_om0150992 sio:SIO_000008 msc-prop:msc_om0150992_isotope .
+msc-prop:msc_om0150992_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150992_IsotopeRole ] .
+
+msc-prop:msc_om0150992_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150992_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.15 ;
+  obo:IAO_0000221 msc-prop:msc_om0150992_isotope .
+
+msc-smp:msc_om0150993 sio:SIO_000008 msc-prop:msc_om0150993_isotope .
+msc-prop:msc_om0150993_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150993_IsotopeRole ] .
+
+msc-prop:msc_om0150993_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150993_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.15 ;
+  obo:IAO_0000221 msc-prop:msc_om0150993_isotope .
+
+msc-smp:msc_om0150994 sio:SIO_000008 msc-prop:msc_om0150994_isotope .
+msc-prop:msc_om0150994_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150994_IsotopeRole ] .
+
+msc-prop:msc_om0150994_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150994_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.15 ;
+  obo:IAO_0000221 msc-prop:msc_om0150994_isotope .
+
+msc-smp:msc_om0150995 sio:SIO_000008 msc-prop:msc_om0150995_isotope .
+msc-prop:msc_om0150995_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150995_IsotopeRole ] .
+
+msc-prop:msc_om0150995_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150995_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.22 ;
+  obo:IAO_0000221 msc-prop:msc_om0150995_isotope .
+
+msc-smp:msc_om0150996 sio:SIO_000008 msc-prop:msc_om0150996_isotope .
+msc-prop:msc_om0150996_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150996_IsotopeRole ] .
+
+msc-prop:msc_om0150996_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150996_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.4 ;
+  obo:IAO_0000221 msc-prop:msc_om0150996_isotope .
+
+msc-smp:msc_om0150997 sio:SIO_000008 msc-prop:msc_om0150997_isotope .
+msc-prop:msc_om0150997_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150997_IsotopeRole ] .
+
+msc-prop:msc_om0150997_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150997_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.46 ;
+  obo:IAO_0000221 msc-prop:msc_om0150997_isotope .
+
+msc-smp:msc_om0150998 sio:SIO_000008 msc-prop:msc_om0150998_isotope .
+msc-prop:msc_om0150998_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150998_IsotopeRole ] .
+
+msc-prop:msc_om0150998_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150998_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.07 ;
+  obo:IAO_0000221 msc-prop:msc_om0150998_isotope .
+
+msc-smp:msc_om0150999 sio:SIO_000008 msc-prop:msc_om0150999_isotope .
+msc-prop:msc_om0150999_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0150999_IsotopeRole ] .
+
+msc-prop:msc_om0150999_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0150999_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 1.3 ;
+  obo:IAO_0000221 msc-prop:msc_om0150999_isotope .
+
+msc-smp:msc_om0151010 sio:SIO_000008 msc-prop:msc_om0151010_isotope .
+msc-prop:msc_om0151010_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151010_IsotopeRole ] .
+
+msc-prop:msc_om0151010_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 85 ] .
+
+msc-prop:msc_om0151010_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.05 ;
+  obo:IAO_0000221 msc-prop:msc_om0151010_isotope .
+
+msc-smp:msc_om0151011 sio:SIO_000008 msc-prop:msc_om0151011_isotope .
+msc-prop:msc_om0151011_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0151011_IsotopeRole ] .
+
+msc-prop:msc_om0151011_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 85 ] .
+
+msc-prop:msc_om0151011_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0151011_isotope .
+
+msc-smp:msc_om0151012 sio:SIO_000008 msc-prop:msc_om0151012_isotope .
+msc-prop:msc_om0151012_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151012_IsotopeRole ] .
+
+msc-prop:msc_om0151012_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 100 ] .
+
+msc-prop:msc_om0151012_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.034 ;
+  obo:IAO_0000221 msc-prop:msc_om0151012_isotope .
+
+msc-smp:msc_om0151013 sio:SIO_000008 msc-prop:msc_om0151013_isotope .
+msc-prop:msc_om0151013_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151013_IsotopeRole ] .
+
+msc-prop:msc_om0151013_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 100 ] .
+
+msc-prop:msc_om0151013_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.026 ;
+  obo:IAO_0000221 msc-prop:msc_om0151013_isotope .
+
+msc-smp:msc_om0151014 sio:SIO_000008 msc-prop:msc_om0151014_isotope .
+msc-prop:msc_om0151014_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151014_IsotopeRole ] .
+
+msc-prop:msc_om0151014_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0151014_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.41 ;
+  obo:IAO_0000221 msc-prop:msc_om0151014_isotope .
+
+msc-smp:msc_om0151015 sio:SIO_000008 msc-prop:msc_om0151015_isotope .
+msc-prop:msc_om0151015_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151015_IsotopeRole ] .
+
+msc-prop:msc_om0151015_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 60 ] .
+
+msc-prop:msc_om0151015_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.64 ;
+  obo:IAO_0000221 msc-prop:msc_om0151015_isotope .
+
+msc-smp:msc_om0151016 sio:SIO_000008 msc-prop:msc_om0151016_isotope .
+msc-prop:msc_om0151016_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151016_IsotopeRole ] .
+
+msc-prop:msc_om0151016_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0151016_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.35 ;
+  obo:IAO_0000221 msc-prop:msc_om0151016_isotope .
+
+msc-smp:msc_om0151017 sio:SIO_000008 msc-prop:msc_om0151017_isotope .
+msc-prop:msc_om0151017_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Ba" ;
+    obo:RO_0000087 msc-prop:msc_om0151017_IsotopeRole ] .
+
+msc-prop:msc_om0151017_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0151017_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0151017_isotope .
+
+msc-smp:msc_om0151018 sio:SIO_000008 msc-prop:msc_om0151018_isotope .
+msc-prop:msc_om0151018_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cu" ;
+    obo:RO_0000087 msc-prop:msc_om0151018_IsotopeRole ] .
+
+msc-prop:msc_om0151018_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0151018_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0151018_isotope .
+
+msc-smp:msc_om0151019 sio:SIO_000008 msc-prop:msc_om0151019_isotope .
+msc-prop:msc_om0151019_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Ba" ;
+    obo:RO_0000087 msc-prop:msc_om0151019_IsotopeRole ] .
+
+msc-prop:msc_om0151019_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0151019_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0151019_isotope .
+
+msc-smp:msc_om0151020 sio:SIO_000008 msc-prop:msc_om0151020_isotope .
+msc-prop:msc_om0151020_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0151020_IsotopeRole ] .
+
+msc-prop:msc_om0151020_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 55 ] .
+
+msc-prop:msc_om0151020_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.39 ;
+  obo:IAO_0000221 msc-prop:msc_om0151020_isotope .
+
+msc-smp:msc_om0151021 sio:SIO_000008 msc-prop:msc_om0151021_isotope .
+msc-prop:msc_om0151021_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "C" ;
+    obo:RO_0000087 msc-prop:msc_om0151021_IsotopeRole ] .
+
+msc-prop:msc_om0151021_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 50 ] .
+
+msc-prop:msc_om0151021_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.77 ;
+  obo:IAO_0000221 msc-prop:msc_om0151021_isotope .
+
+msc-smp:msc_om0151037 sio:SIO_000008 msc-prop:msc_om0151037_isotope .
+msc-prop:msc_om0151037_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151037_IsotopeRole ] .
+
+msc-prop:msc_om0151037_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 68 ] .
+
+msc-prop:msc_om0151037_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.22 ;
+  obo:IAO_0000221 msc-prop:msc_om0151037_isotope .
+
+msc-smp:msc_om0151038 sio:SIO_000008 msc-prop:msc_om0151038_isotope .
+msc-prop:msc_om0151038_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151038_IsotopeRole ] .
+
+msc-prop:msc_om0151038_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 75 ] .
+
+msc-prop:msc_om0151038_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.13 ;
+  obo:IAO_0000221 msc-prop:msc_om0151038_isotope .
+
+msc-smp:msc_om0151039 sio:SIO_000008 msc-prop:msc_om0151039_isotope .
+msc-prop:msc_om0151039_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151039_IsotopeRole ] .
+
+msc-prop:msc_om0151039_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 65 ] .
+
+msc-prop:msc_om0151039_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.09 ;
+  obo:IAO_0000221 msc-prop:msc_om0151039_isotope .
+
+msc-smp:msc_om0151040 sio:SIO_000008 msc-prop:msc_om0151040_isotope .
+msc-prop:msc_om0151040_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151040_IsotopeRole ] .
+
+msc-prop:msc_om0151040_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 65 ] .
+
+msc-prop:msc_om0151040_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.11 ;
+  obo:IAO_0000221 msc-prop:msc_om0151040_isotope .
+
+msc-smp:msc_om0151041 sio:SIO_000008 msc-prop:msc_om0151041_isotope .
+msc-prop:msc_om0151041_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151041_IsotopeRole ] .
+
+msc-prop:msc_om0151041_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 65 ] .
+
+msc-prop:msc_om0151041_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.1 ;
+  obo:IAO_0000221 msc-prop:msc_om0151041_isotope .
+
+msc-smp:msc_om0151069 sio:SIO_000008 msc-prop:msc_om0151069_isotope .
+msc-prop:msc_om0151069_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "B" ;
+    obo:RO_0000087 msc-prop:msc_om0151069_IsotopeRole ] .
+
+msc-prop:msc_om0151069_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 80 ] .
+
+msc-prop:msc_om0151069_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.09 ;
+  obo:IAO_0000221 msc-prop:msc_om0151069_isotope .
+
+msc-smp:msc_om0151699 sio:SIO_000008 msc-prop:msc_om0151699_isotope .
+msc-prop:msc_om0151699_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151699_IsotopeRole ] .
+
+msc-prop:msc_om0151699_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0151699_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.214 ;
+  obo:IAO_0000221 msc-prop:msc_om0151699_isotope .
+
+msc-smp:msc_om0151700 sio:SIO_000008 msc-prop:msc_om0151700_isotope .
+msc-prop:msc_om0151700_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151700_IsotopeRole ] .
+
+msc-prop:msc_om0151700_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0151700_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.206 ;
+  obo:IAO_0000221 msc-prop:msc_om0151700_isotope .
+
+msc-smp:msc_om0151701 sio:SIO_000008 msc-prop:msc_om0151701_isotope .
+msc-prop:msc_om0151701_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151701_IsotopeRole ] .
+
+msc-prop:msc_om0151701_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0151701_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.38 ;
+  obo:IAO_0000221 msc-prop:msc_om0151701_isotope .
+
+msc-smp:msc_om0151702 sio:SIO_000008 msc-prop:msc_om0151702_isotope .
+msc-prop:msc_om0151702_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151702_IsotopeRole ] .
+
+msc-prop:msc_om0151702_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0151702_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.68 ;
+  obo:IAO_0000221 msc-prop:msc_om0151702_isotope .
+
+msc-smp:msc_om0151752 sio:SIO_000008 msc-prop:msc_om0151752_isotope .
+msc-prop:msc_om0151752_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Fe" ;
+    obo:RO_0000087 msc-prop:msc_om0151752_IsotopeRole ] .
+
+msc-prop:msc_om0151752_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0151752_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.18 ;
+  obo:IAO_0000221 msc-prop:msc_om0151752_isotope .
+
+msc-smp:msc_om0151754 sio:SIO_000008 msc-prop:msc_om0151754_isotope .
+msc-prop:msc_om0151754_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "O" ;
+    obo:RO_0000087 msc-prop:msc_om0151754_IsotopeRole ] .
+
+msc-prop:msc_om0151754_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 77 ] .
+
+msc-prop:msc_om0151754_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.06 ;
+  obo:IAO_0000221 msc-prop:msc_om0151754_isotope .
+
+msc-smp:msc_om0151755 sio:SIO_000008 msc-prop:msc_om0151755_isotope .
+msc-prop:msc_om0151755_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Fe" ;
+    obo:RO_0000087 msc-prop:msc_om0151755_IsotopeRole ] .
+
+msc-prop:msc_om0151755_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 98 ] .
+
+msc-prop:msc_om0151755_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.34 ;
+  obo:IAO_0000221 msc-prop:msc_om0151755_isotope .
+
+msc-smp:msc_om0151757 sio:SIO_000008 msc-prop:msc_om0151757_isotope .
+msc-prop:msc_om0151757_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Fe" ;
+    obo:RO_0000087 msc-prop:msc_om0151757_IsotopeRole ] .
+
+msc-prop:msc_om0151757_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 91 ] .
+
+msc-prop:msc_om0151757_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.37 ;
+  obo:IAO_0000221 msc-prop:msc_om0151757_isotope .
+
+msc-smp:msc_om0152390 sio:SIO_000008 msc-prop:msc_om0152390_isotope .
+msc-prop:msc_om0152390_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Fe" ;
+    obo:RO_0000087 msc-prop:msc_om0152390_IsotopeRole ] .
+
+msc-prop:msc_om0152390_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0152390_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.18 ;
+  obo:IAO_0000221 msc-prop:msc_om0152390_isotope .
+
+msc-smp:msc_om0152391 sio:SIO_000008 msc-prop:msc_om0152391_isotope .
+msc-prop:msc_om0152391_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Fe" ;
+    obo:RO_0000087 msc-prop:msc_om0152391_IsotopeRole ] .
+
+msc-prop:msc_om0152391_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ] .
+
+msc-prop:msc_om0152391_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.02 ;
+  obo:IAO_0000221 msc-prop:msc_om0152391_isotope .
+
+msc-smp:msc_om0152512 sio:SIO_000008 msc-prop:msc_om0152512_isotope .
+msc-prop:msc_om0152512_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Fe" ;
+    obo:RO_0000087 msc-prop:msc_om0152512_IsotopeRole ] .
+
+msc-prop:msc_om0152512_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 100 ] .
+
+msc-prop:msc_om0152512_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.81 ;
+  obo:IAO_0000221 msc-prop:msc_om0152512_isotope .
+
+msc-smp:msc_om0152513 sio:SIO_000008 msc-prop:msc_om0152513_isotope .
+msc-prop:msc_om0152513_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Fe" ;
+    obo:RO_0000087 msc-prop:msc_om0152513_IsotopeRole ] .
+
+msc-prop:msc_om0152513_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 43 ] .
+
+msc-prop:msc_om0152513_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 -0.02 ;
+  obo:IAO_0000221 msc-prop:msc_om0152513_isotope .
+
+msc-smp:msc_om0157730 sio:SIO_000008 msc-prop:msc_om0157730_isotope .
+msc-prop:msc_om0157730_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Se" ;
+    obo:RO_0000087 msc-prop:msc_om0157730_IsotopeRole ] .
+
+msc-prop:msc_om0157730_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 99.8 ] .
+
+msc-prop:msc_om0157730_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0157730_isotope .
+
+msc-smp:msc_om0157731 sio:SIO_000008 msc-prop:msc_om0157731_isotope .
+msc-prop:msc_om0157731_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Se" ;
+    obo:RO_0000087 msc-prop:msc_om0157731_IsotopeRole ] .
+
+msc-prop:msc_om0157731_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 99.8 ] .
+
+msc-prop:msc_om0157731_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0157731_isotope .
+
+msc-smp:msc_om0157732 sio:SIO_000008 msc-prop:msc_om0157732_isotope .
+msc-prop:msc_om0157732_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Se" ;
+    obo:RO_0000087 msc-prop:msc_om0157732_IsotopeRole ] .
+
+msc-prop:msc_om0157732_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 99.91 ] .
+
+msc-prop:msc_om0157732_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0157732_isotope .
+
+msc-smp:msc_om0157733 sio:SIO_000008 msc-prop:msc_om0157733_isotope .
+msc-prop:msc_om0157733_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Se" ;
+    obo:RO_0000087 msc-prop:msc_om0157733_IsotopeRole ] .
+
+msc-prop:msc_om0157733_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 99.91 ] .
+
+msc-prop:msc_om0157733_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0 ;
+  obo:IAO_0000221 msc-prop:msc_om0157733_isotope .
+
+msc-smp:msc_om0157929 sio:SIO_000008 msc-prop:msc_om0157929_isotope .
+msc-prop:msc_om0157929_isotope a msc:isotope ;
+  msc:dependsOn [ a msc:isoel ;
+    sio:SIO_000300 "Cd" ;
+    obo:RO_0000087 msc-prop:msc_om0157929_IsotopeRole ] .
+
+msc-prop:msc_om0157929_IsotopeRole a msc:IsotopeRole ;
+  sio:SIO_000008 [ a msc:isorat ;
+    sio:SIO_000300 88.7 ] .
+
+msc-prop:msc_om0157929_isotopeMeasurementDatum a obo:IAO_0000109 ;
+  sio:SIO_000300 0.04 ;
+  obo:IAO_0000221 msc-prop:msc_om0157929_isotope .
+

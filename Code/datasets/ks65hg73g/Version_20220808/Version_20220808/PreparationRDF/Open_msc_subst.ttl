@@ -1,0 +1,82 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[ a msc:subst ;
+  rdfs:comment "YSZ"@en ]
+  obo:RO_0000087 msc-prc:msc_om0008282_substRole .
+msc-prc:msc_om0008282_substRole a msc:substRole .
+
+[ a msc:subst ;
+  rdfs:comment "MgO(100)"@en ]
+  obo:RO_0000087 msc-prc:msc_om0008408_substRole .
+msc-prc:msc_om0008408_substRole a msc:substRole .
+
+[ a msc:subst ;
+  rdfs:comment "MgO"@en ]
+  obo:RO_0000087 msc-prc:msc_om0018894_substRole .
+msc-prc:msc_om0018894_substRole a msc:substRole .
+
+[ a msc:subst ;
+  rdfs:comment "MgO(100)"@en ]
+  obo:RO_0000087 msc-prc:msc_om0030523_substRole .
+msc-prc:msc_om0030523_substRole a msc:substRole .
+
+[ a msc:subst ;
+  rdfs:comment "SrTiO3"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158874_substRole .
+msc-prc:msc_om0158874_substRole a msc:substRole .
+
+[ a msc:subst ;
+  rdfs:comment "Nb"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158876_substRole .
+msc-prc:msc_om0158876_substRole a msc:substRole .
+
+[ a msc:subst ;
+  rdfs:comment "MgAl2O4"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158884_substRole .
+msc-prc:msc_om0158884_substRole a msc:substRole .
+
+[ a msc:subst ;
+  rdfs:comment "Al2O3"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158886_substRole .
+msc-prc:msc_om0158886_substRole a msc:substRole .
+
+[ a msc:subst ;
+  rdfs:comment "MgAl2O4"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158887_substRole .
+msc-prc:msc_om0158887_substRole a msc:substRole .
+
+[ a msc:subst ;
+  rdfs:comment "Mo foil"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158952_substRole .
+msc-prc:msc_om0158952_substRole a msc:substRole .
+
+[ a msc:subst ;
+  rdfs:comment "SrTiO3"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158969_substRole .
+msc-prc:msc_om0158969_substRole a msc:substRole .
+
+[ a msc:subst ;
+  rdfs:comment "SrTiO3"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158970_substRole .
+msc-prc:msc_om0158970_substRole a msc:substRole .
+
+[ a msc:subst ;
+  rdfs:comment "Al2O3"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158974_substRole .
+msc-prc:msc_om0158974_substRole a msc:substRole .
+

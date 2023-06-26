@@ -1,0 +1,270 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msc-smp:msc_om0001857 sio:SIO_000008 msc-prop:msc_om0001857_dadp .
+msc-prop:msc_om0001857_dadp a msc:dadp .
+
+msc-prop:msc_om0001857_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0001857_dadpMeasurementDatum .
+
+msc-prop:msc_om0001857_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0001857_dadp ;
+  sio:SIO_000300 -0.002 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002011 sio:SIO_000008 msc-prop:msc_om0002011_dadp .
+msc-prop:msc_om0002011_dadp a msc:dadp .
+
+msc-prop:msc_om0002011_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0002011_dadpMeasurementDatum .
+
+msc-prop:msc_om0002011_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002011_dadp ;
+  sio:SIO_000300 0.003 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002075 sio:SIO_000008 msc-prop:msc_om0002075_dadp .
+msc-prop:msc_om0002075_dadp a msc:dadp .
+
+msc-prop:msc_om0002075_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0002075_dadpMeasurementDatum .
+
+msc-prop:msc_om0002075_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002075_dadp ;
+  sio:SIO_000300 -0.003 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002076 sio:SIO_000008 msc-prop:msc_om0002076_dadp .
+msc-prop:msc_om0002076_dadp a msc:dadp .
+
+msc-prop:msc_om0002076_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0002076_dadpMeasurementDatum .
+
+msc-prop:msc_om0002076_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002076_dadp ;
+  sio:SIO_000300 -0.004 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0004286 sio:SIO_000008 msc-prop:msc_om0004286_dadp .
+msc-prop:msc_om0004286_dadp a msc:dadp .
+
+msc-prop:msc_om0004286_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0004286_dadpMeasurementDatum .
+
+msc-prop:msc_om0004286_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0004286_dadp ;
+  sio:SIO_000300 0.002 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0004287 sio:SIO_000008 msc-prop:msc_om0004287_dadp .
+msc-prop:msc_om0004287_dadp a msc:dadp .
+
+msc-prop:msc_om0004287_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0004287_dadpMeasurementDatum .
+
+msc-prop:msc_om0004287_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0004287_dadp ;
+  sio:SIO_000300 0.002 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0004571 sio:SIO_000008 msc-prop:msc_om0004571_dadp .
+msc-prop:msc_om0004571_dadp a msc:dadp .
+
+msc-prop:msc_om0004571_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0004571_dadpMeasurementDatum .
+
+msc-prop:msc_om0004571_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0004571_dadp ;
+  sio:SIO_000300 4.26 ;
+  sio:SIO_000221 "A/GPa"^^xsd:string .
+
+msc-smp:msc_om0004572 sio:SIO_000008 msc-prop:msc_om0004572_dadp .
+msc-prop:msc_om0004572_dadp a msc:dadp .
+
+msc-prop:msc_om0004572_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0004572_dadpMeasurementDatum .
+
+msc-prop:msc_om0004572_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0004572_dadp ;
+  sio:SIO_000300 2.94 ;
+  sio:SIO_000221 "A/GPa"^^xsd:string .
+
+msc-smp:msc_om0004573 sio:SIO_000008 msc-prop:msc_om0004573_dadp .
+msc-prop:msc_om0004573_dadp a msc:dadp .
+
+msc-prop:msc_om0004573_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0004573_dadpMeasurementDatum .
+
+msc-prop:msc_om0004573_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0004573_dadp ;
+  sio:SIO_000300 2.57 ;
+  sio:SIO_000221 "A/GPa"^^xsd:string .
+
+msc-smp:msc_om0004775 sio:SIO_000008 msc-prop:msc_om0004775_dadp .
+msc-prop:msc_om0004775_dadp a msc:dadp .
+
+msc-prop:msc_om0004775_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0004775_dadpMeasurementDatum .
+
+msc-prop:msc_om0004775_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0004775_dadp ;
+  sio:SIO_000300 -0.004 ;
+  sio:SIO_000221 "/GPa"^^xsd:string .
+
+msc-smp:msc_om0012122 sio:SIO_000008 msc-prop:msc_om0012122_dadp .
+msc-prop:msc_om0012122_dadp a msc:dadp .
+
+msc-prop:msc_om0012122_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0012122_dadpMeasurementDatum .
+
+msc-prop:msc_om0012122_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0012122_dadp ;
+  sio:SIO_000300 -0.011 ;
+  sio:SIO_000221 "A/GPa"^^xsd:string .
+
+msc-smp:msc_om0024015 sio:SIO_000008 msc-prop:msc_om0024015_dadp .
+msc-prop:msc_om0024015_dadp a msc:dadp .
+
+msc-prop:msc_om0024015_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0024015_dadpMeasurementDatum .
+
+msc-prop:msc_om0024015_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0024015_dadp ;
+  sio:SIO_000300 0.08 ;
+  sio:SIO_000221 "%/GPa"^^xsd:string .
+
+msc-smp:msc_om0033193 sio:SIO_000008 msc-prop:msc_om0033193_dadp .
+msc-prop:msc_om0033193_dadp a msc:dadp .
+
+msc-prop:msc_om0033193_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0033193_dadpMeasurementDatum .
+
+msc-prop:msc_om0033193_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033193_dadp ;
+  sio:SIO_000300 2.4 ;
+  sio:SIO_000221 "E-3 /GPa"^^xsd:string .
+
+msc-smp:msc_om0033194 sio:SIO_000008 msc-prop:msc_om0033194_dadp .
+msc-prop:msc_om0033194_dadp a msc:dadp .
+
+msc-prop:msc_om0033194_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0033194_dadpMeasurementDatum .
+
+msc-prop:msc_om0033194_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033194_dadp ;
+  sio:SIO_000300 4.8 ;
+  sio:SIO_000221 "E-3 /GPa"^^xsd:string .
+
+msc-smp:msc_om0033195 sio:SIO_000008 msc-prop:msc_om0033195_dadp .
+msc-prop:msc_om0033195_dadp a msc:dadp .
+
+msc-prop:msc_om0033195_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0033195_dadpMeasurementDatum .
+
+msc-prop:msc_om0033195_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033195_dadp ;
+  sio:SIO_000300 1.3 ;
+  sio:SIO_000221 "E-3 /GPa"^^xsd:string .
+
+msc-smp:msc_om0033196 sio:SIO_000008 msc-prop:msc_om0033196_dadp .
+msc-prop:msc_om0033196_dadp a msc:dadp .
+
+msc-prop:msc_om0033196_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0033196_dadpMeasurementDatum .
+
+msc-prop:msc_om0033196_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033196_dadp ;
+  sio:SIO_000300 4.7 ;
+  sio:SIO_000221 "E-3 /GPa"^^xsd:string .
+
+msc-smp:msc_om0033197 sio:SIO_000008 msc-prop:msc_om0033197_dadp .
+msc-prop:msc_om0033197_dadp a msc:dadp .
+
+msc-prop:msc_om0033197_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0033197_dadpMeasurementDatum .
+
+msc-prop:msc_om0033197_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033197_dadp ;
+  sio:SIO_000300 4.7 ;
+  sio:SIO_000221 "E-3 /GPa"^^xsd:string .
+
+msc-smp:msc_om0033198 sio:SIO_000008 msc-prop:msc_om0033198_dadp .
+msc-prop:msc_om0033198_dadp a msc:dadp .
+
+msc-prop:msc_om0033198_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0033198_dadpMeasurementDatum .
+
+msc-prop:msc_om0033198_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033198_dadp ;
+  sio:SIO_000300 4.3 ;
+  sio:SIO_000221 "E-3 /GPa"^^xsd:string .
+
+msc-smp:msc_om0150863 sio:SIO_000008 msc-prop:msc_om0150863_dadp .
+msc-prop:msc_om0150863_dadp a msc:dadp .
+
+msc-prop:msc_om0150863_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0150863_dadpMeasurementDatum .
+
+msc-prop:msc_om0150863_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150863_dadp ;
+  sio:SIO_000300 -0.0038 ;
+  sio:SIO_000221 "A/GPa"^^xsd:string .
+
+msc-smp:msc_om0151131 sio:SIO_000008 msc-prop:msc_om0151131_dadp .
+msc-prop:msc_om0151131_dadp a msc:dadp .
+
+msc-prop:msc_om0151131_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151131_dadpMeasurementDatum .
+
+msc-prop:msc_om0151131_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151131_dadp ;
+  sio:SIO_000300 0.00274 ;
+  sio:SIO_000221 "(GPa)^(-1)"^^xsd:string .
+
+msc-smp:msc_om0157800 sio:SIO_000008 msc-prop:msc_om0157800_dadp .
+msc-prop:msc_om0157800_dadp a msc:dadp .
+
+msc-prop:msc_om0157800_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0157800_dadpMeasurementDatum .
+
+msc-prop:msc_om0157800_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157800_dadp ;
+  sio:SIO_000300 0.0033 ;
+  sio:SIO_000221 "k0/GPa"^^xsd:string .
+
+msc-smp:msc_om0157801 sio:SIO_000008 msc-prop:msc_om0157801_dadp .
+msc-prop:msc_om0157801_dadp a msc:dadp .
+
+msc-prop:msc_om0157801_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0157801_dadpMeasurementDatum .
+
+msc-prop:msc_om0157801_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157801_dadp ;
+  sio:SIO_000300 0.0029 ;
+  sio:SIO_000221 "k0/GPa"^^xsd:string .
+
+msc-smp:msc_om0158635 sio:SIO_000008 msc-prop:msc_om0158635_dadp .
+msc-prop:msc_om0158635_dadp a msc:dadp .
+
+msc-prop:msc_om0158635_dadpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0158635_dadpMeasurementDatum .
+
+msc-prop:msc_om0158635_dadpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158635_dadp ;
+  sio:SIO_000300 0.00552 ;
+  sio:SIO_000221 "(dL/L)/GPa"^^xsd:string .
+

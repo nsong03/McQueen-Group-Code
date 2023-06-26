@@ -1,0 +1,142 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[ a msc:target ;
+  rdfs:comment "Tl1.8Bi0.22Sr1.6Ba0.4Ca2.2Cu3.3O10.5"@en ]
+  obo:RO_0000087 msc-prc:msc_om0008282_targetRole .
+msc-prc:msc_om0008282_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "composite 1:2:3"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010014_targetRole .
+msc-prc:msc_om0010014_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "composite 1:2:3"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010015_targetRole .
+msc-prc:msc_om0010015_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "composite 1:2:3"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010016_targetRole .
+msc-prc:msc_om0010016_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "composite 1:2:3"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010017_targetRole .
+msc-prc:msc_om0010017_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Pressed and fired PrCaBaCuO"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010069_targetRole .
+msc-prc:msc_om0010069_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Pressed and fired PrCaBaCuO"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010070_targetRole .
+msc-prc:msc_om0010070_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Pressed and fired PrCaBaCuO"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010071_targetRole .
+msc-prc:msc_om0010071_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Pressed and fired PrCaBaCuO"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010072_targetRole .
+msc-prc:msc_om0010072_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Stoichiometric YBCO (99.999% pure)."@en ]
+  obo:RO_0000087 msc-prc:msc_om0010152_targetRole .
+msc-prc:msc_om0010152_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Bi2.05Sr2.00Ca1.00(Cu0.995Zn0.005)2O8+y"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010189_targetRole .
+msc-prc:msc_om0010189_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "stoichiometric YBCO"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010320_targetRole .
+msc-prc:msc_om0010320_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Bi2212 composition"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010321_targetRole .
+msc-prc:msc_om0010321_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Y:Ba:Cu = 1.05:2.00:3.85"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010411_targetRole .
+msc-prc:msc_om0010411_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Y:Ba:Cu = 1.05:2.00:3.85"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010412_targetRole .
+msc-prc:msc_om0010412_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Y:Ba:Cu = 1.05:2.00:3.85"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010413_targetRole .
+msc-prc:msc_om0010413_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Y:Ba:Cu = 1.05:2.00:3.85"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010414_targetRole .
+msc-prc:msc_om0010414_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Y:Ba:Cu = 1.05:2.00:3.85"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010415_targetRole .
+msc-prc:msc_om0010415_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Y:Ba:Cu = 1.05:2.00:3.85"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010416_targetRole .
+msc-prc:msc_om0010416_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Y:Ba:Cu = 1.05:2.00:3.85"@en ]
+  obo:RO_0000087 msc-prc:msc_om0010417_targetRole .
+msc-prc:msc_om0010417_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Li3NbO4"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158884_targetRole .
+msc-prc:msc_om0158884_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "LiTi2O4"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158886_targetRole .
+msc-prc:msc_om0158886_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Li4Ti5O12"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158887_targetRole .
+msc-prc:msc_om0158887_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Cu/Nb foil"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158920_targetRole .
+msc-prc:msc_om0158920_targetRole a msc:targetRole .
+
+[ a msc:target ;
+  rdfs:comment "Nb, Se"@en ]
+  obo:RO_0000087 msc-prc:msc_om0158974_targetRole .
+msc-prc:msc_om0158974_targetRole a msc:targetRole .
+

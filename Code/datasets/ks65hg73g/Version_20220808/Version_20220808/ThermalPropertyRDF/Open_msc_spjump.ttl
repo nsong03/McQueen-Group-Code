@@ -1,0 +1,1436 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix msc: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix msc-cmp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/cmp#> .
+@prefix msc-elm: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/elm#> .
+@prefix msc-prc: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prc#> .
+@prefix msc-prop: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/prop#> .
+@prefix msc-ref: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/ref#> .
+@prefix msc-smp: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/smp#> .
+@prefix msc-str: <http://dice.nims.go.jp/ontology/SuperCon-ont/supercon-rdf/str#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix prism: <http://prismstandard.org/namespaces/basic/2.0/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+msc-smp:msc_om0000519 sio:SIO_000008 msc-prop:msc_om0000519_spjump .
+msc-prop:msc_om0000519_spjump a msc:spjump .
+
+msc-prop:msc_om0000519_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0000519_spjumpMeasurementDatum .
+
+msc-prop:msc_om0000519_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0000519_spjump ;
+  sio:SIO_000300 3.036 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0000520 sio:SIO_000008 msc-prop:msc_om0000520_spjump .
+msc-prop:msc_om0000520_spjump a msc:spjump .
+
+msc-prop:msc_om0000520_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0000520_spjumpMeasurementDatum .
+
+msc-prop:msc_om0000520_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0000520_spjump ;
+  sio:SIO_000300 6.417 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0000521 sio:SIO_000008 msc-prop:msc_om0000521_spjump .
+msc-prop:msc_om0000521_spjump a msc:spjump .
+
+msc-prop:msc_om0000521_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0000521_spjumpMeasurementDatum .
+
+msc-prop:msc_om0000521_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0000521_spjump ;
+  sio:SIO_000300 4.129 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0000696 sio:SIO_000008 msc-prop:msc_om0000696_spjump .
+msc-prop:msc_om0000696_spjump a msc:spjump .
+
+msc-prop:msc_om0000696_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0000696_spjumpMeasurementDatum .
+
+msc-prop:msc_om0000696_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0000696_spjump ;
+  sio:SIO_000300 5.3 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0000703 sio:SIO_000008 msc-prop:msc_om0000703_spjump .
+msc-prop:msc_om0000703_spjump a msc:spjump .
+
+msc-prop:msc_om0000703_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0000703_spjumpMeasurementDatum .
+
+msc-prop:msc_om0000703_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0000703_spjump ;
+  sio:SIO_000300 27.09 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0001554 sio:SIO_000008 msc-prop:msc_om0001554_spjump .
+msc-prop:msc_om0001554_spjump a msc:spjump .
+
+msc-prop:msc_om0001554_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0001554_spjumpMeasurementDatum .
+
+msc-prop:msc_om0001554_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0001554_spjump ;
+  sio:SIO_000300 11 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0001654 sio:SIO_000008 msc-prop:msc_om0001654_spjump .
+msc-prop:msc_om0001654_spjump a msc:spjump .
+
+msc-prop:msc_om0001654_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0001654_spjumpMeasurementDatum .
+
+msc-prop:msc_om0001654_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0001654_spjump ;
+  sio:SIO_000300 27 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0001655 sio:SIO_000008 msc-prop:msc_om0001655_spjump .
+msc-prop:msc_om0001655_spjump a msc:spjump .
+
+msc-prop:msc_om0001655_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0001655_spjumpMeasurementDatum .
+
+msc-prop:msc_om0001655_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0001655_spjump ;
+  sio:SIO_000300 43 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0001734 sio:SIO_000008 msc-prop:msc_om0001734_spjump .
+msc-prop:msc_om0001734_spjump a msc:spjump .
+
+msc-prop:msc_om0001734_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0001734_spjumpMeasurementDatum .
+
+msc-prop:msc_om0001734_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0001734_spjump ;
+  sio:SIO_000300 5.3 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002779 sio:SIO_000008 msc-prop:msc_om0002779_spjump .
+msc-prop:msc_om0002779_spjump a msc:spjump .
+
+msc-prop:msc_om0002779_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0002779_spjumpMeasurementDatum .
+
+msc-prop:msc_om0002779_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002779_spjump ;
+  sio:SIO_000300 16 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002780 sio:SIO_000008 msc-prop:msc_om0002780_spjump .
+msc-prop:msc_om0002780_spjump a msc:spjump .
+
+msc-prop:msc_om0002780_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0002780_spjumpMeasurementDatum .
+
+msc-prop:msc_om0002780_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002780_spjump ;
+  sio:SIO_000300 15 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002781 sio:SIO_000008 msc-prop:msc_om0002781_spjump .
+msc-prop:msc_om0002781_spjump a msc:spjump .
+
+msc-prop:msc_om0002781_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0002781_spjumpMeasurementDatum .
+
+msc-prop:msc_om0002781_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002781_spjump ;
+  sio:SIO_000300 45 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0002921 sio:SIO_000008 msc-prop:msc_om0002921_spjump .
+msc-prop:msc_om0002921_spjump a msc:spjump .
+
+msc-prop:msc_om0002921_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0002921_spjumpMeasurementDatum .
+
+msc-prop:msc_om0002921_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0002921_spjump ;
+  sio:SIO_000300 2.75 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0003875 sio:SIO_000008 msc-prop:msc_om0003875_spjump .
+msc-prop:msc_om0003875_spjump a msc:spjump .
+
+msc-prop:msc_om0003875_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0003875_spjumpMeasurementDatum .
+
+msc-prop:msc_om0003875_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0003875_spjump ;
+  sio:SIO_000300 3.7 ;
+  sio:SIO_000221 "J/MOLE.K"^^xsd:string .
+
+msc-smp:msc_om0003880 sio:SIO_000008 msc-prop:msc_om0003880_spjump .
+msc-prop:msc_om0003880_spjump a msc:spjump .
+
+msc-prop:msc_om0003880_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0003880_spjumpMeasurementDatum .
+
+msc-prop:msc_om0003880_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0003880_spjump ;
+  sio:SIO_000300 301 ;
+  sio:SIO_000221 "MJ/GAT.K"^^xsd:string .
+
+msc-smp:msc_om0003889 sio:SIO_000008 msc-prop:msc_om0003889_spjump .
+msc-prop:msc_om0003889_spjump a msc:spjump .
+
+msc-prop:msc_om0003889_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0003889_spjumpMeasurementDatum .
+
+msc-prop:msc_om0003889_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0003889_spjump ;
+  sio:SIO_000300 6 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0003923 sio:SIO_000008 msc-prop:msc_om0003923_spjump .
+msc-prop:msc_om0003923_spjump a msc:spjump .
+
+msc-prop:msc_om0003923_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0003923_spjumpMeasurementDatum .
+
+msc-prop:msc_om0003923_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0003923_spjump ;
+  sio:SIO_000300 37.75 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0004088 sio:SIO_000008 msc-prop:msc_om0004088_spjump .
+msc-prop:msc_om0004088_spjump a msc:spjump .
+
+msc-prop:msc_om0004088_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0004088_spjumpMeasurementDatum .
+
+msc-prop:msc_om0004088_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0004088_spjump ;
+  sio:SIO_000300 1.6 ;
+  sio:SIO_000221 "J/MOLE.K"^^xsd:string .
+
+msc-smp:msc_om0004089 sio:SIO_000008 msc-prop:msc_om0004089_spjump .
+msc-prop:msc_om0004089_spjump a msc:spjump .
+
+msc-prop:msc_om0004089_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0004089_spjumpMeasurementDatum .
+
+msc-prop:msc_om0004089_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0004089_spjump ;
+  sio:SIO_000300 1.83 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0006807 sio:SIO_000008 msc-prop:msc_om0006807_spjump .
+msc-prop:msc_om0006807_spjump a msc:spjump .
+
+msc-prop:msc_om0006807_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0006807_spjumpMeasurementDatum .
+
+msc-prop:msc_om0006807_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0006807_spjump ;
+  sio:SIO_000300 4.4 ;
+  sio:SIO_000221 "mJ/mole.K"^^xsd:string .
+
+msc-smp:msc_om0006808 sio:SIO_000008 msc-prop:msc_om0006808_spjump .
+msc-prop:msc_om0006808_spjump a msc:spjump .
+
+msc-prop:msc_om0006808_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0006808_spjumpMeasurementDatum .
+
+msc-prop:msc_om0006808_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0006808_spjump ;
+  sio:SIO_000300 3.2 ;
+  sio:SIO_000221 "mJ/mole.K"^^xsd:string .
+
+msc-smp:msc_om0006809 sio:SIO_000008 msc-prop:msc_om0006809_spjump .
+msc-prop:msc_om0006809_spjump a msc:spjump .
+
+msc-prop:msc_om0006809_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0006809_spjumpMeasurementDatum .
+
+msc-prop:msc_om0006809_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0006809_spjump ;
+  sio:SIO_000300 3.6 ;
+  sio:SIO_000221 "mJ/mole.K"^^xsd:string .
+
+msc-smp:msc_om0009005 sio:SIO_000008 msc-prop:msc_om0009005_spjump .
+msc-prop:msc_om0009005_spjump a msc:spjump .
+
+msc-prop:msc_om0009005_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0009005_spjumpMeasurementDatum .
+
+msc-prop:msc_om0009005_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009005_spjump ;
+  sio:SIO_000300 18.8 ;
+  sio:SIO_000221 "mj/mol.K"^^xsd:string .
+
+msc-smp:msc_om0009006 sio:SIO_000008 msc-prop:msc_om0009006_spjump .
+msc-prop:msc_om0009006_spjump a msc:spjump .
+
+msc-prop:msc_om0009006_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0009006_spjumpMeasurementDatum .
+
+msc-prop:msc_om0009006_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009006_spjump ;
+  sio:SIO_000300 30 ;
+  sio:SIO_000221 "mj/mol.K"^^xsd:string .
+
+msc-smp:msc_om0009007 sio:SIO_000008 msc-prop:msc_om0009007_spjump .
+msc-prop:msc_om0009007_spjump a msc:spjump .
+
+msc-prop:msc_om0009007_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0009007_spjumpMeasurementDatum .
+
+msc-prop:msc_om0009007_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009007_spjump ;
+  sio:SIO_000300 23 ;
+  sio:SIO_000221 "mj/mol.K"^^xsd:string .
+
+msc-smp:msc_om0009008 sio:SIO_000008 msc-prop:msc_om0009008_spjump .
+msc-prop:msc_om0009008_spjump a msc:spjump .
+
+msc-prop:msc_om0009008_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0009008_spjumpMeasurementDatum .
+
+msc-prop:msc_om0009008_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009008_spjump ;
+  sio:SIO_000300 28 ;
+  sio:SIO_000221 "mj/mol.K"^^xsd:string .
+
+msc-smp:msc_om0009150 sio:SIO_000008 msc-prop:msc_om0009150_spjump .
+msc-prop:msc_om0009150_spjump a msc:spjump .
+
+msc-prop:msc_om0009150_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0009150_spjumpMeasurementDatum .
+
+msc-prop:msc_om0009150_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009150_spjump ;
+  sio:SIO_000300 320 ;
+  sio:SIO_000221 "mj/mol.K"^^xsd:string .
+
+msc-smp:msc_om0009860 sio:SIO_000008 msc-prop:msc_om0009860_spjump .
+msc-prop:msc_om0009860_spjump a msc:spjump .
+
+msc-prop:msc_om0009860_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0009860_spjumpMeasurementDatum .
+
+msc-prop:msc_om0009860_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0009860_spjump ;
+  sio:SIO_000300 37.9 ;
+  sio:SIO_000221 "mj/mol.K"^^xsd:string .
+
+msc-smp:msc_om0010153 sio:SIO_000008 msc-prop:msc_om0010153_spjump .
+msc-prop:msc_om0010153_spjump a msc:spjump .
+
+msc-prop:msc_om0010153_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0010153_spjumpMeasurementDatum .
+
+msc-prop:msc_om0010153_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010153_spjump ;
+  sio:SIO_000300 45 ;
+  sio:SIO_000221 "mJ/cm3.K"^^xsd:string .
+
+msc-smp:msc_om0010154 sio:SIO_000008 msc-prop:msc_om0010154_spjump .
+msc-prop:msc_om0010154_spjump a msc:spjump .
+
+msc-prop:msc_om0010154_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0010154_spjumpMeasurementDatum .
+
+msc-prop:msc_om0010154_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010154_spjump ;
+  sio:SIO_000300 41 ;
+  sio:SIO_000221 "mJ/cm3.K"^^xsd:string .
+
+msc-smp:msc_om0010155 sio:SIO_000008 msc-prop:msc_om0010155_spjump .
+msc-prop:msc_om0010155_spjump a msc:spjump .
+
+msc-prop:msc_om0010155_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0010155_spjumpMeasurementDatum .
+
+msc-prop:msc_om0010155_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010155_spjump ;
+  sio:SIO_000300 36 ;
+  sio:SIO_000221 "mJ/cm3.K"^^xsd:string .
+
+msc-smp:msc_om0010156 sio:SIO_000008 msc-prop:msc_om0010156_spjump .
+msc-prop:msc_om0010156_spjump a msc:spjump .
+
+msc-prop:msc_om0010156_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0010156_spjumpMeasurementDatum .
+
+msc-prop:msc_om0010156_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0010156_spjump ;
+  sio:SIO_000300 20.5 ;
+  sio:SIO_000221 "mJ/cm3.K"^^xsd:string .
+
+msc-smp:msc_om0011779 sio:SIO_000008 msc-prop:msc_om0011779_spjump .
+msc-prop:msc_om0011779_spjump a msc:spjump .
+
+msc-prop:msc_om0011779_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0011779_spjumpMeasurementDatum .
+
+msc-prop:msc_om0011779_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0011779_spjump ;
+  sio:SIO_000300 134 ;
+  sio:SIO_000221 "mJ/mole.K"^^xsd:string .
+
+msc-smp:msc_om0011780 sio:SIO_000008 msc-prop:msc_om0011780_spjump .
+msc-prop:msc_om0011780_spjump a msc:spjump .
+
+msc-prop:msc_om0011780_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0011780_spjumpMeasurementDatum .
+
+msc-prop:msc_om0011780_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0011780_spjump ;
+  sio:SIO_000300 336 ;
+  sio:SIO_000221 "mJ/mole.K"^^xsd:string .
+
+msc-smp:msc_om0011781 sio:SIO_000008 msc-prop:msc_om0011781_spjump .
+msc-prop:msc_om0011781_spjump a msc:spjump .
+
+msc-prop:msc_om0011781_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0011781_spjumpMeasurementDatum .
+
+msc-prop:msc_om0011781_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0011781_spjump ;
+  sio:SIO_000300 293 ;
+  sio:SIO_000221 "mJ/mole.K"^^xsd:string .
+
+msc-smp:msc_om0015016 sio:SIO_000008 msc-prop:msc_om0015016_spjump .
+msc-prop:msc_om0015016_spjump a msc:spjump .
+
+msc-prop:msc_om0015016_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0015016_spjumpMeasurementDatum .
+
+msc-prop:msc_om0015016_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0015016_spjump ;
+  sio:SIO_000300 1200 ;
+  sio:SIO_000221 "mJ/mole.K"^^xsd:string .
+
+msc-smp:msc_om0018513 sio:SIO_000008 msc-prop:msc_om0018513_spjump .
+msc-prop:msc_om0018513_spjump a msc:spjump .
+
+msc-prop:msc_om0018513_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0018513_spjumpMeasurementDatum .
+
+msc-prop:msc_om0018513_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0018513_spjump ;
+  sio:SIO_000300 17.2 ;
+  sio:SIO_000221 "mJ/mole.K"^^xsd:string .
+
+msc-smp:msc_om0032104 sio:SIO_000008 msc-prop:msc_om0032104_spjump .
+msc-prop:msc_om0032104_spjump a msc:spjump .
+
+msc-prop:msc_om0032104_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0032104_spjumpMeasurementDatum .
+
+msc-prop:msc_om0032104_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0032104_spjump ;
+  sio:SIO_000300 55 ;
+  sio:SIO_000221 "mJ/molK2"^^xsd:string .
+
+msc-smp:msc_om0032303 sio:SIO_000008 msc-prop:msc_om0032303_spjump .
+msc-prop:msc_om0032303_spjump a msc:spjump .
+
+msc-prop:msc_om0032303_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0032303_spjumpMeasurementDatum .
+
+msc-prop:msc_om0032303_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0032303_spjump ;
+  sio:SIO_000300 5004 ;
+  sio:SIO_000221 "mJ/K.mol"^^xsd:string .
+
+msc-smp:msc_om0032304 sio:SIO_000008 msc-prop:msc_om0032304_spjump .
+msc-prop:msc_om0032304_spjump a msc:spjump .
+
+msc-prop:msc_om0032304_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0032304_spjumpMeasurementDatum .
+
+msc-prop:msc_om0032304_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0032304_spjump ;
+  sio:SIO_000300 4966 ;
+  sio:SIO_000221 "mJ/K.mol"^^xsd:string .
+
+msc-smp:msc_om0032305 sio:SIO_000008 msc-prop:msc_om0032305_spjump .
+msc-prop:msc_om0032305_spjump a msc:spjump .
+
+msc-prop:msc_om0032305_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0032305_spjumpMeasurementDatum .
+
+msc-prop:msc_om0032305_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0032305_spjump ;
+  sio:SIO_000300 4957 ;
+  sio:SIO_000221 "mJ/K.mol"^^xsd:string .
+
+msc-smp:msc_om0032306 sio:SIO_000008 msc-prop:msc_om0032306_spjump .
+msc-prop:msc_om0032306_spjump a msc:spjump .
+
+msc-prop:msc_om0032306_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0032306_spjumpMeasurementDatum .
+
+msc-prop:msc_om0032306_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0032306_spjump ;
+  sio:SIO_000300 4768 ;
+  sio:SIO_000221 "mJ/K.mol"^^xsd:string .
+
+msc-smp:msc_om0032307 sio:SIO_000008 msc-prop:msc_om0032307_spjump .
+msc-prop:msc_om0032307_spjump a msc:spjump .
+
+msc-prop:msc_om0032307_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0032307_spjumpMeasurementDatum .
+
+msc-prop:msc_om0032307_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0032307_spjump ;
+  sio:SIO_000300 4284 ;
+  sio:SIO_000221 "mJ/K.mol"^^xsd:string .
+
+msc-smp:msc_om0032308 sio:SIO_000008 msc-prop:msc_om0032308_spjump .
+msc-prop:msc_om0032308_spjump a msc:spjump .
+
+msc-prop:msc_om0032308_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0032308_spjumpMeasurementDatum .
+
+msc-prop:msc_om0032308_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0032308_spjump ;
+  sio:SIO_000300 3522 ;
+  sio:SIO_000221 "mJ/K.mol"^^xsd:string .
+
+msc-smp:msc_om0032309 sio:SIO_000008 msc-prop:msc_om0032309_spjump .
+msc-prop:msc_om0032309_spjump a msc:spjump .
+
+msc-prop:msc_om0032309_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0032309_spjumpMeasurementDatum .
+
+msc-prop:msc_om0032309_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0032309_spjump ;
+  sio:SIO_000300 1800 ;
+  sio:SIO_000221 "mJ/K.mol"^^xsd:string .
+
+msc-smp:msc_om0033253 sio:SIO_000008 msc-prop:msc_om0033253_spjump .
+msc-prop:msc_om0033253_spjump a msc:spjump .
+
+msc-prop:msc_om0033253_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0033253_spjumpMeasurementDatum .
+
+msc-prop:msc_om0033253_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0033253_spjump ;
+  sio:SIO_000300 1.15 ;
+  sio:SIO_000221 "dC/r*Tc"^^xsd:string .
+
+msc-smp:msc_om0042037 sio:SIO_000008 msc-prop:msc_om0042037_spjump .
+msc-prop:msc_om0042037_spjump a msc:spjump .
+
+msc-prop:msc_om0042037_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0042037_spjumpMeasurementDatum .
+
+msc-prop:msc_om0042037_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0042037_spjump ;
+  sio:SIO_000300 115 ;
+  sio:SIO_000221 "mj/mol.K"^^xsd:string .
+
+msc-smp:msc_om0090048 sio:SIO_000008 msc-prop:msc_om0090048_spjump .
+msc-prop:msc_om0090048_spjump a msc:spjump .
+
+msc-prop:msc_om0090048_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0090048_spjumpMeasurementDatum .
+
+msc-prop:msc_om0090048_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0090048_spjump ;
+  sio:SIO_000300 126.9 ;
+  sio:SIO_000221 "mj/mol.K"^^xsd:string .
+
+msc-smp:msc_om0090267 sio:SIO_000008 msc-prop:msc_om0090267_spjump .
+msc-prop:msc_om0090267_spjump a msc:spjump .
+
+msc-prop:msc_om0090267_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0090267_spjumpMeasurementDatum .
+
+msc-prop:msc_om0090267_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0090267_spjump ;
+  sio:SIO_000300 44.02 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0090270 sio:SIO_000008 msc-prop:msc_om0090270_spjump .
+msc-prop:msc_om0090270_spjump a msc:spjump .
+
+msc-prop:msc_om0090270_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0090270_spjumpMeasurementDatum .
+
+msc-prop:msc_om0090270_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0090270_spjump ;
+  sio:SIO_000300 340 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0090271 sio:SIO_000008 msc-prop:msc_om0090271_spjump .
+msc-prop:msc_om0090271_spjump a msc:spjump .
+
+msc-prop:msc_om0090271_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0090271_spjumpMeasurementDatum .
+
+msc-prop:msc_om0090271_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0090271_spjump ;
+  sio:SIO_000300 1560 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0090272 sio:SIO_000008 msc-prop:msc_om0090272_spjump .
+msc-prop:msc_om0090272_spjump a msc:spjump .
+
+msc-prop:msc_om0090272_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0090272_spjumpMeasurementDatum .
+
+msc-prop:msc_om0090272_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0090272_spjump ;
+  sio:SIO_000300 930 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0090273 sio:SIO_000008 msc-prop:msc_om0090273_spjump .
+msc-prop:msc_om0090273_spjump a msc:spjump .
+
+msc-prop:msc_om0090273_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0090273_spjumpMeasurementDatum .
+
+msc-prop:msc_om0090273_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0090273_spjump ;
+  sio:SIO_000300 820 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0090274 sio:SIO_000008 msc-prop:msc_om0090274_spjump .
+msc-prop:msc_om0090274_spjump a msc:spjump .
+
+msc-prop:msc_om0090274_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0090274_spjumpMeasurementDatum .
+
+msc-prop:msc_om0090274_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0090274_spjump ;
+  sio:SIO_000300 1210 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0090275 sio:SIO_000008 msc-prop:msc_om0090275_spjump .
+msc-prop:msc_om0090275_spjump a msc:spjump .
+
+msc-prop:msc_om0090275_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0090275_spjumpMeasurementDatum .
+
+msc-prop:msc_om0090275_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0090275_spjump ;
+  sio:SIO_000300 1030 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0090276 sio:SIO_000008 msc-prop:msc_om0090276_spjump .
+msc-prop:msc_om0090276_spjump a msc:spjump .
+
+msc-prop:msc_om0090276_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0090276_spjumpMeasurementDatum .
+
+msc-prop:msc_om0090276_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0090276_spjump ;
+  sio:SIO_000300 1090 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0131280 sio:SIO_000008 msc-prop:msc_om0131280_spjump .
+msc-prop:msc_om0131280_spjump a msc:spjump .
+
+msc-prop:msc_om0131280_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0131280_spjumpMeasurementDatum .
+
+msc-prop:msc_om0131280_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0131280_spjump ;
+  sio:SIO_000300 280 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0131370 sio:SIO_000008 msc-prop:msc_om0131370_spjump .
+msc-prop:msc_om0131370_spjump a msc:spjump .
+
+msc-prop:msc_om0131370_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0131370_spjumpMeasurementDatum .
+
+msc-prop:msc_om0131370_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0131370_spjump ;
+  sio:SIO_000300 35.04 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0150030 sio:SIO_000008 msc-prop:msc_om0150030_spjump .
+msc-prop:msc_om0150030_spjump a msc:spjump .
+
+msc-prop:msc_om0150030_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0150030_spjumpMeasurementDatum .
+
+msc-prop:msc_om0150030_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150030_spjump ;
+  sio:SIO_000300 53 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0150050 sio:SIO_000008 msc-prop:msc_om0150050_spjump .
+msc-prop:msc_om0150050_spjump a msc:spjump .
+
+msc-prop:msc_om0150050_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0150050_spjumpMeasurementDatum .
+
+msc-prop:msc_om0150050_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150050_spjump ;
+  sio:SIO_000300 270 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0150107 sio:SIO_000008 msc-prop:msc_om0150107_spjump .
+msc-prop:msc_om0150107_spjump a msc:spjump .
+
+msc-prop:msc_om0150107_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0150107_spjumpMeasurementDatum .
+
+msc-prop:msc_om0150107_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150107_spjump ;
+  sio:SIO_000300 7.392 ;
+  sio:SIO_000221 "J/kg.K"^^xsd:string .
+
+msc-smp:msc_om0150108 sio:SIO_000008 msc-prop:msc_om0150108_spjump .
+msc-prop:msc_om0150108_spjump a msc:spjump .
+
+msc-prop:msc_om0150108_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0150108_spjumpMeasurementDatum .
+
+msc-prop:msc_om0150108_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150108_spjump ;
+  sio:SIO_000300 7.172 ;
+  sio:SIO_000221 "J/kg.K"^^xsd:string .
+
+msc-smp:msc_om0150109 sio:SIO_000008 msc-prop:msc_om0150109_spjump .
+msc-prop:msc_om0150109_spjump a msc:spjump .
+
+msc-prop:msc_om0150109_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0150109_spjumpMeasurementDatum .
+
+msc-prop:msc_om0150109_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150109_spjump ;
+  sio:SIO_000300 6.962 ;
+  sio:SIO_000221 "J/kg.K"^^xsd:string .
+
+msc-smp:msc_om0150110 sio:SIO_000008 msc-prop:msc_om0150110_spjump .
+msc-prop:msc_om0150110_spjump a msc:spjump .
+
+msc-prop:msc_om0150110_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0150110_spjumpMeasurementDatum .
+
+msc-prop:msc_om0150110_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150110_spjump ;
+  sio:SIO_000300 6.792 ;
+  sio:SIO_000221 "J/kg.K"^^xsd:string .
+
+msc-smp:msc_om0150111 sio:SIO_000008 msc-prop:msc_om0150111_spjump .
+msc-prop:msc_om0150111_spjump a msc:spjump .
+
+msc-prop:msc_om0150111_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0150111_spjumpMeasurementDatum .
+
+msc-prop:msc_om0150111_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150111_spjump ;
+  sio:SIO_000300 6.562 ;
+  sio:SIO_000221 "J/kg.K"^^xsd:string .
+
+msc-smp:msc_om0150185 sio:SIO_000008 msc-prop:msc_om0150185_spjump .
+msc-prop:msc_om0150185_spjump a msc:spjump .
+
+msc-prop:msc_om0150185_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0150185_spjumpMeasurementDatum .
+
+msc-prop:msc_om0150185_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150185_spjump ;
+  sio:SIO_000300 173 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0150186 sio:SIO_000008 msc-prop:msc_om0150186_spjump .
+msc-prop:msc_om0150186_spjump a msc:spjump .
+
+msc-prop:msc_om0150186_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0150186_spjumpMeasurementDatum .
+
+msc-prop:msc_om0150186_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150186_spjump ;
+  sio:SIO_000300 80.3 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0150187 sio:SIO_000008 msc-prop:msc_om0150187_spjump .
+msc-prop:msc_om0150187_spjump a msc:spjump .
+
+msc-prop:msc_om0150187_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0150187_spjumpMeasurementDatum .
+
+msc-prop:msc_om0150187_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150187_spjump ;
+  sio:SIO_000300 25.4 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0150497 sio:SIO_000008 msc-prop:msc_om0150497_spjump .
+msc-prop:msc_om0150497_spjump a msc:spjump .
+
+msc-prop:msc_om0150497_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0150497_spjumpMeasurementDatum .
+
+msc-prop:msc_om0150497_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150497_spjump ;
+  sio:SIO_000300 3.4 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0150558 sio:SIO_000008 msc-prop:msc_om0150558_spjump .
+msc-prop:msc_om0150558_spjump a msc:spjump .
+
+msc-prop:msc_om0150558_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0150558_spjumpMeasurementDatum .
+
+msc-prop:msc_om0150558_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0150558_spjump ;
+  sio:SIO_000300 150 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151133 sio:SIO_000008 msc-prop:msc_om0151133_spjump .
+msc-prop:msc_om0151133_spjump a msc:spjump .
+
+msc-prop:msc_om0151133_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151133_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151133_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151133_spjump ;
+  sio:SIO_000300 474 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151161 sio:SIO_000008 msc-prop:msc_om0151161_spjump .
+msc-prop:msc_om0151161_spjump a msc:spjump .
+
+msc-prop:msc_om0151161_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151161_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151161_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151161_spjump ;
+  sio:SIO_000300 4.1 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151162 sio:SIO_000008 msc-prop:msc_om0151162_spjump .
+msc-prop:msc_om0151162_spjump a msc:spjump .
+
+msc-prop:msc_om0151162_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151162_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151162_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151162_spjump ;
+  sio:SIO_000300 3.5 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151165 sio:SIO_000008 msc-prop:msc_om0151165_spjump .
+msc-prop:msc_om0151165_spjump a msc:spjump .
+
+msc-prop:msc_om0151165_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151165_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151165_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151165_spjump ;
+  sio:SIO_000300 5.7 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151180 sio:SIO_000008 msc-prop:msc_om0151180_spjump .
+msc-prop:msc_om0151180_spjump a msc:spjump .
+
+msc-prop:msc_om0151180_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151180_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151180_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151180_spjump ;
+  sio:SIO_000300 21.5 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151181 sio:SIO_000008 msc-prop:msc_om0151181_spjump .
+msc-prop:msc_om0151181_spjump a msc:spjump .
+
+msc-prop:msc_om0151181_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151181_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151181_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151181_spjump ;
+  sio:SIO_000300 23.4 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151260 sio:SIO_000008 msc-prop:msc_om0151260_spjump .
+msc-prop:msc_om0151260_spjump a msc:spjump .
+
+msc-prop:msc_om0151260_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151260_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151260_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151260_spjump ;
+  sio:SIO_000300 206 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151265 sio:SIO_000008 msc-prop:msc_om0151265_spjump .
+msc-prop:msc_om0151265_spjump a msc:spjump .
+
+msc-prop:msc_om0151265_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151265_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151265_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151265_spjump ;
+  sio:SIO_000300 12.6 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151283 sio:SIO_000008 msc-prop:msc_om0151283_spjump .
+msc-prop:msc_om0151283_spjump a msc:spjump .
+
+msc-prop:msc_om0151283_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151283_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151283_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151283_spjump ;
+  sio:SIO_000300 300 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151385 sio:SIO_000008 msc-prop:msc_om0151385_spjump .
+msc-prop:msc_om0151385_spjump a msc:spjump .
+
+msc-prop:msc_om0151385_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151385_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151385_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151385_spjump ;
+  sio:SIO_000300 15.1 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151418 sio:SIO_000008 msc-prop:msc_om0151418_spjump .
+msc-prop:msc_om0151418_spjump a msc:spjump .
+
+msc-prop:msc_om0151418_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151418_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151418_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151418_spjump ;
+  sio:SIO_000300 0.471 ;
+  sio:SIO_000221 "J/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151419 sio:SIO_000008 msc-prop:msc_om0151419_spjump .
+msc-prop:msc_om0151419_spjump a msc:spjump .
+
+msc-prop:msc_om0151419_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151419_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151419_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151419_spjump ;
+  sio:SIO_000300 0.281 ;
+  sio:SIO_000221 "J/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151420 sio:SIO_000008 msc-prop:msc_om0151420_spjump .
+msc-prop:msc_om0151420_spjump a msc:spjump .
+
+msc-prop:msc_om0151420_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151420_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151420_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151420_spjump ;
+  sio:SIO_000300 0.554 ;
+  sio:SIO_000221 "J/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151502 sio:SIO_000008 msc-prop:msc_om0151502_spjump .
+msc-prop:msc_om0151502_spjump a msc:spjump .
+
+msc-prop:msc_om0151502_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151502_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151502_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151502_spjump ;
+  sio:SIO_000300 700 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151504 sio:SIO_000008 msc-prop:msc_om0151504_spjump .
+msc-prop:msc_om0151504_spjump a msc:spjump .
+
+msc-prop:msc_om0151504_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151504_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151504_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151504_spjump ;
+  sio:SIO_000300 410 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0151865 sio:SIO_000008 msc-prop:msc_om0151865_spjump .
+msc-prop:msc_om0151865_spjump a msc:spjump .
+
+msc-prop:msc_om0151865_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0151865_spjumpMeasurementDatum .
+
+msc-prop:msc_om0151865_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0151865_spjump ;
+  sio:SIO_000300 1.5 ;
+  sio:SIO_000221 "J/mol.K2"^^xsd:string .
+
+msc-smp:msc_om0152052 sio:SIO_000008 msc-prop:msc_om0152052_spjump .
+msc-prop:msc_om0152052_spjump a msc:spjump .
+
+msc-prop:msc_om0152052_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152052_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152052_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152052_spjump ;
+  sio:SIO_000300 68 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0152183 sio:SIO_000008 msc-prop:msc_om0152183_spjump .
+msc-prop:msc_om0152183_spjump a msc:spjump .
+
+msc-prop:msc_om0152183_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152183_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152183_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152183_spjump ;
+  sio:SIO_000300 100 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0152184 sio:SIO_000008 msc-prop:msc_om0152184_spjump .
+msc-prop:msc_om0152184_spjump a msc:spjump .
+
+msc-prop:msc_om0152184_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152184_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152184_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152184_spjump ;
+  sio:SIO_000300 96.2 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0152185 sio:SIO_000008 msc-prop:msc_om0152185_spjump .
+msc-prop:msc_om0152185_spjump a msc:spjump .
+
+msc-prop:msc_om0152185_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152185_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152185_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152185_spjump ;
+  sio:SIO_000300 86.9 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0152186 sio:SIO_000008 msc-prop:msc_om0152186_spjump .
+msc-prop:msc_om0152186_spjump a msc:spjump .
+
+msc-prop:msc_om0152186_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152186_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152186_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152186_spjump ;
+  sio:SIO_000300 80 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0152187 sio:SIO_000008 msc-prop:msc_om0152187_spjump .
+msc-prop:msc_om0152187_spjump a msc:spjump .
+
+msc-prop:msc_om0152187_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152187_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152187_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152187_spjump ;
+  sio:SIO_000300 78 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0152751 sio:SIO_000008 msc-prop:msc_om0152751_spjump .
+msc-prop:msc_om0152751_spjump a msc:spjump .
+
+msc-prop:msc_om0152751_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152751_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152751_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152751_spjump ;
+  sio:SIO_000300 16 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0152757 sio:SIO_000008 msc-prop:msc_om0152757_spjump .
+msc-prop:msc_om0152757_spjump a msc:spjump .
+
+msc-prop:msc_om0152757_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152757_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152757_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152757_spjump ;
+  sio:SIO_000300 11.15 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0152815 sio:SIO_000008 msc-prop:msc_om0152815_spjump .
+msc-prop:msc_om0152815_spjump a msc:spjump .
+
+msc-prop:msc_om0152815_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152815_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152815_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152815_spjump ;
+  sio:SIO_000300 3 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0152848 sio:SIO_000008 msc-prop:msc_om0152848_spjump .
+msc-prop:msc_om0152848_spjump a msc:spjump .
+
+msc-prop:msc_om0152848_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152848_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152848_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152848_spjump ;
+  sio:SIO_000300 3460 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0152849 sio:SIO_000008 msc-prop:msc_om0152849_spjump .
+msc-prop:msc_om0152849_spjump a msc:spjump .
+
+msc-prop:msc_om0152849_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152849_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152849_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152849_spjump ;
+  sio:SIO_000300 3040 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0152850 sio:SIO_000008 msc-prop:msc_om0152850_spjump .
+msc-prop:msc_om0152850_spjump a msc:spjump .
+
+msc-prop:msc_om0152850_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152850_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152850_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152850_spjump ;
+  sio:SIO_000300 2240 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0152851 sio:SIO_000008 msc-prop:msc_om0152851_spjump .
+msc-prop:msc_om0152851_spjump a msc:spjump .
+
+msc-prop:msc_om0152851_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152851_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152851_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152851_spjump ;
+  sio:SIO_000300 1810 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0152852 sio:SIO_000008 msc-prop:msc_om0152852_spjump .
+msc-prop:msc_om0152852_spjump a msc:spjump .
+
+msc-prop:msc_om0152852_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0152852_spjumpMeasurementDatum .
+
+msc-prop:msc_om0152852_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0152852_spjump ;
+  sio:SIO_000300 235 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0153207 sio:SIO_000008 msc-prop:msc_om0153207_spjump .
+msc-prop:msc_om0153207_spjump a msc:spjump .
+
+msc-prop:msc_om0153207_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153207_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153207_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153207_spjump ;
+  sio:SIO_000300 300 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0153429 sio:SIO_000008 msc-prop:msc_om0153429_spjump .
+msc-prop:msc_om0153429_spjump a msc:spjump .
+
+msc-prop:msc_om0153429_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153429_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153429_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153429_spjump ;
+  sio:SIO_000300 40 ;
+  sio:SIO_000221 "mJ/mol.K2"^^xsd:string .
+
+msc-smp:msc_om0153432 sio:SIO_000008 msc-prop:msc_om0153432_spjump .
+msc-prop:msc_om0153432_spjump a msc:spjump .
+
+msc-prop:msc_om0153432_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153432_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153432_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153432_spjump ;
+  sio:SIO_000300 27.9 ;
+  sio:SIO_000221 "mJ/mol.K2"^^xsd:string .
+
+msc-smp:msc_om0153434 sio:SIO_000008 msc-prop:msc_om0153434_spjump .
+msc-prop:msc_om0153434_spjump a msc:spjump .
+
+msc-prop:msc_om0153434_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153434_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153434_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153434_spjump ;
+  sio:SIO_000300 6.7 ;
+  sio:SIO_000221 "mJ/mol.K2"^^xsd:string .
+
+msc-smp:msc_om0153609 sio:SIO_000008 msc-prop:msc_om0153609_spjump .
+msc-prop:msc_om0153609_spjump a msc:spjump .
+
+msc-prop:msc_om0153609_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153609_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153609_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153609_spjump ;
+  sio:SIO_000300 2.13 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0153701 sio:SIO_000008 msc-prop:msc_om0153701_spjump .
+msc-prop:msc_om0153701_spjump a msc:spjump .
+
+msc-prop:msc_om0153701_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153701_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153701_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153701_spjump ;
+  sio:SIO_000300 118 ;
+  sio:SIO_000221 "mJ/mol.K2"^^xsd:string .
+
+msc-smp:msc_om0153899 sio:SIO_000008 msc-prop:msc_om0153899_spjump .
+msc-prop:msc_om0153899_spjump a msc:spjump .
+
+msc-prop:msc_om0153899_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153899_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153899_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153899_spjump ;
+  sio:SIO_000300 4.43 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0153900 sio:SIO_000008 msc-prop:msc_om0153900_spjump .
+msc-prop:msc_om0153900_spjump a msc:spjump .
+
+msc-prop:msc_om0153900_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153900_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153900_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153900_spjump ;
+  sio:SIO_000300 4703 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0153901 sio:SIO_000008 msc-prop:msc_om0153901_spjump .
+msc-prop:msc_om0153901_spjump a msc:spjump .
+
+msc-prop:msc_om0153901_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153901_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153901_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153901_spjump ;
+  sio:SIO_000300 3054 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0153902 sio:SIO_000008 msc-prop:msc_om0153902_spjump .
+msc-prop:msc_om0153902_spjump a msc:spjump .
+
+msc-prop:msc_om0153902_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153902_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153902_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153902_spjump ;
+  sio:SIO_000300 1760 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0153903 sio:SIO_000008 msc-prop:msc_om0153903_spjump .
+msc-prop:msc_om0153903_spjump a msc:spjump .
+
+msc-prop:msc_om0153903_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153903_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153903_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153903_spjump ;
+  sio:SIO_000300 434 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0153904 sio:SIO_000008 msc-prop:msc_om0153904_spjump .
+msc-prop:msc_om0153904_spjump a msc:spjump .
+
+msc-prop:msc_om0153904_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153904_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153904_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153904_spjump ;
+  sio:SIO_000300 559 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0153905 sio:SIO_000008 msc-prop:msc_om0153905_spjump .
+msc-prop:msc_om0153905_spjump a msc:spjump .
+
+msc-prop:msc_om0153905_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153905_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153905_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153905_spjump ;
+  sio:SIO_000300 317 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0153906 sio:SIO_000008 msc-prop:msc_om0153906_spjump .
+msc-prop:msc_om0153906_spjump a msc:spjump .
+
+msc-prop:msc_om0153906_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0153906_spjumpMeasurementDatum .
+
+msc-prop:msc_om0153906_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0153906_spjump ;
+  sio:SIO_000300 225 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0154040 sio:SIO_000008 msc-prop:msc_om0154040_spjump .
+msc-prop:msc_om0154040_spjump a msc:spjump .
+
+msc-prop:msc_om0154040_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0154040_spjumpMeasurementDatum .
+
+msc-prop:msc_om0154040_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154040_spjump ;
+  sio:SIO_000300 798 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0154400 sio:SIO_000008 msc-prop:msc_om0154400_spjump .
+msc-prop:msc_om0154400_spjump a msc:spjump .
+
+msc-prop:msc_om0154400_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0154400_spjumpMeasurementDatum .
+
+msc-prop:msc_om0154400_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154400_spjump ;
+  sio:SIO_000300 9.4 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0154933 sio:SIO_000008 msc-prop:msc_om0154933_spjump .
+msc-prop:msc_om0154933_spjump a msc:spjump .
+
+msc-prop:msc_om0154933_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0154933_spjumpMeasurementDatum .
+
+msc-prop:msc_om0154933_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0154933_spjump ;
+  sio:SIO_000300 3.6 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0155611 sio:SIO_000008 msc-prop:msc_om0155611_spjump .
+msc-prop:msc_om0155611_spjump a msc:spjump .
+
+msc-prop:msc_om0155611_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0155611_spjumpMeasurementDatum .
+
+msc-prop:msc_om0155611_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0155611_spjump ;
+  sio:SIO_000300 2.85 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0156806 sio:SIO_000008 msc-prop:msc_om0156806_spjump .
+msc-prop:msc_om0156806_spjump a msc:spjump .
+
+msc-prop:msc_om0156806_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0156806_spjumpMeasurementDatum .
+
+msc-prop:msc_om0156806_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0156806_spjump ;
+  sio:SIO_000300 22.12 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0157032 sio:SIO_000008 msc-prop:msc_om0157032_spjump .
+msc-prop:msc_om0157032_spjump a msc:spjump .
+
+msc-prop:msc_om0157032_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0157032_spjumpMeasurementDatum .
+
+msc-prop:msc_om0157032_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157032_spjump ;
+  sio:SIO_000300 1.51 ;
+  sio:SIO_000221 "gamma*Tc"^^xsd:string .
+
+msc-smp:msc_om0157224 sio:SIO_000008 msc-prop:msc_om0157224_spjump .
+msc-prop:msc_om0157224_spjump a msc:spjump .
+
+msc-prop:msc_om0157224_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0157224_spjumpMeasurementDatum .
+
+msc-prop:msc_om0157224_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157224_spjump ;
+  sio:SIO_000300 397 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0157639 sio:SIO_000008 msc-prop:msc_om0157639_spjump .
+msc-prop:msc_om0157639_spjump a msc:spjump .
+
+msc-prop:msc_om0157639_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0157639_spjumpMeasurementDatum .
+
+msc-prop:msc_om0157639_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157639_spjump ;
+  sio:SIO_000300 7.82 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0157974 sio:SIO_000008 msc-prop:msc_om0157974_spjump .
+msc-prop:msc_om0157974_spjump a msc:spjump .
+
+msc-prop:msc_om0157974_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0157974_spjumpMeasurementDatum .
+
+msc-prop:msc_om0157974_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0157974_spjump ;
+  sio:SIO_000300 223 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0158098 sio:SIO_000008 msc-prop:msc_om0158098_spjump .
+msc-prop:msc_om0158098_spjump a msc:spjump .
+
+msc-prop:msc_om0158098_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0158098_spjumpMeasurementDatum .
+
+msc-prop:msc_om0158098_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158098_spjump ;
+  sio:SIO_000300 222 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0158099 sio:SIO_000008 msc-prop:msc_om0158099_spjump .
+msc-prop:msc_om0158099_spjump a msc:spjump .
+
+msc-prop:msc_om0158099_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0158099_spjumpMeasurementDatum .
+
+msc-prop:msc_om0158099_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158099_spjump ;
+  sio:SIO_000300 397 ;
+  sio:SIO_000221 "mJ/mol.K"^^xsd:string .
+
+msc-smp:msc_om0158915 sio:SIO_000008 msc-prop:msc_om0158915_spjump .
+msc-prop:msc_om0158915_spjump a msc:spjump .
+
+msc-prop:msc_om0158915_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0158915_spjumpMeasurementDatum .
+
+msc-prop:msc_om0158915_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158915_spjump ;
+  sio:SIO_000300 37 ;
+  sio:SIO_000221 ""^^xsd:string .
+
+msc-smp:msc_om0158922 sio:SIO_000008 msc-prop:msc_om0158922_spjump .
+msc-prop:msc_om0158922_spjump a msc:spjump .
+
+msc-prop:msc_om0158922_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0158922_spjumpMeasurementDatum .
+
+msc-prop:msc_om0158922_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158922_spjump ;
+  sio:SIO_000300 0.075 ;
+  sio:SIO_000221 "Jmol-1K-2"^^xsd:string .
+
+msc-smp:msc_om0158923 sio:SIO_000008 msc-prop:msc_om0158923_spjump .
+msc-prop:msc_om0158923_spjump a msc:spjump .
+
+msc-prop:msc_om0158923_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0158923_spjumpMeasurementDatum .
+
+msc-prop:msc_om0158923_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158923_spjump ;
+  sio:SIO_000300 0.05 ;
+  sio:SIO_000221 "Jmol-1K-2"^^xsd:string .
+
+msc-smp:msc_om0158940 sio:SIO_000008 msc-prop:msc_om0158940_spjump .
+msc-prop:msc_om0158940_spjump a msc:spjump .
+
+msc-prop:msc_om0158940_spjumpMeasurement a msc:Measurement ;
+  obo:OBI_0000299 msc-prop:msc_om0158940_spjumpMeasurementDatum .
+
+msc-prop:msc_om0158940_spjumpMeasurementDatum a obo:IAO_0000109 ;
+  obo:IAO_0000221 msc-prop:msc_om0158940_spjump ;
+  sio:SIO_000300 37 ;
+  sio:SIO_000221 ""^^xsd:string .
+
