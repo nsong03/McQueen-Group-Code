@@ -35,9 +35,9 @@ class ChemicalData:
         self.total_num_atoms = get_total_atoms(self.name)
         self.num_atoms_second_element = get_atoms_in_second_element(self.name)
         self.eV = eV
-        self.O2 = (self.num_atoms_second_element)/2
+        self.O2 = -(self.num_atoms_second_element)/2
         self.del_H = self.total_num_atoms*self.eV*self.cf*(1/self.O2)
-        self.del_S = self.SSO2
+        self.del_S = -self.SSO2
         self.R = 8.314/1000
         
         
@@ -46,7 +46,9 @@ class ChemicalData:
         return f"Name: {self.name}, MPID: {self.mpid}, Energy: {self.eV} eV, num_atoms: {self.total_num_atoms}"
     
     def slope(self,x,P):
-        return x*((self.del_S) - self.O2*self.R*np.log(P))
+        return -x*((self.del_S) - -1*self.R*np.log(P))
+    
+    # n = -1 since only one mole is getting turned to a solid
 
 #you broke it trying to make it a function so it it all easier. This is understandable. Now you need to think it though.
 
@@ -102,7 +104,7 @@ def plot_seperate(filename, maximum_temp,P, seperate: bool):
         plt.show()
         
         
-plot_seperate('oxides_T.csv', 3000,1, True)
+plot_seperate('oxides_T.csv', 3000,1, False)
 
 
 

@@ -23,22 +23,39 @@ def get_atoms_in_first_element(chemical_formula):
         return atom_count
     else:
         return 0
+def get_atoms_in_second_element(chemical_formula):
+    formula = cp.parse_formula(chemical_formula)
+    if formula:
+        second_element = list(formula.keys())[1]
+        atom_count = formula[second_element]
+        return atom_count
+    else:
+        return 0
+def get_atoms_in_third_element(chemical_formula):
+    formula = cp.parse_formula(chemical_formula)
+    if formula:
+        third_element = list(formula.keys())[2]
+        atom_count = formula[third_element]
+        return atom_count
+    else:
+        return 0
 
     
     
 class ChemicalData:
     cf = 96.491
     SSO2 = 205/1000 #standard state O2
-    La2O3 = (1/2)*(5*3.738*cf)
     
     def __init__(self, name, mpid, eV):
         self.name = name
         self.mpid = mpid
         self.total_num_atoms = get_total_atoms(self.name)
-        self.num_atoms_firstE = get_atoms_in_first_element(self.name)
+        self.num_atoms_Pr = get_atoms_in_first_element(self.name)
+        self.num_atoms_Ni = get_atoms_in_second_element(self.name)
+        self.num_atoms_O = get_atoms_in_third_element(self.name)
         self.eV = eV
-        self.O2 = -abs(((1/self.num_atoms_firstE)*(1/2))-(1/4))
-        self.del_H = (self.total_num_atoms*self.eV*self.cf*(1/self.num_atoms_firstE))-(-901.708)+(((1/self.num_atoms_firstE)-1)*(-234.6661))
+        self.O2 = -(((abs(3-((self.num_atoms_O+self.num_atoms_Ni)/self.num_atoms_Pr)))/2)-(1/12))
+        self.del_H = self.total_num_atoms*self.eV*self.cf*(1/self.num_atoms_Pr)
         self.del_S = self.SSO2*self.O2
         self.R = 8.314/1000
         
@@ -74,7 +91,7 @@ def plot_seperate(filename, maximum_temp,P, seperate: bool):
     
     #Graph Domain and Range
     plt.xlim(0, maximum_temp)
-    plt.ylim(-500, 500)
+    plt.ylim(-1500, -500)
     
     #Add X and Y Lable
     plt.xlabel("Temperature K")
@@ -90,21 +107,26 @@ def plot_seperate(filename, maximum_temp,P, seperate: bool):
             #Show Grid
             plt.grid()
             plt.show()
+            
     else:
         for chemical in chemicals:
-            plt.title("LaNiO " + " P = " + str(P) + " Bar")
+            plt.title("PrNiO " + " P = " + str(P) + " Bar")
             #Plot
             plt.plot(y,chemical.slope(x,P) + chemical.del_H, label= chemical.name)
         
             #Show Grid
             plt.legend(loc = 'lower right')
+            
             print(chemical.O2)
+        
+            
             
         plt.grid()
         plt.show()
         
 
     
-plot_seperate('LaNiO_T.csv', 8000,1, False)
+plot_seperate('PrNiO_T.csv', 6000,1, False)
+
 
 

@@ -1,0 +1,66 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jun 29 11:45:13 2023
+
+@author: jayso
+"""
+
+# This is the class for the materials I am using. It is currently set to PrNiO
+
+import numpy as np
+import chemparse as cp
+
+
+def get_total_atoms(chemical_name):
+    formula = cp.parse_formula(chemical_name)
+    total_atoms = sum(formula.values())
+    return total_atoms
+
+def get_atoms_in_second_element(chemical_formula):
+    formula = cp.parse_formula(chemical_formula)
+    if formula:
+        second_element = list(formula.keys())[1]
+        atom_count = formula[second_element]
+        return atom_count
+    else:
+        return 0
+
+
+    
+class ChemicalData:
+    cf = 96.491
+    SSO2 = 205/1000 #standard state O2
+    Enthalpy_NiO = -1.216*2*cf
+    Enthalpy_Pr6O11 = -2.403*17*cf
+    R = 8.314/1000
+    
+    def __init__(self, name, mpid, eV, normalized_equation, normalized_oxygen_reactant_coeff, normalized_NiO_reactant_coeff, normalized_product_coeff):
+        self.name = name
+        self.mpid = mpid
+        self.eV = eV
+        self.total_num_atoms = get_total_atoms(self.name)
+        self.balanced_equation = normalized_equation
+        self.O2 = normalized_oxygen_reactant_coeff
+        self.NiO = normalized_NiO_reactant_coeff
+        self.product_coeff = normalized_product_coeff
+        self.del_H = (self.eV*self.product_coeff*self.cf*self.total_num_atoms) - ((self.Enthalpy_NiO*self.NiO) + ((self.Enthalpy_Pr6O11)/6))
+        self.del_S = -self.SSO2*self.O2
+        
+    def __str__(self):
+        return f"Name: {self.name}, MPID: {self.mpid}, Energy: {self.eV} eV"
+    
+    def add_data(self,name, mpid, eV, normalized_equation, normalized_oxygen_reactant_coeff, normalized_NiO_reactant_coeff):
+        self.name = name
+        self.mpid = mpid
+        self.eV = eV
+        self.normalized_equation = normalized_equation
+        self.O2 = normalized_oxygen_reactant_coeff
+        self.NiO = normalized_NiO_reactant_coeff
+        
+        return name, mpid, eV, normalized_equation, normalized_oxygen_reactant_coeff
+    
+    def show_list(self):
+        print( self.name, self.mpid, self.eV, self.normalized_equation, self.O2, self.NiO)
+    
+    def slope(self,x,P):
+        return -x*((self.del_S + self.O2*self.R*np.log(P)))
