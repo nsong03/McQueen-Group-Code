@@ -17,7 +17,7 @@ def get_oxygen_coefficient(reactants):
         if elements[1] == "O2":
             return float(elements[0])
 
-    raise ValueError("No O2 found in the reactants")
+    return 0
     
 def get_NiO_coefficient(reactants):
     for reactant in reactants:
@@ -72,8 +72,12 @@ def balance_and_normalize_equation(equation):
     # Get the normalized coefficients for the products
     normalized_product_coeffs = [int(coeff)/normalizer_coeff for coeff, _ in (item.split() for item in products)]
     
+    
     # Get the first normalized product coeff
     first_normalized_product_coeff = normalized_product_coeffs[0]
+    
+    # Get the first normalized reactant coeff
+    first_normalized_reactant_coeff = float(normalized_reactants[0].split()[0])
     
     normalized_equation = " + ".join(normalized_reactants) + " -> " + " + ".join(normalized_products)
     '''
@@ -82,15 +86,14 @@ def balance_and_normalize_equation(equation):
     print("-----------------------")
     print("this is the normalized oxygen reactant coeff", normalized_oxygen_reactant_coeff)
     '''
-    return normalized_equation, normalized_oxygen_reactant_coeff, normalized_NiO_reactant_coeff, first_normalized_product_coeff
+    return normalized_equation, normalized_oxygen_reactant_coeff, normalized_NiO_reactant_coeff, first_normalized_product_coeff, first_normalized_reactant_coeff
 
 
 def chemical_equation(reactants, products):
     equation = (reactants + " -> " + products)
     return equation
 
-
-
+#print(balance_and_normalize_equation(chemical_equation("Nd2O3 + NiO", "Nd2NiO4")))
 
 
 

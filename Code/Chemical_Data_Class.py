@@ -32,9 +32,11 @@ class ChemicalData:
     SSO2 = 205/1000 #standard state O2
     Enthalpy_NiO = -1.216*2*cf
     Enthalpy_Pr6O11 = -2.403*17*cf
+    Enthalpy_La2O3 = -3.738*5*cf
+    Enthalpy_Nd2O3 = -3.670*5*cf
     R = 8.314/1000
     
-    def __init__(self, name, mpid, eV, normalized_equation, normalized_oxygen_reactant_coeff, normalized_NiO_reactant_coeff, normalized_product_coeff):
+    def __init__(self, name, mpid, eV, normalized_equation, normalized_oxygen_reactant_coeff, normalized_NiO_reactant_coeff, normalized_product_coeff, first_normalized_reactant_coeff):
         self.name = name
         self.mpid = mpid
         self.eV = eV
@@ -42,25 +44,61 @@ class ChemicalData:
         self.balanced_equation = normalized_equation
         self.O2 = normalized_oxygen_reactant_coeff
         self.NiO = normalized_NiO_reactant_coeff
+        self.oxide_coeff = first_normalized_reactant_coeff
         self.product_coeff = normalized_product_coeff
-        self.del_H = (self.eV*self.product_coeff*self.cf*self.total_num_atoms) - ((self.Enthalpy_NiO*self.NiO) + ((self.Enthalpy_Pr6O11)/6))
+        self.del_H = (self.eV*self.product_coeff*self.cf*self.total_num_atoms) - ((self.Enthalpy_NiO*self.NiO) + ((self.Enthalpy_Pr6O11)/(self.oxide_coeff)))
         self.del_S = -self.SSO2*self.O2
+        # self.y_intercept = self.y_int(self.name)
         
     def __str__(self):
-        return f"Name: {self.name}, MPID: {self.mpid}, Energy: {self.eV} eV"
-    
-    def add_data(self,name, mpid, eV, normalized_equation, normalized_oxygen_reactant_coeff, normalized_NiO_reactant_coeff):
-        self.name = name
-        self.mpid = mpid
-        self.eV = eV
-        self.normalized_equation = normalized_equation
-        self.O2 = normalized_oxygen_reactant_coeff
-        self.NiO = normalized_NiO_reactant_coeff
-        
-        return name, mpid, eV, normalized_equation, normalized_oxygen_reactant_coeff
+        return f"Name: {self.name}, MPID: {self.mpid}, Energy: {self.eV} eV, O2 Coeff: {self.O2},NiO coeff: {self.NiO},Oxide coeff: {self.oxide_coeff}, del_S: {self.del_S}"
     
     def show_list(self):
         print( self.name, self.mpid, self.eV, self.normalized_equation, self.O2, self.NiO)
     
     def slope(self,x,P):
-        return -x*((self.del_S + self.O2*self.R*np.log(P)))
+        slope = -x*((self.del_S + self.O2*self.R*np.log(P)))
+        #print(slope)
+        return slope
+    
+    def y_int(self,oxide):
+        cf = 96.491
+        Enthalpy_Pr6O11 = -2.403*17*cf/6
+        Enthalpy_La2O3 = -3.738*5*cf/2
+        Enthalpy_Nd2O3 = -3.670*5*cf/2
+        
+        def get_enthalpy(oxide):
+            if oxide == "La2O3":
+                
+                return Enthalpy_La2O3
+            elif oxide == "Pr6O11":
+                
+                return Enthalpy_Pr6O11
+            elif oxide == "Nd2O3":
+                
+                return Enthalpy_Nd2O3
+            else:
+                return None  # Return None or handle other cases as needed
+            
+        def get_enthalpy12345(oxide):
+            if oxide == "La2O3":
+                name = "LaNiO"
+                return Enthalpy_La2O3, name
+            elif oxide == "Pr6O11":
+                name = 'PrNiO'
+                return Enthalpy_Pr6O11, name
+            elif oxide == "Nd2O3":
+                name = "NdNiO"
+                return Enthalpy_Nd2O3, name
+            else:
+                return None  # Return None or handle other cases as needed
+            
+        y_intercept = (self.eV*self.product_coeff*self.cf*self.total_num_atoms) - ((self.Enthalpy_NiO*self.NiO) + ((get_enthalpy(oxide))))
+        #print(self.eV*self.product_coeff*self.cf*self.total_num_atoms)
+        #print((self.Enthalpy_NiO*self.NiO) )
+        #print(((get_enthalpy(oxide))))
+        #print(self.oxide_coeff)
+        #print(y_intercept)
+        #print(Enthalpy_La2O3)
+        return y_intercept
+

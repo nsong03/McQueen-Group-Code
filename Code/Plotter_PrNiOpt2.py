@@ -14,17 +14,18 @@ import Combind_Datapt2
 
 
 
-def plot_seperate(filename, reactants, maximum_temp,P, seperate: bool):
+def plot_seperate(filename, oxide, maximum_temp,P, seperate: bool):
     
     # Coordinates (X, Y) 
     x = np.linspace(-1000,maximum_temp)
     y = x
     
-    data_class = Combind_Datapt2.class_input(filename, reactants)
+    data_class = Combind_Datapt2.class_input(filename, oxide)
+    
     
     #Graph Domain and Range
     plt.xlim(0, maximum_temp)
-    plt.ylim(-500, 0)
+    plt.ylim(-500, 500)
     
     #Add X and Y Lable
     plt.xlabel("Temperature K")
@@ -44,7 +45,9 @@ def plot_seperate(filename, reactants, maximum_temp,P, seperate: bool):
         for chemical in data_class:
             plt.title("PrNiO " + " P = " + str(P) + " Bar")
             #Plot
-            plt.plot(y,chemical.slope(x,P) + chemical.del_H, label= chemical.name)
+            plt.plot(y,chemical.slope(x,P) + chemical.y_int(oxide), label= chemical.name)
+            #print(chemical.O2,chemical.del_S)
+            #print(chemical.y_int(oxide))
         
             #Show Grid
             plt.legend(loc = 'lower right')
@@ -53,10 +56,10 @@ def plot_seperate(filename, reactants, maximum_temp,P, seperate: bool):
         plt.grid()
         plt.show()
         
-maximum_temp = 6000
+maximum_temp = 8000
 filename = "PrNiO_T.csv"
-reactants = "Pr6O11 + NiO + O2"
+oxide = "Pr6O11" 
 
-plot_seperate(filename, reactants ,maximum_temp, 1, False)
+plot_seperate(filename, oxide ,maximum_temp, 1, False)
     
 

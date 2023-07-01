@@ -8,6 +8,7 @@ Created on Fri Jun 30 10:53:43 2023
 import EquationBalancer
 import csv_extractor as ce
 
+
 def balance_equations(oxide, filename, show_errors=False):
     # Function to balance chemical equations given an oxide and a CSV file
     
@@ -28,7 +29,7 @@ def balance_equations(oxide, filename, show_errors=False):
         reactants_list = []
         
         # Reactant set: Oxide + O2
-        reactants_set1 = [oxide, "O2"]
+        reactants_set1 = [oxide, "NiO"]
         reactants_list.append(reactants_set1)
         
         # Reactant set: Oxide + NiO + O2
@@ -87,27 +88,9 @@ def balance_equations(oxide, filename, show_errors=False):
         first_normalized_reactant_coeffs.append(first_normalized_reactant_coeff)
 
     return normalized_equations, normalized_oxygen_reactant_coeffs, normalized_NiO_reactant_coeffs, first_normalized_product_coeffs, first_normalized_reactant_coeffs
-'''
-# Example usage
-oxide = "Pr6O11"
-filename = "PrNiO_T.csv"
-results = balance_equations(oxide, filename, show_errors=False)  # Set show_errors to True to display errors
 
-# Unpack the results
-normalized_equations, normalized_oxygen_reactant_coeffs, normalized_NiO_reactant_coeffs, first_normalized_product_coeffs, first_normalized_reactant_coeffs = results
 
-# Print the results
-if normalized_equations:
-    print("Balanced Equations:")
-    for i, equation in enumerate(normalized_equations):
-        print("Equation", i+1)
-        print("Equation:", equation)
-        print("Oxygen Reactant Coefficient:", normalized_oxygen_reactant_coeffs[i])
-        print("NiO Reactant Coefficient:", normalized_NiO_reactant_coeffs[i])
-        print("First Product Coefficient:", first_normalized_product_coeffs[i])
-        print("first Normalized reactant coeffs",first_normalized_reactant_coeffs[i])
-        print()
-else:
-    print("No balanced equations found.")
-'''
-print(balance_equations("Nd2O3", "NdNiO_T.csv"))
+# Main code
+
+# Set the oxide and filename
+#print(balance_equations("Nd2O3", "NdNiO_T.csv"))
