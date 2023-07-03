@@ -10,6 +10,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 import chemparse as cp
 
+'''
+import sys
+sys.path.append('/path/to/other/folder')
+
+import module_name  # Import the file from the other folder
+
+'''
+
 def get_total_atoms(chemical_name):
     formula = cp.parse_formula(chemical_name)
     total_atoms = sum(formula.values())

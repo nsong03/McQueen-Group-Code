@@ -42,24 +42,40 @@ class ChemicalData:
         self.eV = eV
         self.total_num_atoms = get_total_atoms(self.name)
         self.balanced_equation = normalized_equation
-        self.O2 = normalized_oxygen_reactant_coeff
+        # This is really important that you decided to make this negative. Explain why its easier, and why it works
+        self.O2 = -normalized_oxygen_reactant_coeff
         self.NiO = normalized_NiO_reactant_coeff
         self.oxide_coeff = first_normalized_reactant_coeff
         self.product_coeff = normalized_product_coeff
-        self.del_H = (self.eV*self.product_coeff*self.cf*self.total_num_atoms) - ((self.Enthalpy_NiO*self.NiO) + ((self.Enthalpy_Pr6O11)/(self.oxide_coeff)))
-        self.del_S = -self.SSO2*self.O2
+        self.del_S = self.SSO2*self.O2
         # self.y_intercept = self.y_int(self.name)
         
     def __str__(self):
-        return f"Name: {self.name}, MPID: {self.mpid}, Energy: {self.eV} eV, O2 Coeff: {self.O2},NiO coeff: {self.NiO},Oxide coeff: {self.oxide_coeff}, del_S: {self.del_S}"
+        return f"Name: {self.name}, MPID: {self.mpid}, Energy: {self.eV} eV, O2 Coeff: {self.O2}, NiO coeff: {self.NiO},Oxide coeff: {self.oxide_coeff}, del_S: {self.del_S}"
+    
+    def info(self):
+        return f"Name: {self.name}"
     
     def show_list(self):
         print( self.name, self.mpid, self.eV, self.normalized_equation, self.O2, self.NiO)
     
-    def slope(self,x,P):
-        slope = -x*((self.del_S + self.O2*self.R*np.log(P)))
+    def slope_T(self,x,P):
+        slope = -x*((self.del_S - self.O2*self.R*np.log(P)))
         #print(slope)
         return slope
+    
+    def slope_P(self,x,T):
+        slope = -T*((self.del_S - self.O2*self.R*np.log(x)))
+        #print(slope)
+        return slope
+    
+    def del_G(self,del_H, T, P):
+        R = 8.413/1000
+        del_S = 205/1000
+        O2 = self.O2
+        del_G = del_H + -T*(del_S*O2 - O2*R*np.log(P))
+        return del_G
+        
     
     def y_int(self,oxide):
         cf = 96.491

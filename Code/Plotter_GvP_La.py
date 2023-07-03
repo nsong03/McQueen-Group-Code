@@ -23,7 +23,7 @@ def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
     
     #Graph Domain and Range
     plt.xlim(1, maximum_P)
-    plt.ylim(-300, -200)
+    plt.ylim(-50, 200)
     
     #Add X and Y Lable
     plt.xlabel("Pressure Bar")
@@ -56,10 +56,10 @@ def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
         
 maximum_P = 500
 filepath = r"C:\Users\jayso\OneDrive - Howard University\Howard\Summer 2023\PARADIM\McQueen Group\Code\Data\\"
-file = 'PrNiO'
-fileend = r"_T.csv"
-oxide = "Pr6O11" 
-T = 1000
+file = 'LaNiO'
+fileend = r".csv"
+oxide = "La2O3" 
+T = 2000
 
 plot_seperate(filepath + file + fileend, oxide,maximum_P, T, False)
     

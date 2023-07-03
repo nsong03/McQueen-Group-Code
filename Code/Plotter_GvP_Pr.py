@@ -54,7 +54,7 @@ def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
         plt.grid()
         plt.show()
         
-maximum_P = 500
+maximum_P = 2000
 filepath = r"C:\Users\jayso\OneDrive - Howard University\Howard\Summer 2023\PARADIM\McQueen Group\Code\Data\\"
 file = 'PrNiO'
 fileend = r"_T.csv"

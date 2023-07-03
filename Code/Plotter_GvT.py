@@ -5,46 +5,46 @@ Created on Thu Jun 29 14:00:55 2023
 @author: jayso
 """
 
-# The is the plotter for G v P. Only switched the x variable
+# This is the plotter specifically for PrNiO. Since it is using the class for PrNiO.
 
 import matplotlib.pyplot as plt
 import numpy as np
 import Combind_Datapt2
 
 
-def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
+def plot_seperate(filename, oxide, maximum_temp,P, seperate: bool):
     
     # Coordinates (X, Y) 
-    x = np.linspace(0.000001,8000,100000)
+    x = np.linspace(-1000,maximum_temp,10000)
     y = x
     
     data_class = Combind_Datapt2.class_input(filename, oxide)
     
     
     #Graph Domain and Range
-    plt.xlim(1, maximum_P)
-    plt.ylim(-300, -200)
+    plt.xlim(0, maximum_temp)
+    plt.ylim(-500, 500)
     
     #Add X and Y Lable
-    plt.xlabel("Pressure Bar")
+    plt.xlabel("Temperature K")
     plt.ylabel('del G')
 
     if seperate:
         for chemical in data_class:
             #Add a title
-            plt.title(chemical.name + " Temperature = " + str(T) + " K")
+            plt.title(chemical.name + " P = " + str(P) + " Bar")
             #Plot
-            plt.plot(y,chemical.slope_P(x,T) + chemical.del_H)
+            plt.plot(y,chemical.slope_T(x,P) + chemical.del_H)
         
             #Show Grid
             plt.grid()
             plt.show()
     else:
         for chemical in data_class:
-            plt.title(file + " Temperature = " + str(T) + " K")
+            plt.title("PrNiO " + " P = " + str(P) + " Bar")
             #Plot
-            plt.plot(y,chemical.slope_P(x,T) + chemical.y_int(oxide), label= chemical.name)
-            print(chemical.O2,chemical.del_S,chemical.O2)
+            plt.plot(y,chemical.slope_T(x,P) + chemical.y_int(oxide), label= chemical.name)
+            print(chemical.O2,chemical.del_S)
             #print(chemical.y_int(oxide))
         
             #Show Grid
@@ -54,13 +54,11 @@ def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
         plt.grid()
         plt.show()
         
-maximum_P = 500
+maximum_temp = 8000
 filepath = r"C:\Users\jayso\OneDrive - Howard University\Howard\Summer 2023\PARADIM\McQueen Group\Code\Data\\"
-file = 'PrNiO'
-fileend = r"_T.csv"
+filename = r"PrNiO_T.csv"
 oxide = "Pr6O11" 
-T = 1000
 
-plot_seperate(filepath + file + fileend, oxide,maximum_P, T, False)
+plot_seperate(filepath + filename, oxide ,maximum_temp, 1, False)
     
 
