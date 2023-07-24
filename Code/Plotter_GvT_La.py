@@ -23,16 +23,18 @@ def plot_seperate(filename, oxide, maximum_temp,P, seperate: bool):
     
     #Graph Domain and Range
     plt.xlim(0, maximum_temp)
-    plt.ylim(-50, 100)
+    plt.ylim(-30 ,50)
     
     #Add X and Y Lable
     plt.xlabel("Temperature K")
     plt.ylabel('del G')
+    
+    
 
     if seperate:
         for chemical in data_class:
             #Add a title
-            plt.title(chemical.name + " P = " + str(P) + " Bar")
+            plt.title(chemical.name + " P = " + str(P) + " O2 Bar")
             #Plot
             plt.plot(y,chemical.slope_T(x,P) + chemical.y_int(oxide))
         
@@ -41,12 +43,14 @@ def plot_seperate(filename, oxide, maximum_temp,P, seperate: bool):
             plt.show()
     else:
         for chemical in data_class:
-            plt.title("BiNiO " + " P = " + str(P) + " Bar")
+            plt.title("LaNiO " + " P = " + str(P) + " O2 Bar")
             #Plot
             plt.plot(y,chemical.slope_T(x,P) + chemical.y_int(oxide), label= chemical.name)
             #print(chemical.O2,chemical.del_S)
-            #print(chemical.y_int(oxide))
-        
+            if chemical.name == "Nd2NiO4":
+                print(chemical.name, chemical.y_int(oxide))
+            
+            
             #Show Grid
             plt.legend(loc = 'lower right')
             
@@ -56,9 +60,10 @@ def plot_seperate(filename, oxide, maximum_temp,P, seperate: bool):
         
 maximum_temp = 1500
 filepath = r"C:\Users\jayso\OneDrive - Howard University\Howard\Summer 2023\PARADIM\McQueen Group\Code\Data\\"
-filename = r"BiNiO.csv"
-oxide = "Bi2O3" 
+filename = r"LaNiO_T1.csv"
+oxide = "La2O3" 
+Pressure = 1
 
-plot_seperate(filepath + filename, oxide ,maximum_temp, 1, False)
+plot_seperate(filepath + filename, oxide ,maximum_temp, Pressure, False)
     
 

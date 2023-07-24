@@ -8,6 +8,8 @@ Created on Fri Jun 30 10:53:43 2023
 import EquationBalancer
 import csv_extractor as ce
 
+# This equation takes a list of elements, takes the oxide (assuming NiO is also a reactant)
+# and balances the equations. It then returns coeffs for everything.
 
 def balance_equations(oxide, filename, show_errors=False):
     # Function to balance chemical equations given an oxide and a CSV file
@@ -93,4 +95,4 @@ def balance_equations(oxide, filename, show_errors=False):
 # Main code
 
 # Set the oxide and filename
-#print(balance_equations("Nd2O3", "NdNiO_T.csv"))
+#print(balance_equations("La2O3", r"C:\Users\jayso\OneDrive - Howard University\Howard\Summer 2023\PARADIM\McQueen Group\Code\Data\LaNiO_T1.csv"))

@@ -23,18 +23,18 @@ def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
     
     #Graph Domain and Range
     plt.xlim(1, maximum_P)
-    plt.ylim(-50, 200)
+    plt.ylim(10, 30)
     
     #Add X and Y Lable
     plt.xlabel("Pressure Bar")
-    plt.ylabel('del G')
+    plt.ylabel('del G (KJ)')
 
     if seperate:
         for chemical in data_class:
             #Add a title
             plt.title(chemical.name + " Temperature = " + str(T) + " K")
             #Plot
-            plt.plot(y,chemical.slope_P(x,T) + chemical.del_H)
+            plt.plot(y,chemical.slope_P(x,T) + chemical.y_int(oxide))
         
             #Show Grid
             plt.grid()
@@ -44,7 +44,7 @@ def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
             plt.title(file + " Temperature = " + str(T) + " K")
             #Plot
             plt.plot(y,chemical.slope_P(x,T) + chemical.y_int(oxide), label= chemical.name)
-            print(chemical.O2,chemical.del_S,chemical.O2)
+            #print(chemical.O2,chemical.del_S,chemical.O2)
             #print(chemical.y_int(oxide))
         
             #Show Grid
@@ -54,12 +54,13 @@ def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
         plt.grid()
         plt.show()
         
-maximum_P = 500
+maximum_P = 1000
 filepath = r"C:\Users\jayso\OneDrive - Howard University\Howard\Summer 2023\PARADIM\McQueen Group\Code\Data\\"
 file = 'LaNiO'
-fileend = r".csv"
+fileend = r"_T1.csv"
 oxide = "La2O3" 
-T = 2000
+T = 1000
+
 
 plot_seperate(filepath + file + fileend, oxide,maximum_P, T, False)
     

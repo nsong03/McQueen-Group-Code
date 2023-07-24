@@ -23,7 +23,7 @@ def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
     
     #Graph Domain and Range
     plt.xlim(1, maximum_P)
-    plt.ylim(-300, -200)
+    plt.ylim(-35, -10)
     
     #Add X and Y Lable
     plt.xlabel("Pressure Bar")
@@ -34,7 +34,7 @@ def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
             #Add a title
             plt.title(chemical.name + " Temperature = " + str(T) + " K")
             #Plot
-            plt.plot(y,chemical.slope_P(x,T) + chemical.del_H)
+            plt.plot(y,chemical.slope_P(x,T) + chemical.y_int(oxide))
         
             #Show Grid
             plt.grid()
@@ -54,7 +54,7 @@ def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
         plt.grid()
         plt.show()
         
-maximum_P = 2000
+maximum_P = 200
 filepath = r"C:\Users\jayso\OneDrive - Howard University\Howard\Summer 2023\PARADIM\McQueen Group\Code\Data\\"
 file = 'PrNiO'
 fileend = r"_T.csv"

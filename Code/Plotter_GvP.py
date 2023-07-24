@@ -15,7 +15,7 @@ import Combind_Datapt2
 def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
     
     # Coordinates (X, Y) 
-    x = np.linspace(0.000001,8000,100000)
+    x = np.linspace(0.000001,maximum_P,1000000)
     y = x
     
     data_class = Combind_Datapt2.class_input(filename, oxide)
@@ -23,7 +23,7 @@ def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
     
     #Graph Domain and Range
     plt.xlim(1, maximum_P)
-    plt.ylim(-300, -200)
+    plt.ylim(30, 70)
     
     #Add X and Y Lable
     plt.xlabel("Pressure Bar")
@@ -34,7 +34,7 @@ def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
             #Add a title
             plt.title(chemical.name + " Temperature = " + str(T) + " K")
             #Plot
-            plt.plot(y,chemical.slope_P(x,T) + chemical.del_H)
+            plt.plot(y,chemical.slope_P(x,T) + chemical.y_int(oxide))
         
             #Show Grid
             plt.grid()
@@ -54,12 +54,12 @@ def plot_seperate(filename, oxide, maximum_P,T, seperate: bool):
         plt.grid()
         plt.show()
         
-maximum_P = 500
+maximum_P = 40000
 filepath = r"C:\Users\jayso\OneDrive - Howard University\Howard\Summer 2023\PARADIM\McQueen Group\Code\Data\\"
-file = 'PrNiO'
-fileend = r"_T.csv"
-oxide = "Pr6O11" 
-T = 1000
+file = 'BiNiO'
+fileend = r".csv"
+oxide = "Bi2O3" 
+T = 2000
 
 plot_seperate(filepath + file + fileend, oxide,maximum_P, T, False)
     

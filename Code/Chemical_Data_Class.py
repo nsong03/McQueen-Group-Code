@@ -9,6 +9,7 @@ Created on Thu Jun 29 11:45:13 2023
 
 import numpy as np
 import chemparse as cp
+import VDWEquation as VDW
 
 
 def get_total_atoms(chemical_name):
@@ -28,12 +29,14 @@ def get_atoms_in_second_element(chemical_formula):
 
     
 class ChemicalData:
-    cf = 96.491
+    cf = 96.4915666370759
     SSO2 = 205/1000 #standard state O2
     Enthalpy_NiO = -1.216*2*cf
-    Enthalpy_Pr6O11 = -2.403*17*cf
-    Enthalpy_La2O3 = -3.738*5*cf
-    Enthalpy_Nd2O3 = -3.670*5*cf
+    #The one below is ML1
+    #Enthalpy_NiO = -1.0690073*2*cf
+    #The one below is ML2
+    #Enthalpy_NiO = -0.45731074*2*cf
+    
     R = 8.314/1000
     
     def __init__(self, name, mpid, eV, normalized_equation, normalized_oxygen_reactant_coeff, normalized_NiO_reactant_coeff, normalized_product_coeff, first_normalized_reactant_coeff):
@@ -69,6 +72,11 @@ class ChemicalData:
         #print(slope)
         return slope
     
+    def slope_V(self,x,T):
+        slope = VDW.VDW(x,T)
+        #print(slope)
+        return slope
+    
     def del_G(self,del_H, T, P):
         R = 8.413/1000
         del_S = 205/1000
@@ -79,9 +87,15 @@ class ChemicalData:
     
     def y_int(self,oxide):
         cf = 96.491
-        Enthalpy_Pr6O11 = -2.403*17*cf/6
-        Enthalpy_La2O3 = -3.738*5*cf/2
-        Enthalpy_Nd2O3 = -3.670*5*cf/2
+        Enthalpy_Pr6O11 = -3.24*17*cf/6
+        Enthalpy_La2O3 = -3.87*5*cf/2
+        #The one below is ML1
+        #Enthalpy_La2O3 = -2.11913*5*cf/2
+        #The one below is ML2
+        #Enthalpy_La2O3 = -3.1236193*5*cf/2
+        Enthalpy_Nd2O3 = -3.780*5*cf/2
+        Enthalpy_Bi2O3 = -1.66*5*cf/2
+        
         
         def get_enthalpy(oxide):
             if oxide == "La2O3":
@@ -93,6 +107,9 @@ class ChemicalData:
             elif oxide == "Nd2O3":
                 
                 return Enthalpy_Nd2O3
+            elif oxide == "Bi2O3":
+                
+                return Enthalpy_Bi2O3
             else:
                 return None  # Return None or handle other cases as needed
             
@@ -106,6 +123,9 @@ class ChemicalData:
             elif oxide == "Nd2O3":
                 name = "NdNiO"
                 return Enthalpy_Nd2O3, name
+            elif oxide == "Bi2O3":
+                name = "BiNiO"
+                return Enthalpy_Bi2O3, name
             else:
                 return None  # Return None or handle other cases as needed
             
