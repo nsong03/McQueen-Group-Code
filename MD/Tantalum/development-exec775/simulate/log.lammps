@@ -1,0 +1,115 @@
+LAMMPS (29 Oct 2020)
+# Simulation setup
+units metal
+dimension 3
+boundary p p f
+
+atom_style full
+bond_style harmonic
+
+# Read in Ta plane and O2 molecule info
+read_data ../TaOxidation_init775.data
+Reading data file ...
+  orthogonal box = (0.0000000 0.0000000 0.0000000) to (23.140600 23.140600 50.000000)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  580 atoms
+  reading velocities ...
+  580 velocities
+  scanning bonds ...
+  1 = max bonds/atom
+  reading bonds ...
+  45 bonds
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0.0      0.0      0.0     
+  special bond factors coul:  0.0      0.0      0.0     
+     1 = max # of 1-2 neighbors
+     0 = max # of 1-3 neighbors
+     0 = max # of 1-4 neighbors
+     1 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+  read_data CPU = 0.057 seconds
+
+# Define groups (not sure how necessary this is)
+group Ta type 1
+490 atoms in group Ta
+group O2 type 2
+90 atoms in group O2
+
+# Set the Lennard-Jones potential for oxygen-tantalum interactions (use appropriate parameters)
+pair_style hybrid/overlay morse 6.8 buck/coul/cut 6.8 10 pinn
+pair_coeff 1 2 morse 0.3789 1.6254 2.5445 6.8
+pair_coeff 1 2 buck/coul/cut 100067.01 0.1319 6.05 6.8 10
+pair_coeff 2 2 buck/coul/cut 1388.77 0.3623 175.00 6.8 10
+# Set the EAM potential for tantalum-tantalum interactions (use the appropriate potential file)
+pair_coeff * * pinn ../Ta_2020.pinn Ta NULL
+bond_coeff 1 530 1.211
+
+
+
+# Energetics
+
+variable kinetic_energy equal ke
+variable potential_energy equal pe
+variable pressure equal press
+fix myat1 all ave/time 100 1 100 v_kinetic_energy v_potential_energy file simulate_energy.dat
+
+# fix substrate
+fix fix_Ta Ta setforce 0.0 0.0 0.0
+# make O2 gassy
+compute ctO2 O2 temp
+compute_modify ctO2 dynamic yes
+compute ctTa Ta temp
+compute_modify ctTa dynamic yes
+velocity O2 create 300.0 12345 loop geom
+fix nve_rigid O2 rigid/nve molecule
+  45 rigid bodies with 90 atoms
+
+# timestep and thermo
+timestep 0.01
+thermo 10
+
+### Run heating, then equilibriate
+compute_modify thermo_temp dynamic yes
+fix nvt_O2 O2 nvt temp 300.0 300.0 100.0
+fix nvt_equilibrate all nvt temp 300.0 300.0 100.0
+run 500
+WARNING: Using a manybody potential with bonds/angles/dihedrals and special_bond exclusions (../pair.cpp:231)
+WARNING: One or more atoms are time integrated more than once (../modify.cpp:285)
+Neighbor list info ...
+  update every 1 steps, delay 10 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 12
+  ghost atom cutoff = 12
+  binsize = 6, bins = 4 4 9
+  5 neighbor lists, perpetual/occasional/extra = 5 0 0
+  (1) pair morse, perpetual, skip from (4)
+      attributes: half, newton on
+      pair build: skip
+      stencil: none
+      bin: none
+  (2) pair buck/coul/cut, perpetual, skip from (4)
+      attributes: half, newton on
+      pair build: skip
+      stencil: none
+      bin: none
+  (3) pair pinn, perpetual, skip from (5)
+      attributes: full, newton on
+      pair build: skip
+      stencil: none
+      bin: none
+  (4) neighbor class addition, perpetual, half/full from (5)
+      attributes: half, newton on
+      pair build: halffull/newton
+      stencil: none
+      bin: none
+  (5) neighbor class addition, perpetual
+      attributes: full, newton on
+      pair build: full/bin
+      stencil: full/bin/3d
+      bin: standard
+Per MPI rank memory allocation (min/avg/max) = 10.03 | 10.03 | 10.03 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0    41.701433   -3789.3394      0.59625    -3785.703   -14343.957 
+ERROR: Lost atoms: original 580 current 490 (../thermo.cpp:427)
+Last command: run 500

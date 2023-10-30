@@ -1,0 +1,44 @@
+units metal
+dimension 3
+boundary p p f
+neighbor 1.0 bin
+neigh_modify delay 1
+
+atom_style full
+bond_style harmonic
+
+# Read in Ta plane and O2 molecule info
+read_data tantalum_mini556.data
+# Define groups
+group Ta type 1
+group O type 2
+molecule o2mol o2.txt
+
+
+# Create a new region above the tantalum layer as a vacuum region
+region vacuum block 0.0 16.529 0.0 16.529 20 40 units box
+lattice sc 7.0
+
+# Create O2 molecules in the vacuum region (adjust number as needed)
+create_atoms 0 region vacuum mol o2mol 2
+
+
+
+# Set the Lennard-Jones potential for oxygen-tantalum interactions (use appropriate parameters)
+pair_style hybrid/overlay morse 6.8 buck/coul/cut 6.8 10 pinn
+pair_coeff 1 2 morse 0.3789 1.6254 2.5445 6.8
+pair_coeff 1 2 buck/coul/cut 100067.01 0.1319 6.05 6.8 10
+pair_coeff 2 2 buck/coul/cut 1388.77 0.3623 175.00 6.8 10
+# Set the EAM potential for tantalum-tantalum interactions (use the appropriate potential file)
+pair_coeff * * pinn ./potentials/Ta_2020.pinn Ta NULL
+bond_coeff 1 530 1.211
+
+# Timestep: 100. Change 100 in all steps after to change save option
+delete_atoms overlap 1 Ta O mol yes
+
+timestep 0.001
+thermo 1
+run 1
+write_data TaOxidation_init.data
+
+

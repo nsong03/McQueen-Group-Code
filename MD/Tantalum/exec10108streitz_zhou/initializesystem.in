@@ -1,0 +1,63 @@
+units metal
+boundary p p p
+atom_style charge
+
+# Set the lattice and lattice spacing (adjust the lattice constant as needed)
+lattice bcc 3.3058
+# Create the simulation box with unit cells. Settings define how many atoms are placed
+region vacuum block 0 20 0 20 0 50 units box
+create_box 2 vacuum
+
+mass 1	180.9479  # Mass of Tantalum in atomic mass units (adjust as needed)
+mass 2 15.999
+
+region talayer block 0 20 0 20 17 33 units box
+create_atoms 1 region talayer
+
+lattice sc 6
+region o2spawn_lower block 0 20 0 20 35 49 units box
+region o2spawn_upper block 0 20 0 20 1 15 units box
+#molecule o2mol o2.txt
+
+create_atoms 2 region o2spawn_lower #mol o2mol 1
+create_atoms 2 region o2spawn_upper #mol o2mol 1
+
+#fix zwalls all wall/reflect zlo 0.5 zhi 99.5 units box
+
+### POTENTIAL SETTINGS
+group Ta type 1
+group O type 2
+
+set group Ta charge 5.0
+set group O charge -2.0
+
+pair_style hybrid/overlay coul/ctip 12.0 20.0 ewald eam/alloy
+kspace_style ewald 1e-6
+
+pair_coeff * * coul/ctip TaO.ctip Ta O
+pair_coeff * * eam/alloy TaO.set Ta O
+
+neighbor 2.0 bin
+neigh_modify delay 10 check yes
+
+fix dyncharge all qeq/ctip 10 12.0 1.0e-3 1000 coul/ctip
+### 
+
+### SIMULATION SETTINGS
+
+timestep 0.001
+thermo 1000
+thermo_style custom step temp pe ke etotal press vol
+
+# Define the integration method
+fix 1 all nve
+
+# Continue with the rest of your simulation setup
+# (e.g., defining temperature, pressure, fix commands, run commands, etc.)
+
+# Save the configuration to a LAMMPS data file
+write_data tantalum_layer101010.data
+
+
+
+

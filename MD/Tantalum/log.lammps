@@ -1,0 +1,171 @@
+LAMMPS (29 Oct 2020)
+# Simulation setup
+variable T equal 300
+
+units metal
+dimension 3
+boundary p p f
+
+atom_style full
+bond_style harmonic
+
+# Read in Ta plane and O2 molecule info
+read_data tantalum_mini556.data
+Reading data file ...
+  orthogonal box = (0.0000000 0.0000000 0.0000000) to (16.529000 16.529000 50.000000)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  300 atoms
+  reading velocities ...
+  300 velocities
+Finding 1-2 1-3 1-4 neighbors ...
+  special bond factors lj:    0.0      0.0      0.0     
+  special bond factors coul:  0.0      0.0      0.0     
+     0 = max # of 1-2 neighbors
+     0 = max # of 1-3 neighbors
+     0 = max # of 1-4 neighbors
+     2 = max # of special neighbors
+  special bonds CPU = 0.000 seconds
+  read_data CPU = 0.007 seconds
+molecule o2mol o2.txt
+Read molecule template o2mol:
+  1 molecules
+  2 atoms with max type 2
+  1 bonds with max type 1
+  0 angles with max type 0
+  0 dihedrals with max type 0
+  0 impropers with max type 0
+
+# Create a new region above the tantalum layer as a vacuum region
+region vacuum block 0.0 16.529 0.0 16.529 20 40 units box
+lattice sc 3.0
+Lattice spacing in x,y,z = 3.0000000 3.0000000 3.0000000
+
+# Create O2 molecules in the vacuum region (adjust number as needed)
+create_atoms 0 region vacuum mol o2mol 2
+Created 504 atoms
+  create_atoms CPU = 0.001 seconds
+
+
+# Define groups (not sure how necessary this is)
+group Ta type 1
+300 atoms in group Ta
+group O2 type 2
+504 atoms in group O2
+
+
+# Set the Lennard-Jones potential for oxygen-tantalum interactions (use appropriate parameters)
+pair_style hybrid/overlay morse 6.8 buck/coul/cut 6.8 10 pinn
+pair_coeff 1 2 morse 0.3789 1.6254 2.5445 6.8
+pair_coeff 1 2 buck/coul/cut 100067.01 0.1319 6.05 6.8 10
+pair_coeff 2 2 buck/coul/cut 1388.77 0.3623 175.00 6.8 10
+# Set the EAM potential for tantalum-tantalum interactions (use the appropriate potential file)
+pair_coeff * * pinn ./potentials/Ta_2020.pinn Ta NULL
+bond_coeff 1 530 1.211
+
+# Timestep: 100. Change 100 in all steps after to change save option
+
+delete_atoms overlap 1 Ta O2 mol yes
+System init for delete_atoms ...
+WARNING: Using a manybody potential with bonds/angles/dihedrals and special_bond exclusions (../pair.cpp:231)
+Neighbor list info ...
+  update every 1 steps, delay 10 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 12
+  ghost atom cutoff = 12
+  binsize = 6, bins = 3 3 9
+  6 neighbor lists, perpetual/occasional/extra = 5 1 0
+  (1) command delete_atoms, occasional, copy from (6)
+      attributes: full, newton on
+      pair build: copy
+      stencil: none
+      bin: none
+  (2) pair morse, perpetual, skip from (5)
+      attributes: half, newton on
+      pair build: skip
+      stencil: none
+      bin: none
+  (3) pair buck/coul/cut, perpetual, skip from (5)
+      attributes: half, newton on
+      pair build: skip
+      stencil: none
+      bin: none
+  (4) pair pinn, perpetual, skip from (6)
+      attributes: full, newton on
+      pair build: skip
+      stencil: none
+      bin: none
+  (5) neighbor class addition, perpetual, half/full from (6)
+      attributes: half, newton on
+      pair build: halffull/newton
+      stencil: none
+      bin: none
+  (6) neighbor class addition, perpetual
+      attributes: full, newton on
+      pair build: full/bin
+      stencil: full/bin/3d
+      bin: standard
+WARNING: Ignoring 'compress yes' for molecular system (../delete_atoms.cpp:125)
+Deleted 0 atoms, new total = 804
+Deleted 0 bonds, new total = 252
+dump dmp all atom 1 dump.init.laampstrj
+
+# Adjust oxygen positions
+
+# Visualization
+thermo 100
+variable kinetic_energy equal ke
+variable potential_energy equal pe
+variable pressure equal press
+fix myat1 all ave/time 100 1 100 v_kinetic_energy v_potential_energy file energy.dat
+
+# Set the timestep and other simulation settings
+compute_modify thermo_temp dynamic yes
+compute ctO2 O2 temp
+compute_modify ctO2 dynamic yes
+fix mynvt1 O2 nvt temp 300 300 0.1
+fix_modify mynvt1 temp ctO2
+WARNING: Temperature for fix modify is not for group all (../fix_nh.cpp:1428)
+compute ctTa Ta temp
+fix mynvt2 Ta nvt temp 300 300 0.1
+fix_modify mynvt2 temp ctTa
+WARNING: Temperature for fix modify is not for group all (../fix_nh.cpp:1428)
+timestep 0.001
+run 100
+WARNING: Using a manybody potential with bonds/angles/dihedrals and special_bond exclusions (../pair.cpp:231)
+Neighbor list info ...
+  update every 1 steps, delay 10 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 12
+  ghost atom cutoff = 12
+  binsize = 6, bins = 3 3 9
+  5 neighbor lists, perpetual/occasional/extra = 5 0 0
+  (1) pair morse, perpetual, skip from (4)
+      attributes: half, newton on
+      pair build: skip
+      stencil: none
+      bin: none
+  (2) pair buck/coul/cut, perpetual, skip from (4)
+      attributes: half, newton on
+      pair build: skip
+      stencil: none
+      bin: none
+  (3) pair pinn, perpetual, skip from (5)
+      attributes: full, newton on
+      pair build: skip
+      stencil: none
+      bin: none
+  (4) neighbor class addition, perpetual, half/full from (5)
+      attributes: half, newton on
+      pair build: halffull/newton
+      stencil: none
+      bin: none
+  (5) neighbor class addition, perpetual
+      attributes: full, newton on
+      pair build: full/bin
+      stencil: full/bin/3d
+      bin: standard
+Per MPI rank memory allocation (min/avg/max) = 12.71 | 12.71 | 12.71 Mbytes
+Step Temp E_pair E_mol TotEng Press 
+       0            0   -195027.82        3.339   -195024.49    -46532847 
+ERROR on proc 0: Bond atoms 311 312 missing on proc 0 at step 10 (../ntopo_bond_all.cpp:60)

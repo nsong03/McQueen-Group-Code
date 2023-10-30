@@ -1,0 +1,57 @@
+# Simulation setup
+units metal
+dimension 3
+boundary p p f
+
+atom_style full
+
+# Read in Ta plane and O2 molecule info
+read_data ../TaOxidation_init775.data
+
+# Define groups (not sure how necessary this is)
+group Ta type 1
+group O2 type 2
+
+# Set the Lennard-Jones potential for oxygen-tantalum interactions (use appropriate parameters)
+pair_style hybrid/overlay morse 1.4387 buck/coul/cut 1.4387 1.4387 lj/cut 6.8 pinn
+pair_coeff * * pinn ../Ta_2020.pinn Ta NULL
+pair_coeff 1 2 morse 0.3789 1.6254 2.5445 6.8
+pair_coeff 1 2 buck/coul/cut 100067.01 0.1319 6.05 1.4387 
+pair_coeff 2 2 lj/cut 0.0103609055 3.369
+
+
+neighbor 1.0 bin
+neigh_modify delay 1
+
+# Energetics
+
+variable kinetic_energy equal ke
+variable potential_energy equal pe
+variable pressure equal press
+fix myat1 all ave/time 100 1 100 v_kinetic_energy v_potential_energy file simulate_energy.dat
+
+# fix substrate
+dump dmp all custom 1 simulate_viddump.init.laampstrj id type x y z fx fy fz vx vy vz
+
+# fix substrate
+compute ctTa Ta temp
+# make O2 gassy
+compute ctO2 O2 temp
+#fix nve_rigid O2 rigid/nve molecule
+#velocity O2 create 0.288 12345 dist gaussian
+
+# timestep and thermo
+timestep 0.005
+thermo 1
+
+### Run heating, then equilibriate
+compute_modify thermo_temp dynamic yes
+fix ctO2 O2 nvt temp 300.0 300.0 100.0
+fix nvt_equilibrate all nvt temp 300.0 300.0 100.0
+run 10
+fix nvt all nvt temp 900.0 900.0 100.0
+run 5
+
+write_data TaOxidation_10108.data
+write_dump all atom simulate_dump.lammpstrj
+

@@ -1,0 +1,72 @@
+# Simulation setup
+units metal
+boundary p p p
+atom_style charge
+box tilt large
+
+# Read in Ta plane and O2 molecule info
+read_data ../tantalum_layer101010.data
+
+
+### POTENTIAL SETTINGS
+
+mass 1 180.9479
+mass 2 15.999
+group Ta type 1
+group O type 2
+
+set group Ta charge 5.0
+set group O charge -2.0
+
+
+pair_style hybrid/overlay coul/ctip 12.0 20.0 ewald eam/alloy
+kspace_style ewald 1e-6
+
+#pair_coeff * * pinn ../Ta_2020.pinn Ta Ta
+pair_coeff * * coul/ctip ../TaO.ctip Ta O
+pair_coeff * * eam/alloy ../TaO.set Ta O
+
+neighbor 2.0 bin
+neigh_modify delay 10 check yes
+
+fix dyncharge all qeq/ctip 10 12.0 1.0e-3 1000 coul/ctip
+###################################
+
+
+### DATA OUTPUT SETTINGS
+# Energetics
+variable kinetic_energy equal ke
+variable potential_energy equal pe
+variable pressure equal press
+fix myat1 all ave/time 100 1 100 v_kinetic_energy v_potential_energy file simulate_energy.dat
+
+compute ctTa Ta temp
+compute ctO O temp
+# fix substrate
+dump dmp all custom 10 simulate_viddump.init.laampstrj id type x y z fx fy fz vx vy vz q mass
+# timestep and thermo
+timestep 0.0001
+thermo 10
+####################################
+
+
+fix fix_Ta Ta setforce 0.0 0.0 0.0
+#fix nve_rigid O rigid/nve molecule
+
+
+### Run heating, then equilibriate
+#velocity O create 800 2023915
+compute_modify thermo_temp dynamic yes
+fix nvt_o O nvt temp 300.0 300.0 $(1.0*dt)
+#fix nvt_ta Ta nvt temp 300.0 300.0 $(10.0*dt)
+fix integrate all nve
+run 5000
+
+fix nvt all nvt temp 900.0 900.0 $(100.0*dt)
+unfix fix_Ta
+run 1000
+
+# note: this is for the exec10108mbkslj
+write_data TaOxidation_10108.data
+write_dump all atom simulate_dump.lammpstrj
+

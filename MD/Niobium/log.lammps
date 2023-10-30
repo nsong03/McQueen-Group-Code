@@ -1,0 +1,32 @@
+LAMMPS (29 Sep 2021 - Update 2)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
+  using 1 OpenMP thread(s) per MPI task
+# LAMMPS input script for creating a 10-layer BCC niobium system in (111) orientation
+
+units metal
+dimension 3
+boundary p p p
+
+atom_style atomic
+neighbor 2.0 bin
+neigh_modify every 1 delay 0 check yes
+
+# Define the lattice and create atoms
+lattice bcc 3.3 origin 0.0 0.0 0.0 orient x 1 1 -2 orient y -1 1 0 orient z 1 1 1
+Lattice spacing in x,y,z = 5.3888774 4.6669048 5.7157677
+region box block 0 10 0 10 0 10 units lattice
+create_box 1 box
+Created orthogonal box = (0.0000000 0.0000000 0.0000000) to (53.888774 46.669048 57.157677)
+  1 by 1 by 1 MPI processor grid
+create_atoms 1 box
+Created 8000 atoms
+  using lattice units in orthogonal box = (0.0000000 0.0000000 0.0000000) to (53.888774 46.669048 57.157677)
+  create_atoms CPU = 0.003 seconds
+
+# Set atom type and mass
+mass 1 92.90638
+
+# visualization
+dump mydmp all atom 1 dump.lammpstrj
+thermo 10
+Total wall time: 0:00:00

@@ -1,0 +1,33 @@
+LAMMPS (7 Aug 2019)
+# Tantalum FCC Structure Generation
+
+# Initialize LAMMPS and specify the units and dimension
+units metal
+dimension 3
+boundary p p p
+
+# Define the atom style (assuming you have already defined atom types for Tantalum)
+atom_style full
+
+# Set the lattice and lattice spacing (adjust the lattice constant as needed)
+lattice bcc 3.3058
+Lattice spacing in x,y,z = 3.3058 3.3058 3.3058
+
+# Create the simulation box with unit cells. Settings define how many atoms are placed
+region box block 0 10 0 10 5 13
+create_box 1 box
+Created orthogonal box = (0 0 16.529) to (33.058 33.058 42.9754)
+  1 by 1 by 1 MPI processor grid
+
+# Create the tantalum atoms based on the lattice
+create_atoms 1 box
+Created 1600 atoms
+  create_atoms CPU = 0.0161456 secs
+
+# Define the mass of the tantalum atoms
+mass 1	180.948  # Mass of Tantalum in atomic mass units (adjust as needed)
+
+# Define the potentials for tantalum interactions (use appropriate parameters)
+pair_style pinn
+ERROR: Unrecognized pair style 'pinn' (../force.cpp:262)
+Last command: pair_style pinn
